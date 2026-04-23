@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="ue_HIL_MachineManufacturers" Scope="1" ScopeName="[NULL]">
+         <Caption>Excavator Manufacturers</Caption>
+         <Type>0</Type>
+         <StandardOperations>1019</StandardOperations>
+         <Flags>1048778</Flags>
+         <Height>32</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>140</Width>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>87.25</PaneZeroSize>
+         <PrimaryDataSource>ue_HIL_MachineManufacturers( LOCKMODE(Row) )</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <Components>
+            <Component Name="FormCollectionGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>32</Height>
+               <ListHeight>0</ListHeight>
+               <Width>200.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>objects</DataSource>
+               <Binding>3</Binding>
+               <Flags>384</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="grid1_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>5.5</TopPos>
+               <LeftPos>4.5</LeftPos>
+               <Height>24.6111111111111</Height>
+               <ListHeight>0</ListHeight>
+               <Width>56.875</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Models( CA(RNCSDVIOG) LOCKMODE(Row) )</DataSource>
+               <Binding>4</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="gridColumn1_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>grid1_SITE</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Models.Model</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="HIL_MachModel_Btn">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>5.27777777777778</TopPos>
+               <LeftPos>64.875</LeftPos>
+               <Height>2.16666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>27.125</Width>
+               <Caption>View Machine Models Form</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>HIL_Launch_ManufactureModels</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(BlueBtn)</Post301Format>
+               <EffectiveCaption>View Machine Models Form</EffectiveCaption>
+            </Component>
+            <Component Name="ManufacturerEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>2.38888888888889</TopPos>
+               <LeftPos>22.75</LeftPos>
+               <Height>1.5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>24.625</Width>
+               <Caption>C(ManufacturerStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Manufacturer</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format />
+               <EffectiveCaption>C(ManufacturerStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ManufacturerGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>191.125</Width>
+               <Caption>Manufacturer</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Manufacturer</DataSource>
+               <Binding>1</Binding>
+               <Flags>384</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format />
+               <EffectiveCaption>Manufacturer</EffectiveCaption>
+            </Component>
+            <Component Name="ManufacturerStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>2.38888888888889</TopPos>
+               <LeftPos>0.625</LeftPos>
+               <Height>1.5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20.5</Width>
+               <Caption>Manufacturer</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(G2Header)</Post301Format>
+               <EffectiveCaption>Manufacturer</EffectiveCaption>
+            </Component>
+         </Components>
+         <EventHandlers>
+            <EventHandler Name="HIL_Launch_ManufactureModels" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>ue_HIL_ManufacturerModels( LINKBY(Manufacturer=Manufacturer) )</Response>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="cds_DataSourcegrid1_SITE">
+               <Value>object.Models( CA(RNCSDVIOG) LINKBY(Manufacturer=Manufacturer) LOCKMODE(Row) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC2">
+               <Value>OBJECT2( ue_HIL_ManufacturerModels( CA(RNCSDVIOG) OBJNAME(models) FILTERPERM(Manufacturer = FP(Manufacturer)) LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="InitialCommand">
+               <Value>Refresh</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ManufacturerModels">
+               <Value>~LIT~()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

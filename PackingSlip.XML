@@ -1,0 +1,1707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="PackingSlip" Scope="1" ScopeName="[NULL]">
+         <Caption>fPackingSlip</Caption>
+         <Type>3</Type>
+         <StandardOperations>66</StandardOperations>
+         <Flags>968</Flags>
+         <Height>28.7999992370605</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>109</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/forms/cotopics/packing_slip.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>0</PaneZeroSize>
+         <PrimaryDataSource>SL.SLCoitems( LOCKMODE(Row) )  V(fds_SC2)</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <LockedBy>chris.h@hillattach.com</LockedBy>
+         <Components>
+            <Component Name="BlanketCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>2.6</TopPos>
+               <LeftPos>60.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sBlanket</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.COTypeB(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/co_type_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sBlanket</EffectiveCaption>
+            </Component>
+            <Component Name="COLineStatusCompletedCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>27</TabOrder>
+               <TopPos>10.7666666666667</TopPos>
+               <LeftPos>90.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sCoitemStatus=C</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.COLineStatusC</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/co_linerelease_status_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(C) BOOLFALSE( )</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sCoitemStatus=C</EffectiveCaption>
+            </Component>
+            <Component Name="COLineStatusFilledCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>26</TabOrder>
+               <TopPos>9.26666666666667</TopPos>
+               <LeftPos>90.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sCoitemStatus=F</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.COLineStatusF(INITIALVALUE(F))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/co_linerelease_status_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(F) BOOLFALSE( )</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sCoitemStatus=F</EffectiveCaption>
+            </Component>
+            <Component Name="COLineStatusGroup">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>4.66666666666667</TopPos>
+               <LeftPos>88.2857142857143</LeftPos>
+               <Height>10.1333333333333</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <Caption>sCOLine/ReleaseStatus</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sCOLine/ReleaseStatus</EffectiveCaption>
+            </Component>
+            <Component Name="COLineStatusOrderedCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>7.83333333333333</TopPos>
+               <LeftPos>90.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sCoitemStatus=O</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.COLineStatusO(INITIALVALUE(O))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/co_linerelease_status_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(O) BOOLFALSE( )</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sCoitemStatus=O</EffectiveCaption>
+            </Component>
+            <Component Name="COLineStatusPlannedCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>24</TabOrder>
+               <TopPos>6.4</TopPos>
+               <LeftPos>90.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sCoitemStatus=P</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.COLineStatusP(INITIALVALUE(P))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/co_linerelease_status_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(P) BOOLFALSE( )</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sCoitemStatus=P</EffectiveCaption>
+            </Component>
+            <Component Name="COStatusCompletedCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>23</TabOrder>
+               <TopPos>10.8666666666667</TopPos>
+               <LeftPos>70.4285714285713</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sCoStatus=C</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.COStatusC</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/co_status_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(C) BOOLFALSE( )</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sCoStatus=C</EffectiveCaption>
+            </Component>
+            <Component Name="COStatusGroup">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>4.66666666666667</TopPos>
+               <LeftPos>66.7142857142857</LeftPos>
+               <Height>10.1333333333333</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20.8571428571429</Width>
+               <Caption>sCoStatus</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sCoStatus</EffectiveCaption>
+            </Component>
+            <Component Name="COStatusOrderedCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>21</TabOrder>
+               <TopPos>7.93333333333334</TopPos>
+               <LeftPos>70.4285714285713</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sCoStatus=O</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.COStatusO(INITIALVALUE(O))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/co_status_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(O) BOOLFALSE( )</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sCoStatus=O</EffectiveCaption>
+            </Component>
+            <Component Name="COStatusPlannedCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>20</TabOrder>
+               <TopPos>6.47666666666666</TopPos>
+               <LeftPos>70.4285714285713</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sCoStatus=P</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.COStatusP(INITIALVALUE(P))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/co_status_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(P) BOOLFALSE( )</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sCoStatus=P</EffectiveCaption>
+            </Component>
+            <Component Name="COStatusStoppedCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>22</TabOrder>
+               <TopPos>9.4</TopPos>
+               <LeftPos>70.4285714285713</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sCoStatus=S</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.COStatusS(INITIALVALUE(S))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/co_status_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(S) BOOLFALSE( )</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sCoStatus=S</EffectiveCaption>
+            </Component>
+            <Component Name="COTypeGroup">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>55.5714285714284</LeftPos>
+               <Height>4.35</Height>
+               <ListHeight>0</ListHeight>
+               <Width>26</Width>
+               <Caption>sCoType</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sCoType</EffectiveCaption>
+            </Component>
+            <Component Name="COTypeGroup1">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.133333333333333</TopPos>
+               <LeftPos>82.1428571428573</LeftPos>
+               <Height>4.35</Height>
+               <ListHeight>0</ListHeight>
+               <Width>26</Width>
+               <Caption>sShipmentDefault</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sShipmentDefault</EffectiveCaption>
+            </Component>
+            <Component Name="CustomerStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>38</TabOrder>
+               <TopPos>22.1</TopPos>
+               <LeftPos>22</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.1428571428571</Width>
+               <Caption>sCustomer</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sCustomer</EffectiveCaption>
+            </Component>
+            <Component Name="DisplayHeader">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>13</TabOrder>
+               <TopPos>10</TopPos>
+               <LeftPos>3.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32</Width>
+               <Caption>sDisplayReportHeader</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DisplayHeaderVar(INITIALVALUE(V(Parm_DisplayReportHeaders)))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/fields/d/display_report_headers_general_parameters.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DisplayHeaderVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sDisplayReportHeader</EffectiveCaption>
+            </Component>
+            <Component Name="DueDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>44</TabOrder>
+               <TopPos>25.2222222222222</TopPos>
+               <LeftPos>22</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.1428571428571</Width>
+               <Caption>sDueDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sDueDate</EffectiveCaption>
+            </Component>
+            <Component Name="EndingCustomerEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>21.7666666666667</TopPos>
+               <LeftPos>64</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sEndingCustomer</Caption>
+               <Validators>CustNumZeroNoOutput,EndingGEStartingAlpha(StartingCustomerVar, STRINGS(sStartingCustomer))</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.EndingCustomerVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/customer_reportutility_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetailsFind</MenuName>
+               <FindFromSpec>CustomersQuery.CustNum</FindFromSpec>
+               <MaintainFromSpec>Customers</MaintainFromSpec>
+               <DefaultFrom>CustNumVarNoOutput(STRINGS(sEndingCustomerNumber),,,)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sEndingCustomer</EffectiveCaption>
+            </Component>
+            <Component Name="EndingDueDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>46</TabOrder>
+               <TopPos>24.8333333333333</TopPos>
+               <LeftPos>64</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>sEndingDueDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.EndingDueDateVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/d/due_date_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>DateGEVar(StartingDueDateVar, STRINGS(sStartingDueDate),,,)</DefaultFrom>
+               <Post301DataType>DATATYPE(DATE)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sEndingDueDate</EffectiveCaption>
+            </Component>
+            <Component Name="EndingLineEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>36</TabOrder>
+               <TopPos>20.2333333333333</TopPos>
+               <LeftPos>64</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sEndingLine</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.EndingLineVar(INITIALVALUE(V(PassedEndOrderLine)))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/l/linerelease_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetailsFind</MenuName>
+               <FindFromSpec>CustomerOrderLinesQuery.CoLine</FindFromSpec>
+               <MaintainFromSpec>CustomerOrderLinesQuery</MaintainFromSpec>
+               <DefaultFrom>CoLineVar(EndingOrderVar,,,)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sEndingLine</EffectiveCaption>
+            </Component>
+            <Component Name="EndingOrderDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>43</TabOrder>
+               <TopPos>23.3</TopPos>
+               <LeftPos>64</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>sEndingOrderDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.EndingOrderDateVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/o/order_date_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>DateGEVar(StartingOrderDateVar, STRINGS(sStartingOrderDate),,,)</DefaultFrom>
+               <Post301DataType>DATATYPE(DATE)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sEndingOrderDate</EffectiveCaption>
+            </Component>
+            <Component Name="EndingOrderEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>32</TabOrder>
+               <TopPos>18.7666666666667</TopPos>
+               <LeftPos>64</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>sEndingOrder</Caption>
+               <Validators>EndingGEStartingAlpha(StartingOrderVar, STRINGS(sStartingOrder))</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.EndingOrderVar(INITIALVALUE(V(PassedEndOrder)))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/o/order_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetailsFind</MenuName>
+               <FindFromSpec>CustomerOrdersQuery.CoNum</FindFromSpec>
+               <MaintainFromSpec>CustomerOrders</MaintainFromSpec>
+               <DefaultFrom>CoNumVar(,,)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sEndingOrder</EffectiveCaption>
+            </Component>
+            <Component Name="EndingReleaseEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>37</TabOrder>
+               <TopPos>20.2333333333333</TopPos>
+               <LeftPos>74.8571428571429</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sEndingRelease</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.EndingReleaseVar(INITIALVALUE(V(PassedEndOrderRelease)))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/l/linerelease_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetailsFind</MenuName>
+               <FindFromSpec>OrderShipmentsQuery( ).CoRelease</FindFromSpec>
+               <MaintainFromSpec>OrderShipments( )</MaintainFromSpec>
+               <DefaultFrom>CoReleaseVar(EndingOrderVar, EndingLineVar,,,)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sEndingRelease</EffectiveCaption>
+            </Component>
+            <Component Name="EndingStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>29</TabOrder>
+               <TopPos>17.4333333333333</TopPos>
+               <LeftPos>63.8571428571428</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <Caption>sEnding</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L)</Post301Format>
+               <EffectiveCaption>sEnding</EffectiveCaption>
+            </Component>
+            <Component Name="HiddenOrderPackingSlipRptTemplateIdEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>18.2222222222222</TopPos>
+               <LeftPos>3.375</LeftPos>
+               <Height>1.16666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object2.OrderPackingSlipRptTemplateId</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ReportTemplateId</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sOrderPackingSlipTemplate</EffectiveCaption>
+            </Component>
+            <Component Name="IncludeSerialNumbersCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>8.56666666666667</TopPos>
+               <LeftPos>3.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32</Width>
+               <Caption>sIncludeSerialNumbers</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.IncludeSerialNumbersVar(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <DefaultData>1</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_serial_numbers_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(1)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sIncludeSerialNumbers</EffectiveCaption>
+            </Component>
+            <Component Name="ItemGroup">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>4.35</Height>
+               <ListHeight>0</ListHeight>
+               <Width>27.2857142857143</Width>
+               <Caption>sItem</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sItem</EffectiveCaption>
+            </Component>
+            <Component Name="LineReleaseStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>20.5</TopPos>
+               <LeftPos>22</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.1428571428571</Width>
+               <Caption>sLine/Release</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sLine/Release</EffectiveCaption>
+            </Component>
+            <Component Name="NoteTypesBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>4.66666666666667</TopPos>
+               <LeftPos>37.5714285714286</LeftPos>
+               <Height>10.1333333333333</Height>
+               <ListHeight>0</ListHeight>
+               <Width>28.5714285714286</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="OrderDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>23.7222222222222</TopPos>
+               <LeftPos>22</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.1428571428571</Width>
+               <Caption>sOrderDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sOrderDate</EffectiveCaption>
+            </Component>
+            <Component Name="OrderStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>30</TabOrder>
+               <TopPos>19.1666666666667</TopPos>
+               <LeftPos>22</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.1428571428571</Width>
+               <Caption>sOrder</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sOrder</EffectiveCaption>
+            </Component>
+            <Component Name="PackDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>2.46666666666667</TopPos>
+               <LeftPos>13.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>14</Width>
+               <Caption>C(PackDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PackDateVar(INITIALVALUE(CURDATE()))</DataSource>
+               <Binding>6</Binding>
+               <Flags>512</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/pack_date_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>DateVar()</DefaultFrom>
+               <Post301DataType>DATATYPE(DATE) LENGTH(11)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>C(PackDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="PackDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>2.76666666666667</TopPos>
+               <LeftPos>1.85714285714286</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.8571428571429</Width>
+               <Caption>sPackDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sPackDate</EffectiveCaption>
+            </Component>
+            <Component Name="PackingSlipTemplateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>3</Type>
+               <TabOrder>45</TabOrder>
+               <TopPos>15.0555555555556</TopPos>
+               <LeftPos>11.875</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>16</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PackingSlipTemplateVar(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <SelectionEvent>EnableDisableOptions</SelectionEvent>
+               <Flags>0</Flags>
+               <DefaultData>1</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/forms/cotopics/packing_slip.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>SortBy2Var(1, sPackingSlipTemplateType=1, 4, sPackingSlipTemplateType=4)</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(1)</Post301DataType>
+               <Post301Format>VISIBLEWHEN(Visible:#C(PackingSlipTemplateEdit), #GV(IsCSIB_129839ActiveVar) = "1", "True")</Post301Format>
+               <EffectiveCaption>sSortBy</EffectiveCaption>
+            </Component>
+            <Component Name="PackingSlipTemplateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>15.3333333333333</TopPos>
+               <LeftPos>3.75</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.875</Width>
+               <Caption>sFormType</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>VISIBLEWHEN(Visible:#C(PackingSlipTemplateStatic), #GV(IsCSIB_129839ActiveVar) = "1", "True") JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sFormType</EffectiveCaption>
+            </Component>
+            <Component Name="PreShipRadio">
+               <DeviceID>-1</DeviceID>
+               <Type>7</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>1.33333333333333</TopPos>
+               <LeftPos>34.2857142857142</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>sPreShip</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ReportType</DataSource>
+               <Binding>6</Binding>
+               <SelectionEvent>ReportTypeChanged</SelectionEvent>
+               <RadioButtonSelectedValue>PRE-SHIP</RadioButtonSelectedValue>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/ship_pre_ship_packing_slip.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>RadioBtnVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPreShip</EffectiveCaption>
+            </Component>
+            <Component Name="PrintButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>47</TabOrder>
+               <TopPos>27.4333333333333</TopPos>
+               <LeftPos>46.5714285714286</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>sP&amp;rocess</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>GenerateReport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/buttons/p/process_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sP&amp;rocess</EffectiveCaption>
+            </Component>
+            <Component Name="PrintDescriptionCheckBox">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>7.06666666666667</TopPos>
+               <LeftPos>39.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>25</Width>
+               <Caption>sPrintLine/ReleaseDescription</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintDescriptionVar(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_linerelease_description_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPrintLine/ReleaseDescription</EffectiveCaption>
+            </Component>
+            <Component Name="PrintExternalNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>18</TabOrder>
+               <TopPos>11.4666666666667</TopPos>
+               <LeftPos>39.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23</Width>
+               <Caption>sPrintExternalNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintExternalNotesVar(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>PrintExternalNotesVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintExternalNotes), #V(PackingSlipTemplateVar) = "1", "True")</Post301Format>
+               <EffectiveCaption>sPrintExternalNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintInternalNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>17</TabOrder>
+               <TopPos>10</TopPos>
+               <LeftPos>39.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23</Width>
+               <Caption>sPrintInternalNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintInternalNotesVar(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>PrintInternalNotesVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintInternalNotes), #V(PackingSlipTemplateVar) = "1", "True")</Post301Format>
+               <EffectiveCaption>sPrintInternalNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintItemOverview">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>19</TabOrder>
+               <TopPos>12.9333333333333</TopPos>
+               <LeftPos>39.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23</Width>
+               <Caption>sPrintItemOverview</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintItemOverview(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_item_overview.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintItemOverview), #V(PackingSlipTemplateVar) = "1", "True") BTF()</Post301Format>
+               <EffectiveCaption>sPrintItemOverview</EffectiveCaption>
+            </Component>
+            <Component Name="PrintItemPictureCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>11.4444444444444</TopPos>
+               <LeftPos>3.28</LeftPos>
+               <Height>1.27777777777778</Height>
+               <ListHeight>0</ListHeight>
+               <Width>31.75</Width>
+               <Caption>sPrintItemPicture</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintItemPictureVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_item_picture_estimate_response_form_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintItemPictureCheck), #V(PackingSlipTemplateVar) = "4", "True") VISIBLEWHEN(Visible:#C(PrintItemPictureCheck), #GV(IsCSIB_129839ActiveVar) = "1", "True")</Post301Format>
+               <EffectiveCaption>sPrintItemPicture</EffectiveCaption>
+            </Component>
+            <Component Name="PrintLineTextCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>8.53333333333333</TopPos>
+               <LeftPos>39.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>25</Width>
+               <Caption>sPrintLine/ReleaseNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintLineReleaseTextVar(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintLineTextCheck), #V(PackingSlipTemplateVar) = "1", "True")</Post301Format>
+               <EffectiveCaption>sPrintLine/ReleaseNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintOptionsGroup">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>4.66666666666667</TopPos>
+               <LeftPos>1.14285714285714</LeftPos>
+               <Height>10.1333333333333</Height>
+               <ListHeight>0</ListHeight>
+               <Width>36</Width>
+               <Caption>sOptions</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sOptions</EffectiveCaption>
+            </Component>
+            <Component Name="PrintOrderTextCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>14</TabOrder>
+               <TopPos>5.61</TopPos>
+               <LeftPos>39.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <Caption>sPrintOrderNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintOrderTextVar(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintOrderTextCheck), #V(PackingSlipTemplateVar) = "1", "True")</Post301Format>
+               <EffectiveCaption>sPrintOrderNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintPlanningItemMaterialsCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>7.1</TopPos>
+               <LeftPos>3.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32</Width>
+               <Caption>sPrintPlanningItemMaterials</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintPlanningItemMaterialsVar(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_planning_item_materials_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintPlanningItemMaterialsCheck), #V(PackingSlipTemplateVar) = "1", "True")</Post301Format>
+               <EffectiveCaption>sPrintPlanningItemMaterials</EffectiveCaption>
+            </Component>
+            <Component Name="RangeGroup">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>16.6333333333333</TopPos>
+               <LeftPos>1.14285714285714</LeftPos>
+               <Height>10.25</Height>
+               <ListHeight>0</ListHeight>
+               <Width>107.2</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="RegularCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>1.06666666666667</TopPos>
+               <LeftPos>60.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sRegular</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.COTypeA(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/co_type_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sRegular</EffectiveCaption>
+            </Component>
+            <Component Name="ReportType">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.133333333333333</TopPos>
+               <LeftPos>28.8571428571428</LeftPos>
+               <Height>4.35</Height>
+               <ListHeight>0</ListHeight>
+               <Width>26</Width>
+               <Caption>sReportType</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sReportType</EffectiveCaption>
+            </Component>
+            <Component Name="SelectedEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>7</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>1.33333333333333</TopPos>
+               <LeftPos>88.5714285714286</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.4285714285714</Width>
+               <Caption>sSelected</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.SelectedVar(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <RadioButtonSelectedValue>1</RadioButtonSelectedValue>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/shipment_default_packing_slip.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>RadioBtnVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sSelected</EffectiveCaption>
+            </Component>
+            <Component Name="ShipRadio">
+               <DeviceID>-1</DeviceID>
+               <Type>7</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>2.46666666666667</TopPos>
+               <LeftPos>34.2857142857142</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>sShip</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ReportType(INITIALVALUE(CO-SHIP))</DataSource>
+               <Binding>6</Binding>
+               <SelectionEvent>ReportTypeChanged</SelectionEvent>
+               <RadioButtonSelectedValue>CO-SHIP</RadioButtonSelectedValue>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/ship_pre_ship_packing_slip.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>RadioBtnVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sShip</EffectiveCaption>
+            </Component>
+            <Component Name="StartingCustomerEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>39</TabOrder>
+               <TopPos>21.7666666666667</TopPos>
+               <LeftPos>34.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sStartingCustomer</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StartingCustomerVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/customer_reportutility_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetailsFind</MenuName>
+               <FindFromSpec>CustomersQuery.CustNum</FindFromSpec>
+               <MaintainFromSpec>Customers</MaintainFromSpec>
+               <DefaultFrom>CustNumVarNoOutput(STRINGS(sStartingCustomerNumber),StartingCustomerEdit,EndingCustomerEdit)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sStartingCustomer</EffectiveCaption>
+            </Component>
+            <Component Name="StartingDueDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>45</TabOrder>
+               <TopPos>24.8333333333333</TopPos>
+               <LeftPos>34.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>sStartingDueDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StartingDueDateVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/d/due_date_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>DateLEVar(EndingDueDateVar, STRINGS(sEndingDueDate),StartingDueDateEdit,EndingDueDateEdit)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sStartingDueDate</EffectiveCaption>
+            </Component>
+            <Component Name="StartingLineEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>20.2333333333333</TopPos>
+               <LeftPos>34.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sStartingLine</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StartingLineVar(INITIALVALUE(V(PassedStartOrderLine)))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/l/linerelease_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetailsFind</MenuName>
+               <FindFromSpec>CustomerOrderLinesQuery.CoLine</FindFromSpec>
+               <MaintainFromSpec>CustomerOrderLinesQuery</MaintainFromSpec>
+               <DefaultFrom>CoLineVar(StartingOrderVar,StartingLineEdit,EndingLineEdit)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sStartingLine</EffectiveCaption>
+            </Component>
+            <Component Name="StartingOrderDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>42</TabOrder>
+               <TopPos>23.3</TopPos>
+               <LeftPos>34.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>sStartingOrderDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StartingOrderDateVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/o/order_date_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>DateLEVar(EndingOrderDateVar, STRINGS(sEndingOrderDate),StartingOrderDateEdit,EndingOrderDateEdit)</DefaultFrom>
+               <Post301DataType>DATATYPE(DATE)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sStartingOrderDate</EffectiveCaption>
+            </Component>
+            <Component Name="StartingOrderEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>31</TabOrder>
+               <TopPos>18.7666666666667</TopPos>
+               <LeftPos>34.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>sStartingOrder</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StartingOrderVar(INITIALVALUE(V(PassedStartOrder)))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/o/order_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetailsFind</MenuName>
+               <FindFromSpec>CustomerOrdersQuery.CoNum</FindFromSpec>
+               <MaintainFromSpec>CustomerOrderLines</MaintainFromSpec>
+               <DefaultFrom>CoNumVar(StartingOrderEdit,EndingOrderEdit)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sStartingOrder</EffectiveCaption>
+            </Component>
+            <Component Name="StartingReleaseEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>20.2333333333333</TopPos>
+               <LeftPos>45.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sStartingRelease</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StartingReleaseVar(INITIALVALUE(V(PassedStartOrderRelease)))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/l/linerelease_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetailsFind</MenuName>
+               <FindFromSpec>OrderShipmentsQuery( ).CoRelease</FindFromSpec>
+               <MaintainFromSpec>OrderShipments( )</MaintainFromSpec>
+               <DefaultFrom>CoReleaseVar(StartingOrderVar, StartingLineVar,StartingReleaseEdit,EndingReleaseEdit)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sStartingRelease</EffectiveCaption>
+            </Component>
+            <Component Name="StartingStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>28</TabOrder>
+               <TopPos>17.4333333333333</TopPos>
+               <LeftPos>34.5714285714286</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <Caption>sStarting</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L)</Post301Format>
+               <EffectiveCaption>sStarting</EffectiveCaption>
+            </Component>
+            <Component Name="UnSelectedEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>7</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>2.46666666666667</TopPos>
+               <LeftPos>88.5714285714286</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.4285714285714</Width>
+               <Caption>sUnselected</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.SelectedVar</DataSource>
+               <Binding>6</Binding>
+               <RadioButtonSelectedValue>0</RadioButtonSelectedValue>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/shipment_default_packing_slip.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>RadioBtnVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sUnselected</EffectiveCaption>
+            </Component>
+            <Component Name="WarehouseEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>1</TopPos>
+               <LeftPos>13.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <Caption>C(WarehouseStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.WarehouseVar(INITIALVALUE(V(CurWhse)))</DataSource>
+               <Binding>6</Binding>
+               <Flags>512</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/w/warehouse_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>ValidWhseVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>C(WarehouseStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="WarehouseStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>1.3</TopPos>
+               <LeftPos>1.85714285714286</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.8571428571429</Width>
+               <Caption>sWarehouse</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sWarehouse</EffectiveCaption>
+            </Component>
+         </Components>
+         <EventHandlers>
+            <EventHandler Name="EnableDisableDestination" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>Destination_EnableDisable()</Response>
+            </EventHandler>
+            <EventHandler Name="EnableDisableOptions" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>EnableDisableOptions()</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="0">
+               <ResponseType>21</ResponseType>
+               <Response>StdFormPerformValidations(  )</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="1">
+               <ResponseType>3</ResponseType>
+               <Response>PackingSlipSelection( OKCANCELOPTIONAL() SETVARVALUES(CallTypeVar=V(ReportType),Whse=V(WarehouseVar),PackDate=V(PackDateVar),CoType=V(COTypeA)V(COTypeB),COTypeA=V(COTypeA),COTypeB=V(COTypeB),CoStatus=V(COStatusP) V(COStatusO) V(COStatusS) V(COStatusC),CoLineStatus=V(COLineStatusP) V(COLineStatusO) V(COLineStatusF) V(COLineStatusC),CalledFrom=V(CalledFrom),V(StartingEndingVariables),V(ReportVariables),SelectShipmentsVar=V(SelectedVar),BatchId=V(BatchId),PackingSlipTemplateVar=V(PackingSlipTemplat</Response>
+               <Response2>eVar)) )</Response2>
+            </EventHandler>
+            <EventHandler Name="InitializeActiveFeatureList" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeActiveFeatureList()</Response>
+            </EventHandler>
+            <EventHandler Name="ReportTypeChanged" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>ReportTypeChanged()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormCopy" Sequence="0">
+               <ResponseType>21</ResponseType>
+               <Response>StdFormPerformValidations(  )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(ActiveFeatureList) &lt;&gt; "", "InitializeActiveFeatureList")</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="1">
+               <ResponseType>28</ResponseType>
+               <Response>object2</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="2">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(PrinterDestVar=Printer,FileDestVar=&lt;Enter a valid Filename&gt;,PackingSlipTemplateVar=P(2.OrderPackingSlipRptTemplateId))</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="3">
+               <ResponseType>35</ResponseType>
+               <Response>EnableDisable()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="4">
+               <ResponseType>21</ResponseType>
+               <Response>EnableDisableOptions(  )</Response>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="fds_SC2">
+               <Value>OBJECT2( SLCoparms( CA(N) LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ReportVariables">
+               <Value>PrintOrderTextVar=V(PrintOrderTextVar), PrintLineReleaseTextVar=V(PrintLineReleaseTextVar), PrintDescriptionVar=V(PrintDescriptionVar), PrintPlanningItemMaterialsVar=V(PrintPlanningItemMaterialsVar), IncludeSerialNumbersVar=V(IncludeSerialNumbersVar),PrintExternalNotesVar=V(PrintExternalNotesVar),PrintInternalNotesVar=V(PrintInternalNotesVar),PrintItemOverview=V(PrintItemOverview),DisplayHeaderVar=V(DisplayHeaderVar),PrintItemPictureVar=V(PrintItemPictureVar)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="StartingEndingVariables">
+               <Value>StartingOrder=C(StartingOrderEdit), EndingOrder=C(EndingOrderEdit), StartingLine=V(StartingLineVar), EndingLine=V(EndingLineVar), StartingRelease=V(StartingReleaseVar), EndingRelease=V(EndingReleaseVar), StartingCustomer=C(StartingCustomerEdit), EndingCustomer=C(EndingCustomerEdit), StartingOrderDate=V(StartingOrderDateVar), EndingOrderDate=V(EndingOrderDateVar), StartingDueDate=V(StartingDueDateVar), EndingDueDate=V(EndingDueDateVar)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Namespace SyteLine.FormScripts</ScriptLine>
+               <ScriptLine>    Public Class PackingSlip</ScriptLine>
+               <ScriptLine>        Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Function Destination_EnableDisable() As Integer</ScriptLine>
+               <ScriptLine>            'Enable or disable the print destination button according to what</ScriptLine>
+               <ScriptLine>            'type of print job is being performed:  printer, or file?</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            'Assume failure</ScriptLine>
+               <ScriptLine>            On Error GoTo ErrorHandler</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            'Dim the locals</ScriptLine>
+               <ScriptLine>            Dim bPrintToFile As Boolean</ScriptLine>
+               <ScriptLine>            Dim sPrintDestVar As String</ScriptLine>
+               <ScriptLine>            Dim sFileDestVar As String</ScriptLine>
+               <ScriptLine>            'Get the variable data</ScriptLine>
+               <ScriptLine>            sPrintDestVar = ThisForm.Variables("PrintDestVar").Value</ScriptLine>
+               <ScriptLine>            sFileDestVar = ThisForm.Variables("FileDestVar").Value</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            'Get the value from the printer combo</ScriptLine>
+               <ScriptLine>            bPrintToFile = (ThisForm.Variables("DestinationVar").Value = "F")</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            'Enable or disable the field</ScriptLine>
+               <ScriptLine>            ThisForm.Components("DestinationTextEdit").Enabled = bPrintToFile</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            'Save the current value to variables for user friendliness</ScriptLine>
+               <ScriptLine>            If bPrintToFile Then</ScriptLine>
+               <ScriptLine>                'The user has selected File from the drop-down.  Save the</ScriptLine>
+               <ScriptLine>                'Printer destination before replacing it with the file destination</ScriptLine>
+               <ScriptLine>                sPrintDestVar = ThisForm.Variables("DestinationTextVar").Value</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrinterDestVar").Value = sPrintDestVar</ScriptLine>
+               <ScriptLine>                'Now place the value of the previous filename into the editbox</ScriptLine>
+               <ScriptLine>                sFileDestVar = ThisForm.Variables("FileDestVar").Value</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("DestinationTextVar").Value = sFileDestVar</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                'The user has selected Printer from the drop-down.  Save the</ScriptLine>
+               <ScriptLine>                'File destination before replacing it with the printer destination</ScriptLine>
+               <ScriptLine>                sFileDestVar = ThisForm.Variables("DestinationTextVar").Value</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("FileDestVar").Value = sFileDestVar</ScriptLine>
+               <ScriptLine>                'Now place the value of the previous printerdest into the editbox</ScriptLine>
+               <ScriptLine>                sPrintDestVar = ThisForm.Variables("PrinterDestVar").Value</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("DestinationTextVar").Value = sPrintDestVar</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            'Exit the routine</ScriptLine>
+               <ScriptLine>            Exit Function</ScriptLine>
+               <ScriptLine>ErrorHandler:</ScriptLine>
+               <ScriptLine>            Application.ShowMessage(Err.Description &amp; " in Destination_EnableDisable()")</ScriptLine>
+               <ScriptLine>            Destination_EnableDisable = -1</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub ReportTypeChanged()</ScriptLine>
+               <ScriptLine>            Dim ReportType As String</ScriptLine>
+               <ScriptLine />
+               <ScriptLine />
+               <ScriptLine>            ReportType = ThisForm.Variables("ReportType").Value</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ReportType &lt;&gt; "CO-SHIP" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("IncludeSerialNumbersVar").Value = "1"</ScriptLine>
+               <ScriptLine>                ThisForm.Components("IncludeSerialNumbersCheck").Enabled = False</ScriptLine>
+               <ScriptLine>                ThisForm.Components("SelectedEdit").Enabled = False</ScriptLine>
+               <ScriptLine>                ThisForm.Components("UnSelectedEdit").Enabled = False</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.Components("IncludeSerialNumbersCheck").Enabled = True</ScriptLine>
+               <ScriptLine>                ThisForm.Components("IncludeSerialNumbersCheck").DefaultData()</ScriptLine>
+               <ScriptLine>                ThisForm.Components("SelectedEdit").Enabled = True</ScriptLine>
+               <ScriptLine>                ThisForm.Components("UnSelectedEdit").Enabled = True</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub EnableDisable()</ScriptLine>
+               <ScriptLine>            Dim bEnabled As Boolean</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.Variables("CalledFrom").Value = "ShippingProcessingOrders" Then</ScriptLine>
+               <ScriptLine>                bEnabled = False</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                bEnabled = True</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.Components("WarehouseEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PreShipRadio").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("ShipRadio").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("RegularCheck").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("BlanketCheck").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("COStatusPlannedCheck").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("COStatusOrderedCheck").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("COStatusStoppedCheck").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("COStatusCompletedCheck").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("COLineStatusPlannedCheck").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("COLineStatusOrderedCheck").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("COLineStatusFilledCheck").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("COLineStatusCompletedCheck").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("StartingOrderEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("EndingOrderEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("StartingLineEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("EndingLineEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("StartingReleaseEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("EndingReleaseEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("StartingCustomerEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("EndingCustomerEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("StartingOrderDateEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("EndingOrderDateEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("StartingDueDateEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("EndingDueDateEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub EnableDisableOptions()</ScriptLine>
+               <ScriptLine>            If ThisForm.Variables("PackingSlipTemplateVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintPlanningItemMaterialsVar").Value = "1"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("IncludeSerialNumbersVar").Value = "1"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintItemPictureVar").Value = "0"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintOrderTextVar").Value = "0"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintDescriptionVar").Value = "0"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintLineReleaseTextVar").Value = "1"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintInternalNotesVar").Value = "0"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintExternalNotesVar").Value = "1"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintItemOverview").Value = "0"</ScriptLine>
+               <ScriptLine>            Else If ThisForm.Variables("PackingSlipTemplateVar").Value = "4" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintPlanningItemMaterialsVar").Value = "0"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("IncludeSerialNumbersVar").Value = "1"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintItemPictureVar").Value = "1"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintOrderTextVar").Value = "0"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintDescriptionVar").Value = "1"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintLineReleaseTextVar").Value = "0"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintInternalNotesVar").Value = "0"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintExternalNotesVar").Value = "0"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("PrintItemOverview").Value = "0"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Function validateDate() As Integer</ScriptLine>
+               <ScriptLine>            'Validation for WareHouse field</ScriptLine>
+               <ScriptLine>            If Not ThisForm.Components("WarehouseEdit").ValidateData(True) Then</ScriptLine>
+               <ScriptLine>                validateDate = VariantType.Error</ScriptLine>
+               <ScriptLine>                Exit Function</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            'Validation for PackDate field</ScriptLine>
+               <ScriptLine>            If Not ThisForm.Components("PackDateEdit").ValidateData(True) Then</ScriptLine>
+               <ScriptLine>                validateDate = VariantType.Error</ScriptLine>
+               <ScriptLine>                Exit Function</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine>    End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

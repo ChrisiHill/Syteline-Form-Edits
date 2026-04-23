@@ -1,0 +1,3108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="OrderShipments" Scope="1" ScopeName="[NULL]">
+         <Caption>fOrderShipments</Caption>
+         <Type>0</Type>
+         <StandardOperations>681</StandardOperations>
+         <Flags>202</Flags>
+         <Height>38.764705657959</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>142</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/forms/system/list_topic.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>36</PaneZeroSize>
+         <FilterFormSpec>OrderShipmentsQuery</FilterFormSpec>
+         <PrimaryDataSource>V(fds_DataSource)</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <LockedBy>chris.h@hillattach.com</LockedBy>
+         <Components>
+            <Component Name="ApprovalLogButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>76</TabOrder>
+               <TopPos>4.93333333333333</TopPos>
+               <LeftPos>89.5714285714286</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15</Width>
+               <Caption>s&amp;ApprovalLog</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>LinkToApprovalLog</EventToGenerate>
+               <Flags>4097</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/buttons/a/approval_log_button_order_shipments.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_ApprovalLogButton)) BTF()</Post301Format>
+               <EffectiveCaption>s&amp;ApprovalLog</EffectiveCaption>
+            </Component>
+            <Component Name="ApprovalLogMenuItem">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sListOrderShipmentsApprovalLog</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>LinkToApprovalLog</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_ApprovalLogMenuItem))</Post301Format>
+               <EffectiveCaption>sListOrderShipmentsApprovalLog</EffectiveCaption>
+            </Component>
+            <Component Name="BannerToast">
+               <DeviceID>-1</DeviceID>
+               <Type>51</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>34.264705657959</TopPos>
+               <LeftPos>89</LeftPos>
+               <Height>4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.BannerConfigJson</DataSource>
+               <Binding>6</Binding>
+               <Flags>1</Flags>
+               <DefaultData>V(BannerConfigJson)</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301DataType>DEFAULTVALUE(V(BannerConfigJson))</Post301DataType>
+               <Post301Format />
+            </Component>
+            <Component Name="CadrCurrCodeEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>19</TabOrder>
+               <TopPos>1.23333333333333</TopPos>
+               <LeftPos>39.1428571428568</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>5</Width>
+               <Caption>C(CadrCurrCodeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoCurrCode</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>CurrencyCodes( PROPERTY(CurrCode) )</MaintainFromSpec>
+               <PropertyClassName>CurrCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CadrCurrCodeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CadrCurrCodeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>11</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>10</ContainerSequence>
+               <DataSource>object.CoCurrCode</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>CurrencyCodes( PROPERTY(CurrCode) )</MaintainFromSpec>
+               <PropertyClassName>CurrCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCurrency</EffectiveCaption>
+            </Component>
+            <Component Name="CadrCurrCodeStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>18</TabOrder>
+               <TopPos>1.53333333333333</TopPos>
+               <LeftPos>29.4285714285714</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>9</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sCurrency</EffectiveCaption>
+            </Component>
+            <Component Name="CadrNameEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>2.73333333333333</TopPos>
+               <LeftPos>24.8571428571429</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>62</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CadrName</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Name</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sName</EffectiveCaption>
+            </Component>
+            <Component Name="CadrNameGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>25.1428571428571</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.CadrName</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Name</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sName</EffectiveCaption>
+            </Component>
+            <Component Name="CoCustNumEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>2.73333333333333</TopPos>
+               <LeftPos>15.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>9</Width>
+               <Caption>C(CoCustNumStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoCustNum</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Customers( PROPERTY(CustNum) )</MaintainFromSpec>
+               <PropertyClassName>CustNumBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoCustNumStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoCustNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>16.1428571428571</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>11</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.CoCustNum</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Customers( PROPERTY(CustNum) )</MaintainFromSpec>
+               <PropertyClassName>CustNumBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCustomer</EffectiveCaption>
+            </Component>
+            <Component Name="CoCustNumStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>3.03333333333333</TopPos>
+               <LeftPos>5.31904761904762</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>9.28571428571429</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sCustomer</EffectiveCaption>
+            </Component>
+            <Component Name="CoExchRateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>58</TabOrder>
+               <TopPos>15.8666666666667</TopPos>
+               <LeftPos>59.2857142857142</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <Caption>C(CoExchRateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoExchRate</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ExchRate</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoExchRateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoExchRateGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>27</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>30</ContainerSequence>
+               <DataSource>object.CoExchRate</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ExchRate</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sExchangeRate</EffectiveCaption>
+            </Component>
+            <Component Name="CoExchRateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>57</TabOrder>
+               <TopPos>16.1333333333333</TopPos>
+               <LeftPos>45</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13.5714285714286</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sExchangeRate</EffectiveCaption>
+            </Component>
+            <Component Name="CoiDescriptionEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>13</TabOrder>
+               <TopPos>8.63333333333333</TopPos>
+               <LeftPos>15.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>42</Width>
+               <Caption>C(CoiDescriptionStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoiDescription</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoiDescriptionStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoiDescriptionGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <DataSource>object.CoiDescription</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDescription</EffectiveCaption>
+            </Component>
+            <Component Name="CoiDescriptionStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>8.9</TopPos>
+               <LeftPos>4</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.5714285714286</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sDescription</EffectiveCaption>
+            </Component>
+            <Component Name="CoiDueDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>28</TabOrder>
+               <TopPos>11.6</TopPos>
+               <LeftPos>60</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Caption>C(CoiDueDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoiDueDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoiDueDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoiDueDateGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>15</ContainerSequence>
+               <DataSource>object.CoiDueDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDueDate</EffectiveCaption>
+            </Component>
+            <Component Name="CoiDueDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>27</TabOrder>
+               <TopPos>11.8666666666667</TopPos>
+               <LeftPos>49.8904761904762</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>9.57142857142857</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sDueDate</EffectiveCaption>
+            </Component>
+            <Component Name="CoiItemEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>7.13333333333333</TopPos>
+               <LeftPos>15.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <Caption>C(CoiItemStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoiItem</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Items( PROPERTY(Item) )</MaintainFromSpec>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoiItemStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoiItemGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>object.CoiItem</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Items( PROPERTY(Item) )</MaintainFromSpec>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sItem</EffectiveCaption>
+            </Component>
+            <Component Name="CoiItemStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>7.43333333333334</TopPos>
+               <LeftPos>8.74761904761905</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>5.85714285714286</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sItem</EffectiveCaption>
+            </Component>
+            <Component Name="CoiQtyOrderedConvEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>11.6</TopPos>
+               <LeftPos>15.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>17</Width>
+               <Caption>C(CoiQtyOrderedConvStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoiQtyOrderedConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnitNoNeg</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoiQtyOrderedConvStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoiQtyOrderedConvGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>8</ContainerSequence>
+               <DataSource>object.CoiQtyOrderedConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnitNoNeg</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sQtyOrdered</EffectiveCaption>
+            </Component>
+            <Component Name="CoiQtyOrderedConvStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>14</TabOrder>
+               <TopPos>11.8666666666667</TopPos>
+               <LeftPos>3.46190476190476</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>11.1428571428571</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sQtyOrdered</EffectiveCaption>
+            </Component>
+            <Component Name="CoiReleaseDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>30</TabOrder>
+               <TopPos>13.0666666666667</TopPos>
+               <LeftPos>60</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Caption>C(CoiReleaseDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoiReleaseDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoiReleaseDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoiReleaseDateGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>16</ContainerSequence>
+               <DataSource>object.CoiReleaseDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sReleaseDate</EffectiveCaption>
+            </Component>
+            <Component Name="CoiReleaseDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>29</TabOrder>
+               <TopPos>13.3333333333333</TopPos>
+               <LeftPos>47.1428571428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12.2857142857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sReleaseDate</EffectiveCaption>
+            </Component>
+            <Component Name="CoiStatEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>24</TabOrder>
+               <TopPos>5.66666666666667</TopPos>
+               <LeftPos>61</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <Caption>C(CoiStatStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoiStat</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CoitemStatus</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoiStatStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoiStatGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>13</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>13</ContainerSequence>
+               <DataSource>object.CoiStat</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CoitemStatus</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sItemStatus</EffectiveCaption>
+            </Component>
+            <Component Name="CoiStatStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>23</TabOrder>
+               <TopPos>5.93333333333333</TopPos>
+               <LeftPos>53.1761904761905</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>7.28571428571428</Width>
+               <Caption>sStatus</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sStatus</EffectiveCaption>
+            </Component>
+            <Component Name="CoiUMEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>36</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>34.1428571428572</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>3</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoiUM</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UMBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sU/M</EffectiveCaption>
+            </Component>
+            <Component Name="CoiUMGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>19</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>19</ContainerSequence>
+               <DataSource>object.CoiUM</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UMBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sU/M</EffectiveCaption>
+            </Component>
+            <Component Name="CoLineEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>4.2</TopPos>
+               <LeftPos>15.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <Caption>C(CoLineStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoLine</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CoLine</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoLineStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoLineGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.CoLine</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CoLine</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLine</EffectiveCaption>
+            </Component>
+            <Component Name="CoLineStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>4.5</TopPos>
+               <LeftPos>7.31904761904762</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>7.28571428571428</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sLine</EffectiveCaption>
+            </Component>
+            <Component Name="CoNumEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>1.26666666666667</TopPos>
+               <LeftPos>15.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <Caption>C(CoNumStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoNum</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>CustomerOrders( PROPERTY(CoNum) )</MaintainFromSpec>
+               <PropertyClassName>CoNum</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoNumStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>6.14285714285714</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoNum</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>CustomerOrders( PROPERTY(CoNum) )</MaintainFromSpec>
+               <PropertyClassName>CoNum</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sOrder</EffectiveCaption>
+            </Component>
+            <Component Name="CoNumStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>1.56666666666667</TopPos>
+               <LeftPos>7.89047619047619</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>6.71428571428572</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sOrder</EffectiveCaption>
+            </Component>
+            <Component Name="CoOrderDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>26</TabOrder>
+               <TopPos>10.1666666666667</TopPos>
+               <LeftPos>60</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Caption>C(CoOrderDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoOrderDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoOrderDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoOrderDateGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>14</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>14</ContainerSequence>
+               <DataSource>object.CoOrderDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sOrderDate</EffectiveCaption>
+            </Component>
+            <Component Name="CoOrderDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>10.4666666666667</TopPos>
+               <LeftPos>49</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.4285714285714</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sOrderDate</EffectiveCaption>
+            </Component>
+            <Component Name="CoPoNum">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>PO Num</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.ue_CustPo</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>PO Num</EffectiveCaption>
+            </Component>
+            <Component Name="CoReleaseEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>5.66666666666667</TopPos>
+               <LeftPos>15.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <Caption>C(CoReleaseStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoRelease</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CoReleaseBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoReleaseStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoReleaseGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object.CoRelease</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CoReleaseBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sRelease</EffectiveCaption>
+            </Component>
+            <Component Name="CoReleaseStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>5.96666666666667</TopPos>
+               <LeftPos>6.14285714285714</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8.57142857142857</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sRelease</EffectiveCaption>
+            </Component>
+            <Component Name="CoShipmentApprovalRequiredCheckBox">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>77</TabOrder>
+               <TopPos>36.4666666666667</TopPos>
+               <LeftPos>69.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>29</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoShipmentApprovalRequired</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sShipmentApprovalRequired</EffectiveCaption>
+            </Component>
+            <Component Name="CoShipmentApprovalRequiredGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>593</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>11</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>40</ContainerSequence>
+               <DataSource>object.CoShipmentApprovalRequired</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sShipmentApprovalRequired</EffectiveCaption>
+            </Component>
+            <Component Name="CoTypeEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>22</TabOrder>
+               <TopPos>4.2</TopPos>
+               <LeftPos>61</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <Caption>C(CoTypeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoType</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CoType</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoTypeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CoTypeGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>12</ContainerSequence>
+               <DataSource>object.CoType</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CoType</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sOrderType</EffectiveCaption>
+            </Component>
+            <Component Name="CoTypeStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>21</TabOrder>
+               <TopPos>4.46666666666666</TopPos>
+               <LeftPos>49.8904761904762</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.5714285714286</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sOrderType</EffectiveCaption>
+            </Component>
+            <Component Name="CurrAmtFormatEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>75</TabOrder>
+               <TopPos>31.1764705882353</TopPos>
+               <LeftPos>69</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>18</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CurrAmtFormat</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>InputMask</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sAmountFormat</EffectiveCaption>
+            </Component>
+            <Component Name="CurrAmtTotFormatEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>76</TabOrder>
+               <TopPos>35</TopPos>
+               <LeftPos>69.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>18</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CurrAmtTotFormat</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>InputMask</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sAmountFormat</EffectiveCaption>
+            </Component>
+            <Component Name="CurrCstPrcFormatEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>78</TabOrder>
+               <TopPos>36.5</TopPos>
+               <LeftPos>44.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>18</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CurrCstPrcFormat</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>InputMask</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sAmountFormat</EffectiveCaption>
+            </Component>
+            <Component Name="CurrDescriptionEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>20</TabOrder>
+               <TopPos>1.23333333333333</TopPos>
+               <LeftPos>44.7142857142857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>42</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CurrDescription</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDescription</EffectiveCaption>
+            </Component>
+            <Component Name="CurrDescriptionGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>11</ContainerSequence>
+               <DataSource>object.CurrDescription</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDescription</EffectiveCaption>
+            </Component>
+            <Component Name="CustomerOrderButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>74</TabOrder>
+               <TopPos>1.06666666666667</TopPos>
+               <LeftPos>89.5714285714286</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15</Width>
+               <Caption>sCustomer&amp;Order</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>LinkToCustomerOrder</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/buttons/c/customer_orders_button_customers.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sCustomer&amp;Order</EffectiveCaption>
+            </Component>
+            <Component Name="DerApprovalDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>68</TabOrder>
+               <TopPos>23.1764705882353</TopPos>
+               <LeftPos>59.375</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <Caption>C(DerApprovalDateStatic)</Caption>
+               <Validators>DateForAcctPeriod(DerApprovalDateEdit, DerApprovalDateStatic, @%update),Ask(DateChkPromptMsg,DateChkPromptButtons,)</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerApprovalDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(V(cew_DerApprovalDateEdit))</Post301Format>
+               <EffectiveCaption>C(DerApprovalDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerApprovalDateGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>32</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Validators>DateForAcctPeriod(DerApprovalDateEdit, DerApprovalDateStatic, @%update),Ask(DateChkPromptMsg,DateChkPromptButtons,)</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>35</ContainerSequence>
+               <DataSource>object.DerApprovalDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(V(cew_DerApprovalDateGridCol))</Post301Format>
+               <EffectiveCaption>sApprovalDate</EffectiveCaption>
+            </Component>
+            <Component Name="DerApprovalDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>67</TabOrder>
+               <TopPos>23.35</TopPos>
+               <LeftPos>48.3190476190476</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.2857142857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sApprovalDate</EffectiveCaption>
+            </Component>
+            <Component Name="DerCumulativeApprovalQtyEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>70</TabOrder>
+               <TopPos>24.6666666666667</TopPos>
+               <LeftPos>59.2857142857142</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <Caption>C(DerCumulativeApprovalQtyStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerCumulativeApprovalQty</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DerCumulativeApprovalQtyStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerCumulativeApprovalQtyGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>36</ContainerSequence>
+               <DataSource>object.DerCumulativeApprovalQty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCumulativeApprovalQty</EffectiveCaption>
+            </Component>
+            <Component Name="DerCumulativeApprovalQtyStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>69</TabOrder>
+               <TopPos>24.8166666666667</TopPos>
+               <LeftPos>39.2857142857143</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>19.1428571428571</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sCumulativeApprovalQty</EffectiveCaption>
+            </Component>
+            <Component Name="DerMaxQtyToApproveEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>71</TabOrder>
+               <TopPos>26.1333333333333</TopPos>
+               <LeftPos>59</LeftPos>
+               <Height>1.26666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>9.57142857142857</Width>
+               <Caption>C(DerMaxQtyToApproveStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerMaxQtyToApprove</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DerMaxQtyToApproveStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerMaxQtyToApproveGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>38</ContainerSequence>
+               <DataSource>object.DerMaxQtyToApprove</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+            </Component>
+            <Component Name="DerMinQtyToApproveEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>72</TabOrder>
+               <TopPos>26.1333333333333</TopPos>
+               <LeftPos>70.7142857142857</LeftPos>
+               <Height>1.26666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>9.57142857142857</Width>
+               <Caption>C(DerMinQtyToApproveStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerMinQtyToApprove</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DerMinQtyToApproveStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerMinQtyToApproveGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>37</ContainerSequence>
+               <DataSource>object.DerMinQtyToApprove</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+            </Component>
+            <Component Name="DerPriceConvEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>60</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>59.2857142857142</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>20</Width>
+               <Caption>C(DerPriceConvStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerPriceConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(P(CurrCstPrcFormat))</Post301Format>
+               <EffectiveCaption>C(DerPriceConvStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerPriceConvGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>28</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>31</ContainerSequence>
+               <DataSource>object.DerPriceConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(P(CurrCstPrcFormat))</Post301Format>
+               <EffectiveCaption>sUnitPrice</EffectiveCaption>
+            </Component>
+            <Component Name="DerPriceConvStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>59</TabOrder>
+               <TopPos>17.6</TopPos>
+               <LeftPos>49</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>9.57142857142857</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sUnitPrice</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyInvoicedConvEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>64</TabOrder>
+               <TopPos>20.2666666666667</TopPos>
+               <LeftPos>59.2857142857142</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <Caption>C(DerQtyInvoicedConvStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerQtyInvoicedConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnitNoNeg</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DerQtyInvoicedConvStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyInvoicedConvGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>30</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>33</ContainerSequence>
+               <DataSource>object.DerQtyInvoicedConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnitNoNeg</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sQtyInvoiced</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyInvoicedConvStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>63</TabOrder>
+               <TopPos>20.4166666666667</TopPos>
+               <LeftPos>48.3190476190476</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.2857142857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sQtyInvoiced</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyReadyConvEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>17</TabOrder>
+               <TopPos>13</TopPos>
+               <LeftPos>15.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>17</Width>
+               <Caption>C(DerQtyReadyConvStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerQtyReadyConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnitNoNeg</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DerQtyReadyConvStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyReadyConvGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>9</ContainerSequence>
+               <DataSource>object.DerQtyReadyConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnitNoNeg</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sReadyToShip</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyReadyConvStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>13.3</TopPos>
+               <LeftPos>1.42857142857143</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13.1428571428571</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sReadyToShip</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyReturnedConvEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>38</TabOrder>
+               <TopPos>18.8</TopPos>
+               <LeftPos>16.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>17</Width>
+               <Caption>C(DerQtyReturnedConvStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerQtyReturnedConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnitNoNeg</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DerQtyReturnedConvStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyReturnedConvGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>20</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>20</ContainerSequence>
+               <DataSource>object.DerQtyReturnedConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnitNoNeg</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sQtyReturned</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyReturnedConvStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>37</TabOrder>
+               <TopPos>19.0666666666667</TopPos>
+               <LeftPos>3.71428571428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sQtyReturned</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyShippedConvEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>16.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>17</Width>
+               <Caption>C(DerQtyShippedConvStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerQtyShippedConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnitNoNeg</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DerQtyShippedConvStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyShippedConvGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>18</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>18</ContainerSequence>
+               <DataSource>object.DerQtyShippedConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnitNoNeg</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sQtyShipped</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyShippedConvStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>17.6</TopPos>
+               <LeftPos>4.42857142857143</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>11.2857142857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sQtyShipped</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyToApproveEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>66</TabOrder>
+               <TopPos>21.7333333333333</TopPos>
+               <LeftPos>59.2857142857142</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <Caption>C(DerQtyToApproveStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerQtyToApprove</DataSource>
+               <Binding>1</Binding>
+               <SelectionEvent>SetDateModified</SelectionEvent>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>QtyToApprove(CheckQtyToApprove)</DefaultFrom>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(V(cew_DerQtyToApproveEdit))</Post301Format>
+               <EffectiveCaption>C(DerQtyToApproveStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyToApproveGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>31</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>34</ContainerSequence>
+               <DataSource>object.DerQtyToApprove</DataSource>
+               <Binding>1</Binding>
+               <SelectionEvent>SetDateModified</SelectionEvent>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>QtyToApprove(CheckQtyToApprove)</DefaultFrom>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(V(cew_DerQtyToApproveGridCol))</Post301Format>
+               <EffectiveCaption>sQtyToApprove</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyToApproveStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>65</TabOrder>
+               <TopPos>21.8833333333333</TopPos>
+               <LeftPos>36.1428571428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>22.4285714285714</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sQtyToApprove</EffectiveCaption>
+            </Component>
+            <Component Name="DerTotPriceEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>62</TabOrder>
+               <TopPos>18.8</TopPos>
+               <LeftPos>59.2857142857142</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>20</Width>
+               <Caption>C(DerTotPriceStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerTotPrice</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>AmtTot</PropertyClassName>
+               <Post301Format>MASK(P(CurrAmtTotFormat))</Post301Format>
+               <EffectiveCaption>C(DerTotPriceStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerTotPriceGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>29</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>26</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>32</ContainerSequence>
+               <DataSource>object.DerTotPrice</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>AmtTot</PropertyClassName>
+               <Post301Format>MASK(P(CurrAmtTotFormat))</Post301Format>
+               <EffectiveCaption>sTotalPrice</EffectiveCaption>
+            </Component>
+            <Component Name="DerTotPriceStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>61</TabOrder>
+               <TopPos>19.0666666666667</TopPos>
+               <LeftPos>48.3190476190476</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.2857142857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sTotalPrice</EffectiveCaption>
+            </Component>
+            <Component Name="DoBolButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>75</TabOrder>
+               <TopPos>3.06666666666667</TopPos>
+               <LeftPos>89.5714285714286</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15</Width>
+               <Caption>s&amp;DO/BOL</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>LinkToDeliveryOrders</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/buttons/d/dobol_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>s&amp;DO/BOL</EffectiveCaption>
+            </Component>
+            <Component Name="DoLineEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>42</TabOrder>
+               <TopPos>21.7058823529412</TopPos>
+               <LeftPos>16.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <Caption>C(DoLineStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DoLine</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>DoLineBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DoLineStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DoLineGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>22</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>6</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>22</ContainerSequence>
+               <DataSource>object.DoLine</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>DoLineBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDOLine</EffectiveCaption>
+            </Component>
+            <Component Name="DoLineStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>22</TopPos>
+               <LeftPos>7.31904761904762</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8.57142857142857</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sDOLine</EffectiveCaption>
+            </Component>
+            <Component Name="DoNumEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>20.2666666666667</TopPos>
+               <LeftPos>16.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <Caption>C(DoNumStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DoNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>DoNumBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DoNumStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DoNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>21</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>22</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>21</ContainerSequence>
+               <DataSource>object.DoNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>DoNumBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDO/BOL</EffectiveCaption>
+            </Component>
+            <Component Name="DoNumStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>39</TabOrder>
+               <TopPos>20.5333333333333</TopPos>
+               <LeftPos>6.71428571428572</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>9</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sDO/BOL</EffectiveCaption>
+            </Component>
+            <Component Name="DoSeqEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>44</TabOrder>
+               <TopPos>23.1764705882353</TopPos>
+               <LeftPos>16.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <Caption>C(DoSeqStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DoSeq</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>DoSeqBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DoSeqStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DoSeqGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>23</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>23</ContainerSequence>
+               <DataSource>object.DoSeq</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>DoSeqBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDOSequence</EffectiveCaption>
+            </Component>
+            <Component Name="DoSeqStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>43</TabOrder>
+               <TopPos>23.4666666666667</TopPos>
+               <LeftPos>3.46190476190476</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12.2857142857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sDOSequence</EffectiveCaption>
+            </Component>
+            <Component Name="ExternalShipmentDocIdEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>56</TabOrder>
+               <TopPos>31.921568627451</TopPos>
+               <LeftPos>16.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>37</Width>
+               <Caption>C(ExternalShipmentDocIdStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ExternalShipmentDocId</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ShipmentDocId</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(ExternalShipmentDocIdStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ExternalShipmentDocIdGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>29</ContainerSequence>
+               <DataSource>object.ExternalShipmentDocId</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ShipmentDocId</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sExternalShipDocId</EffectiveCaption>
+            </Component>
+            <Component Name="ExternalShipmentDocIdStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>55</TabOrder>
+               <TopPos>32.221568627451</TopPos>
+               <LeftPos>-0.446428571428601</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>16.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sExternalShipDocId</EffectiveCaption>
+            </Component>
+            <Component Name="FeatureControllerEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>33.2352941176471</TopPos>
+               <LeftPos>70.5</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>VISIBLEWHEN(V(cvw_FeatureControllerEdit)) BTF()</Post301Format>
+            </Component>
+            <Component Name="FormCollectionGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>38.8980399786257</Height>
+               <ListHeight>2</ListHeight>
+               <Width>35.9</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>objects</DataSource>
+               <Binding>3</Binding>
+               <Flags>384</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGrid()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="GotoCustomerOrderDocumentLifecycleToolbarButton">
+               <DeviceID>-1</DeviceID>
+               <Type>11</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sCustomerOrderDocumentLifecycle</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>GotoCustomerOrderDocumentLifecycle</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <BitmapFileName>doc lifecycle.svg</BitmapFileName>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sCustomerOrderDocumentLifecycle</EffectiveCaption>
+            </Component>
+            <Component Name="GotoTranslate">
+               <DeviceID>-1</DeviceID>
+               <Type>11</Type>
+               <TabOrder>53</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sTranslate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>DomesticCurrency</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <BitmapFileName>translate.svg</BitmapFileName>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format />
+               <EffectiveCaption>sTranslate</EffectiveCaption>
+            </Component>
+            <Component Name="GrpBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>15</Height>
+               <ListHeight>2</ListHeight>
+               <Width>87.2</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="GrpBox2">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>31</TabOrder>
+               <TopPos>14.8666666666666</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>23.5882352941176</Height>
+               <ListHeight>2</ListHeight>
+               <Width>87.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="RowPointerEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>74</TabOrder>
+               <TopPos>34.6666666666667</TopPos>
+               <LeftPos>36.2857142857143</LeftPos>
+               <Height>1.26666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>29.5714285714286</Width>
+               <Caption>C(RowPointerStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.RowPointer</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>RowPointer</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(RowPointerStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="RowPointerGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>578.714285714286</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>39</ContainerSequence>
+               <DataSource>object.RowPointer</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>RowPointer</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sRowPointer</EffectiveCaption>
+            </Component>
+            <Component Name="RowPointerStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>73</TabOrder>
+               <TopPos>34.8235294117647</TopPos>
+               <LeftPos>23.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12.2857142857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sRowPointer</EffectiveCaption>
+            </Component>
+            <Component Name="ShipDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>15.8666666666666</TopPos>
+               <LeftPos>16.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <Caption>C(ShipDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ShipDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(ShipDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipDateGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>17</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>17</ContainerSequence>
+               <DataSource>object.ShipDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDateShipped</EffectiveCaption>
+            </Component>
+            <Component Name="ShipDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>32</TabOrder>
+               <TopPos>16.1666666666666</TopPos>
+               <LeftPos>3.8035714285714</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sDateShipped</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>46</TabOrder>
+               <TopPos>24.5294117647059</TopPos>
+               <LeftPos>16.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <Caption>C(ShipmentStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ShipmentId</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDetails</MenuName>
+               <MaintainFromSpec>ShipmentMaster</MaintainFromSpec>
+               <PropertyClassName>ShipmentID</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(ShipmentStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentIdGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>24</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>24</ContainerSequence>
+               <DataSource>object.ShipmentId</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDetails</MenuName>
+               <MaintainFromSpec>ShipmentMaster</MaintainFromSpec>
+               <PropertyClassName>ShipmentID</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sShipment</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentLineEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>48</TabOrder>
+               <TopPos>26</TopPos>
+               <LeftPos>16.4285714285714</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.625</Width>
+               <Caption>C(ShipmentLineStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ShipmentLine</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>ShipmentLine</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(ShipmentLineStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentLineGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>25</ContainerSequence>
+               <DataSource>object.ShipmentLine</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>ShipmentLine</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sShipmentLine</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentLineStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>47</TabOrder>
+               <TopPos>26.3</TopPos>
+               <LeftPos>3.5535714285714</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sShipmentLine</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSeqEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>50</TabOrder>
+               <TopPos>27.4705882352941</TopPos>
+               <LeftPos>16.4285714285714</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.75</Width>
+               <Caption>C(ShipmentSeqStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ShipmentSeq</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>ShipmentSequence</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(ShipmentSeqStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSeqGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>26</ContainerSequence>
+               <DataSource>object.ShipmentSeq</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>ShipmentSequence</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sSequence</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSeqStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>49</TabOrder>
+               <TopPos>27.7705882352941</TopPos>
+               <LeftPos>3.5535714285714</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sSequence</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>45</TabOrder>
+               <TopPos>24.8294117647059</TopPos>
+               <LeftPos>3.5535714285714</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) BTF()</Post301Format>
+               <EffectiveCaption>sShipment</EffectiveCaption>
+            </Component>
+            <Component Name="TrackingNumberGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>27</ContainerSequence>
+               <DataSource>object.TrackingNumber</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>GotoTrackingNumberURL</EventToGenerate>
+               <Flags>16777216</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>TrackingNumber</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(V(cew_TrackingNumberGridCol))</Post301Format>
+               <EffectiveCaption>sTrackingNumber</EffectiveCaption>
+            </Component>
+            <Component Name="TrackingNumEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>52</TabOrder>
+               <TopPos>28.9960784313725</TopPos>
+               <LeftPos>16.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.TrackingNumber</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>TrackingNumber</PropertyClassName>
+               <Post301Format>BTF()</Post301Format>
+               <EffectiveCaption>sTrackingNumber</EffectiveCaption>
+            </Component>
+            <Component Name="TrackingNumHyperLink">
+               <DeviceID>-1</DeviceID>
+               <Type>38</Type>
+               <TabOrder>51</TabOrder>
+               <TopPos>29.1460784313725</TopPos>
+               <LeftPos>3.46190476190476</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12.2857142857143</Width>
+               <Caption>sTrackingNumber</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>GotoTrackingNumberURL</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_TrackingNumHyperLink)) JUSTIFY(R) BTF()</Post301Format>
+               <EffectiveCaption>sTrackingNumber</EffectiveCaption>
+            </Component>
+            <Component Name="TrackingURLEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>54</TabOrder>
+               <TopPos>30.4627450980392</TopPos>
+               <LeftPos>16.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <Caption>C(TrackingURLStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.TrackingURL</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>URL</PropertyClassName>
+               <Post301Format>BTF()</Post301Format>
+               <EffectiveCaption>C(TrackingURLStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="TrackingURLGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>26</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>28</ContainerSequence>
+               <DataSource>object.TrackingURL</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>GotoTrackingURL</EventToGenerate>
+               <Flags>16777216</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>URL</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sTrackingURL</EffectiveCaption>
+            </Component>
+            <Component Name="TrackingURLHyperLink">
+               <DeviceID>-1</DeviceID>
+               <Type>38</Type>
+               <TabOrder>53</TabOrder>
+               <TopPos>30.6127450980392</TopPos>
+               <LeftPos>3.46190476190476</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12.2857142857143</Width>
+               <Caption>sTrackingURL</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>GotoTrackingURL</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_TrackingURLHyperLink)) JUSTIFY(R) BTF()</Post301Format>
+               <EffectiveCaption>sTrackingURL</EffectiveCaption>
+            </Component>
+         </Components>
+         <ActiveXComponents>
+            <ActiveXComponentProperty ComponentName="BannerToast">
+               <Properties>{"Name":"SLToaster","InitString":null,"Reserved":null}</Properties>
+            </ActiveXComponentProperty>
+         </ActiveXComponents>
+         <EventHandlers>
+            <EventHandler Name="CheckQtyToApprove" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>CheckQtyToApprove()</Response>
+            </EventHandler>
+            <EventHandler Name="DomesticCurrency" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>OrderShipmentsDomesticCurrency( LINKBY(CoNum=CoNum) SETVARVALUESONLINKUPDATE(CoNum=P(CoNum), CoLine=P(CoLine), CoiStat=P(CoiStat), CoCustNum=P(CoCustNum), CadrName=P(CadrName), CoType=P(CoType), CoRelease=P(CoRelease), DerQtyShippedConv=P(DerQtyShippedConv), DerPriceConv=P(DerPriceConv), DerTotPrice=P(DerTotPrice), CadrCurrCode=P(CoCurrCode), CoExchRate=P(CoExchRate)) )</Response>
+            </EventHandler>
+            <EventHandler Name="GotoCustomerOrderDocumentLifecycle" Sequence="0">
+               <ResponseType>7</ResponseType>
+               <Response>CustomerOrderDocumentLifecycle( SETVARVALUES(CoNumVar=P(CoNum), LaunchedFromFormVar=1) )</Response>
+            </EventHandler>
+            <EventHandler Name="GotoTrackingNumberURL" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SLCoShips.GetShipmentTrackingURLSp( PARMS(VAR P(ShipmentId), VAR P(TrackingNumber), RVAR V(TrackingNumberURL)) )</Response>
+            </EventHandler>
+            <EventHandler Name="GotoTrackingNumberURL" Sequence="1">
+               <ResponseType>39</ResponseType>
+               <Response>URL(V(TrackingNumberURL)) ( )</Response>
+            </EventHandler>
+            <EventHandler Name="GotoTrackingURL" Sequence="0">
+               <ResponseType>39</ResponseType>
+               <Response>URL(P(TrackingURL)) ( )</Response>
+            </EventHandler>
+            <EventHandler Name="InitializeActiveFeatureList" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeActiveFeatureList()</Response>
+            </EventHandler>
+            <EventHandler Name="LinkToApprovalLog" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>OrderShipmentApprovalLog( LINKBY(CoNum=CoNum,CoLine=CoLine,CoRelease=CoRelease,ShipDate=ShipDate,DateSeq=DateSeq) )</Response>
+            </EventHandler>
+            <EventHandler Name="LinkToCustomerOrder" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>CustomerOrders( LINKBY(CoNum=CoNum) )</Response>
+            </EventHandler>
+            <EventHandler Name="LinkToDeliveryOrders" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>DeliveryOrders( LINKBY(DoNum=DoNum) )</Response>
+            </EventHandler>
+            <EventHandler Name="SetDateModified" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>SetDateModified()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(ActiveFeatureList) &lt;&gt; "", InitializeActiveFeatureList)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SLFormAdoption.LoadBannerStatus( PARMS(VAR V(CurrentFormName), RVAR V(DisableBanner), RVAR V(EndOfSupport), RVAR V(NewFormName), RVAR V(ToastStatus)) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="2">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeSLToast()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="3">
+               <ResponseType>0</ResponseType>
+               <Response>SLFormExtMsgEntities.LoadJSONVar( PARMS(VAR OrderShipments, RVAR V(JSONVarNotInterpretWithLIT)) COLID(object) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="4">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(JSONVarNotInterpret=V(JSONVarNotInterpretWithLIT))</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SLFormExtMsgEntities.FormatJSONVar( PARMS(VAR OrderShipments, VAR V(JSONVarNotInterpret), RVAR V(JSONVarWithLIT)) )</Response>
+               <Description>JSONAuto_object</Description>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="1">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(JSONVar=V(JSONVarWithLIT))</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="2">
+               <ResponseType>47</ResponseType>
+               <Response>JSONMSGTYPE(inforBusinessContext) JSONPAYLOAD(V(JSONVar)) JSONMSGTOCHLD()  COLID(object)</Response>
+               <Description>JSONAuto_object</Description>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="BannerConfigJson">
+               <Value>{"title":"{ToastTitle}","message":"&lt;a class='sl-toast-body'&gt;{ToastBody}&amp;nbsp;&lt;/a&gt;&lt;a class='sl-toast-runform'&gt;{ToastRunForm}&lt;/a&gt;","status":"{ToastStatus}","formName":"{NewFormName}"}</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ApprovalLogButton">
+               <Value>Enabled:#C(ApprovalLogButton), #P(CoShipmentApprovalRequired) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ApprovalLogMenuItem">
+               <Value>Enabled:#C(ApprovalLogMenuItem), #P(CoShipmentApprovalRequired) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_DerApprovalDateEdit">
+               <Value>Enabled:#C(DerApprovalDateEdit), #P(CoShipmentApprovalRequired) = 1 &amp; #P(DerMaxQtyToApprove) &gt; #P(DerMinQtyToApprove), "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_DerApprovalDateGridCol">
+               <Value>Enabled:#C(DerApprovalDateGridCol), #P(CoShipmentApprovalRequired) = 1 &amp; #P(DerMaxQtyToApprove) &gt; #P(DerMinQtyToApprove), "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_DerQtyToApproveEdit">
+               <Value>Enabled:#C(DerQtyToApproveEdit), #P(CoShipmentApprovalRequired) = 1 &amp; #P(DerMaxQtyToApprove) &gt; #P(DerMinQtyToApprove), "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_DerQtyToApproveGridCol">
+               <Value>Enabled:#C(DerQtyToApproveGridCol), #P(CoShipmentApprovalRequired) = 1 &amp; #P(DerMaxQtyToApprove) &gt; #P(DerMinQtyToApprove), "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_TrackingNumberGridCol">
+               <Value>Enabled:#C(TrackingNumberGridCol), #P(TrackingNumber) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_TrackingNumHyperLink">
+               <Value>Enabled:#C(TrackingNumHyperLink), #P(TrackingNumber) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_TrackingURLHyperLink">
+               <Value>Enabled:#C(TrackingURLHyperLink), #P(TrackingURL) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="CurrentFormName">
+               <Value>OrderShipments</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_FeatureControllerEdit">
+               <Value>Visible:#C(ShipmentLineEdit), #GV(IsRS7221ActiveVar) = "1", "True", Visible:#C(ShipmentLineGridCol), #GV(IsRS7221ActiveVar) = "1", "True", Visible:#C(ShipmentSeqEdit), #GV(IsRS7221ActiveVar) = "1", "True", Visible:#C(ShipmentSeqGridCol), #GV(IsRS7221ActiveVar) = "1", "True", Visible:#C(ShipmentLineStatic), #GV(IsRS7221ActiveVar) = "1", "True", Visible:#C(ShipmentSeqStatic), #GV(IsRS7221ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_DataSource">
+               <Value>SL.SLCoShips( OBJNAME(oSLCoShips) FILTERPERM(CoiStat&lt;&gt;'H') UPD(CoShipInProcessAdjEntrySp(RowPointer,DerQtyToApprove,DerApprovalDate,BYREF),REF) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="InitialCommand">
+               <Value>FilterInPlace</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ToastTitle">
+               <Value>sEndOfSupport</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Namespace SyteLine.FormScripts</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>    Public Class OrderShipments</ScriptLine>
+               <ScriptLine>        Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Function CheckQtyToApprove() As Integer</ScriptLine>
+               <ScriptLine>            Dim qtyToApprove As Decimal</ScriptLine>
+               <ScriptLine>            Dim maxQtyToApprove As Decimal</ScriptLine>
+               <ScriptLine>            Dim minQtyToApprove As Decimal</ScriptLine>
+               <ScriptLine>            Dim digits As Integer</ScriptLine>
+               <ScriptLine>            Dim qtyUnitFormat As String</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            CheckQtyToApprove = 0</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            qtyToApprove = ThisForm.PrimaryIDOCollection.CurrentItem("DerQtyToApprove").GetValueOfDecimal(0)</ScriptLine>
+               <ScriptLine>            maxQtyToApprove = ThisForm.PrimaryIDOCollection.CurrentItem("DerMaxQtyToApprove").GetValueOfDecimal(0)</ScriptLine>
+               <ScriptLine>            minQtyToApprove = ThisForm.PrimaryIDOCollection.CurrentItem("DerMinQtyToApprove").GetValueOfDecimal(0)</ScriptLine>
+               <ScriptLine>            qtyUnitFormat = Application.Variables("Parm_QtyUnitFormat").Value</ScriptLine>
+               <ScriptLine>            digits = 0</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If qtyUnitFormat.LastIndexOf(".") &lt;&gt; -1 Then</ScriptLine>
+               <ScriptLine>                digits = qtyUnitFormat.Substring(qtyUnitFormat.LastIndexOf(".") + 1).Length</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            maxQtyToApprove = Math.Round(maxQtyToApprove, digits)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If qtyToApprove &lt; minQtyToApprove Or qtyToApprove &gt; maxQtyToApprove Then</ScriptLine>
+               <ScriptLine>                ThisForm.CallGlobalScript(</ScriptLine>
+               <ScriptLine>                   "MsgApp",</ScriptLine>
+               <ScriptLine>                   "Clear",</ScriptLine>
+               <ScriptLine>                   "Prompt",</ScriptLine>
+               <ScriptLine>                   "SuccessFailure",</ScriptLine>
+               <ScriptLine>                   "mE=MustBetween",</ScriptLine>
+               <ScriptLine>                   qtyToApprove.ToString(),</ScriptLine>
+               <ScriptLine>                   minQtyToApprove.ToString(),</ScriptLine>
+               <ScriptLine>                   maxQtyToApprove.ToString(),</ScriptLine>
+               <ScriptLine>                   "", "", "", "", "", "", "", "", "", "", "", "", "")</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                CheckQtyToApprove = 1</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SetDateModified()</ScriptLine>
+               <ScriptLine>            If ThisForm.Components("DerApprovalDateEdit").Enabled Then</ScriptLine>
+               <ScriptLine>                ThisForm.PrimaryIDOCollection.SetCurrentObjectPropertyModified("DerApprovalDate", True)</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>    End Class</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

@@ -1,0 +1,1863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="ShipmentPackingSlipReport" Scope="1" ScopeName="[NULL]">
+         <Caption>fShipmentPackingSlipReport</Caption>
+         <Type>3</Type>
+         <StandardOperations>32</StandardOperations>
+         <Flags>968</Flags>
+         <Height>28.7999992370605</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>109</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/forms/cotopics/shipment_packing_slip_report.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>0</PaneZeroSize>
+         <PrimaryDataSource>V(fds_DataSource)</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <LockedBy>chris.h@hillattach.com</LockedBy>
+         <Components>
+            <Component Name="BackgroundQueue">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sBackground</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RunBackgroundQueue</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sBackground</EffectiveCaption>
+            </Component>
+            <Component Name="CustNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>14</LeftPos>
+               <Height>6.73333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NiceLittleGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.CustNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Customers( PROPERTY(CustNum) )</MaintainFromSpec>
+               <PropertyClassName>CustNum</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCustomer</EffectiveCaption>
+            </Component>
+            <Component Name="CustomerEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>32</TabOrder>
+               <TopPos>19.9</TopPos>
+               <LeftPos>63.7</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <Caption>C(CustomerStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.CustomerEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/customer_reportutility_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Customers(PROPERTY(CustNum))</MaintainFromSpec>
+               <DefaultFrom>CustNumVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(CustomerStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CustomerStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>31</TabOrder>
+               <TopPos>19.9</TopPos>
+               <LeftPos>28.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <Caption>C(CustomerStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.CustomerStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/customer_reportutility_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Customers(PROPERTY(CustNum))</MaintainFromSpec>
+               <DefaultFrom>CustNumVar(CustomerStarting,CustomerEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(CustomerStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CustomerStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>30</TabOrder>
+               <TopPos>20.1666666666667</TopPos>
+               <LeftPos>18.642857</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>9.285714</Width>
+               <Caption>sCustomer</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sCustomer</EffectiveCaption>
+            </Component>
+            <Component Name="CustSeqGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>22</LeftPos>
+               <Height>6.73333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NiceLittleGrid</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.CustSeq</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CustSeq</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sShipTo</EffectiveCaption>
+            </Component>
+            <Component Name="DerCoverSheetCompany">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>72</LeftPos>
+               <Height>6.73333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.2857142857143</Width>
+               <Caption>sCoverSheetCompany</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NiceLittleGrid</ContainerName>
+               <ContainerSequence>8</ContainerSequence>
+               <DataSource>object.DerCoverSheetCompany</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Name</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCoverSheetCompany</EffectiveCaption>
+            </Component>
+            <Component Name="DerCoverSheetContact">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>82.2857142857143</LeftPos>
+               <Height>6.73333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.2857142857143</Width>
+               <Caption>sCoverSheetContact</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NiceLittleGrid</ContainerName>
+               <ContainerSequence>9</ContainerSequence>
+               <DataSource>object.DerCoverSheetContact</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Contact</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCoverSheetContact</EffectiveCaption>
+            </Component>
+            <Component Name="DestinationGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>46</LeftPos>
+               <Height>6.73333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NiceLittleGrid</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object.DerDestination</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Destination</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDestination</EffectiveCaption>
+            </Component>
+            <Component Name="DisplayHeader">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>1</TopPos>
+               <LeftPos>77.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>24</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DisplayHeader(INITIALVALUE(V(Parm_DisplayReportHeaders)))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/fields/d/display_report_headers_general_parameters.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DisplayHeaderVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sDisplayReportHeader</EffectiveCaption>
+            </Component>
+            <Component Name="DisplayShipmentNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>0.941176470588235</TopPos>
+               <LeftPos>40.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>25</Width>
+               <Caption>sDisplayShipmentNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DisplayShipmentNotes(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sDisplayShipmentNotes</EffectiveCaption>
+            </Component>
+            <Component Name="DisplayShipmentPackageNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>2.47058823529412</TopPos>
+               <LeftPos>40.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>33</Width>
+               <Caption>sDisplayShipmentPackageNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DisplayShipmentPackageNotes(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sDisplayShipmentPackageNotes</EffectiveCaption>
+            </Component>
+            <Component Name="DisplayShipmentSeqNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>3.94117647058824</TopPos>
+               <LeftPos>40.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>29</Width>
+               <Caption>sDisplayShipmentSeqNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DisplayShipmentSeqNotes(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sDisplayShipmentSeqNotes</EffectiveCaption>
+            </Component>
+            <Component Name="EndingStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>26</TabOrder>
+               <TopPos>17.3666666666667</TopPos>
+               <LeftPos>63.7</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <Caption>sEnding</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sEnding</EffectiveCaption>
+            </Component>
+            <Component Name="FeatureControlEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>22.7941176470588</TopPos>
+               <LeftPos>102.625</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>VISIBLEWHEN(V(cvw_FeatureControlEdit))</Post301Format>
+            </Component>
+            <Component Name="GetOptionsMenuItem">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;GetOptions</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RunGetOptions</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>s&amp;GetOptions</EffectiveCaption>
+            </Component>
+            <Component Name="IncludeCustSerialNumbers">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>6.6</TopPos>
+               <LeftPos>77.25</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30.625</Width>
+               <Caption>sIncludeCustSerialNumbers</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.IncludeCustSerialNumbers(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/i/include_customer_serial_numbers_shipment_packing_slip_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sIncludeCustSerialNumbers</EffectiveCaption>
+            </Component>
+            <Component Name="IncludeSerialNumbers">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>5.2</TopPos>
+               <LeftPos>77.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>25</Width>
+               <Caption>sIncludeSerialNumbers</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.IncludeSerialNumbers(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_serial_numbers_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sIncludeSerialNumbers</EffectiveCaption>
+            </Component>
+            <Component Name="LangCodeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>62</LeftPos>
+               <Height>6.73333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NiceLittleGrid</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <DataSource>object.DerLangCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>LangCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLanguage</EffectiveCaption>
+            </Component>
+            <Component Name="MethodGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>38</LeftPos>
+               <Height>6.73333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NiceLittleGrid</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.DerMethod</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>OutputMethod</PropertyClassName>
+               <Post301Format />
+            </Component>
+            <Component Name="NiceLittleGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>42</TabOrder>
+               <TopPos>24.7058823529412</TopPos>
+               <LeftPos>1.125</LeftPos>
+               <Height>3.73333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>25.8571428571429</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>objects</DataSource>
+               <Binding>3</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGrid()</DefaultFrom>
+               <Post301Format>BTF()</Post301Format>
+            </Component>
+            <Component Name="NotesBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>73.5</LeftPos>
+               <Height>8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>35</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="NumCopiesGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>54</LeftPos>
+               <Height>6.73333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NiceLittleGrid</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>object.DerNumCopies</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Copies</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCopies</EffectiveCaption>
+            </Component>
+            <Component Name="OptionsBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>71.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="OptionsBox1">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>14</TabOrder>
+               <TopPos>8.17647058823529</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>8.58823529411765</Height>
+               <ListHeight>2</ListHeight>
+               <Width>107.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="PackingSlipTemplate">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>9.17647058823529</TopPos>
+               <LeftPos>28.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>C(PackingSlipTemplateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PackingSlipTemplateVar</DataSource>
+               <Binding>6</Binding>
+               <SelectionEvent>Reset</SelectionEvent>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/packing_slip_template_shipment_packing_slip_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>SortBy2Var(1, sTemplateType=1, 3, sTemplateType=3)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(PackingSlipTemplateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="PackingSlipTemplateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>9.47647058823529</TopPos>
+               <LeftPos>7.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <Caption>sPackingSlipTemplate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sPackingSlipTemplate</EffectiveCaption>
+            </Component>
+            <Component Name="PageBetweenPackages">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>18</TabOrder>
+               <TopPos>12.0323529411765</TopPos>
+               <LeftPos>28.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>24</Width>
+               <Caption>sPageBetweenPackages</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PageBetweenPackagesVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/page_between_packages_shipment_packing_slip_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_PageBetweenPackages)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPageBetweenPackages</EffectiveCaption>
+            </Component>
+            <Component Name="PickupDateEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>39</TabOrder>
+               <TopPos>22.8333333333333</TopPos>
+               <LeftPos>63.7</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Caption>C(PickupDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PickupDateEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/pickup_date_range_shipment_bill_of_lading_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterDateCombo)</Post301Format>
+               <EffectiveCaption>C(PickupDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="PickupDateEndingOffset">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>22.7352941176471</TopPos>
+               <LeftPos>97</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PickupDateEndingOffset</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>DateOffsetVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="PickupDateIncrement">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>22.8333333333333</TopPos>
+               <LeftPos>77.357143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PickupDateIncrement(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/i/increment_date.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateIncrementVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sIncrementDate</EffectiveCaption>
+            </Component>
+            <Component Name="PickupDateStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>37</TabOrder>
+               <TopPos>22.8333333333333</TopPos>
+               <LeftPos>28.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Caption>C(PickupDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PickupDateStarting</DataSource>
+               <Binding>6</Binding>
+               <EventToGenerate>GenerateReport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/pickup_date_range_shipment_bill_of_lading_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateVar(PickupDateStarting,PickupDateEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterDateCombo)</Post301Format>
+               <EffectiveCaption>C(PickupDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="PickupDateStartingOffset">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>38</TabOrder>
+               <TopPos>22.8333333333333</TopPos>
+               <LeftPos>42.214286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PickupDateStartingOffset</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>DateOffsetVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="PickupDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>36</TabOrder>
+               <TopPos>23.0333333333333</TopPos>
+               <LeftPos>16.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>11.428571</Width>
+               <Caption>sPickupDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sPickupDate</EffectiveCaption>
+            </Component>
+            <Component Name="PreviewButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>43</TabOrder>
+               <TopPos>26</TopPos>
+               <LeftPos>39.5</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15</Width>
+               <Caption>sPrev&amp;iew</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>PreviewReport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/buttons/p/preview_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterButton)</Post301Format>
+               <EffectiveCaption>sPrev&amp;iew</EffectiveCaption>
+            </Component>
+            <Component Name="Print">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>44</TabOrder>
+               <TopPos>26</TopPos>
+               <LeftPos>55.25</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15</Width>
+               <Caption>sP&amp;rint</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>GenerateReport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/buttons/p/print_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>JUSTIFY(C) THEMECLASS(MasterButton)</Post301Format>
+               <EffectiveCaption>sP&amp;rint</EffectiveCaption>
+            </Component>
+            <Component Name="PrintBlankPickupDate">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>0.941176470588235</TopPos>
+               <LeftPos>6.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>26</Width>
+               <Caption>sPrintBlankPickupDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintBlankPickupDate(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_blank_pickup_date_shipment_pro_forma_invoice_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintBlankPickupDate</EffectiveCaption>
+            </Component>
+            <Component Name="PrintByShipmentNumberChk">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>14.8</TopPos>
+               <LeftPos>28.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>28.25</Width>
+               <Caption>sPrintbyShipmentNumber</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintbyShipmentNumber</DataSource>
+               <Binding>6</Binding>
+               <EventToGenerate>SetUseProfile</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_by_shipment_number_shipment_packing_slip_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format>VISIBLEWHEN(V(cvw_PrintByShipmentNumberChk)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintbyShipmentNumber</EffectiveCaption>
+            </Component>
+            <Component Name="PrintCertificateOfConformance">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>19</TabOrder>
+               <TopPos>13.4047058823529</TopPos>
+               <LeftPos>28.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>35</Width>
+               <Caption>sPrintCertificateOfConformance</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintCertificateOfConformanceVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_certificate_of_conformance_shipment_packing_slip_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintCertificateOfConformance)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintCertificateOfConformance</EffectiveCaption>
+            </Component>
+            <Component Name="PrintCustomerLotNumbers">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>14.8</TopPos>
+               <LeftPos>63.5</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30.625</Width>
+               <Caption>sPrintCustomerLotNumbers</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintCustomerLotNumbersVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_customer_lot_numbers_shipment_packing_slip_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>VISIBLEWHEN(V(cvw_PrintCustomerLotNumbers)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintCustomerLotNumbers</EffectiveCaption>
+            </Component>
+            <Component Name="PrintDeliveryIncoTerms">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>21</TabOrder>
+               <TopPos>10.6323529411765</TopPos>
+               <LeftPos>63.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>28</Width>
+               <Caption>sPrintDeliveryIncoTerms</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintDeliveryIncoTermsVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_delivery_inco_terms_order_invoicing_credit_memo.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintDeliveryIncoTerms)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintDeliveryIncoTerms</EffectiveCaption>
+            </Component>
+            <Component Name="PrintDescriptionCheckBox">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>2.41176470588235</TopPos>
+               <LeftPos>6.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>33</Width>
+               <Caption>sPrintLine/ReleaseDescription</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintDescriptionVar(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_linerelease_description_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintLine/ReleaseDescription</EffectiveCaption>
+            </Component>
+            <Component Name="PrintEUDetails">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>22</TabOrder>
+               <TopPos>12.0323529411765</TopPos>
+               <LeftPos>63.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19</Width>
+               <Caption>sPrintEUDetails</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintEUDetailsVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_eu_details_order_invoicing_credit_memo.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintEUDetails)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintEUDetails</EffectiveCaption>
+            </Component>
+            <Component Name="PrintExternalNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>3.88235294117647</TopPos>
+               <LeftPos>6.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>26</Width>
+               <Caption>sPrintExternalNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintExternalNotes(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintExternalNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintHeaderOnAllPages">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>17</TabOrder>
+               <TopPos>10.6323529411765</TopPos>
+               <LeftPos>28.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>35</Width>
+               <Caption>sPrintHeaderOnAllPages</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintHeaderOnAllPagesVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_header_on_all_pages_shipment_packing_slip_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintHeaderOnAllPages)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintHeaderOnAllPages</EffectiveCaption>
+            </Component>
+            <Component Name="PrintInternalNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>5.35294117647059</TopPos>
+               <LeftPos>6.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>26</Width>
+               <Caption>sPrintInternalNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintInternalNotes(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintInternalNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintKitComponents">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>13</TabOrder>
+               <TopPos>3.8</TopPos>
+               <LeftPos>77.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>30.625</Width>
+               <Caption>sPrintKitComponents</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintKitComponents(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_kit_components_shipment_packing_slip_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintKitComponents</EffectiveCaption>
+            </Component>
+            <Component Name="PrintLotNumbers">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>23</TabOrder>
+               <TopPos>13.3529411764706</TopPos>
+               <LeftPos>63.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <Caption>sPrintLotNumbers</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintLotNumbersVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_eu_details_order_invoicing_credit_memo.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintLotNumbers)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintLotNumbers</EffectiveCaption>
+            </Component>
+            <Component Name="PrintPackageWeight">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>20</TabOrder>
+               <TopPos>9.17647058823529</TopPos>
+               <LeftPos>63.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23</Width>
+               <Caption>sPrintPackageWeight</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintPackageWeightVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_package_weight_shipment_packing_slip_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintPackageWeight)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintPackageWeight</EffectiveCaption>
+            </Component>
+            <Component Name="ProfileExistsGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>30</LeftPos>
+               <Height>6.73333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NiceLittleGrid</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.DerProfileExists</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+            </Component>
+            <Component Name="Rangebox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>24</TabOrder>
+               <TopPos>16.4333333333333</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>8.05882352941176</Height>
+               <ListHeight>2</ListHeight>
+               <Width>107.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="SelectPrinterToolbarButton">
+               <DeviceID>-1</DeviceID>
+               <Type>11</Type>
+               <TabOrder>510</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sSelectPrinter</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>SelectPrinter</EventToGenerate>
+               <Flags>38617376</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <BitmapFileName>SelectPrinter.png</BitmapFileName>
+               <HelpContextID>1246576928</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sSelectPrinter</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>29</TabOrder>
+               <TopPos>18.4333333333333</TopPos>
+               <LeftPos>63.7</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>22</Width>
+               <Caption>C(ShipmentStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ShipmentEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/shipment_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>ShipmentVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(ShipmentStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>17.3333333333333</TopPos>
+               <LeftPos>6</LeftPos>
+               <Height>6.73333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NiceLittleGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ShipmentId</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ShipmentID</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sShipment</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>28</TabOrder>
+               <TopPos>18.4333333333333</TopPos>
+               <LeftPos>28.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>22</Width>
+               <Caption>C(ShipmentStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ShipmentStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/shipment_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>ShipmentVar(ShipmentStarting,ShipmentEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(ShipmentStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>27</TabOrder>
+               <TopPos>18.6333333333333</TopPos>
+               <LeftPos>16.0714281428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <Caption>sShipment</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sShipment</EffectiveCaption>
+            </Component>
+            <Component Name="ShipToEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>21.3666666666667</TopPos>
+               <LeftPos>63.7</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>6</Width>
+               <Caption>C(ShipToStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ShipToEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/ship_to_customer_audit_trail.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>ShipToVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+               <EffectiveCaption>C(ShipToStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipToStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>21.3666666666667</TopPos>
+               <LeftPos>28.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>6</Width>
+               <Caption>C(ShipToStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ShipToStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/ship_to_customer_audit_trail.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>ShipToVar(ShipToStarting,ShipToEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+               <EffectiveCaption>C(ShipToStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipToStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>21.5666666666667</TopPos>
+               <LeftPos>19.642857</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8.285714</Width>
+               <Caption>sShipTo</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sShipTo</EffectiveCaption>
+            </Component>
+            <Component Name="StartingStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>17.3666666666667</TopPos>
+               <LeftPos>28.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <Caption>sStarting</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sStarting</EffectiveCaption>
+            </Component>
+            <Component Name="StoreOptionsMenuItem">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>39</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;StoreOptions</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RunStoreOptions</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>s&amp;StoreOptions</EffectiveCaption>
+            </Component>
+            <Component Name="UseProfile">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>2.47058823529412</TopPos>
+               <LeftPos>77.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <Caption>sUseProfile</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.UseProfile(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <EventToGenerate>SetPrintbyShipmentNumber</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/u/use_profile.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>CheckBoxVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterCheckBox) BTF()</Post301Format>
+               <EffectiveCaption>sUseProfile</EffectiveCaption>
+            </Component>
+         </Components>
+         <EventHandlers>
+            <EventHandler Name="CheckPrintProcessThreshold" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>CheckPrintProcessThreshold(ShipmentPackingSlipReport,PreviewPrintReport,V(ShipmentStarting),V(ShipmentEnding),V(CustomerStarting),V(CustomerEnding),V(ShipToStarting),V(ShipToEnding),V(PickupDateStarting),V(PickupDateEnding),V(PickupDateStartingOffset),V(PickupDateEndingOffset))</Response>
+            </EventHandler>
+            <EventHandler Name="CollectionRefresh" Sequence="0">
+               <ResponseType>28</ResponseType>
+               <Response>object COLID(object)</Response>
+            </EventHandler>
+            <EventHandler Name="DetailReportPreview" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>CheckPrintProcessThreshold(ShipmentPackingSlipReport,PreviewPrintReport,V(SubShipmentStarting),V(SubShipmentEnding),V(CustomerStarting),V(CustomerEnding),V(ShipToStarting),V(ShipToEnding),V(PickupDateStarting),V(PickupDateEnding),V(PickupDateStartingOffset),V(PickupDateEndingOffset))</Response>
+            </EventHandler>
+            <EventHandler Name="DetailReportPreview" Sequence="1">
+               <ResponseType>40</ResponseType>
+               <Response>TASKNAME(V(BGTaskDetailName))TASKPARMS(V(BGTaskDetailParms))TASKSTATUS(V(BGTaskStatus))TASKNUMBER(BGTaskNumber)PROFILEVALUES(V(LangCode), V(FaxNumber), V(Email), V(NumCopies),V(Printer),V(CoverSheetContact),V(FaxTemplateInfo),V(CoverSheetCompany)) ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>SetDateOffset(PickupDateStarting,PickupDateStartingOffset,PickupDateIncrement,PickupDateEnding,PickupDateEndingOffset,PickupDateIncrement)</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="1">
+               <ResponseType>35</ResponseType>
+               <Response>CheckPrintProcessThreshold()</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>GenerateProfileReport() ERRORMESSAGE(mNoRecordsProcessedAndNoReportsGenerated)</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="3">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #V(SplitPromptResponseVar) &lt;&gt; "-1", "ReportSubmit")</Response>
+            </EventHandler>
+            <EventHandler Name="InitializeActiveFeatureList" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeActiveFeatureList()</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>SetDateOffset(PickupDateStarting,PickupDateStartingOffset,PickupDateIncrement,PickupDateEnding,PickupDateEndingOffset,PickupDateIncrement)</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="1">
+               <ResponseType>22</ResponseType>
+               <Response>SETVARVALUES(SubShipmentStarting=V(ShipmentStarting), SubShipmentEnding=V(ShipmentEnding))</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>PreviewReport()</Response>
+            </EventHandler>
+            <EventHandler Name="ReportPreview" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>CheckPrintProcessThreshold(ShipmentPackingSlipReport,PreviewPrintReport,V(SubShipmentStarting),V(SubShipmentEnding),V(CustomerStarting),V(CustomerEnding),V(ShipToStarting),V(ShipToEnding),V(PickupDateStarting),V(PickupDateEnding),V(PickupDateStartingOffset),V(PickupDateEndingOffset))</Response>
+            </EventHandler>
+            <EventHandler Name="ReportPreview" Sequence="1">
+               <ResponseType>40</ResponseType>
+               <Response>TASKNAME(V(BGTaskName))TASKPARMS(V(BGTaskParms)) ERRORMESSAGE(mPrintPreviewError)</Response>
+            </EventHandler>
+            <EventHandler Name="ReportSubmit" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>ReportSubmitted()</Response>
+            </EventHandler>
+            <EventHandler Name="Reset" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>Reset()</Response>
+            </EventHandler>
+            <EventHandler Name="RunBackgroundQueue" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>BackgroundQueue( OKCANCELOPTIONAL() SETVARVALUES(BGTaskName=V(BGTaskName), RunTaskEvent=GenerateReport) )</Response>
+            </EventHandler>
+            <EventHandler Name="RunGetOptions" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>GetOptions( OKCANCELOPTIONAL() )</Response>
+            </EventHandler>
+            <EventHandler Name="RunStoreOptions" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>StoreOptions( OKCANCELOPTIONAL() )</Response>
+            </EventHandler>
+            <EventHandler Name="SelectPrinter" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>ReportOptions( OKCANCELOPTIONAL() )</Response>
+            </EventHandler>
+            <EventHandler Name="SetPrintbyShipmentNumber" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(Set:#V(PrintbyShipmentNumber), #V(UseProfile) = "1", "0")</Response>
+            </EventHandler>
+            <EventHandler Name="SetUseProfile" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(Set:#V(UseProfile), #V(PrintbyShipmentNumber) = "1", "0")</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SLCoparms.GetOrderParmsSp( PARMS(RVAR, RVAR, RVAR V(PackingSlipTemplateVar)) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="1">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(ActiveFeatureList) &lt;&gt; "", "InitializeActiveFeatureList")</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="2">
+               <ResponseType>49</ResponseType>
+               <Response>SLParms( SETV(DefaultOneBusinessDocumentPerReportVar=DefaultOneBusinessDocumentPerReport) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="3">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(Set:#V(PrintbyShipmentNumber), #GV(Avail_JP) = "1" &amp; #V(DefaultOneBusinessDocumentPerReportVar) = "1", "1")</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="4">
+               <ResponseType>21</ResponseType>
+               <Response>SetUseProfile(  )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="5">
+               <ResponseType>35</ResponseType>
+               <Response>AssignTaskName() ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitDetailReport" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #V(PrintbyShipmentNumber) &lt;&gt; "1", "SubmitDetailReportNoSplit", GenEvent:"ThisForm", #V(PrintbyShipmentNumber) = "1", "SubmitDetailReportSplit") ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitDetailReportNoSplit" Sequence="0">
+               <ResponseType>19</ResponseType>
+               <Response>TASKNAME(V(BGTaskDetailName))TASKPARMS(V(BGTaskDetailParms))TASKSTATUS(V(BGTaskStatus))TASKNUMBER(BGTaskNumber)PROFILEVALUES(V(LangCode), V(FaxNumber), V(Email), V(NumCopies),V(Printer),V(CoverSheetContact),V(FaxTemplateInfo),V(CoverSheetCompany)) ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitDetailReportSplit" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>SplitRangePrintTaskByKeyAnchor(ShipmentPackingSlipReport,SplitPrintingByRange,V(BGTaskDetailName),BGTaskDetailParms,SubShipmentStarting=,SubShipmentEnding=,1,,V(SubShipmentStarting),V(SubShipmentEnding),V(CustomerStarting),V(CustomerEnding),V(ShipToStarting),V(ShipToEnding))</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitReport" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #V(PrintbyShipmentNumber) &lt;&gt; "1", "SubmitReportNoSplit", GenEvent:"ThisForm", #V(PrintbyShipmentNumber) = "1", "SubmitReportSplit") ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitReportNoSplit" Sequence="0">
+               <ResponseType>19</ResponseType>
+               <Response>TASKNAME(V(BGTaskName))TASKPARMS(V(BGTaskParms))TASKSTATUS(V(BGTaskStatus))TASKNUMBER(BGTaskNumber)PROFILEVALUES(V(LangCode), V(FaxNumber), V(Email), V(NumCopies),V(Printer),V(CoverSheetContact),V(FaxTemplateInfo),V(CoverSheetCompany)) ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitReportSplit" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>SplitRangePrintTaskByKeyAnchor(ShipmentPackingSlipReport,SplitPrintingByRange,V(BGTaskName),BGTaskParms,MinShipNum=,MaxShipNum=,1,,V(SubShipmentStarting),V(SubShipmentEnding),V(CustomerStarting),V(CustomerEnding),V(ShipToStarting),V(ShipToEnding))</Response>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="BGTaskDetailName">
+               <Value>ShipmentPackingSlipDetailReport</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskDetailParms">
+               <Value>SETVARVALUES(PrintBlankPickupDate=V(PrintBlankPickupDate),IncludeSerialNumbers=V(IncludeSerialNumbers),DisplayShipmentNotes=V(DisplayShipmentNotes),DisplayShipmentSeqNotes=V(DisplayShipmentSeqNotes),DisplayShipmentPackageNotes=V(DisplayShipmentPackageNotes),SubShipmentStarting=V(SubShipmentStarting),SubShipmentEnding=V(SubShipmentEnding),CustomerStarting=V(CustomerStarting),CustomerEnding=V(CustomerEnding),ShipToStarting=V(ShipToStarting),ShipToEnding=V(ShipToEnding),PickupDateStartingOffset=V(P</Value>
+               <Value2>ickupDateStartingOffset),PickupDateEndingOffset=V(PickupDateEndingOffset),DateNullVar=V(DateNullVar),DateNullVar=V(DateNullVar),PrintInternalNotes=V(PrintInternalNotes),PrintExternalNotes=V(PrintExternalNotes),DisplayHeader=V(DisplayHeader),PrintDescriptionVar=V(PrintDescriptionVar),PrintHeaderOnAllPagesVar=V(PrintHeaderOnAllPagesVar),PageBetweenPackagesVar=V(PageBetweenPackagesVar),PrintCertificateOfConformanceVar=V(PrintCertificateOfConformanceVar),PrintPackageWeightVar=V(PrintPackageWeightVar</Value2>
+               <Value3>),PrintDeliveryIncoTermsVar=V(PrintDeliveryIncoTermsVar),PrintEUDetailsVar=V(PrintEUDetailsVar),PrintKitComponents=V(PrintKitComponents),PrintLotNumbersVar=V(PrintLotNumbersVar),pSite=V(Parm_Site),IncludeCustSerialNumbers=V(IncludeCustSerialNumbers),PrintCustomerLotNumbersVar=V(PrintCustomerLotNumbersVar))</Value3>
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskName">
+               <Value>ShipmentPackingSlipReport</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParms">
+               <Value>SETVARVALUES(PrintBlankPickupDate=V(PrintBlankPickupDate),IncludeSerialNumbers=V(IncludeSerialNumbers),DisplayShipmentNotes=V(DisplayShipmentNotes),PrintShipmentSeqNotes=V(DisplayShipmentSeqNotes),DisplayShipmentPackageNotes=V(DisplayShipmentPackageNotes),MinShipNum=V(SubShipmentStarting),MaxShipNum=V(SubShipmentEnding),CustomerStarting=V(CustomerStarting),CustomerEnding=V(CustomerEnding),ShipToStarting=V(ShipToStarting),ShipToEnding=V(ShipToEnding),PickupDateStartingOffset=V(PickupDateStartingO</Value>
+               <Value2>ffset),PickupDateEndingOffset=V(PickupDateEndingOffset),DateNullVar=V(DateNullVar),DateNullVar=V(DateNullVar),ShowInternal=V(PrintInternalNotes),ShowExternal=V(PrintExternalNotes),DisplayHeader=V(DisplayHeader),pSite=V(Parm_Site),PrintDescription=V(PrintDescriptionVar),PrintHeaderOnAllPagesVar=V(PrintHeaderOnAllPagesVar),PageBetweenPackagesVar=V(PageBetweenPackagesVar),PrintCertificateOfConformanceVar=V(PrintCertificateOfConformanceVar),PrintPackageWeightVar=V(PrintPackageWeightVar),PrintDeliver</Value2>
+               <Value3>yIncoTermsVar=V(PrintDeliveryIncoTermsVar),PrintEUDetailsVar=V(PrintEUDetailsVar),PrintKitComponents=V(PrintKitComponents),PrintLotNumbersVar=V(PrintLotNumbersVar),IncludeCustSerialNumbers=V(IncludeCustSerialNumbers),PrintCustomerLotNumbersVar=V(PrintCustomerLotNumbersVar))</Value3>
+               <Description />
+            </Variable>
+            <Variable Name="cew_PageBetweenPackages">
+               <Value>Enabled:#C(PageBetweenPackages), #C(PackingSlipTemplate) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintCertificateOfConformance">
+               <Value>Enabled:#C(PrintCertificateOfConformance), #V(PackingSlipTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintDeliveryIncoTerms">
+               <Value>Enabled:#C(PrintDeliveryIncoTerms), #V(PackingSlipTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintEUDetails">
+               <Value>Enabled:#C(PrintEUDetails), #V(PackingSlipTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintHeaderOnAllPages">
+               <Value>Enabled:#C(PrintHeaderOnAllPages), #V(PackingSlipTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintLotNumbers">
+               <Value>Enabled:#C(PrintLotNumbers), #V(PackingSlipTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintPackageWeight">
+               <Value>Enabled:#C(PrintPackageWeight), #V(PackingSlipTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_FeatureControlEdit">
+               <Value>Visible:#C(IncludeCustSerialNumbers), #GV(IsCSIB_68758ActiveVar) = "1", "True", Enabled:#C(IncludeCustSerialNumbers), #GV(IsCSIB_68758ActiveVar) = "1", "True", Visible:#C(PrintCustomerLotNumbers), #GV(IsCSIB_71568ActiveVar) = "1", "True", Enabled:#C(PrintCustomerLotNumbers), #GV(IsCSIB_71568ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_IncludeCustLot">
+               <Value>Enabled:#C(IncludeCustLot), #V(PackingSlipTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PrintByShipmentNumberChk">
+               <Value>Visible:#C(PrintByShipmentNumberChk), #GV(IsCSIB_68929ActiveVar) = "1" &amp; #GV(Avail_JP) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PrintCustomerLotNumbers">
+               <Value>Enabled:#C(PrintCustomerLotNumbers), #V(PackingSlipTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="DefaultOneBusinessDocumentPerReportVar">
+               <Value>~LIT~(0)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_DataSource">
+               <Value>SL.SLShipments.ProfileShipmentPackingSlipSp( V(fds1_PrimaryMethodParms) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_PrimaryMethodParms">
+               <Value>PARMS(VAR V(ShipmentStarting), VAR V(ShipmentEnding), VAR V(CustomerStarting), VAR V(CustomerEnding), VAR V(ShipToStarting), VAR V(ShipToEnding), VAR V(PickupDateStarting), VAR V(PickupDateEnding), VAR 0, VAR 0, VAR V(DisplayHeader))</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Namespace SyteLine.FormScripts</ScriptLine>
+               <ScriptLine>    Public Class ShipmentPackingSlipReport</ScriptLine>
+               <ScriptLine>        Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Function GenerateProfileReport() As Integer</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            Dim linIndex As Integer</ScriptLine>
+               <ScriptLine>            Dim linStart As Integer</ScriptLine>
+               <ScriptLine>            Dim linProfIdx As Integer</ScriptLine>
+               <ScriptLine>            Dim iResult As Integer</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            iResult = -1 ' indicate no records processed</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.Variables("LangCode").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("NumCopies").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("FaxNumber").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Email").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Printer").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("CoverSheetContact").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("FaxTemplateInfo").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("CoverSheetCompany").Value = ""</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.Variables("UseProfile").Value &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("SubShipmentStarting").Value = ThisForm.Variables("ShipmentStarting").Value</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("SubShipmentEnding").Value = ThisForm.Variables("ShipmentEnding").Value</ScriptLine>
+               <ScriptLine>                GenerateReport()</ScriptLine>
+               <ScriptLine>                iResult = 0</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("CollectionRefresh")</ScriptLine>
+               <ScriptLine>                Do While linIndex &lt; ThisForm.PrimaryIDOCollection.GetNumEntries</ScriptLine>
+               <ScriptLine>                    linStart = linIndex</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("SubShipmentStarting").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("ShipmentId", linStart)</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("LangCode").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linStart)</ScriptLine>
+               <ScriptLine>                    For linIndex = linStart + 1 To ThisForm.PrimaryIDOCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                        If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linStart) &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                            If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linIndex) = "1" Then Exit For</ScriptLine>
+               <ScriptLine>                        Else</ScriptLine>
+               <ScriptLine>                            If ThisForm.PrimaryIDOCollection.GetObjectProperty("CustNum", linIndex) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("CustNum", linStart) Or _</ScriptLine>
+               <ScriptLine>                               ThisForm.PrimaryIDOCollection.GetObjectProperty("CustSeq", linIndex) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("CustSeq", linStart) Then Exit For</ScriptLine>
+               <ScriptLine>                        End If</ScriptLine>
+               <ScriptLine>                        If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linIndex) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linStart) Then Exit For</ScriptLine>
+               <ScriptLine>                    Next</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("SubShipmentEnding").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("ShipmentId", linIndex - 1)</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("NumCopies").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("FaxNumber").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("Email").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("Printer").Value = ""</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linStart) &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                        GenerateReport()</ScriptLine>
+               <ScriptLine>                        iResult = 0</ScriptLine>
+               <ScriptLine>                    Else</ScriptLine>
+               <ScriptLine>                        For linProfIdx = linStart To linIndex - 1</ScriptLine>
+               <ScriptLine>                            If ThisForm.PrimaryIDOCollection.GetObjectProperty("ShipmentId", linProfIdx) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("ShipmentId", linStart) Or _</ScriptLine>
+               <ScriptLine>                               ThisForm.PrimaryIDOCollection.GetObjectProperty("CustNum", linProfIdx) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("CustNum", linStart) Or _</ScriptLine>
+               <ScriptLine>                               ThisForm.PrimaryIDOCollection.GetObjectProperty("CustSeq", linProfIdx) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("CustSeq", linStart) Then Exit For</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            ThisForm.Variables("NumCopies").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("FaxNumber").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("Email").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("Printer").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("CoverSheetContact").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("FaxTemplateInfo").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("CoverSheetCompany").Value = ""</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            Select Case ThisForm.PrimaryIDOCollection.GetObjectProperty("DerMethod", linProfIdx)</ScriptLine>
+               <ScriptLine>                                Case "F"</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("FaxNumber").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerDestination", linProfIdx)</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("CoverSheetContact").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerCoverSheetContact", linProfIdx)</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("CoverSheetCompany").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerCoverSheetCompany", linProfIdx)</ScriptLine>
+               <ScriptLine>                                Case "E"</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("Email").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerDestination", linProfIdx)</ScriptLine>
+               <ScriptLine>                                Case "P"</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("Printer").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerDestination", linProfIdx)</ScriptLine>
+               <ScriptLine>                            End Select</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            If IsNumeric(ThisForm.PrimaryIDOCollection.GetObjectProperty("DerNumCopies", linProfIdx)) Then</ScriptLine>
+               <ScriptLine>                                If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerNumCopies", linProfIdx) &gt; "1" Then</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("NumCopies").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerNumCopies", linProfIdx)</ScriptLine>
+               <ScriptLine>                                End If</ScriptLine>
+               <ScriptLine>                            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            GenerateReport()</ScriptLine>
+               <ScriptLine>                            iResult = 0</ScriptLine>
+               <ScriptLine>                        Next</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                Loop</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            GenerateProfileReport = iResult</ScriptLine>
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SetStartEndReport()</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("SubShipmentStarting").Value = ThisForm.Variables("ShipmentStarting").Value</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("SubShipmentEnding").Value = ThisForm.Variables("ShipmentEnding").Value</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>        Sub Reset()</ScriptLine>
+               <ScriptLine>            Select ThisForm.Variables("PackingSlipTemplateVar").Value</ScriptLine>
+               <ScriptLine>                Case "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintHeaderOnAllPagesVar").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PageBetweenPackagesVar").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintCertificateOfConformanceVar").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintPackageWeightVar").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintDeliveryIncoTermsVar").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintEUDetailsVar").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintLotNumbersVar").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintCustomerLotNumbersVar").Value = "0"</ScriptLine>
+               <ScriptLine>            End Select</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub GenerateReport()</ScriptLine>
+               <ScriptLine>            Select Case ThisForm.Variables("PackingSlipTemplateVar").Value</ScriptLine>
+               <ScriptLine>                Case "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("SubmitReport")</ScriptLine>
+               <ScriptLine>                Case "3"</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("SubmitDetailReport")</ScriptLine>
+               <ScriptLine>            End Select</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PreviewReport()</ScriptLine>
+               <ScriptLine>            Select Case ThisForm.Variables("PackingSlipTemplateVar").Value</ScriptLine>
+               <ScriptLine>                Case "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("ReportPreview")</ScriptLine>
+               <ScriptLine>                Case "3"</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("DetailReportPreview")</ScriptLine>
+               <ScriptLine>            End Select</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Function CheckPrintProcessThreshold() As Integer</ScriptLine>
+               <ScriptLine>            Dim iResponse As Integer</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            CheckPrintProcessThreshold = 0</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.Variables("PrintbyShipmentNumber").Value &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                iResponse = ThisForm.GenerateEvent("CheckPrintProcessThreshold")</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                If iResponse = 0 Then</ScriptLine>
+               <ScriptLine>                    CheckPrintProcessThreshold = 0</ScriptLine>
+               <ScriptLine>                Else</ScriptLine>
+               <ScriptLine>                    CheckPrintProcessThreshold = -1</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub AssignTaskName()</ScriptLine>
+               <ScriptLine>            If Application.Variables("Avail_PL").Value = "1" And Application.Variables("IsCSIB_79704ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>               ThisForm.Variables("BGTaskName").Value = "PLShipmentPackingSlipReport"</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>               ThisForm.Variables("BGTaskName").Value = "ShipmentPackingSlipReport"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>    End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

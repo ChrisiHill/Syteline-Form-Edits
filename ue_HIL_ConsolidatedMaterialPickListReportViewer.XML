@@ -1,0 +1,1414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="ue_HIL_ConsolidatedMaterialPickListReportViewer" Scope="1" ScopeName="[NULL]">
+         <Caption>Consolidated Job Material Pick List Report Viewer</Caption>
+         <Type>6</Type>
+         <StandardOperations>1</StandardOperations>
+         <Flags>1048585</Flags>
+         <Height>102.470588684082</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>96</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/forms/system/viewer_forms.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>3.2999999999999998</PaneZeroSize>
+         <FilterFormSpec>Job &gt;= FV(StartJob) AND Job &lt;= FV(EndJob)</FilterFormSpec>
+         <PrimaryDataSource>V(fds_DataSource)</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <LockedBy>brian.devine@inforlogic.com</LockedBy>
+         <Components>
+            <Component Name="BGCompanyNameStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>95</TabOrder>
+               <TopPos>65.4117647058823</TopPos>
+               <LeftPos>32.875</LeftPos>
+               <Height>2.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageFooterFlexLayout</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>variables.BG_COMPANYNAME(INITIALVALUE(BG_COMPANYNAME))</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C) THEMECLASS(ReportLabel)</Post301Format>
+               <LayoutAttributes>MARGIN(0.25,0.25,0.25,0.25) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="BGCurPageStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>97</TabOrder>
+               <TopPos>65.4117647058823</TopPos>
+               <LeftPos>84.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>3</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageFooterFlexLayout</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>variables.BG_CURPAGE(INITIALVALUE(BG_CURPAGE))</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C) THEMECLASS(ReportLabel)</Post301Format>
+               <LayoutAttributes>MARGIN(0.25,0.25,0.25,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="BGSiteIDStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>93</TabOrder>
+               <TopPos>65.4117647058823</TopPos>
+               <LeftPos>2.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageFooterFlexLayout</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.BG_SITEID(INITIALVALUE(BG_SITEID))</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <LayoutAttributes>MARGIN(0.25,0.25,0,0) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="BGTotalPagesStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>99</TabOrder>
+               <TopPos>65.4117647058823</TopPos>
+               <LeftPos>90.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>3</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageFooterFlexLayout</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>variables.BG_TOTALPAGES(INITIALVALUE(BG_TOTALPAGES))</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C) THEMECLASS(ReportLabel)</Post301Format>
+               <LayoutAttributes>MARGIN(0.25,0.25,0.25,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="BGUserIDStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>94</TabOrder>
+               <TopPos>66.7058823529412</TopPos>
+               <LeftPos>2.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageFooterFlexLayout</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>variables.BG_USERID(INITIALVALUE(BG_USERID))</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <LayoutAttributes>MARGIN(0.25,0,0,0) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="CompanyLogoStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>-6</TopPos>
+               <LeftPos>82.25</LeftPos>
+               <Height>4.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageHeaderFlexLayout</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <BitmapFileName>company-logo.jpg</BitmapFileName>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>MARGIN(0.25,0.25,0.25,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="DesignButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>1.05882352941176</TopPos>
+               <LeftPos>28.875</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sDesign</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NavigationFlexLayout</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>StdFormPageFirst</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_DesignButton))</Post301Format>
+               <EffectiveCaption>sDesign</EffectiveCaption>
+               <LayoutAttributes>INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="EndingHeaderStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>8.94117647058823</TopPos>
+               <LeftPos>61.625</LeftPos>
+               <Height>1.25</Height>
+               <ListHeight>0</ListHeight>
+               <Width>31.875</Width>
+               <Caption>sEnding</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportHeader9FlexLayout</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sEnding</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="EndJobStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>10.1176470588235</TopPos>
+               <LeftPos>61.625</LeftPos>
+               <Height>1.25</Height>
+               <ListHeight>0</ListHeight>
+               <Width>22</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportHeader10FlexLayout</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>variables.EndJob</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="EndSuffixStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>10.1176470588235</TopPos>
+               <LeftPos>86.25</LeftPos>
+               <Height>1.25</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportHeader10FlexLayout</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>variables.EndSuffix</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>=Iif(IsNothing(Parameters!EndSuffix.Value),
+"",
+"-" &amp; Format(Parameters!EndSuffix.Value,"0000"))</HelpFileName>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>SuffixVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sSuffix</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(7) TARGET(UNKNOWN7)</LayoutAttributes>
+            </Component>
+            <Component Name="ExecutionTimeStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>-2.8235294117647</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageHeaderFlexLayout</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>variables.BG_EXECUTIONTIME(INITIALVALUE(BG_EXECUTIONTIME))</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>DateTimeVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <LayoutAttributes>MARGIN(0.5,0.5,0.5,0.5) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="ExportButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>1.05882352941176</TopPos>
+               <LeftPos>68.25</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sExport</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NavigationFlexLayout</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>StdFormReportExport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_ExportButton))</Post301Format>
+               <EffectiveCaption>sExport</EffectiveCaption>
+               <LayoutAttributes>INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout1_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20.6666666666667</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>13</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1_SITE; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2_SITE; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3_SITE; VALUE: 9fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN0_SITE; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN4_SITE; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN5_SITE; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION7(ID: UNKNOWN6_SITE; VALUE: 1; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(6) TARGET(UNKNOWN0_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="FormPage1">
+               <DeviceID>-1</DeviceID>
+               <Type>24</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="GroupByJobSuffixHeader3FlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>37</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>BACKCOLOR(207,207,207)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3_SITE; VALUE: 9fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4_SITE; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN3; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN4; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION7(ID: UNKNOWN5; VALUE: 1; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(4) TARGET(UNKNOWN20)</LayoutAttributes>
+            </Component>
+            <Component Name="GroupByJobSuffixHeader4FlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>38.2352941176471</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3_SITE; VALUE: 9fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4_SITE; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5_SITE; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN6_SITE; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION7(ID: UNKNOWN7_SITE; VALUE: 1; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(8) TARGET(UNKNOWN21)</LayoutAttributes>
+            </Component>
+            <Component Name="GroupByJobSuffixHeader7FlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>43.7058823529412</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 4fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(8) TARGET(UNKNOWN21)</LayoutAttributes>
+            </Component>
+            <Component Name="Hyphen1Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>140</TabOrder>
+               <TopPos>10.1176470588235</TopPos>
+               <LeftPos>84.625</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0.625</Width>
+               <Caption>-</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportHeader10FlexLayout</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>-</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(6) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="HyphenStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>139</TabOrder>
+               <TopPos>10.1176470588235</TopPos>
+               <LeftPos>51.75</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0.625</Width>
+               <Caption>-</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportHeader10FlexLayout</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>-</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="ItemHeader2Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20</TopPos>
+               <LeftPos>6.125</LeftPos>
+               <Height>1.25</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sItem</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>GroupByJobSuffixHeader3FlexLayout</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sItem</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="JobHeaderStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>10.1176470588235</TopPos>
+               <LeftPos>4.125</LeftPos>
+               <Height>1.25</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23.625</Width>
+               <Caption>sJob</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportHeader10FlexLayout</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sJob</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="Line1Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>141</TabOrder>
+               <TopPos>47.4117647058824</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>0.117647058823529</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>9</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>262161</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <LayoutAttributes>INDEX(8) TARGET(UNKNOWN21)</LayoutAttributes>
+            </Component>
+            <Component Name="Line2Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>138</TabOrder>
+               <TopPos>56.7647058823529</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>0.0588235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>8</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>262161</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <LayoutAttributes>INDEX(8) TARGET(UNKNOWN21)</LayoutAttributes>
+            </Component>
+            <Component Name="Line3Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>142</TabOrder>
+               <TopPos>48.7647058823529</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>0.0588235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>10</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>262161</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <LayoutAttributes>INDEX(8) TARGET(UNKNOWN21)</LayoutAttributes>
+            </Component>
+            <Component Name="MainFlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>1</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>85</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormPage1</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>385</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>TYPE(VerticalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 10; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(DisplayHeader) = 1; SECTYPE: ReportHeader; VISINDESIGN: True) REGION1(ID: UNKNOWN1; VALUE: 5; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: PageHeader) REGION2(ID: UNKNOWN10; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(DisplayHeader) = 1; SECTYPE: ReportHeader; VISINDESIGN: True) REGION3(ID: UNKNOWN11; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(DisplayHeader) = 1; SECTYPE: ReportHeader; VISINDESIGN: True) REGION4(ID: UNKNOWN20; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(MatlLst132) &lt;&gt; 1 | #V(MatlLst132) &lt;&gt; 1; SECTYPE: GroupHeader; GRPPROP: ItmItem; VISINDESIGN: True) REGION5(ID: UNKNOWN5_SITE; VALUE: 0.1; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ItmItem) REGION6(ID: UNKNOWN0_SITE; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ItmItem) REGION7(ID: UNKNOWN7_SITE; VALUE: 0.1; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ItmItem) REGION8(ID: UNKNOWN21; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(MatlLst132) &lt;&gt; 1 | #V(MatlLst132) &lt;&gt; 1; SECTYPE: GroupHeader; GRPPROP: Item; VISINDESIGN: True) REGION9(ID: UNKNOWN6_SITE; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupFooter; GRPPROP: ItmItem; BRKAFT: True) REGION10(ID: UNKNOWN49; VALUE: 2.6; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: PageFooter) REGION11(ID: UNKNOWN50; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: 1=2; VISINDESIGN: True) INDEX(0)</LayoutAttributes>
+            </Component>
+            <Component Name="NavigationFlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>-1</TabOrder>
+               <TopPos>0.5</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>2.5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>128</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) INDEX(0)</LayoutAttributes>
+            </Component>
+            <Component Name="NextButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>1.05882352941176</TopPos>
+               <LeftPos>55.125</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sNext</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NavigationFlexLayout</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>StdFormPageNext</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_NextButton))</Post301Format>
+               <EffectiveCaption>sNext</EffectiveCaption>
+               <LayoutAttributes>INDEX(4) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="OfStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>98</TabOrder>
+               <TopPos>65.4117647058823</TopPos>
+               <LeftPos>88.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>2</Width>
+               <Caption>sOf</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageFooterFlexLayout</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sOf</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.25,0.25,0.25,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="PageFooterFlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>92</TabOrder>
+               <TopPos>82.4117647058823</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Vertical; ALIGN: Left; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Top; PACK: End; BORDER: Enable) INDEX(10) TARGET(UNKNOWN49)</LayoutAttributes>
+            </Component>
+            <Component Name="PageHeaderFlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>11</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 5fl; ORIEN: Vertical; ALIGN: Left; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 12; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="PageStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>96</TabOrder>
+               <TopPos>65.4117647058823</TopPos>
+               <LeftPos>78.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5.5</Width>
+               <Caption>sPage</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageFooterFlexLayout</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sPage</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.25,0.25,0.25,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="PreviousButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>1.05882352941176</TopPos>
+               <LeftPos>42</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sPrevious</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NavigationFlexLayout</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>StdFormPagePop</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_PreviousButton))</Post301Format>
+               <EffectiveCaption>sPrevious</EffectiveCaption>
+               <LayoutAttributes>INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="ReleasedHeaderStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20</TopPos>
+               <LeftPos>54</LeftPos>
+               <Height>1.25</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17.375</Width>
+               <Caption>sReleased</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>GroupByJobSuffixHeader3FlexLayout</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sReleased</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(5) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="ReportCaptionStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>-5.76470588235294</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>2</Height>
+               <ListHeight>0</ListHeight>
+               <Width>55.5</Width>
+               <Caption>Consolidated Job Material Pick List Report</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageHeaderFlexLayout</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportCaption)</Post301Format>
+               <EffectiveCaption>Consolidated Job Material Pick List Report</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.5,0.5,0.5) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="ReportHeader10FlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>27.1176470588235</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 15fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 14fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 14fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION7(ID: UNKNOWN7; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION8(ID: UNKNOWN8; VALUE: 0fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(3) TARGET(UNKNOWN11)</LayoutAttributes>
+            </Component>
+            <Component Name="ReportHeader9FlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>25.8823529411765</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 16fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 20fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 20fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 0fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(2) TARGET(UNKNOWN10)</LayoutAttributes>
+            </Component>
+            <Component Name="ReportHeaderFlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>1</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>10</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 20; ORIEN: Vertical; ALIGN: Stretch; PACK: Start; BORDER: Enable; MARGIN: 0,0,1,0) REGION2(ID: UNKNOWN2; VALUE: 10fl; ORIEN: Vertical; ALIGN: Stretch; PACK: Start; BORDER: Enable; MARGIN: 0.25,0,0.25,0) REGION3(ID: UNKNOWN3; VALUE: 10fl; ORIEN: Vertical; ALIGN: Stretch; PACK: Start; BORDER: Enable; MARGIN: 0.25,0,0.25,0) REGION4(ID: UNKNOWN4; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="RunButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>1.05882352941176</TopPos>
+               <LeftPos>15.75</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sRun</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NavigationFlexLayout</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>StdFormReportGenerate</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_RunButton))</Post301Format>
+               <EffectiveCaption>sRun</EffectiveCaption>
+               <LayoutAttributes>INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="StartingHeaderStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>8.94117647058823</TopPos>
+               <LeftPos>28.75</LeftPos>
+               <Height>1.25</Height>
+               <ListHeight>0</ListHeight>
+               <Width>31.875</Width>
+               <Caption>sStarting</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportHeader9FlexLayout</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sStarting</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="StartJobStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>10.1176470588235</TopPos>
+               <LeftPos>28.75</LeftPos>
+               <Height>1.25</Height>
+               <ListHeight>0</ListHeight>
+               <Width>22</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportHeader10FlexLayout</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>variables.StartJob</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="StartSuffixStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>10.1176470588235</TopPos>
+               <LeftPos>53.375</LeftPos>
+               <Height>1.25</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportHeader10FlexLayout</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>variables.StartSuffix</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>=Iif(IsNothing(Parameters!StartSuffix.Value),
+"",
+"-" &amp; Format(Parameters!StartSuffix.Value,"0000"))</HelpFileName>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>SuffixVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sSuffix</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(4) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="static1_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>19.6666666666667</TopPos>
+               <LeftPos>16.5</LeftPos>
+               <Height>1.22222222222222</Height>
+               <ListHeight>0</ListHeight>
+               <Width>52.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>GroupByJobSuffixHeader4FlexLayout</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Item</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format>JUSTIFY(L)</Post301Format>
+               <EffectiveCaption>sItem</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="static10_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20.6666666666667</TopPos>
+               <LeftPos>68.375</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>3.625</Width>
+               <Caption>sUM</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout1_SITE</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sUM</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(4) TARGET(UNKNOWN0_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="static11_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20.6666666666667</TopPos>
+               <LeftPos>72</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11</Width>
+               <Caption>sTotalReq</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout1_SITE</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sTotalReq</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(5) TARGET(UNKNOWN4_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="static12_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20.8888888888889</TopPos>
+               <LeftPos>35</LeftPos>
+               <Height>1.22222222222222</Height>
+               <ListHeight>0</ListHeight>
+               <Width>33.375</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>GroupByJobSuffixHeader4FlexLayout</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.Description</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format>JUSTIFY(L)</Post301Format>
+               <EffectiveCaption>sDescription</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(3) TARGET(UNKNOWN3_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="static13_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20.8888888888889</TopPos>
+               <LeftPos>68.375</LeftPos>
+               <Height>1.22222222222222</Height>
+               <ListHeight>0</ListHeight>
+               <Width>3.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>GroupByJobSuffixHeader4FlexLayout</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.UM</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UM</PropertyClassName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>sU/M</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(4) TARGET(UNKNOWN4_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="static14_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>21.1111111111111</TopPos>
+               <LeftPos>81.75</LeftPos>
+               <Height>1.22222222222222</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>GroupByJobSuffixHeader4FlexLayout</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.MatlQtyConv</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyPer</PropertyClassName>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sQty</EffectiveCaption>
+               <LayoutAttributes>INDEX(6) TARGET(UNKNOWN6_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="static15_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>19.7777777777778</TopPos>
+               <LeftPos>81.75</LeftPos>
+               <Height>1.22222222222222</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout1_SITE</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.QtyReleased</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sReleased</EffectiveCaption>
+               <LayoutAttributes>INDEX(6) TARGET(UNKNOWN5_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="static2_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>19.6666666666667</TopPos>
+               <LeftPos>68.625</LeftPos>
+               <Height>1.22222222222222</Height>
+               <ListHeight>0</ListHeight>
+               <Width>25.375</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>GroupByJobSuffixHeader4FlexLayout</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>expression( SUMEXP( 'object', (P('MatlQtyConv')) * (P('QtyReleased')), 'ItmItem, Item' ) )</DataSource>
+               <Binding>24</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301DataType>DATATYPE(DECIMAL)</Post301DataType>
+               <Post301Format>MASK(&gt;&gt;&gt;&gt;&gt;&gt;9.99) JUSTIFY(R)</Post301Format>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(5) TARGET(UNKNOWN5_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="static3_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>18.4444444444444</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.22222222222222</Height>
+               <ListHeight>0</ListHeight>
+               <Width>3.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>GroupByJobSuffixHeader3FlexLayout</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.ItmItem</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format>JUSTIFY(L)</Post301Format>
+               <EffectiveCaption>sItem</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="static4_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>18.4444444444444</TopPos>
+               <LeftPos>35</LeftPos>
+               <Height>1.22222222222222</Height>
+               <ListHeight>0</ListHeight>
+               <Width>33.375</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>GroupByJobSuffixHeader3FlexLayout</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.ItmDescription</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ItemDescription</PropertyClassName>
+               <Post301Format>JUSTIFY(L)</Post301Format>
+               <EffectiveCaption>sItemDescription</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(3) TARGET(UNKNOWN3_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="static5_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>18.4444444444444</TopPos>
+               <LeftPos>79.375</LeftPos>
+               <Height>1.22222222222222</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>GroupByJobSuffixHeader3FlexLayout</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>aggregate.object(FUNCTION(SUM) PROPERTY(QtyReleased) GROUPBY(ItmItem,Item,Sequence))</DataSource>
+               <Binding>23</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301DataType>DATATYPE(DECIMAL)</Post301DataType>
+               <Post301Format>MASK(&gt;&gt;&gt;&gt;&gt;&gt;9.99) JUSTIFY(L)</Post301Format>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(6) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="static6_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>19.6666666666667</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>11</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>262145</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <LayoutAttributes>INDEX(5) TARGET(UNKNOWN5_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="static7_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>21.6666666666667</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>12</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>262145</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <LayoutAttributes>INDEX(7) TARGET(UNKNOWN7_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="static8_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20.6666666666667</TopPos>
+               <LeftPos>35</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>33.375</Width>
+               <Caption>sDescription</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout1_SITE</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sDescription</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(3) TARGET(UNKNOWN3_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="static9_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20.6666666666667</TopPos>
+               <LeftPos>16.625</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>18.375</Width>
+               <Caption>sItem</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout1_SITE</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sItem</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0) INDEX(2) TARGET(UNKNOWN2_SITE)</LayoutAttributes>
+            </Component>
+         </Components>
+         <EventHandlers>
+            <EventHandler Name="InitializeActiveFeatureList" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeActiveFeatureList()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(ActiveFeatureList) &lt;&gt; "", InitializeActiveFeatureList)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="1">
+               <ResponseType>8</ResponseType>
+               <Response>CheckForParentForm()</Response>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="cew_DesignButton">
+               <Value>Enabled:#C(DesignButton), #V(StdCurFormPage) &lt;&gt; "0", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ExportButton">
+               <Value>Enabled:#C(ExportButton), #V(StdLastFormPage) &gt; "0", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_NextButton">
+               <Value>Enabled:#C(NextButton), #V(StdCurFormPage) &lt; #V(StdLastFormPage), "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PreviousButton">
+               <Value>Enabled:#C(PreviousButton), #V(StdCurFormPage) &gt; "0", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_RunButton">
+               <Value>Enabled:#C(RunButton), #V(StdCurFormPage) = "0", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_Item3BCStatic">
+               <Value>Visible:#C(Item3BCStatic), #P(Item3_BC) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_JobWithSuffix_BCStatic">
+               <Value>Visible:#C(JobWithSuffix_BCStatic), #P(JobWithSuffix_BC) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_LocBCStatic">
+               <Value>Visible:#C(LocBCStatic), #P(Loc_BC) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_LotBCStatic">
+               <Value>Visible:#C(LotBCStatic), #P(Lot_BC) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_OperNum_BCStatic">
+               <Value>Visible:#C(OperNum_BCStatic), #P(OperNum_BC) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PlantHeaderStatic">
+               <Value>Visible:#C(PlantHeaderStatic), #GV(IsRS7786_2ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PlantStatic">
+               <Value>Visible:#C(PlantStatic), #GV(IsRS7786_2ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_SerNumBCStatic">
+               <Value>Visible:#C(SerNumBCStatic), #V(PrintSN) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_SerNumStatic">
+               <Value>Visible:#C(SerNumStatic), #V(PrintSN) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_SerNumStatic1">
+               <Value>Visible:#C(SerNumStatic), #V(PrintSN) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_SNHeader2Static">
+               <Value>Visible:#C(SNHeader2Static), #V(PrintSN) = 1 &amp; #P(SerNum) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_SNHeader2Static1">
+               <Value>Visible:#C(SNHeader2Static), #V(PrintSN) = 1 &amp; #P(SerNum) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_SNHeader3Static">
+               <Value>Visible:#C(SNHeader3Static), #V(PrintSN) = 1 &amp; #P(SerNum) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_Um3BC1Static">
+               <Value>Visible:#C(Um3BC1Static), #P(Um3_BC) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_Um3BCStatic">
+               <Value>Visible:#C(Um3BCStatic), #P(Um3_BC) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_DataSource">
+               <Value>SLJobMatls( FILTERPERM(Job &gt;= FV(StartJob) AND Job &lt;= FV(EndJob)) ORDERBY(ItmItem, Item) RECORDCAP(20000) LOCKMODE(Row) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC2">
+               <Value>OBJECT2( SLJobs( CA(VISOGRND) FILTERPERM(Job = FP(Job) AND Suffix = FP(Suffix) AND Job &gt;= FV(StartJob) AND Job &lt;= FV(EndJob)) RECORDCAP(0) LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_PrimaryMethodParms">
+               <Value>PARMS(VAR V(StartJob),VAR V(EndJob),VAR V(StartSuffix),VAR V(EndSuffix),VAR V(JobStat),VAR V(StartItem),VAR V(EndItem),VAR V(StartProdMix),VAR V(EndProdMix),VAR V(StartJobDate),VAR V(EndJobDate),VAR V(StartOpera),VAR V(EndOpera),VAR V(MatlLst132),VAR V(MatlLstDate),VAR V(PickByLoc),VAR V(PrintSN),VAR V(PrintBCFmt),VAR V(PageOpera),VAR V(PrintSecLoc),VAR V(ExtScrapFact),VAR V(ReprintPick),VAR V(DisplayRefFields),VAR V(StartJobDateOffset),VAR V(EndJobDateOffset),VAR V(DisplayHeader),VAR V(BGSessio</Value>
+               <Value2>nId),VAR V(Parm_Site))</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="InitialCommand">
+               <Value>Refresh</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine />
+               <ScriptLine />
+               <ScriptLine>Namespace Mongoose.FormScripts</ScriptLine>
+               <ScriptLine>Public Class ue_HIL_ConsolidatedMaterialPickListReportViewer</ScriptLine>
+               <ScriptLine>Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

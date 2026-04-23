@@ -1,0 +1,1141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="RMAVerificationReport" Scope="1" ScopeName="[NULL]">
+         <Caption>fRMAVerificationReport</Caption>
+         <Type>3</Type>
+         <StandardOperations>32</StandardOperations>
+         <Flags>968</Flags>
+         <Height>22</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>87</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/forms/rmatopic/rma_verification_report.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>0</PaneZeroSize>
+         <PrimaryDataSource />
+         <MasterDeviceID>0</MasterDeviceID>
+         <Components>
+            <Component Name="BackgroundQueue">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;Background</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RunBackgroundQueue</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>s&amp;Background</EffectiveCaption>
+            </Component>
+            <Component Name="Box">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>13</TabOrder>
+               <TopPos>7.17999982833862</TopPos>
+               <LeftPos>1.14285695552826</LeftPos>
+               <Height>2.86999988555908</Height>
+               <ListHeight>2</ListHeight>
+               <Width>85.1999969482422</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="Box1">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>0.129999995231628</TopPos>
+               <LeftPos>34.5</LeftPos>
+               <Height>7.23529411764706</Height>
+               <ListHeight>2</ListHeight>
+               <Width>51.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="CustomerEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>23</TabOrder>
+               <TopPos>13.2666673660278</TopPos>
+               <LeftPos>50.25</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15</Width>
+               <Caption>C(CustomerStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.CustomerEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/customer_reportutility_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Customers(PROPERTY(CustNum))</MaintainFromSpec>
+               <DefaultFrom>CustNumVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(CustomerStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CustomerStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>22</TabOrder>
+               <TopPos>13.2352941176471</TopPos>
+               <LeftPos>31.375</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15</Width>
+               <Caption>C(CustomerStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.CustomerStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/customer_reportutility_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Customers(PROPERTY(CustNum))</MaintainFromSpec>
+               <DefaultFrom>CustNumVar(CustomerStarting,CustomerEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(CustomerStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CustomerStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>21</TabOrder>
+               <TopPos>13.5666666030884</TopPos>
+               <LeftPos>20.7142868041992</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.1428565979004</Width>
+               <Caption>sCustomer</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sCustomer</EffectiveCaption>
+            </Component>
+            <Component Name="DisplayHeader">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>14</TabOrder>
+               <TopPos>8.18000030517578</TopPos>
+               <LeftPos>35</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>24</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DisplayHeader(INITIALVALUE(V(Parm_DisplayReportHeaders)))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/fields/d/display_report_headers_general_parameters.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DisplayHeaderVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sDisplayReportHeader</EffectiveCaption>
+            </Component>
+            <Component Name="EndingStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>17</TabOrder>
+               <TopPos>10.6700000762939</TopPos>
+               <LeftPos>50.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <Caption>sEnding</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sEnding</EffectiveCaption>
+            </Component>
+            <Component Name="GenerateReport">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>37</TabOrder>
+               <TopPos>20.1299991607666</TopPos>
+               <LeftPos>43.9000015258789</LeftPos>
+               <Height>1.39999997615814</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15</Width>
+               <Caption>sP&amp;rint</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>GenerateReport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/buttons/p/print_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301DataType>LENGTH(15)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterButton)</Post301Format>
+               <EffectiveCaption>sP&amp;rint</EffectiveCaption>
+            </Component>
+            <Component Name="GetOptionsMenuItem">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;GetOptions</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>32484</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RunGetOptions</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>s&amp;GetOptions</EffectiveCaption>
+            </Component>
+            <Component Name="Preview">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>36</TabOrder>
+               <TopPos>20.0588235294118</TopPos>
+               <LeftPos>28.125</LeftPos>
+               <Height>1.39999997615814</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15</Width>
+               <Caption>sPrev&amp;iew</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>PreviewReport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/buttons/p/preview_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301DataType>LENGTH(15)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterButton)</Post301Format>
+               <EffectiveCaption>sPrev&amp;iew</EffectiveCaption>
+            </Component>
+            <Component Name="PrintExternalNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>2.58823529411765</TopPos>
+               <LeftPos>60.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>23</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintExternalNotes(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>PrintExternalNotesVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintExternalNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintInternalNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>1.11764705882353</TopPos>
+               <LeftPos>60.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>23</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintInternalNotes(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>PrintInternalNotesVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintInternalNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintItemOverview">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>4.05882352941176</TopPos>
+               <LeftPos>60.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>22</Width>
+               <Caption>sPrintItemOverview</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintItemOverview(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_item_overview.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintItemOverview</EffectiveCaption>
+            </Component>
+            <Component Name="PrintReasonText">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>4.05882352941176</TopPos>
+               <LeftPos>36.214287349156</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>24</Width>
+               <Caption>sPrintRMALineReason</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintReasonText(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_rma_line_reason.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintRMALineReason</EffectiveCaption>
+            </Component>
+            <Component Name="PrintRMALineNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>2.58823529411765</TopPos>
+               <LeftPos>36.214287349156</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>23</Width>
+               <Caption>sPrintRMALineNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintRMALineNotes(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintRMALineNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintRMANotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>1.12999999523163</TopPos>
+               <LeftPos>36.214287349156</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>18</Width>
+               <Caption>sPrintRMANotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintRMANotes(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintRMANotes</EffectiveCaption>
+            </Component>
+            <Component Name="RangeBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>9.80000019073486</TopPos>
+               <LeftPos>1.14285695552826</LeftPos>
+               <Height>9.89999961853027</Height>
+               <ListHeight>2</ListHeight>
+               <Width>85.1999969482422</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="RMADateEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>30</TabOrder>
+               <TopPos>16.2333335876465</TopPos>
+               <LeftPos>50.25</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Caption>C(RMADateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.RMADateEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/rma_date_rma_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterDateCombo)</Post301Format>
+               <EffectiveCaption>C(RMADateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="RMADateEndingOffset">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>32</TabOrder>
+               <TopPos>16.2000007629395</TopPos>
+               <LeftPos>81.25</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.RMADateEndingOffset</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>DateOffsetVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="RMADateIncrement">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>31</TabOrder>
+               <TopPos>16.2333335876465</TopPos>
+               <LeftPos>63.75</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>2</ListHeight>
+               <Width>17.125</Width>
+               <Caption>sIncrementDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.RMADateIncrement(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/i/increment_date.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateIncrementVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sIncrementDate</EffectiveCaption>
+            </Component>
+            <Component Name="RMADateStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>29</TabOrder>
+               <TopPos>16.2333335876465</TopPos>
+               <LeftPos>31.2857131958008</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Caption>C(RMADateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.RMADateStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/rma_date_rma_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateVar(RMADateStarting,RMADateEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterDateCombo)</Post301Format>
+               <EffectiveCaption>C(RMADateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="RMADateStartingOffset">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>27</TabOrder>
+               <TopPos>16.2000007629395</TopPos>
+               <LeftPos>14.4285717010498</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.RMADateStartingOffset</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>DateOffsetVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="RMADateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>28</TabOrder>
+               <TopPos>16.5</TopPos>
+               <LeftPos>20.7142868041992</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.1428565979004</Width>
+               <Caption>sRMADate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sRMADate</EffectiveCaption>
+            </Component>
+            <Component Name="RMAEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>20</TabOrder>
+               <TopPos>11.8000001907349</TopPos>
+               <LeftPos>50.25</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>18</Width>
+               <Caption>C(RMAStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.RMAEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/rma_number_rma_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>RMAs( PROPERTY(RmaNum) )</MaintainFromSpec>
+               <DefaultFrom>RmaNumVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(RMAStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="RMALineEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>17.6666679382324</TopPos>
+               <LeftPos>50.25</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>5</Width>
+               <Caption>C(RMALineStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.RMALineEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/rma_line_rma_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>RMALineVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+               <EffectiveCaption>C(RMALineStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="RMALineStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>17.6666679382324</TopPos>
+               <LeftPos>31.2857131958008</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>5</Width>
+               <Caption>C(RMALineStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.RMALineStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/rma_line_rma_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>RMALineVar(RMALineStarting,RMALineEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+               <EffectiveCaption>C(RMALineStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="RMALineStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>17.966667175293</TopPos>
+               <LeftPos>20.7142868041992</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.1428565979004</Width>
+               <Caption>sRmaLine</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sRmaLine</EffectiveCaption>
+            </Component>
+            <Component Name="RMAStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>19</TabOrder>
+               <TopPos>11.8000001907349</TopPos>
+               <LeftPos>31.2857131958008</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>18</Width>
+               <Caption>C(RMAStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.RMAStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/rma_number_rma_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>RMAs( PROPERTY(RmaNum) )</MaintainFromSpec>
+               <DefaultFrom>RmaNumVar(RMAStarting,RMAEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(RMAStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="RMAStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>18</TabOrder>
+               <TopPos>12.1000003814697</TopPos>
+               <LeftPos>20.7142868041992</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.1428565979004</Width>
+               <Caption>sRMA</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sRMA</EffectiveCaption>
+            </Component>
+            <Component Name="SelectPrinterToolbarButton">
+               <DeviceID>-1</DeviceID>
+               <Type>11</Type>
+               <TabOrder>510</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sSelectPrinter</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>SelectPrinter</EventToGenerate>
+               <Flags>38617376</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <BitmapFileName>SelectPrinter.png</BitmapFileName>
+               <HelpContextID>1246576928</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sSelectPrinter</EffectiveCaption>
+            </Component>
+            <Component Name="StartingStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>10.6700000762939</TopPos>
+               <LeftPos>31.2857131958008</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <Caption>sStarting</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sStarting</EffectiveCaption>
+            </Component>
+            <Component Name="Status">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.129999995231628</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>7.26666688919067</Height>
+               <ListHeight>2</ListHeight>
+               <Width>33</Width>
+               <Caption>sStatus</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sStatus</EffectiveCaption>
+            </Component>
+            <Component Name="StatusClosed">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>2.58823531795951</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <Caption>sClosed</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StatusClosed(INITIALVALUE())</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/status_rma_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(C) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sClosed</EffectiveCaption>
+            </Component>
+            <Component Name="StatusHistory">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>2.58823531795951</TopPos>
+               <LeftPos>20</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <Caption>sHistory</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StatusHistory(INITIALVALUE())</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/status_rma_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(H) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sHistory</EffectiveCaption>
+            </Component>
+            <Component Name="StatusOpen">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>1.12999999523163</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <Caption>sOpened</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StatusOpen(INITIALVALUE(O))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/status_rma_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(O) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sOpened</EffectiveCaption>
+            </Component>
+            <Component Name="StatusStopped">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>1.12999999523163</TopPos>
+               <LeftPos>20</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <Caption>sStopped</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StatusStopped(INITIALVALUE(S))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/status_rma_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(S) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sStopped</EffectiveCaption>
+            </Component>
+            <Component Name="StoreOptionsMenuItem">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;StoreOptions</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>32484</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RunStoreOptions</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>s&amp;StoreOptions</EffectiveCaption>
+            </Component>
+            <Component Name="SttusRequested">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>4.05882355325362</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <Caption>sRequested</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StatusRequested(INITITALVALUE())</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(R)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sRequested</EffectiveCaption>
+            </Component>
+            <Component Name="WhseEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>26</TabOrder>
+               <TopPos>14.7666673660278</TopPos>
+               <LeftPos>50.25</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <Caption>C(WhseStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.WhseEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/w/warehousewhse_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>WhseVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(WhseStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="WhseStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>14.7666673660278</TopPos>
+               <LeftPos>31.2857131958008</LeftPos>
+               <Height>1.29999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <Caption>C(WhseStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.WhseStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/w/warehousewhse_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>WhseVar(WhseStarting,WhseEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(WhseStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="WhseStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>24</TabOrder>
+               <TopPos>15.0666666030884</TopPos>
+               <LeftPos>20.7142868041992</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10.1428565979004</Width>
+               <Caption>sWhse</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sWhse</EffectiveCaption>
+            </Component>
+         </Components>
+         <EventHandlers>
+            <EventHandler Name="GenerateReport" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>SetDateOffset(RMADateStarting,RMADateStartingOffset,RMADateIncrement,RMADateEnding,RMADateEndingOffset,RMADateIncrement)</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="1">
+               <ResponseType>19</ResponseType>
+               <Response>TASKNAME(V(BGTaskName))TASKPARMS(V(ReportOptions))TASKSTATUS(V(BGTaskStatus))TASKNUMBER(BGTaskNumber) ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="2">
+               <ResponseType>8</ResponseType>
+               <Response>ReportSubmitted()</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>SetDateOffset(RMADateStarting,RMADateStartingOffset,RMADateIncrement,RMADateEnding,RMADateEndingOffset,RMADateIncrement)</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="1">
+               <ResponseType>40</ResponseType>
+               <Response>TASKNAME(V(BGTaskName))TASKPARMS(V(ReportOptions)) ERRORMESSAGE(mPrintPreviewError)</Response>
+            </EventHandler>
+            <EventHandler Name="RunBackgroundQueue" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>BackgroundQueue( SETVARVALUES(BGTaskName=V(BGTaskName), RunTaskEvent=GenerateReport) )</Response>
+            </EventHandler>
+            <EventHandler Name="RunGetOptions" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>GetOptions(OKCANCELOPTIONAL())</Response>
+            </EventHandler>
+            <EventHandler Name="RunStoreOptions" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>StoreOptions(OKCANCELOPTIONAL())</Response>
+            </EventHandler>
+            <EventHandler Name="SelectPrinter" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>ReportOptions( OKCANCELOPTIONAL() )</Response>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="BGTaskName">
+               <Value>RMAVerificationReport</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParms">
+               <Value>V(RMAStarting),V(RMAEnding),V(StatusOpen)V(StatusStopped)V(StatusHistory)V(StatusClosed)V(StatusRequested),V(CustomerStarting),V(CustomerEnding),V(WhseStarting),V(WhseEnding),V(RMADateStartingOffset),V(RMADateEndingOffset),V(RMALineStarting),V(RMALineEnding),V(PrintInternalNotes),V(PrintExternalNotes),V(PrintItemOverview),V(PrintRMANotes),V(PrintRMALineNotes),V(PrintReasonText),V(DateNullVar),V(DateNullVar),V(DisplayHeader)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="CustomerEnding">
+               <Value>~LIT~()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="CustomerStarting">
+               <Value>~LIT~()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ReportOptions">
+               <Value>SETVARVALUES(RMAStarting=V(RMAStarting),RMAEnding=V(RMAEnding),Status=V(StatusOpen)V(StatusStopped)V(StatusHistory)V(StatusClosed)V(StatusRequested),CustomerStarting=V(CustomerStarting),CustomerEnding=V(CustomerEnding),WhseStarting=V(WhseStarting),WhseEnding=V(WhseEnding),RMADateStartingOffset=V(RMADateStartingOffset),RMADateEndingOffset=V(RMADateEndingOffset),RMALineStarting=V(RMALineStarting),RMALineEnding=V(RMALineEnding),PrintInternalNotes=V(PrintInternalNotes),PrintExternalNotes=V(PrintExte</Value>
+               <Value2>rnalNotes),PrintItemOverview=V(PrintItemOverview),PrintRMANotes=V(PrintRMANotes),PrintRMALineNotes=V(PrintRMALineNotes),PrintReasonText=V(PrintReasonText),StartingRMADateOffset=V(DateNullVar),EndingRMADateOffset=V(DateNullVar),DisplayHeader=V(DisplayHeader),Site=V(Parm_Site))</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="RMAEnding">
+               <Value>~LIT~()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="RMAStarting">
+               <Value>~LIT~()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="StatusClosed">
+               <Value>~LIT~()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="StatusHistory">
+               <Value>~LIT~()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="StatusOpen">
+               <Value>~LIT~(O)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="StatusRequested">
+               <Value>~LIT~(R)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="StatusStopped">
+               <Value>~LIT~(S)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="WhseEnding">
+               <Value>~LIT~()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="WhseStarting">
+               <Value>~LIT~()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Namespace SyteLine.FormScripts</ScriptLine>
+               <ScriptLine>    Public Class RMAVerificationReport</ScriptLine>
+               <ScriptLine>        Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        '</ScriptLine>
+               <ScriptLine>        'Methods go here</ScriptLine>
+               <ScriptLine>        '</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>    End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

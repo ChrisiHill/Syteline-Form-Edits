@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="BOMBulkImportErrors" Scope="1" ScopeName="[NULL]">
+         <Caption>fBOMBulkImportErrors</Caption>
+         <Type>1</Type>
+         <StandardOperations>185</StandardOperations>
+         <Flags>968</Flags>
+         <Height>28.7999992370605</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>109</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/forms/invtopic/bom_bulk_import_errors.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>0</PaneZeroSize>
+         <FilterFormSpec>BOMBulkImportErrorsQuery</FilterFormSpec>
+         <PrimaryDataSource>V(fds_DataSource)</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <LockedBy>chris.h@hillattach.com</LockedBy>
+         <Components>
+            <Component Name="ErrorDateGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>20</LeftPos>
+               <Height>14</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.ErrorDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdFind</MenuName>
+               <FindFromSpec>BOMBulkImportErrorsQuery.</FindFromSpec>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sErrorDate</EffectiveCaption>
+            </Component>
+            <Component Name="ErrorNumberGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>6</LeftPos>
+               <Height>14</Height>
+               <ListHeight>0</ListHeight>
+               <Width>14</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ErrorNumber</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format />
+               <EffectiveCaption>sErrorNumber</EffectiveCaption>
+            </Component>
+            <Component Name="FilenameGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>32</LeftPos>
+               <Height>14</Height>
+               <ListHeight>0</ListHeight>
+               <Width>34.2857142857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.Filename</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdFind</MenuName>
+               <FindFromSpec>BOMBulkImportErrorsQuery.</FindFromSpec>
+               <Post301Format />
+               <EffectiveCaption>sFilename</EffectiveCaption>
+            </Component>
+            <Component Name="FormCollectionGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>109</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>objects</DataSource>
+               <Binding>3</Binding>
+               <Flags>384</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGridWithActions()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="MessageGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>64.4285714285714</LeftPos>
+               <Height>14</Height>
+               <ListHeight>0</ListHeight>
+               <Width>41.5714285714286</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.Message</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>Infobar</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sMessage</EffectiveCaption>
+            </Component>
+         </Components>
+         <Variables>
+            <Variable Name="fds_DataSource">
+               <Value>SLBomBulkImportErrors( ORDERBY(ErrorNumber DESC) LOCKMODE(Row) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="InitialCommand">
+               <Value>FilterInPlace</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

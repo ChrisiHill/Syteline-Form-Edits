@@ -1,0 +1,3013 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="PackConfirmation" Scope="1" ScopeName="[NULL]">
+         <Caption>fPackConfirmation</Caption>
+         <Type>1</Type>
+         <StandardOperations>32</StandardOperations>
+         <Flags>776</Flags>
+         <Height>38.7999992370605</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>142</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/forms/cotopics/pack_confirmation.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>0</PaneZeroSize>
+         <PrimaryDataSource>V(fds_DataSource)  V(fds_SC2) V(fds_SC3) V(fds_SC4) V(fds_SC5)</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <Components>
+            <Component Name="CoItemhEdit1">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>29.9558823529412</TopPos>
+               <LeftPos>123.625</LeftPos>
+               <Height>1.26666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.57142857142857</Width>
+               <Caption>C(CoItemhStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object3.CoItemh</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Items( PROPERTY(Item) )</MaintainFromSpec>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CoItemhStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CustNumVarEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>44</TabOrder>
+               <TopPos>4.13333333333333</TopPos>
+               <LeftPos>124</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>14.2857142857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.CustNumVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Customers(PROPERTY(CustNum))</MaintainFromSpec>
+               <DefaultFrom>CustNumVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sCustomerNumber</EffectiveCaption>
+            </Component>
+            <Component Name="edit1">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>71</TabOrder>
+               <TopPos>15.2352941176471</TopPos>
+               <LeftPos>130.75</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>0</ListHeight>
+               <Width>6.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object3.PickListId</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>PickListId</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sPickList</EffectiveCaption>
+            </Component>
+            <Component Name="IsParentPackageEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>15</TopPos>
+               <LeftPos>123</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object5.DerIsParentPackage</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+            </Component>
+            <Component Name="PackagesGroup">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>31</TabOrder>
+               <TopPos>17.25</TopPos>
+               <LeftPos>0.75</LeftPos>
+               <Height>21.4117647058824</Height>
+               <ListHeight>0</ListHeight>
+               <Width>140.875</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="PackageTree">
+               <DeviceID>-1</DeviceID>
+               <Type>19</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>18.0147058823529</TopPos>
+               <LeftPos>91</LeftPos>
+               <Height>20.1176470588235</Height>
+               <ListHeight>0</ListHeight>
+               <Width>49.875</Width>
+               <Caption>sPackages</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>V(cds_DataSourcePackageTree)</DataSource>
+               <Binding>16</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/package_tree_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdFormHelp</MenuName>
+               <Post301Format />
+               <EffectiveCaption>sPackages</EffectiveCaption>
+            </Component>
+            <Component Name="PackingSlipButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>69</TabOrder>
+               <TopPos>0.6</TopPos>
+               <LeftPos>122.142857142857</LeftPos>
+               <Height>1.53333333333333</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19</Width>
+               <Caption>sPac&amp;kingSlip</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>LaunchPackSlipReport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/buttons/p/packing_slip_button_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPac&amp;kingSlip</EffectiveCaption>
+            </Component>
+            <Component Name="ParentContainerNumEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>19</TabOrder>
+               <TopPos>3.95588235294118</TopPos>
+               <LeftPos>81.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(ParentContainerNumStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ParentContainerNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/parent_container_pack_workbench.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Containers( PROPERTY(ContainerNum) )</MaintainFromSpec>
+               <PropertyClassName>ContainerNum</PropertyClassName>
+               <Post301Format>BTF()</Post301Format>
+               <EffectiveCaption>C(ParentContainerNumStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ParentContainerNumStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>18</TabOrder>
+               <TopPos>4.25588235294118</TopPos>
+               <LeftPos>67.2857142857143</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sParentContainer</EffectiveCaption>
+            </Component>
+            <Component Name="PickListEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>2.45833333333333</TopPos>
+               <LeftPos>14.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>C(PickListStatic)</Caption>
+               <Validators>PickListValid(PickListEdit,CustNumVarEdit,CustSeqVar,WhseVar,ShipLocVar,ShipmentIDEdit),Ask(PromptMessage,PromptButtons,PromptResponse),EvalResponseGenerateEvent(PromptResponse,AddShipment,PickListEdit)</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PickListIdVar</DataSource>
+               <Binding>6</Binding>
+               <SelectionEvent>OnLeaveOfPickList</SelectionEvent>
+               <ComboListSource>STDOLE SLPickLists(  PROPERTIES(PickListId, DerStatusFormatted, CustNum, Whse) FILTER(Status &lt;&gt; 'O' and Status&lt;&gt; 'S')ORDERBY(PickListId DESC))</ComboListSource>
+               <Flags>4128</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/pick_list_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>PickMaintenance( PROPERTY(PickListId) )</MaintainFromSpec>
+               <DefaultFrom>PickListIDVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>C(PickListStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="PickListStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>2.75833333333333</TopPos>
+               <LeftPos>1.71428571428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.2857142857143</Width>
+               <Caption>sPickList</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sPickList</EffectiveCaption>
+            </Component>
+            <Component Name="PrintPackageLabelsButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>70</TabOrder>
+               <TopPos>2.2</TopPos>
+               <LeftPos>122.142857142857</LeftPos>
+               <Height>1.53333333333333</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19</Width>
+               <Caption>sPrintPackage&amp;Labels</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>LaunchPackageLabels</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/buttons/p/print_package_labels_button_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPrintPackage&amp;Labels</EffectiveCaption>
+            </Component>
+            <Component Name="ProcessButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>24</TabOrder>
+               <TopPos>3.85</TopPos>
+               <LeftPos>104.571428571429</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>s&amp;Process</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>Process</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/buttons/p/process_button_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_ProcessButton))</Post301Format>
+               <EffectiveCaption>s&amp;Process</EffectiveCaption>
+            </Component>
+            <Component Name="ProcessIdEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>43</TabOrder>
+               <TopPos>32.7794117647059</TopPos>
+               <LeftPos>121.75</LeftPos>
+               <Height>1.05882352941176</Height>
+               <ListHeight>0</ListHeight>
+               <Width>9.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ProcessId(INITIALVALUE(NEWGUID()))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="QtyPackagesEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>2.45833333333333</TopPos>
+               <LeftPos>44.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <Caption>C(QtyPackagesStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.QtyPackages</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/n/number_of_packages_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Packages</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(QtyPackagesStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="QtyPackagesStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>2.75833333333333</TopPos>
+               <LeftPos>32.375</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>s#Packages</EffectiveCaption>
+            </Component>
+            <Component Name="RemoveFromPackageButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>36</TabOrder>
+               <TopPos>36.7970588235294</TopPos>
+               <LeftPos>40.5</LeftPos>
+               <Height>1.35294117647059</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17.75</Width>
+               <Caption>s&amp;RemoveFromPackage</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RemoveFromPackage</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/buttons/r/remove_from_package_button_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_RemoveFromPackageButton))</Post301Format>
+               <EffectiveCaption>s&amp;RemoveFromPackage</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmenIdGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>16</ContainerSequence>
+               <DataSource>object5.ShipmentId</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <DefaultData>V(TempShipmentId)</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ShipmentID</PropertyClassName>
+               <Post301DataType>DEFAULTVALUE(V(TempShipmentId))</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sShipmentID</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentCustomerEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>21</TabOrder>
+               <TopPos>1.06666666666667</TopPos>
+               <LeftPos>106.142857142857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.4285714285714</Width>
+               <Caption>C(ShipmentCustomerStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CustNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/customer_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Customers( PROPERTY(CustNum) )</MaintainFromSpec>
+               <PropertyClassName>CustNum</PropertyClassName>
+               <Post301DataType>DATATYPE(NUMSORTCHAR)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>C(ShipmentCustomerStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentCustomerShipToEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>23</TabOrder>
+               <TopPos>2.45833333333333</TopPos>
+               <LeftPos>106.142857142857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.4285714285714</Width>
+               <Caption>C(ShipmentCustomerShipToStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CustSeq</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/ship_to_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CustSeq</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(ShipmentCustomerShipToStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentCustomerShipToStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>22</TabOrder>
+               <TopPos>2.75833333333333</TopPos>
+               <LeftPos>95.1428571428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.4285714285714</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CustSeq</PropertyClassName>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sShipTo</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentCustomerStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>20</TabOrder>
+               <TopPos>1.36666666666667</TopPos>
+               <LeftPos>95.1428571428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.4285714285714</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sCustomer</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentGroupBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.133333333333333</TopPos>
+               <LeftPos>0.857142857142857</LeftPos>
+               <Height>5.41176470588235</Height>
+               <ListHeight>0</ListHeight>
+               <Width>119.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="ShipmentIDEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>1.06666666666667</TopPos>
+               <LeftPos>14.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>C(ShipmentIDStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.TempShipmentId</DataSource>
+               <Binding>6</Binding>
+               <SelectionEvent>OnLeaveOfShipmentId</SelectionEvent>
+               <ComboListSource>STDMC SLShipments.GetShipmentListSp( V(lsm1_ShipmentIDEdit) PROPERTIES(ShipmentId, DerStatusFormatted, CadName, CustSeq) DISTINCT() ORDERBY(ShipmentId, PickListId))</ComboListSource>
+               <Flags>4096</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/shipment_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>ShipmentVar()</DefaultFrom>
+               <PropertyClassName>ShipmentID</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(ShipmentIDStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentIDStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>1.36666666666667</TopPos>
+               <LeftPos>1.71428571428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.2857142857143</Width>
+               <Caption>sShipment</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sShipment</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentItemsCreatePackagesButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>29</TabOrder>
+               <TopPos>10.3013725490191</TopPos>
+               <LeftPos>121.643</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19</Width>
+               <Caption>s&amp;MergePackage</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>GeneratePackagePackage</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/buttons/m/merge_package_button_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_ShipmentItemsCreatePackagesButton))</Post301Format>
+               <EffectiveCaption>s&amp;MergePackage</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentItemsGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>19.7058823529412</TopPos>
+               <LeftPos>1.875</LeftPos>
+               <Height>16.5882352941176</Height>
+               <ListHeight>2</ListHeight>
+               <Width>87.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsTab</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>objects3</DataSource>
+               <Binding>8</Binding>
+               <Flags>384</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdGrid</MenuName>
+               <DefaultFrom>StdGrid()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_ShipmentItemsGrid))</Post301Format>
+            </Component>
+            <Component Name="ShipmentItemsGroup">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>5.75</TopPos>
+               <LeftPos>0.75</LeftPos>
+               <Height>11.4705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>141.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="ShipmentItemsInvItemFlag">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>75</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsGrid</ContainerName>
+               <ContainerSequence>10</ContainerSequence>
+               <DataSource>object3.DerInventoryItemFlag</DataSource>
+               <Binding>1</Binding>
+               <Flags>524288</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+            </Component>
+            <Component Name="ShipmentItemsItemCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>8.3</TopPos>
+               <LeftPos>24</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsGrid</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object3.DerItem</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Items( PROPERTY(Item) )</MaintainFromSpec>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sItem</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentItemsItemUMCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>8.3</TopPos>
+               <LeftPos>58</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsGrid</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object3.DerItemUM</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UM</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sU/M</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentItemsLocationCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>8.3</TopPos>
+               <LeftPos>81</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsGrid</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <DataSource>object3.Loc</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Loc</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLocation</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentItemsLotCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>8.3</TopPos>
+               <LeftPos>63</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsGrid</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object3.Lot</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Lots( PROPERTY(Lot) )</MaintainFromSpec>
+               <PropertyClassName>Lot</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLot</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentItemsNotebook">
+               <DeviceID>-1</DeviceID>
+               <Type>12</Type>
+               <TabOrder>32</TabOrder>
+               <TopPos>17.9411764705882</TopPos>
+               <LeftPos>1.375</LeftPos>
+               <Height>18.4117647058824</Height>
+               <ListHeight>0</ListHeight>
+               <Width>88.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>SetCurrentCollectionOnTab</EventToGenerate>
+               <Flags>256</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="ShipmentItemsPackageIdCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>8.3</TopPos>
+               <LeftPos>12</LeftPos>
+               <Height>5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object3.PackageId</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdHelp</MenuName>
+               <Post301Format />
+               <EffectiveCaption>sPackageId</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentItemsPackedCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>8.3</TopPos>
+               <LeftPos>95</LeftPos>
+               <Height>5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsGrid</ContainerName>
+               <ContainerSequence>8</ContainerSequence>
+               <DataSource>object3.DerPacked</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+            </Component>
+            <Component Name="ShipmentItemsQtyCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>8.3</TopPos>
+               <LeftPos>46</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>21</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsGrid</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object3.QtyPicked</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnitNoNeg</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sQtyPicked_l</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentItemsQtyEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>39</TabOrder>
+               <TopPos>36.7647058823529</TopPos>
+               <LeftPos>81.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.QtyVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/q/qty_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>QuantityVar()</DefaultFrom>
+               <Post301Format>JUSTIFY(R) BTF()</Post301Format>
+            </Component>
+            <Component Name="ShipmentItemsQtyStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>38</TabOrder>
+               <TopPos>37.15</TopPos>
+               <LeftPos>75.125</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5.875</Width>
+               <Caption>sQty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sQty</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentItemsSelectCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>8.3</TopPos>
+               <LeftPos>6</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>9</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object3.UbSelect</DataSource>
+               <Binding>1</Binding>
+               <SelectionEvent>SelectDeselectSerials</SelectionEvent>
+               <Flags>4096</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sSelect</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentItemsSerialTrackedCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>8.3</TopPos>
+               <LeftPos>105</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsGrid</ContainerName>
+               <ContainerSequence>9</ContainerSequence>
+               <DataSource>object3.CoItemItemSerialTracked</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sS/NTracked</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentItemsTab">
+               <DeviceID>-1</DeviceID>
+               <Type>13</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>17.9411764705882</TopPos>
+               <LeftPos>1.375</LeftPos>
+               <Height>18.4117647058824</Height>
+               <ListHeight>0</ListHeight>
+               <Width>88.75</Width>
+               <Caption>s&amp;Items</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsNotebook</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>SetCurrentCollectionOnTab</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>s&amp;Items</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentLocationEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>17</TabOrder>
+               <TopPos>2.45833333333333</TopPos>
+               <LeftPos>81.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.4285714285714</Width>
+               <Caption>C(ShipmentLocationStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ShipLoc</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/ship_from_location_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>LocationStockOnly()</DefaultFrom>
+               <PropertyClassName>Loc</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(V(cew_ShipmentLocationEdit))</Post301Format>
+               <EffectiveCaption>C(ShipmentLocationStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentLocationStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>2.75833333333333</TopPos>
+               <LeftPos>65.4642857142857</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.5714285714286</Width>
+               <Caption>sShipFromLocation</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sShipFromLocation</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentLotTrxRestrictCodeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>72</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsGrid</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>object3.LotTrxRestrictCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/t/transaction_restriction_code.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetails</MenuName>
+               <PropertyClassName>TrxRestrictCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sTransactionRestrictionCode</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackageAddToPackageButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>37</TabOrder>
+               <TopPos>36.7970588235294</TopPos>
+               <LeftPos>60</LeftPos>
+               <Height>1.35294117647059</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17.125</Width>
+               <Caption>sAddToPacka&amp;ge</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>GeneratePackage</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/buttons/a/add_to_package_button_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_ShipmentPackageAddToPackageButton))</Post301Format>
+               <EffectiveCaption>sAddToPacka&amp;ge</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagePackageEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>28</TabOrder>
+               <TopPos>8.63235294117646</TopPos>
+               <LeftPos>128.518</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.2857142857143</Width>
+               <Caption>C(ShipmentPackagePackageStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PackagePackageVar</DataSource>
+               <Binding>6</Binding>
+               <ComboListSource>STDOLE SLShipmentPackages(  PROPERTIES(PackageId, Description) DISPLAY(1,2)READMODE(UNCOMMITTED)FILTER(ShipmentId=C(ShipmentIDEdit))ORDERBY(PackageId))</ComboListSource>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/package_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdHelp</MenuName>
+               <DefaultFrom>PackageIdVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_ShipmentPackagePackageEdit)) BTF()</Post301Format>
+               <EffectiveCaption>C(ShipmentPackagePackageStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagePackageStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>27</TabOrder>
+               <TopPos>8.86764705882352</TopPos>
+               <LeftPos>119.393</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8.57142857142857</Width>
+               <Caption>sPackage</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) BTF()</Post301Format>
+               <EffectiveCaption>sPackage</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagesDerRefPackagedCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>69</TabOrder>
+               <TopPos>24.6</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>15</ContainerSequence>
+               <DataSource>object5.DerRefPackaged</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+            </Component>
+            <Component Name="ShipmentPackagesDescriptionCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>59</TabOrder>
+               <TopPos>24.6</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object5.Description</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDescription</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagesFreightClassCodeCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>9</ContainerSequence>
+               <DataSource>object5.FreightClass</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/f/freight_class_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>FreightClasses( PROPERTY(FreightClass) )</MaintainFromSpec>
+               <DefaultFrom>FreightClass()</DefaultFrom>
+               <PropertyClassName>FreightClass</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sFreightClass</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagesGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>26</TabOrder>
+               <TopPos>6.5735294117647</TopPos>
+               <LeftPos>1.518</LeftPos>
+               <Height>10.4117647058824</Height>
+               <ListHeight>2</ListHeight>
+               <Width>119.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>objects5</DataSource>
+               <Binding>8</Binding>
+               <Flags>384</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdGrid</MenuName>
+               <DefaultFrom>StdGrid()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_ShipmentPackagesGrid))</Post301Format>
+            </Component>
+            <Component Name="ShipmentPackagesHazardousCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>65</TabOrder>
+               <TopPos>24.6</TopPos>
+               <LeftPos>7.57142857142857</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11</Width>
+               <Caption>sHazardous</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>11</ContainerSequence>
+               <DataSource>object5.Hazard</DataSource>
+               <Binding>1</Binding>
+               <Flags>8</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdHelp</MenuName>
+               <PropertyClassName>Hazard</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sHazardous</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagesMarksAndExceptionsCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>64</TabOrder>
+               <TopPos>24.6</TopPos>
+               <LeftPos>6.14285714285714</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>22</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>10</ContainerSequence>
+               <DataSource>object5.MarksExcept</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdHelp</MenuName>
+               <PropertyClassName>MarksExcept</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sMarksandExceptions</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagesNMFCCodeCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>8</ContainerSequence>
+               <DataSource>object5.NMFC</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/n/nmfc_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>NationalMotorFreightClasses( PROPERTY(NationalMotorFreightClass) )</MaintainFromSpec>
+               <DefaultFrom>NationalMotorFreightClass()</DefaultFrom>
+               <PropertyClassName>NMFC</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sNMFC</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagesNMFCCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>63</TabOrder>
+               <TopPos>24.6</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <DataSource>object5.NMFC</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdHelp</MenuName>
+               <PropertyClassName>NMFC</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sNMFC</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagesPackageCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>57</TabOrder>
+               <TopPos>24.6</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object5.PackageId</DataSource>
+               <Binding>1</Binding>
+               <Flags>16</Flags>
+               <DefaultData>AUTONUMBER(FILTER(ShipmentId=FV(TempShipmentId)))</DefaultData>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdHelp</MenuName>
+               <PropertyClassName>PackageIdBase</PropertyClassName>
+               <Post301DataType>DEFAULTVALUE(AUTONUMBER(FILTER(ShipmentId=FV(TempShipmentId))))</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sPackageID</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagesPackageType">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>60</TabOrder>
+               <TopPos>24.6</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object5.PackageType</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <FindFromSpec>PackageTypesQuery( ).PackageType</FindFromSpec>
+               <MaintainFromSpec>PackageTypes( PROPERTY(PackageType) )</MaintainFromSpec>
+               <DefaultFrom>PackageType()</DefaultFrom>
+               <PropertyClassName>DoPackageType</PropertyClassName>
+               <Post301Format>REQUIREDWHEN(V(crw_ShipmentPackagesPackageType))</Post301Format>
+               <EffectiveCaption>sPackageType</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagesRateCodeCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>62</TabOrder>
+               <TopPos>24.6</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>object5.RateCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>RateCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sRateCode</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagesRefPackageIdCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>58</TabOrder>
+               <TopPos>24.6</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object5.RefPackageId</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdHelp</MenuName>
+               <PropertyClassName>PackageIdBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sRefPackageID</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagesSelectCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>56</TabOrder>
+               <TopPos>24.6</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>9</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object5.UbSelect</DataSource>
+               <Binding>1</Binding>
+               <Flags>4096</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sSelect</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackagesWeightCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>61</TabOrder>
+               <TopPos>24.6</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sWeight</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object5.Weight</DataSource>
+               <Binding>1</Binding>
+               <SelectionEvent>WeightChanged</SelectionEvent>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Weight</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(V(cew_ShipmentPackagesWeightCol))</Post301Format>
+               <EffectiveCaption>sWeight</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackerEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>13</TabOrder>
+               <TopPos>3.85</TopPos>
+               <LeftPos>44.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>14.5</Width>
+               <Caption>C(ShipmentPackerStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Packer</DataSource>
+               <Binding>1</Binding>
+               <Flags>512</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/packer_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>UserIdVarNoValidate()</DefaultFrom>
+               <PropertyClassName>UserNameBase</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(V(cew_ShipmentPackerEdit))</Post301Format>
+               <EffectiveCaption>C(ShipmentPackerStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentPackerStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>4.15</TopPos>
+               <LeftPos>35.375</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sPacker</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSerialNumbersDerPackedCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>36</TabOrder>
+               <TopPos>8.1</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentSerialNumbersGrid</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <DataSource>object3.SLShipmentSeqSerials.DerPacked</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+            </Component>
+            <Component Name="ShipmentSerialNumbersDeselectAllButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>36.75</TopPos>
+               <LeftPos>21.25</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17.75</Width>
+               <Caption>sDeselec&amp;tAll</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>DeselectAll</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/buttons/d/deselect_all_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_ShipmentSerialNumbersDeselectAllButton)) BTF()</Post301Format>
+               <EffectiveCaption>sDeselec&amp;tAll</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSerialNumbersGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>60</TabOrder>
+               <TopPos>19.75</TopPos>
+               <LeftPos>2.125</LeftPos>
+               <Height>16.5882352941176</Height>
+               <ListHeight>2</ListHeight>
+               <Width>87.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentSerialNumbersTab</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>V(cds_DataSourceShipmentSerialNumbersGrid)</DataSource>
+               <Binding>4</Binding>
+               <Flags>384</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdGrid</MenuName>
+               <DefaultFrom>StdGrid()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_ShipmentSerialNumbersGrid))</Post301Format>
+            </Component>
+            <Component Name="ShipmentSerialNumbersItemCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>32</TabOrder>
+               <TopPos>8.1</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentSerialNumbersGrid</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object3.SLShipmentSeqSerials.DerItem</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Items( PROPERTY(Item) )</MaintainFromSpec>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sItem</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSerialNumbersLotCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>8.1</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentSerialNumbersGrid</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object3.SLShipmentSeqSerials.Lot</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Lots( PROPERTY(Lot) )</MaintainFromSpec>
+               <PropertyClassName>Lot</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLot</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSerialNumbersLotTrxRestrictCodeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>73</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentSerialNumbersGrid</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object3.SLShipmentSeqSerials.LotTrxRestrictCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/t/transaction_restriction_code.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetails</MenuName>
+               <PropertyClassName>TrxRestrictCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sTransactionRestrictionCode</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSerialNumbersPackageIdCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>8.1</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentSerialNumbersGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object3.SLShipmentSeqSerials.PackageId</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdHelp</MenuName>
+               <PropertyClassName>PackageIdBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sPackageID</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSerialNumbersSelectAllButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>36.75</TopPos>
+               <LeftPos>1.75</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17.75</Width>
+               <Caption>sS&amp;electAll</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>SelectAll</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/buttons/s/select_all_button_generate_grn_lines.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_ShipmentSerialNumbersSelectAllButton)) BTF()</Post301Format>
+               <EffectiveCaption>sS&amp;electAll</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSerialNumbersSelectCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>31</TabOrder>
+               <TopPos>8.1</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>9</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentSerialNumbersGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object3.SLShipmentSeqSerials.UbSelect</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sSelect</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSerialNumbersSerialNumberCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>8.1</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentSerialNumbersGrid</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object3.SLShipmentSeqSerials.SerNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDetailsAddFind</MenuName>
+               <MaintainFromSpec>SerialNumbers( PROPERTY(SerNum) )</MaintainFromSpec>
+               <PropertyClassName>SerNum</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sSerialNumber</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSerialNumbersSNTrxRestrictCodeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>74</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentSerialNumbersGrid</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>object3.SLShipmentSeqSerials.SerNumTrxRestrictCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/t/transaction_restriction_code.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetails</MenuName>
+               <PropertyClassName>TrxRestrictCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sTransactionRestrictionCode</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentSerialNumbersTab">
+               <DeviceID>-1</DeviceID>
+               <Type>13</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>17.9411764705882</TopPos>
+               <LeftPos>1.375</LeftPos>
+               <Height>18.4117647058824</Height>
+               <ListHeight>0</ListHeight>
+               <Width>88.75</Width>
+               <Caption>sSerial&amp;Numbers</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentItemsNotebook</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>SetCurrentCollectionOnTab</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sSerial&amp;Numbers</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentStatusEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>3.85</TopPos>
+               <LeftPos>14.7142857142857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11.75</Width>
+               <Caption>C(ShipmentStatusStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Status</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/s/status_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ShipmentStatus</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(ShipmentStatusStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentStatusStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>4.15</TopPos>
+               <LeftPos>4</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sStatus</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentWeightEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>1.06666666666667</TopPos>
+               <LeftPos>44.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>C(ShipmentWeightStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Weight</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/t/total_weight_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>TotalWeight</PropertyClassName>
+               <Post301Format>MASK(&gt;&gt;&gt;&gt;&gt;&gt;9.99)</Post301Format>
+               <EffectiveCaption>C(ShipmentWeightStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentWeightStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>1.36666666666667</TopPos>
+               <LeftPos>32</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sTotalWeight</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentWeightUMEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>1.06666666666667</TopPos>
+               <LeftPos>56.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7</Width>
+               <Caption>C(ShipmentWeightUMStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.WeightUM</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>GoToQueriesFolder</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/w/weight_u_m_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetailsAddFind</MenuName>
+               <PropertyClassName>UM</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(ShipmentWeightUMStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentWhseEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>1.06666666666667</TopPos>
+               <LeftPos>81.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.4285714285714</Width>
+               <Caption>C(ShipmentWhseStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Whse</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/w/whse_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Whse</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(ShipmentWhseStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ShipmentWhseStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>14</TabOrder>
+               <TopPos>1.36666666666667</TopPos>
+               <LeftPos>71.3214285714286</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>9.85714285714286</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sWhse</EffectiveCaption>
+            </Component>
+            <Component Name="TH_CartonPrefixGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>66</TabOrder>
+               <TopPos>24.6666666666667</TopPos>
+               <LeftPos>17.5714285714286</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>9</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>12</ContainerSequence>
+               <DataSource>object5.TH_CartonPrefix</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>TH_CartonPrefix</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(V(cew_TH_CartonPrefixGridCol)) VISIBLEWHEN(V(cvw_TH_CartonPrefixGridCol))</Post301Format>
+               <EffectiveCaption>sCartonPrefix</EffectiveCaption>
+            </Component>
+            <Component Name="TH_CartonSizeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>68</TabOrder>
+               <TopPos>24.6666666666667</TopPos>
+               <LeftPos>46.1428571428571</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>14</ContainerSequence>
+               <DataSource>object5.TH_CartonSize</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>TH_CartonSize</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(V(cew_TH_CartonSizeGridCol)) VISIBLEWHEN(V(cvw_TH_CartonSizeGridCol))</Post301Format>
+               <EffectiveCaption>sDimensionSizeofCarton</EffectiveCaption>
+            </Component>
+            <Component Name="TH_MeasurementGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>67</TabOrder>
+               <TopPos>24.6666666666667</TopPos>
+               <LeftPos>31.8571428571429</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ShipmentPackagesGrid</ContainerName>
+               <ContainerSequence>13</ContainerSequence>
+               <DataSource>object5.TH_Measurement</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>TH_Measurement</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(V(cew_TH_MeasurementGridCol)) VISIBLEWHEN(V(cvw_TH_MeasurementGridCol))</Post301Format>
+               <EffectiveCaption>sMeasurementCUFT</EffectiveCaption>
+            </Component>
+            <Component Name="UnmergePackageButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>30</TabOrder>
+               <TopPos>11.9558823529401</TopPos>
+               <LeftPos>121.643</LeftPos>
+               <Height>1.35294117647059</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19</Width>
+               <Caption>s&amp;UnmergePackage</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>UnmergePackage</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/buttons/u/unmerge_package_button_pack_confirmation.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_UnmergePackageButton))</Post301Format>
+               <EffectiveCaption>s&amp;UnmergePackage</EffectiveCaption>
+            </Component>
+         </Components>
+         <EventHandlers>
+            <EventHandler Name="AddShipment" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>AddShipment()</Response>
+            </EventHandler>
+            <EventHandler Name="CalculateShipmentWeightAndPackages" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SLShipments.CalculateShipmentWeightAndPackagesSp( PARMS(VAR C(ShipmentIDEdit), VAR 0, MESSAGE) ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="DeselectAll" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>DeselectAll()</Response>
+            </EventHandler>
+            <EventHandler Name="GeneratePackage" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>ProcessValidation()</Response>
+            </EventHandler>
+            <EventHandler Name="GeneratePackage" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SLShipmentPackages.ValidateShipmentPackageSp( PARMS(VAR C(ShipmentIDEdit), VAR C(ShipmentPackagePackageEdit), MESSAGE) ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="GeneratePackage" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>GeneratePackage()</Response>
+            </EventHandler>
+            <EventHandler Name="GeneratePackage" Sequence="3">
+               <ResponseType>0</ResponseType>
+               <Response>SLShipmentSeqs.GeneratePackageSp( PARMS(VAR C(ProcessIdEdit), VAR V(QtyVar), MESSAGE) ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="GeneratePackage" Sequence="4">
+               <ResponseType>28</ResponseType>
+               <Response>object3</Response>
+            </EventHandler>
+            <EventHandler Name="GeneratePackage" Sequence="5">
+               <ResponseType>28</ResponseType>
+               <Response>object5</Response>
+            </EventHandler>
+            <EventHandler Name="GeneratePackage" Sequence="6">
+               <ResponseType>28</ResponseType>
+               <Response>object</Response>
+            </EventHandler>
+            <EventHandler Name="GeneratePackage" Sequence="7">
+               <ResponseType>35</ResponseType>
+               <Response>ClearFields()</Response>
+            </EventHandler>
+            <EventHandler Name="GeneratePackagePackage" Sequence="0">
+               <ResponseType>26</ResponseType>
+               <Response>object5 ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="GeneratePackagePackage" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SLShipmentPackages.GeneratePackagePackageSp( PARMS(VAR C(ProcessIdEdit), VAR C(ShipmentPackagePackageEdit), MESSAGE) ERRORMESSAGE(mBackEndMessage) IGNOREFAILURE() )</Response>
+            </EventHandler>
+            <EventHandler Name="GeneratePackagePackage" Sequence="2">
+               <ResponseType>28</ResponseType>
+               <Response>object5 ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="GeneratePackagePackage" Sequence="3">
+               <ResponseType>28</ResponseType>
+               <Response>object</Response>
+            </EventHandler>
+            <EventHandler Name="InitializeActiveFeatureList" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeActiveFeatureList()</Response>
+            </EventHandler>
+            <EventHandler Name="ItemwhseCheckCntInProc" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLItemWhses.ItemwhseCheckCntInProcSp( PARMS(VAR P(Whse), VAR V(Item), VAR 0, VAR 0, VAR, RVAR, RVAR P(), RVAR, RVAR, RVAR, MESSAGE, RVAR V(CntInProcPrompt), RVAR V(CntInProcPromptButtons)) ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="ItemwhseCheckCntInProc" Sequence="1">
+               <ResponseType>8</ResponseType>
+               <Response>Ask(CntInProcPrompt, CntInProcPromptButtons, PromptResponse)</Response>
+            </EventHandler>
+            <EventHandler Name="LaunchPackageLabels" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(CustNumVar=P(CustNum), CustSeqVar=P(CustSeq))</Response>
+            </EventHandler>
+            <EventHandler Name="LaunchPackageLabels" Sequence="1">
+               <ResponseType>3</ResponseType>
+               <Response>PrintPackageLabels( SETVARVALUES(ShipmentVar=V(TempShipmentId), CustNumVar=V(CustNumVar), CustSeqVar=V(CustSeqVar)) )</Response>
+            </EventHandler>
+            <EventHandler Name="LaunchPackSlipReport" Sequence="0">
+               <ResponseType>7</ResponseType>
+               <Response>ShipmentPackingSlipReport( SETVARVALUES(ShipmentStarting=V(TempShipmentId), ShipmentEnding=V(TempShipmentId)) )</Response>
+            </EventHandler>
+            <EventHandler Name="OnLeaveOfPickList" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>RefreshCollection()</Response>
+            </EventHandler>
+            <EventHandler Name="OnLeaveOfShipmentId" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>RefreshCollection()</Response>
+            </EventHandler>
+            <EventHandler Name="Process" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>CheckData</Response>
+               <Description>CheckData</Description>
+            </EventHandler>
+            <EventHandler Name="Process" Sequence="1">
+               <ResponseType>35</ResponseType>
+               <Response>CheckItemWhse()</Response>
+            </EventHandler>
+            <EventHandler Name="Process" Sequence="2">
+               <ResponseType>0</ResponseType>
+               <Response>SLShipmentSeqs.PackConfirmationCompleteSp( PARMS(VAR C(ShipmentIDEdit), VAR C(ShipmentLocationEdit), VAR C(QtyPackagesEdit), VAR C(ShipmentWeightEdit), VAR C(ShipmentWeightUMEdit), VAR C(ShipmentPackerEdit), MESSAGE) ERRORMESSAGE(mBackEndMessage) SUCCESSMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="Process" Sequence="3">
+               <ResponseType>28</ResponseType>
+               <Response>object</Response>
+            </EventHandler>
+            <EventHandler Name="Process" Sequence="4">
+               <ResponseType>35</ResponseType>
+               <Response>RefreshParentForm()</Response>
+            </EventHandler>
+            <EventHandler Name="ProcessAddShipment" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SLShipments.GeneratePickListTmpSp( PARMS(VAR V(ProcessId), VAR 1, VAR C(PickListEdit), VAR C(CustNumVarEdit), VAR V(CustSeqVar), VAR V(WhseVar), VAR 1, VAR, VAR P(ParentContainerNum), MESSAGE) ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="ProcessAddShipment" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SLPickLists.GenerateShipmentSP( PARMS(VAR V(ProcessId), VAR V(ShipLocVar), VAR , VAR , VAR , MESSAGE) ERRORMESSAGE(mBackEndMessage) SUCCESSMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="ProcessAddShipment" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>RefreshShipment</Response>
+            </EventHandler>
+            <EventHandler Name="RemoveFromPackage" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SLShipmentPackages.ValidateShipmentPackageSp( PARMS(VAR C(ShipmentIDEdit), VAR C(ShipmentPackagePackageEdit), MESSAGE) )</Response>
+            </EventHandler>
+            <EventHandler Name="RemoveFromPackage" Sequence="1">
+               <ResponseType>35</ResponseType>
+               <Response>GeneratePackage()</Response>
+            </EventHandler>
+            <EventHandler Name="RemoveFromPackage" Sequence="2">
+               <ResponseType>0</ResponseType>
+               <Response>SLShipmentPackages.RemoveShipmentSequencePackageIDSp( PARMS(VAR C(ProcessIdEdit), RVAR V(MESSAGE)) ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="RemoveFromPackage" Sequence="3">
+               <ResponseType>28</ResponseType>
+               <Response>object3</Response>
+            </EventHandler>
+            <EventHandler Name="RemoveFromPackage" Sequence="4">
+               <ResponseType>28</ResponseType>
+               <Response>object5</Response>
+            </EventHandler>
+            <EventHandler Name="RemoveFromPackage" Sequence="5">
+               <ResponseType>28</ResponseType>
+               <Response>object</Response>
+            </EventHandler>
+            <EventHandler Name="RemoveFromPackage" Sequence="6">
+               <ResponseType>35</ResponseType>
+               <Response>ClearFields()</Response>
+            </EventHandler>
+            <EventHandler Name="SelectAll" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>SelectAll()</Response>
+            </EventHandler>
+            <EventHandler Name="SelectDeselectSerials" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>SelectDeselectSerials()</Response>
+            </EventHandler>
+            <EventHandler Name="SetCurrentCollectionOnTab" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>SetCurrentCollectionOnTab()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SLShipmentPackages.LabelPathsExistSp( PARMS(RVAR V(TemplatePathVar), RVAR V(OutputPathVar)) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="1">
+               <ResponseType>35</ResponseType>
+               <Response>EnableLabelsButton()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>SetCurrentCollectionOnTab()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="3">
+               <ResponseType>35</ResponseType>
+               <Response>RefreshWhenLink()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="4">
+               <ResponseType>0</ResponseType>
+               <Response>SLFormExtMsgEntities.LoadJSONVar( PARMS(VAR PackConfirmation, RVAR V(JSONVarNotInterpretWithLIT)) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="5">
+               <ResponseType>22</ResponseType>
+               <Response>SETVARVALUES(JSONVarNotInterpret=V(JSONVarNotInterpretWithLIT))</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="6">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(ActiveFeatureList) &lt;&gt; "", InitializeActiveFeatureList)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="7">
+               <ResponseType>35</ResponseType>
+               <Response>EnableDisableFreightClass()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormRefresh" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>ClearFields()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormRefreshCompleted" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>SetFocus()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormSave" Sequence="0">
+               <ResponseType>26</ResponseType>
+               <Response>object COLID(object5)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormSaveCompleted" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #V(WeightChangedVar) = 1, "CalculateShipmentWeightAndPackages")</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormSaveCompleted" Sequence="1">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(WeightChangedVar=0)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormSaveCompleted" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>RefreshCollection()</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>EnableAddDeleteButton() COLID(object5)</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="1">
+               <ResponseType>35</ResponseType>
+               <Response>RefreshSecondCollection() COLID(object5)</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>EnableDisableShipmentSerialNumbersTab() COLID(object3)</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="3">
+               <ResponseType>35</ResponseType>
+               <Response>EnableDisableThaiCols() COLID(object5)</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="4">
+               <ResponseType>35</ResponseType>
+               <Response>RefreshTree() COLID(object)</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="5">
+               <ResponseType>0</ResponseType>
+               <Response>SLFormExtMsgEntities.FormatJSONVar( PARMS(VAR PackConfirmation, VAR V(JSONVarNotInterpret), RVAR V(JSONVarWithLIT)) COLID(object) )</Response>
+               <Description>JSONAuto_object</Description>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="6">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(JSONVar=V(JSONVarWithLIT)) COLID(object)</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="7">
+               <ResponseType>47</ResponseType>
+               <Response>JSONMSGTYPE(inforBusinessContext) JSONPAYLOAD(V(JSONVar)) JSONMSGTOCHLD()  COLID(object)</Response>
+               <Description>JSONAuto_object</Description>
+            </EventHandler>
+            <EventHandler Name="UnmergePackage" Sequence="0">
+               <ResponseType>26</ResponseType>
+               <Response>object5 ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="UnmergePackage" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SLShipmentSeqs.ShipmentPackageUnMergeSp( PARMS(VAR C(ProcessIdEdit), RVAR V(MESSAGE)) )</Response>
+            </EventHandler>
+            <EventHandler Name="UnmergePackage" Sequence="2">
+               <ResponseType>28</ResponseType>
+               <Response>object5 ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="UnmergePackage" Sequence="3">
+               <ResponseType>28</ResponseType>
+               <Response>object</Response>
+            </EventHandler>
+            <EventHandler Name="WeightChanged" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(WeightChangedVar=1)</Response>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="Blank">
+               <Value />
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_DataSourcePackagesItemsGrid">
+               <Value>object5.SLShipmentSeqs( CA() OBJNAME(Objects) LINKBY(PackageId=PackageId,ShipmentId=ShipmentId) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_DataSourcePackagesSerialNumbersGrid">
+               <Value>object6.SLShipmentSeqSerials( CA(IVR) FILTERPERM(PackageId=FV(TempPackageId2)) DISTINCT() )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_DataSourcePackageTree">
+               <Value>treecomp.singleobj( OBJ(SLShipments) LOADMETHOD(PackageLoadTreeLevelSp) LOADMETHODPARMS(VAR V(TempShipmentId), VAR S, VAR , VAR , VAR , VAR P) DISPLAY(2) PROPERTIES(ShipmentId, UbTreeDescription, UbPackageID, UbItem, UbType, UbLot) RECURSIVEMETHODPARMS(VAR TMP(PackageTree, 0), VAR TMP(PackageTree, 4), VAR TMP(PackageTree, 2), VAR TMP(PackageTree, 3), VAR TMP(PackageTree, 5), VAR P))</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_DataSourceShipmentSerialNumbersGrid">
+               <Value>object3.SLShipmentSeqSerials( CA(IV) OBJNAME(oSLShipmentSeqSerials) LINKBY(ShipmentId=ShipmentId,ShipmentLine=ShipmentLine,ShipmentSeq=ShipmentSeq,DerItem=DerItem) UPD(GenerateTmpShipSeqSerialSp('C(ProcessIdEdit)',UbSelect,ShipmentId,ShipmentLine,ShipmentSeq,SerNum,BYREF MESSAGE)) DEFERREFRESHUNTILVISIBLE() )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_DataSourcetree1">
+               <Value>treecomp.singleobj( OBJ(SLShipments) LOADMETHOD(PackageLoadTreeLevelSp) LOADMETHODPARMS(VAR ShipmentId, VAR Type, VAR PackageID, VAR Item, VAR Lot, VAR Process) DISPLAY(2) PROPERTIES(ShipmentId, TreeDescription, PackageID, Item, Type, Lot) RECURSIVEMETHODPARMS(VAR ShipmentId, VAR Type, VAR PackageID, VAR Item, VAR Lot, VAR Process))</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ProcessButton">
+               <Value>Enabled:#C(ProcessButton), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_RemoveFromPackageButton">
+               <Value>Enabled:#C(RemoveFromPackageButton), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentDeSelectAllButton">
+               <Value>Enabled:#C(ShipmentDeSelectAllButton), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentItemsCreatePackagesButton">
+               <Value>Enabled:#C(ShipmentItemsCreatePackagesButton), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentItemsGrid">
+               <Value>Enabled:#C(ShipmentItemsGrid), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentItemsPackageEdit">
+               <Value>Enabled:#C(ShipmentItemsPackageEdit), #C(ShipmentIDEdit) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentLocationEdit">
+               <Value>Enabled:#C(ShipmentLocationEdit), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentPackageAddToPackageButton">
+               <Value>Enabled:#C(ShipmentPackageAddToPackageButton), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentPackagePackageEdit">
+               <Value>Enabled:#C(ShipmentPackagePackageEdit), #C(ShipmentIDEdit) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentPackagesGrid">
+               <Value>Enabled:#C(ShipmentPackagesGrid), #C(ShipmentStatusEdit) = "O" &amp; #P(3.PickListId) &lt;&gt; "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentPackagesWeightCol">
+               <Value>Enabled:#C(ShipmentPackagesWeightCol), #P(5.RefPackageId) = "", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentPackerEdit">
+               <Value>Enabled:#C(ShipmentPackerEdit), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentSelectAllButton">
+               <Value>Enabled:#C(ShipmentSelectAllButton), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentSerialNumbersDeselectAllButton">
+               <Value>Enabled:#C(ShipmentSerialNumbersDeselectAllButton), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentSerialNumbersGrid">
+               <Value>Enabled:#C(ShipmentSerialNumbersGrid), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentSerialNumbersSelectAllButton">
+               <Value>Enabled:#C(ShipmentSerialNumbersSelectAllButton), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentSerialNumbersSerialNumberCol">
+               <Value>Enabled:#C(ShipmentSerialNumbersSerialNumberCol),  = , "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ShipmentSerialNumbersTab">
+               <Value>Enabled:#C(ShipmentSerialNumbersTab), #C(ShipmentItemsSerialTrackedCol) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_TH_CartonPrefixGridCol">
+               <Value>Enabled:#C(TH_CartonPrefixGridCol), #GV(Avail_TH) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_TH_CartonSizeGridCol">
+               <Value>Enabled:#C(TH_CartonSizeGridCol), #GV(Avail_TH) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_TH_MeasurementGridCol">
+               <Value>Enabled:#C(TH_MeasurementGridCol), #GV(Avail_TH) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_UnmergePackageButton">
+               <Value>Enabled:#C(UnmergePackageButton), #C(ShipmentStatusEdit) = "O", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="crw_ShipmentPackagesPackageType">
+               <Value>Required:#C(ShipmentPackagesPackageType), #GV(Avail_TMS) = "1" &amp; #GV(IsRS9222_4ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_TH_CartonPrefixGridCol">
+               <Value>Visible:#C(TH_CartonPrefixGridCol), #GV(Avail_TH) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_TH_CartonSizeGridCol">
+               <Value>Visible:#C(TH_CartonSizeGridCol), #GV(Avail_TH) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_TH_MeasurementGridCol">
+               <Value>Visible:#C(TH_MeasurementGridCol), #GV(Avail_TH) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_DataSource">
+               <Value>SLShipments( FILTERPERM(ShipmentId=FV(TempShipmentId)) LOCKMODE(Row) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC2">
+               <Value>OBJECT2( SLShipmentLines( CA() OBJNAME(SLShipmentLines1) FILTERPERM(ShipmentId=FV(TempShipmentId)) LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC3">
+               <Value>OBJECT3( SLShipmentSeqs( CA(RVIO) OBJNAME(SLShipmentSeqs1) FILTERPERM(ShipmentId=FV(TempShipmentId) AND PickListId IS NOT NULL) UPD(GenerateTmpShipSeqSp('C(ProcessIdEdit)',UbSelect,ShipmentId,ShipmentLine,ShipmentSeq,'C(ShipmentItemsQtyEdit)',,Loc,Lot,QtyPicked,QtyShipped,PackageId,BYREF MESSAGE),REF) LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC4">
+               <Value>OBJECT4( SLShipmentSeqSerials( CA(RI) OBJNAME(SLShipmentSeqSerials1) FILTERPERM(ShipmentId=FV(TempShipmentId) and PackageId=FV(TempPackageId2) and PackageId&lt;&gt;FV(Blank)) ORDERBY(CoItem, SerNum) LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC5">
+               <Value>OBJECT5( SLShipmentPackages( CA(RNCSDVI) OBJNAME(SLShipmentPackages1) FILTERPERM(ShipmentId=FV(TempShipmentId) ) UPD(GenerateTmpShipSeqPackageWithFreightClassSp('C(ProcessIdEdit)',UbSelect,ShipmentId,PackageId,PackageType,RateCode,NMFC,Weight,Hazard,Description,MarksExcept,RefPackageId,TH_CartonPrefix,TH_Measurement,TH_CartonSize,FreightClass,MESSAGE),REF) LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC6">
+               <Value>OBJECT6( SLShipmentSeqs( CA(R) OBJNAME(SLShipmentSeqs2) FILTERPERM(ShipmentId=FV(TempShipmentId) and PackageId=FV(TempPackageId2) and PackageId&lt;&gt;FV(Blank)) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC7">
+               <Value>OBJECT7( SLShipmentSeqSerials( CA() OBJNAME(SLShipmentSeqSerials2) FILTERPERM(SLShipmentSeqSerials.ShipmentId=SLShimentSeq.ShipmentId,SLShipmentSeqSerials.ShipmentLine=SLShipmentSeq.ShipmentLine,SLShipmentSeqSerials.ShipmentSeq=SLShipmentSeq.ShipmentSeq) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SecondaryCollections">
+               <Value> V(fds_SC2) V(fds_SC3) V(fds_SC4) V(fds_SC5) V(fds_SC6)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="InitialCommand">
+               <Value>Refresh</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="lsm1_ShipmentIDEdit">
+               <Value>PARMS(VAR C(PickListEdit), MESSAGE)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="Test">
+               <Value>PickListId=FC(PickListEdit)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="WeightChangedVar">
+               <Value>1</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine>'//&lt;Ref&gt;System.Xml.dll&lt;/Ref&gt;</ScriptLine>
+               <ScriptLine>'//&lt;Ref&gt;System.Drawing.dll&lt;/Ref&gt;</ScriptLine>
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Namespace SyteLine.FormScripts</ScriptLine>
+               <ScriptLine>Public class PackConfirmation</ScriptLine>
+               <ScriptLine>        Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Function CheckData() As Integer </ScriptLine>
+               <ScriptLine>           CheckData = 0</ScriptLine>
+               <ScriptLine>           If ThisForm.Components("ShipmentLocationEdit").ValidateData(True) &lt;&gt; True Then</ScriptLine>
+               <ScriptLine>              CheckData = -1</ScriptLine>
+               <ScriptLine>              Exit Function</ScriptLine>
+               <ScriptLine>           End If</ScriptLine>
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub RefreshShipment()</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PickListEdit").ValidateData(True)            </ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>        Sub SetFocus()</ScriptLine>
+               <ScriptLine>            ThisForm.SetFocus("ShipmentIDEdit")</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub RefreshCollection()</ScriptLine>
+               <ScriptLine>            Dim oPickCache As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim oIdoCollection As IWSIDOCollection</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ClearFields()</ScriptLine>
+               <ScriptLine>            oPickCache = ThisForm.PrimaryIDOCollection</ScriptLine>
+               <ScriptLine>            oPickCache.Refresh()</ScriptLine>
+               <ScriptLine>            oIdoCollection = ThisForm.Components("ShipmentItemsGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            oIdoCollection.Refresh()</ScriptLine>
+               <ScriptLine>            oIdoCollection = ThisForm.Components("ShipmentPackagesGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            oIdoCollection.Refresh()</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            oPickCache = Nothing</ScriptLine>
+               <ScriptLine>            oIdoCollection = Nothing</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub RefreshSecondCollection()</ScriptLine>
+               <ScriptLine>            Dim oIdoCollection As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            oIdoCollection = ThisForm.Components("ShipmentPackagesGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("TempPackageId2").Value = oIdoCollection.GetCurrentObjectProperty("PackageId")</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub EnableAddDeleteButton()</ScriptLine>
+               <ScriptLine>            Dim oIdoPackagesItemsCollection As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            oIdoPackagesItemsCollection = ThisForm.Components("ShipmentPackagesGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            If ThisForm.Components("ShipmentStatusEdit").Text = "O" Then</ScriptLine>
+               <ScriptLine>                oIdoPackagesItemsCollection.DeleteEnabled = ThisForm.Components("IsParentPackageEdit").Value &lt;&gt; "1"</ScriptLine>
+               <ScriptLine>                oIdoPackagesItemsCollection.NewEnabled = True</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                oIdoPackagesItemsCollection.DeleteEnabled = False</ScriptLine>
+               <ScriptLine>                oIdoPackagesItemsCollection.NewEnabled = False</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub ClearFields()</ScriptLine>
+               <ScriptLine>            ThisForm.Components("ShipmentItemsQtyEdit").Text = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("ShipmentPackagePackageEdit").Text = ""</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            'This will cause the PickListEdit combobox to reload the next time the user clicks on it.</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PickListEdit").InvalidateList()</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine />
+               <ScriptLine>        Sub SetCurrentCollectionOnTab()</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            Dim CurTab As String</ScriptLine>
+               <ScriptLine>            Dim oIdoCollection As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            oIdoCollection = Nothing</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            CurTab = ThisForm.Components("ShipmentItemsNotebook").NotebookCurTab</ScriptLine>
+               <ScriptLine>            If CurTab = "ShipmentItemsTab" Then</ScriptLine>
+               <ScriptLine>                oIdoCollection = ThisForm.Components("ShipmentItemsGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            ElseIf CurTab = "ShipmentSerialNumbersTab" Then</ScriptLine>
+               <ScriptLine>                oIdoCollection = ThisForm.Components("ShipmentItemsGrid").IDOCollection</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                oIdoCollection = ThisForm.Components("ShipmentSerialNumbersGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            If Not IDONull.IsNull(oIdoCollection) Then</ScriptLine>
+               <ScriptLine>                oIdoCollection.OperateAsPrimary = True</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            oIdoCollection = Nothing</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub EnableDisableShipmentSerialNumbersTab()</ScriptLine>
+               <ScriptLine>            Dim oIdoCollection As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim oSerialCache As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim i As Integer</ScriptLine>
+               <ScriptLine>            oIdoCollection = Nothing</ScriptLine>
+               <ScriptLine>            oIdoCollection = ThisForm.Components("ShipmentItemsGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            If oIdoCollection.GetCurrentObjectProperty("CoItemItemSerialTracked") = "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentSerialNumbersTab").Enabled = True</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                oSerialCache = oIdoCollection.GetSubCollection("SLShipmentSeqSerials", -1)</ScriptLine>
+               <ScriptLine>                For i = 0 To oSerialCache.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                    If oSerialCache.GetObjectProperty("DerPacked", i) = "0" And _</ScriptLine>
+               <ScriptLine>                       oSerialCache.GetObjectProperty("UbSelect", i) &lt;&gt; oIdoCollection.GetCurrentObjectProperty("UbSelect") Then</ScriptLine>
+               <ScriptLine>                        oSerialCache.SetObjectPropertyPlusModifyRefresh("UbSelect", i, oIdoCollection.GetCurrentObjectProperty("UbSelect"))</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                Next</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentSerialNumbersTab").Enabled = False</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub RefreshTree()</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PackageTree").TreeRefresh()</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PackageTree").TreeExpandRootNode()</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PackageTree").TreeExpandNodeAt("0")</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PackageTree").TreeExpandNodeAt("1")</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PackageTree").TreeExpandNodeAt("2")</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub AddShipment()</ScriptLine>
+               <ScriptLine>            If ThisForm.Variables("PromptResponse").Value = CStr(vbYes) And ThisForm.Variables("PromptMessage").Value &lt;&gt; "" Then</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("ProcessAddShipment")</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("PromptMessage").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("PromptButtons").Value = ""</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Function CheckPackageSelection() As Integer</ScriptLine>
+               <ScriptLine>            Dim num As Integer = 0</ScriptLine>
+               <ScriptLine>            Dim i As Integer</ScriptLine>
+               <ScriptLine>            CheckPackageSelection = 0</ScriptLine>
+               <ScriptLine>            Dim oPackageCollection As IWSIDOCollection = ThisForm.Components("ShipmentPackagesGrid").IDOCollection</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            For i = 0 To oPackageCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                If oPackageCollection.GetObjectProperty("UbSelect", i) = "1" Then</ScriptLine>
+               <ScriptLine>                    num = num + 1</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            Next</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If num = 0 Then</ScriptLine>
+               <ScriptLine>                ThisForm.CallGlobalScript("MsgApp", _</ScriptLine>
+               <ScriptLine>                                                            "Clear", _</ScriptLine>
+               <ScriptLine>                                                            "Prompt", _</ScriptLine>
+               <ScriptLine>                                                            "SuccessFailure", _</ScriptLine>
+               <ScriptLine>                                                            "mE=NoPackage", _</ScriptLine>
+               <ScriptLine>                                                            "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")</ScriptLine>
+               <ScriptLine>                CheckPackageSelection = 1</ScriptLine>
+               <ScriptLine>                Exit Function</ScriptLine>
+               <ScriptLine>            ElseIf num &gt; 1 Then</ScriptLine>
+               <ScriptLine>                ThisForm.CallGlobalScript("MsgApp", _</ScriptLine>
+               <ScriptLine>                                                            "Clear", _</ScriptLine>
+               <ScriptLine>                                                            "Prompt", _</ScriptLine>
+               <ScriptLine>                                                            "SuccessFailure", _</ScriptLine>
+               <ScriptLine>                                                            "mE=SelectOnePackage", _</ScriptLine>
+               <ScriptLine>                                                            "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")</ScriptLine>
+               <ScriptLine>                CheckPackageSelection = -1</ScriptLine>
+               <ScriptLine>                Exit Function</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub GeneratePackage()</ScriptLine>
+               <ScriptLine>            Dim CurTab As String</ScriptLine>
+               <ScriptLine>            Dim oIdoCollection As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim oPackageCollection As IWSIDOCollection = ThisForm.Components("ShipmentPackagesGrid").IDOCollection</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            oIdoCollection = Nothing</ScriptLine>
+               <ScriptLine>            CurTab = ThisForm.Components("ShipmentItemsNotebook").NotebookCurTab</ScriptLine>
+               <ScriptLine>            If CurTab = "ShipmentItemsTab" Then</ScriptLine>
+               <ScriptLine>                oIdoCollection = ThisForm.Components("ShipmentItemsGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            ElseIf CurTab = "ShipmentSerialNumbersTab" Then</ScriptLine>
+               <ScriptLine>                oIdoCollection = ThisForm.Components("ShipmentSerialNumbersGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            oIdoCollection = ThisForm.Components("ShipmentItemsGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            If Not IDONull.IsNull(oIdoCollection) Then</ScriptLine>
+               <ScriptLine>                oIdoCollection.Save()</ScriptLine>
+               <ScriptLine>                oIdoCollection.Refresh()</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If Not IDONull.IsNull(oPackageCollection) Then</ScriptLine>
+               <ScriptLine>                oPackageCollection.Save()</ScriptLine>
+               <ScriptLine>                oPackageCollection.Refresh()</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            oIdoCollection = Nothing</ScriptLine>
+               <ScriptLine>            oPackageCollection = Nothing</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SelectAll()</ScriptLine>
+               <ScriptLine>            Dim CurTab As String</ScriptLine>
+               <ScriptLine>            Dim oIdoCollection As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim oSerialCache As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim i As Integer</ScriptLine>
+               <ScriptLine>            Dim ii As Integer</ScriptLine>
+               <ScriptLine>            oIdoCollection = Nothing</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            CurTab = ThisForm.Components("ShipmentItemsNotebook").NotebookCurTab</ScriptLine>
+               <ScriptLine>            If CurTab = "ShipmentItemsTab" Then</ScriptLine>
+               <ScriptLine>                oIdoCollection = ThisForm.Components("ShipmentItemsGrid").IDOCollection</ScriptLine>
+               <ScriptLine>                For i = 0 To oIdoCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                    'If oIdoCollection.GetObjectProperty("DerPacked", i) = "0" Then</ScriptLine>
+               <ScriptLine>                    oIdoCollection.SetObjectPropertyPlusModifyRefresh("UbSelect", i, "1")</ScriptLine>
+               <ScriptLine>                    oSerialCache = oIdoCollection.GetSubCollection("SLShipmentSeqSerials", i)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    For ii = 0 To oSerialCache.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                        'If oSerialCache.GetObjectProperty("DerPacked", ii) = "0" Then</ScriptLine>
+               <ScriptLine>                        oSerialCache.SetObjectPropertyPlusModifyRefresh("UbSelect", ii, "1")</ScriptLine>
+               <ScriptLine>                        ' End If</ScriptLine>
+               <ScriptLine>                    Next</ScriptLine>
+               <ScriptLine>                    'End If</ScriptLine>
+               <ScriptLine>                Next</ScriptLine>
+               <ScriptLine>            ElseIf CurTab = "ShipmentSerialNumbersTab" Then</ScriptLine>
+               <ScriptLine>                oIdoCollection = ThisForm.Components("ShipmentSerialNumbersGrid").IDOCollection</ScriptLine>
+               <ScriptLine>                'If ThisForm.Components("ShipmentSerialNumbersSelectCol").Enabled = True Then</ScriptLine>
+               <ScriptLine>                For i = 0 To oIdoCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                    oIdoCollection.SetObjectPropertyPlusModifyRefresh("UbSelect", i, "1")</ScriptLine>
+               <ScriptLine>                Next</ScriptLine>
+               <ScriptLine>                'End If</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            oSerialCache = Nothing</ScriptLine>
+               <ScriptLine>            oIdoCollection = Nothing</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub DeselectAll()</ScriptLine>
+               <ScriptLine>            Dim CurTab As String</ScriptLine>
+               <ScriptLine>            Dim oIdoCollection As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim oSerialCache As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim i As Integer</ScriptLine>
+               <ScriptLine>            Dim ii As Integer</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            oIdoCollection = Nothing</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            CurTab = ThisForm.Components("ShipmentItemsNotebook").NotebookCurTab</ScriptLine>
+               <ScriptLine>            If CurTab = "ShipmentItemsTab" Then</ScriptLine>
+               <ScriptLine>                oIdoCollection = ThisForm.Components("ShipmentItemsGrid").IDOCollection</ScriptLine>
+               <ScriptLine>                For i = 0 To oIdoCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                    'If oIdoCollection.GetObjectProperty("DerPacked", i) = "0" Then</ScriptLine>
+               <ScriptLine>                    oIdoCollection.SetObjectPropertyPlusModifyRefresh("UbSelect", i, "0")</ScriptLine>
+               <ScriptLine>                    oSerialCache = oIdoCollection.GetSubCollection("SLShipmentSeqSerials", i)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    For ii = 0 To oSerialCache.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                        'If oSerialCache.GetObjectProperty("DerPacked", ii) = "0" Then</ScriptLine>
+               <ScriptLine>                        oSerialCache.SetObjectPropertyPlusModifyRefresh("UbSelect", ii, "0")</ScriptLine>
+               <ScriptLine>                        'End If</ScriptLine>
+               <ScriptLine>                    Next</ScriptLine>
+               <ScriptLine>                    'End If</ScriptLine>
+               <ScriptLine>                Next</ScriptLine>
+               <ScriptLine>            ElseIf CurTab = "ShipmentSerialNumbersTab" Then</ScriptLine>
+               <ScriptLine>                oIdoCollection = ThisForm.Components("ShipmentSerialNumbersGrid").IDOCollection</ScriptLine>
+               <ScriptLine>                For i = 0 To oIdoCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                    'If oIdoCollection.GetObjectProperty("DerPacked", i) = "0" Then</ScriptLine>
+               <ScriptLine>                    oIdoCollection.SetObjectPropertyPlusModifyRefresh("UbSelect", i, "0")</ScriptLine>
+               <ScriptLine>                    'End If</ScriptLine>
+               <ScriptLine>                Next</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine />
+               <ScriptLine>            oSerialCache = Nothing</ScriptLine>
+               <ScriptLine>            oIdoCollection = Nothing</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SelectDeselectSerials()</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            Dim oIdoCollection As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim oSerialCache As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim i As Integer</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            oIdoCollection = ThisForm.Components("ShipmentItemsGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            oSerialCache = oIdoCollection.GetSubCollection("SLShipmentSeqSerials", oIdoCollection.CurrentRow())</ScriptLine>
+               <ScriptLine>            If oIdoCollection.GetCurrentObjectProperty("UbSelect") = "0" Then</ScriptLine>
+               <ScriptLine>                For i = 0 To oSerialCache.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                    If oSerialCache.GetObjectProperty("DerPacked", i) = "0" Then</ScriptLine>
+               <ScriptLine>                        oSerialCache.SetObjectPropertyPlusModifyRefresh("UbSelect", i, "0")</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                Next</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                For i = 0 To oSerialCache.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                    If oSerialCache.GetObjectProperty("DerPacked", i) = "0" Then</ScriptLine>
+               <ScriptLine>                        oSerialCache.SetObjectPropertyPlusModifyRefresh("UbSelect", i, "1")</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                Next</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub EnableLabelsButton()</ScriptLine>
+               <ScriptLine>            Dim oIdoCollection As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim i As Integer</ScriptLine>
+               <ScriptLine>            If ThisForm.Variables("TemplatePathVar").Value = "" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Components("PrintPackageLabelsButton").Enabled = False</ScriptLine>
+               <ScriptLine>                Exit Sub</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            If ThisForm.Variables("OutputPathVar").Value = "" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Components("PrintPackageLabelsButton").Enabled = False</ScriptLine>
+               <ScriptLine>                Exit Sub</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PrintPackageLabelsButton").Enabled = True</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            oIdoCollection = ThisForm.Components("ShipmentItemsGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            If oIdoCollection.GetCurrentObjectProperty("DerPacked") = "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Components("UbSelect").Enabled = True</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Function CheckItemWhse() As Integer</ScriptLine>
+               <ScriptLine>            Dim oIdoCollection As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim i As Integer</ScriptLine>
+               <ScriptLine>            Dim iAnswer As Integer</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            CheckItemWhse = 0</ScriptLine>
+               <ScriptLine>            oIdoCollection = ThisForm.Components("ShipmentItemsGrid").IDOCollection</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            For i = 0 To oIdoCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>               If  oIdoCollection.Item(i).Item("DerInventoryItemFlag").GetValueOfString("") = "1" then               </ScriptLine>
+               <ScriptLine>                  ThisForm.Variables("Item").Value = oIdoCollection.GetObjectProperty("DerItem", i)</ScriptLine>
+               <ScriptLine>                  ThisForm.GenerateEvent("ItemwhseCheckCntInProc")</ScriptLine>
+               <ScriptLine>                  iAnswer = ThisForm.Variables("PromptResponse").GetValueOfInteger(0)</ScriptLine>
+               <ScriptLine>                  If iAnswer = vbNo Then</ScriptLine>
+               <ScriptLine>                     CheckItemWhse = -1</ScriptLine>
+               <ScriptLine>                     exit Function</ScriptLine>
+               <ScriptLine>                  End If</ScriptLine>
+               <ScriptLine>               End If</ScriptLine>
+               <ScriptLine>            Next</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub EnableDisableThaiCols()</ScriptLine>
+               <ScriptLine>            If Application.Variables("Avail_TH").Value = "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Components("TH_CartonPrefixGridCol").Enabled = True</ScriptLine>
+               <ScriptLine>                ThisForm.Components("TH_MeasurementGridCol").Enabled = True</ScriptLine>
+               <ScriptLine>                ThisForm.Components("TH_CartonSizeGridCol").Enabled = True</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.Components("TH_CartonPrefixGridCol").Enabled = False</ScriptLine>
+               <ScriptLine>                ThisForm.Components("TH_MeasurementGridCol").Enabled = False</ScriptLine>
+               <ScriptLine>                ThisForm.Components("TH_CartonSizeGridCol").Enabled = False</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Function ProcessValidation() As Integer</ScriptLine>
+               <ScriptLine>            Dim oIdoCollection As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim oSerialCache As IWSIDOCollection</ScriptLine>
+               <ScriptLine>            Dim i As Integer</ScriptLine>
+               <ScriptLine>            Dim s As Integer</ScriptLine>
+               <ScriptLine>            Dim qty As Decimal = ThisForm.Variables("QtyVar").GetValueOfDecimal(0)</ScriptLine>
+               <ScriptLine>            Dim count As Integer = 0</ScriptLine>
+               <ScriptLine>            Dim lineSelected As Integer = 0</ScriptLine>
+               <ScriptLine>            Dim packageSelected As Integer = 0</ScriptLine>
+               <ScriptLine>            Dim seq As Integer = 0</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            Dim oPackageCollection As IWSIDOCollection = ThisForm.Components("ShipmentPackagesGrid").IDOCollection</ScriptLine>
+               <ScriptLine>            ProcessValidation = 0</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            For i = 0 To oPackageCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                If oPackageCollection.GetObjectProperty("UbSelect", i) = "1" And Not oPackageCollection.IsCurrentObjectNew Then</ScriptLine>
+               <ScriptLine>                    packageSelected = packageSelected + 1</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            Next</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If packageSelected = 0 Then</ScriptLine>
+               <ScriptLine>                ThisForm.CallGlobalScript("MsgApp", _</ScriptLine>
+               <ScriptLine>                                                            "Clear", _</ScriptLine>
+               <ScriptLine>                                                            "Prompt", _</ScriptLine>
+               <ScriptLine>                                                            "SuccessFailure", _</ScriptLine>
+               <ScriptLine>                                                            "mE=NoPackage", _</ScriptLine>
+               <ScriptLine>                                                            "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")</ScriptLine>
+               <ScriptLine>                ProcessValidation = -1</ScriptLine>
+               <ScriptLine>                Exit Function</ScriptLine>
+               <ScriptLine>            ElseIf packageSelected &gt; 1 Then</ScriptLine>
+               <ScriptLine>                ThisForm.CallGlobalScript("MsgApp", _</ScriptLine>
+               <ScriptLine>                                                            "Clear", _</ScriptLine>
+               <ScriptLine>                                                            "Prompt", _</ScriptLine>
+               <ScriptLine>                                                            "SuccessFailure", _</ScriptLine>
+               <ScriptLine>                                                            "mE=SelectOnePackage", _</ScriptLine>
+               <ScriptLine>                                                            "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "")</ScriptLine>
+               <ScriptLine>                ProcessValidation = -1</ScriptLine>
+               <ScriptLine>                Exit Function</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            oIdoCollection = ThisForm.Components("ShipmentItemsGrid").IDOCollection</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            For s = 0 To oIdoCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                If oIdoCollection.GetObjectProperty("UbSelect", s) = "1" Then</ScriptLine>
+               <ScriptLine>                    lineSelected = lineSelected + 1</ScriptLine>
+               <ScriptLine>                    seq = s</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            Next</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ' Only handle single row selected</ScriptLine>
+               <ScriptLine>            If lineSelected = 1 And qty &lt;&gt; 0 Then</ScriptLine>
+               <ScriptLine>                oSerialCache = oIdoCollection.GetSubCollection("SLShipmentSeqSerials", seq)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                If oIdoCollection.GetObjectProperty("CoItemItemSerialTracked", seq) = "1" Then</ScriptLine>
+               <ScriptLine>                    For i = 0 To oSerialCache.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                        If oSerialCache.GetObjectProperty("UbSelect", i) = "1" Then</ScriptLine>
+               <ScriptLine>                            count = count + 1</ScriptLine>
+               <ScriptLine>                            ' Exit For</ScriptLine>
+               <ScriptLine>                        End If</ScriptLine>
+               <ScriptLine>                    Next</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    If count = 0 Then</ScriptLine>
+               <ScriptLine>                        ThisForm.CallGlobalScript("MsgApp",</ScriptLine>
+               <ScriptLine>                                                            "Clear",</ScriptLine>
+               <ScriptLine>                                                            "Prompt",</ScriptLine>
+               <ScriptLine>                                                            "SuccessFailure",</ScriptLine>
+               <ScriptLine>                                                            "mE=MustSelectAtLeast1",</ScriptLine>
+               <ScriptLine>                                                            "@sSerial",</ScriptLine>
+               <ScriptLine>                                                            "@sItem",</ScriptLine>
+               <ScriptLine>                                                            oIdoCollection.GetObjectProperty("DerItem", s),</ScriptLine>
+               <ScriptLine>                                                            "", "", "", "", "", "", "", "", "", "", "", "", "")</ScriptLine>
+               <ScriptLine>                        ProcessValidation = -1</ScriptLine>
+               <ScriptLine>                        Exit Function</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                    If oSerialCache.GetNumEntries &gt;= qty And count &lt;&gt; qty Or (oSerialCache.GetNumEntries &lt; qty And oSerialCache.GetNumEntries &gt; count) Then</ScriptLine>
+               <ScriptLine>                        ThisForm.CallGlobalScript("MsgApp",</ScriptLine>
+               <ScriptLine>                                                              "Clear",</ScriptLine>
+               <ScriptLine>                                                              "Prompt",</ScriptLine>
+               <ScriptLine>                                                              "SuccessFailure",</ScriptLine>
+               <ScriptLine>                                                              "mI=NotEqual",</ScriptLine>
+               <ScriptLine>                                                              "STRINGS(sSerialNumbers)",</ScriptLine>
+               <ScriptLine>                                                              CStr(count),</ScriptLine>
+               <ScriptLine>                                                              "STRINGS(sQtyEntered)",</ScriptLine>
+               <ScriptLine>                                                              ThisForm.Components("ShipmentItemsQtyEdit").Value,</ScriptLine>
+               <ScriptLine>                                                              "", "", "", "", "", "", "", "", "", "", "", "")</ScriptLine>
+               <ScriptLine>                        ProcessValidation = -1</ScriptLine>
+               <ScriptLine>                        Exit Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            oIdoCollection = Nothing</ScriptLine>
+               <ScriptLine>            oSerialCache = Nothing</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub RefreshParentForm()</ScriptLine>
+               <ScriptLine>            If ThisForm.ParentFormName &lt;&gt; "" Then</ScriptLine>
+               <ScriptLine>                ThisForm.ParentForm.PrimaryIDOCollection.RefreshCurrentObject()</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>        Sub RefreshWhenLink()</ScriptLine>
+               <ScriptLine>            If ThisForm.ParentFormName = "ShipmentMaster" Or ThisForm.ParentFormName = "ShipmentMaster.gen2" Then </ScriptLine>
+               <ScriptLine>                RefreshCollection()</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentIDEdit").Enabled = False</ScriptLine>
+               <ScriptLine>                ThisForm.Components("PickListEdit").Enabled = False</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>        Sub EnableDisableFreightClass()</ScriptLine>
+               <ScriptLine>            If Application.Variables("IsRS9222_3ActiveVar").GetValueOfInteger(0) = 1 And Application.Variables("Avail_TMS").GetValueOfInteger(0) = 1 Then</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentPackagesNMFCCodeCol").Visible = True</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentPackagesNMFCCodeCol").Enabled = True</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentPackagesFreightClassCodeCol").Enabled = True</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentPackagesFreightClassCodeCol").Visible = True</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentPackagesNMFCCol").Visible = False</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentPackagesNMFCCol").Enabled = False</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentPackagesNMFCCodeCol").Visible = False</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentPackagesNMFCCodeCol").Enabled = False</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentPackagesFreightClassCodeCol").Visible = False</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentPackagesFreightClassCodeCol").Enabled = False</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentPackagesNMFCCol").Visible = True</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ShipmentPackagesNMFCCol").Enabled = True</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>    End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

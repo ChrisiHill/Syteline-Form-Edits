@@ -1,0 +1,3337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="ue_HIL_ShipmentPackingSlipDetailViewer" Scope="1" ScopeName="[NULL]">
+         <Caption>fShipmentPackingSlipDetailViewer</Caption>
+         <Type>6</Type>
+         <StandardOperations>1</StandardOperations>
+         <Flags>1048585</Flags>
+         <Height>65.5</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>96</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/forms/system/viewer_forms.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>3.2999999999999998</PaneZeroSize>
+         <PrimaryDataSource>V(fds_DataSource)</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <LockedBy>chris.h@hillattach.com</LockedBy>
+         <Components>
+            <Component Name="BGTotalPagesStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>224</TabOrder>
+               <TopPos>0.882352941176464</TopPos>
+               <LeftPos>57.375</LeftPos>
+               <Height>0.76</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageFooterFlexLayout</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.BG_TOTALPAGES(INITIALVALUE(BG_TOTALPAGES))</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(ReportLabel)</Post301Format>
+               <LayoutAttributes>INDEX(4) MARGIN(0.25,0.25,0.25,0.25)</LayoutAttributes>
+            </Component>
+            <Component Name="BillToLongAddr1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>204</TabOrder>
+               <TopPos>25.6470588235294</TopPos>
+               <LeftPos>8.25</LeftPos>
+               <Height>5.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>27.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout16</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.BillToLongAddr</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>LongAddress</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sAddress</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="BillToLongAddrDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>201</TabOrder>
+               <TopPos>14.7058823529412</TopPos>
+               <LeftPos>8.25</LeftPos>
+               <Height>5.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>27.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout11</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BillToLongAddr</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>LongAddress</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sAddress</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="CertificateOfConformanceText1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>55.2941176470588</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>5.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>91</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout32</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CertificateOfConformanceText</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CertificateOfConformanceText</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCertificateOfConformanceText</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="CertificateOfConformanceTextDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>52.5882352941176</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>45</Width>
+               <Caption>sCertificateOfConformanceText</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout31</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sCertificateOfConformanceText</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="CommCodeDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>37.7647058823529</TopPos>
+               <LeftPos>76.125</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17.375</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout21</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object.CommCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CommodityCode</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCommodity</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(6) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="CommodityDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>37.7647058823529</TopPos>
+               <LeftPos>66.875</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8.25</Width>
+               <Caption>sCommodity</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout21</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCommodity</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="CompanyLogoStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>213</TabOrder>
+               <TopPos>-0.235294117647059</TopPos>
+               <LeftPos>2.25</LeftPos>
+               <Height>4.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.875</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageHeaderFlexLayout</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <BitmapFileName>company-logo.jpg</BitmapFileName>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>MARGIN(0.25,0.25,0.25,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="CompItemDescDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>48.9411764705882</TopPos>
+               <LeftPos>28.75</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>51.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout28</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CompItemDesc</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ItemDescription</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sItemDescription</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="CompItemDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>47.6470588235294</TopPos>
+               <LeftPos>28.75</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>25.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout27</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CompItem</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sItem</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="ComponentDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>46.4705882352941</TopPos>
+               <LeftPos>28.75</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>25.25</Width>
+               <Caption>sComponent</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout26</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sComponent</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="CompUMDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>47.6470588235294</TopPos>
+               <LeftPos>81.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout27</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.CompUM</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UM</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sU/M</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="Contact1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>31.6470588235294</TopPos>
+               <LeftPos>20.875</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>26.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout17</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.Contact</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Contact</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sContact</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="ContactDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20.7058823529412</TopPos>
+               <LeftPos>20.875</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>26.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout12</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.Contact</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Contact</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sContact</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="CoNumDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>34.1176470588235</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout19</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CoNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CoNum</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sOrder</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="CoNumDetailStatic1_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>35.7222222222222</TopPos>
+               <LeftPos>16</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout19</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.CustPo</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CustPo</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCustPO</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN1_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="CustItemStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>248</TabOrder>
+               <TopPos>36.5882352941176</TopPos>
+               <LeftPos>27.625</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout34</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CustItem</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CustItem</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCustomerItem</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="CustNumStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>242</TabOrder>
+               <TopPos>14.8823529411765</TopPos>
+               <LeftPos>23</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout10</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.CustNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CustNum</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCustomer</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="CustNumStatic2">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>243</TabOrder>
+               <TopPos>24.3529411764706</TopPos>
+               <LeftPos>23</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout15</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.CustNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CustNum</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCustomer</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="DeliverTo1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>202</TabOrder>
+               <TopPos>24.3529411764706</TopPos>
+               <LeftPos>43.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19.5</Width>
+               <Caption>sDeliverTo</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout15</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sDeliverTo</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="DeliverToDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>14.8823529411765</TopPos>
+               <LeftPos>43.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19.5</Width>
+               <Caption>sDeliverTo</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout10</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sDeliverTo</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="DeliveryTermsDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>39.0588235294118</TopPos>
+               <LeftPos>12.75</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19.5</Width>
+               <Caption>sDeliveryTerms</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout22</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sDeliveryTerms</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="DeltermDescriptionDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>39.0588235294118</TopPos>
+               <LeftPos>53.625</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>39.875</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout22</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.DeltermDescription</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sDescription</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="DeltermDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>39.0588235294118</TopPos>
+               <LeftPos>33.125</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout22</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.Delterm</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Delterm</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sDeliveryTerms</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="DesignButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>1.05882352941176</TopPos>
+               <LeftPos>28.875</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sDesign</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NavigationFlexLayout</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>StdFormPageFirst</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_DesignButton)) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sDesign</EffectiveCaption>
+               <LayoutAttributes>INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="EcCode1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>37.7647058823529</TopPos>
+               <LeftPos>39.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout21</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.EcCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>EcCode</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sECCode</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="ECCodeDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>37.7647058823529</TopPos>
+               <LeftPos>20.875</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17.375</Width>
+               <Caption>sECCode</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout21</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sECCode</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="ExportButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>1.05882352941176</TopPos>
+               <LeftPos>68.25</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sExport</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NavigationFlexLayout</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>StdFormReportExport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_ExportButton)) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sExport</EffectiveCaption>
+               <LayoutAttributes>INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="Expression0DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>8.70588235294118</TopPos>
+               <LeftPos>81.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout5</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.PackDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sDate</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(6) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="Expression1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>13.6470588235294</TopPos>
+               <LeftPos>81.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout9</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.Weight</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>LineWeight</PropertyClassName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sLineWeight</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(6) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="Expression2DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>23.1764705882353</TopPos>
+               <LeftPos>81.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout14</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.Weight</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>LineWeight</PropertyClassName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sLineWeight</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(6) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="Expression3DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>34.1176470588235</TopPos>
+               <LeftPos>19.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.375</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout19</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.CoLineRelease</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="Expression3DetailStatic1">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>220</TabOrder>
+               <TopPos>35.2941176470588</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout20</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.ShipmentLineSeq</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="Expression3DetailStatic2">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>228</TabOrder>
+               <TopPos>34.1176470588235</TopPos>
+               <LeftPos>44.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.375</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout19</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.LineQtyPicked</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(4) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="Expression3DetailStatic3">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>229</TabOrder>
+               <TopPos>34.1176470588235</TopPos>
+               <LeftPos>61</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout19</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.LineQtyPicked</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(6) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="Expression6DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>47.6470588235294</TopPos>
+               <LeftPos>68.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout27</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.CompTotalRequired</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Amount</PropertyClassName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(4) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout1">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>211</TabOrder>
+               <TopPos>6</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>32</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout10">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>14.6470588235294</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>8</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(10) TARGET(UNKNOWN10)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout11">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>15.8823529411765</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>9</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(11) TARGET(UNKNOWN11)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout12">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>21.8823529411765</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>10</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(12) TARGET(UNKNOWN12)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout13">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>23.1176470588235</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>11</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(13) TARGET(UNKNOWN13)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout14">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>24.3529411764706</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>12</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(14) TARGET(UNKNOWN14)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout15">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>25.5882352941176</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>13</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(15) TARGET(UNKNOWN15)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout16">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>26.8235294117647</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>14</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(16) TARGET(UNKNOWN16)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout17">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>32.8235294117647</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>15</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(18) TARGET(UNKNOWN18)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout18">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>34.0588235294118</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>16</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1_SITE; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN2; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN5; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION7(ID: UNKNOWN6; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(19) TARGET(UNKNOWN20)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout19">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>35.2941176470588</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>17</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 6fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1_SITE; VALUE: 6fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN1; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN2; VALUE: 6fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN3; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable; ANIM: FromLeft) REGION5(ID: UNKNOWN4; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN5; VALUE: 6fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION7(ID: UNKNOWN7; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION8(ID: UNKNOWN6; VALUE: 4fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(23) TARGET(UNKNOWN22)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout2">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>214</TabOrder>
+               <TopPos>61.0588235294118</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>2.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>33</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 4fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(48) TARGET(UNKNOWN40)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout20">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>36.5294117647059</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>18</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 8fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(24) TARGET(UNKNOWN23)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout21">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>39</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>20</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(26) TARGET(UNKNOWN24)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout22">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>40.2352941176471</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>21</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 4fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(27) TARGET(UNKNOWN25)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout23">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>41.4705882352941</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>22</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(28) TARGET(UNKNOWN26)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout24">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>42.7058823529412</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>23</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 11fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 11fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 11fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 17fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 8fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 8fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION7(ID: UNKNOWN7; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(29) TARGET(UNKNOWN27)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout25">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>45.1764705882353</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>24</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 4fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(31) TARGET(UNKNOWN28)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout26">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>47.6470588235294</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>25</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(33) TARGET(UNKNOWN29)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout27">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>48.8823529411765</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>26</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(34) TARGET(UNKNOWN30)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout28">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>50.1176470588235</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>27</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 4fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(35) TARGET(UNKNOWN31)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout29">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>51.3529411764706</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>28</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(39) TARGET(UNKNOWN32)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout3">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>215</TabOrder>
+               <TopPos>63.2941176470588</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>34</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 4fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(49) TARGET(UNKNOWN41)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout30">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>51.3529411764706</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>29</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(42) TARGET(UNKNOWN35)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout31">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>53.8235294117647</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>30</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(45) TARGET(UNKNOWN38)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout32">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>55.0588235294118</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>31</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(46) TARGET(UNKNOWN39)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout33">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>216</TabOrder>
+               <TopPos>64.2941176470588</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>35</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 25fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 25fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(50) TARGET(UNKNOWN42)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout34">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>247</TabOrder>
+               <TopPos>37.7647058823529</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>19</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 3fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 4fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 2fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(25) TARGET(UNKNOWN47)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout35">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>46.4117647058824</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>36</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 4fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(32) TARGET(UNKNOWN49)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout36">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>43.9411764705882</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>37</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN2; VALUE: 33fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN3; VALUE: 40fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(30) TARGET(UNKNOWN50)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout4">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>7.23529411764706</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(4) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout5">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>8.47058823529412</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout6">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>9.70588235294118</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(6) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout7">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>10.9411764705882</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(7) TARGET(UNKNOWN7)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout8">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>12.1764705882353</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(8) TARGET(UNKNOWN8)</LayoutAttributes>
+            </Component>
+            <Component Name="flexLayout9">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>13.4117647058824</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(9) TARGET(UNKNOWN9)</LayoutAttributes>
+            </Component>
+            <Component Name="FormPage1">
+               <DeviceID>-1</DeviceID>
+               <Type>24</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+            </Component>
+            <Component Name="HiddenShipmentIdPackageIdStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>13.6470588235294</TopPos>
+               <LeftPos>15.625</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout9</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.ShipmentIdPackageIdDesc</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sDescription</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="InvoiceTo1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>24.3529411764706</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19.5</Width>
+               <Caption>sInvoiceTo</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout15</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sInvoiceTo</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="InvoiceToDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>200</TabOrder>
+               <TopPos>14.8823529411765</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19.5</Width>
+               <Caption>sInvoiceTo</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout10</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sInvoiceTo</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="Item1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>34.1176470588235</TopPos>
+               <LeftPos>27.625</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout19</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object.Item</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sItem</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(3) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="ItemDescDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>35.2941176470588</TopPos>
+               <LeftPos>27.625</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>65.875</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout20</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ItemDesc</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sDescription</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="ItemDescDetailStatic1">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>234</TabOrder>
+               <TopPos>25.6470588235294</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>5.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>4.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout16</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.ShipPackageRowpointer</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>RowPointer</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sRowPointer</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="ItemDescDetailStatic2">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>235</TabOrder>
+               <TopPos>25.6470588235294</TopPos>
+               <LeftPos>71.5</LeftPos>
+               <Height>5.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout16</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.ShipRowpointer</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>RowPointer</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sRowPointer</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(4) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="ItemDescDetailStatic3">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>236</TabOrder>
+               <TopPos>25.6470588235294</TopPos>
+               <LeftPos>83</LeftPos>
+               <Height>5.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout16</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.ShipSeqRowpointer</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>RowPointer</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sRowPointer</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="ItemDescDetailStatic4">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>237</TabOrder>
+               <TopPos>14.7058823529412</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>5.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>4.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout11</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.ShipPackageRowpointer</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>RowPointer</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sRowPointer</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="ItemDescDetailStatic5">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>238</TabOrder>
+               <TopPos>14.7058823529412</TopPos>
+               <LeftPos>71.5</LeftPos>
+               <Height>5.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout11</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.ShipRowpointer</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>RowPointer</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sRowPointer</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(4) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="ItemDescDetailStatic6">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>239</TabOrder>
+               <TopPos>14.7058823529412</TopPos>
+               <LeftPos>83</LeftPos>
+               <Height>5.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout11</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.ShipSeqRowpointer</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>RowPointer</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sRowPointer</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="ItemDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>32.8235294117647</TopPos>
+               <LeftPos>27.125</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>16.75</Width>
+               <Caption>Item/Description</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout18</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>Item/Description</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0,0.25,0,0.25) INDEX(3) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="KitDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>46.4705882352941</TopPos>
+               <LeftPos>15.625</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>sKit</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout26</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sKit</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="LineDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>32.8235294117647</TopPos>
+               <LeftPos>19.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.375</Width>
+               <Caption>sLine</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout18</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sLine</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="LineDetailStatic1_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>34.0555555555556</TopPos>
+               <LeftPos>16.625</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.375</Width>
+               <Caption>Cust PO</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout18</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>Cust PO</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN1_SITE)</LayoutAttributes>
+            </Component>
+            <Component Name="LotDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>205</TabOrder>
+               <TopPos>41.5294117647059</TopPos>
+               <LeftPos>30.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.875</Width>
+               <Caption>sLot</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout24</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sLot</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="LotDetailStatic1">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>207</TabOrder>
+               <TopPos>41.5294117647059</TopPos>
+               <LeftPos>44.125</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20.375</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout24</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.Lot</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Lot</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sLot</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="LotQuantityDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>208</TabOrder>
+               <TopPos>41.5294117647059</TopPos>
+               <LeftPos>68</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>9.125</Width>
+               <Caption>sLotQuantity</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout24</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sLotQuantity</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="LotQuantityDetailStatic1">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>209</TabOrder>
+               <TopPos>41.5294117647059</TopPos>
+               <LeftPos>78.125</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>9.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout24</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.QtyPicked</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Amount</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(6) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="MainFlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>1</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>60.2941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormPage1</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>385</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(VerticalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: ReportHeader) REGION1(ID: UNKNOWN1; VALUE: 5; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: PageHeader) REGION2(ID: UNKNOWN2; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ShipmentIdPackageIdDesc) REGION3(ID: UNKNOWN3; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ShipmentId; RPTNP: True) REGION4(ID: UNKNOWN4; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ShipmentId; RPTNP: True; GROW: True) REGION5(ID: UNKNOWN5; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ShipmentId; RPTNP: True; GROW: True) REGION6(ID: UNKNOWN6; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ShipmentId; RPTNP: True; GROW: True) REGION7(ID: UNKNOWN7; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ShipmentId; RPTNP: True; GROW: True) REGION8(ID: UNKNOWN8; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintHeaderOnAllPagesVar) = "1"; SECTYPE: GroupHeader; GRPPROP: ShipmentId; RPTNP: True; RPTCOLL: True; GROW: True; VISINDESIGN: True) REGION9(ID: UNKNOWN9; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintHeaderOnAllPagesVar) = "1"; SECTYPE: GroupHeader; GRPPROP: ShipmentId; RPTNP: True; RPTCOLL: True; GROW: True; VISINDESIGN: True) REGION10(ID: UNKNOWN10; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintHeaderOnAllPagesVar) = "1"; SECTYPE: GroupHeader; GRPPROP: ShipmentId; RPTNP: True; RPTCOLL: True; GROW: True; VISINDESIGN: True) REGION11(ID: UNKNOWN11; VALUE: 6; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintHeaderOnAllPagesVar) = "1"; SECTYPE: GroupHeader; GRPPROP: ShipmentId; RPTNP: True; RPTCOLL: True; VISINDESIGN: True) REGION12(ID: UNKNOWN12; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintHeaderOnAllPagesVar) = "1"; SECTYPE: GroupHeader; GRPPROP: ShipmentId; RPTNP: True; RPTCOLL: True; GROW: True; VISINDESIGN: True) REGION13(ID: UNKNOWN13; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintHeaderOnAllPagesVar) &lt;&gt; "1"; SECTYPE: GroupHeader; GRPPROP: ShipmentId; VISINDESIGN: True) REGION14(ID: UNKNOWN14; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintHeaderOnAllPagesVar) &lt;&gt; "1"; SECTYPE: GroupHeader; GRPPROP: ShipmentId; VISINDESIGN: True) REGION15(ID: UNKNOWN15; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintHeaderOnAllPagesVar) &lt;&gt; "1"; SECTYPE: GroupHeader; GRPPROP: ShipmentId; GROW: True; VISINDESIGN: True) REGION16(ID: UNKNOWN16; VALUE: 6; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintHeaderOnAllPagesVar) &lt;&gt; "1"; SECTYPE: GroupHeader; GRPPROP: ShipmentId; VISINDESIGN: True) REGION17(ID: UNKNOWN17; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ShipmentId) REGION18(ID: UNKNOWN18; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintHeaderOnAllPagesVar) &lt;&gt; "1"; SECTYPE: GroupHeader; GRPPROP: ShipmentId; GROW: True; VISINDESIGN: True) REGION19(ID: UNKNOWN20; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ShipmentId; GROW: True) REGION20(ID: UNKNOWN19; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: PackageId; RPTNP: True) REGION21(ID: UNKNOWN43; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: CoNum; RPTNP: True) REGION22(ID: UNKNOWN21; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ShipmentLine) REGION23(ID: UNKNOWN22; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupHeader; GRPPROP: ShipmentLine; GROW: True) REGION24(ID: UNKNOWN23; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintDescriptionVar) = "1" &amp; #P(ItemDesc) &lt;&gt; ""; SECTYPE: GroupHeader; GRPPROP: ShipmentLine; VISINDESIGN: True) REGION25(ID: UNKNOWN47; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #P(CustItem) &lt;&gt; ""; SECTYPE: GroupHeader; GRPPROP: ShipmentLine; VISINDESIGN: True) REGION26(ID: UNKNOWN24; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintEUDetailsVar) = "1" &amp; #P(EcCode) &lt;&gt; "" &amp; #P(Origin) &lt;&gt; "" &amp; #P(CommCode) = ""; SECTYPE: GroupHeader; GRPPROP: ShipmentLineSeq; VISINDESIGN: True) REGION27(ID: UNKNOWN25; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintDeliveryIncoTermsVar) = "1" &amp; #P(Delterm) &lt;&gt; ""; SECTYPE: GroupHeader; GRPPROP: Item; VISINDESIGN: True) REGION28(ID: UNKNOWN26; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(DisplayShipmentSeqNotes) = "1"; SECTYPE: GroupHeader; GRPPROP: Item; GROW: True; SUBFRM: ReportNotesViewer; SUBPRM: ( SETVARVALUES(RowPointer=P(ShipSeqRowpointer), ShowInternal=V(PrintInternalNotes), ShowExternal=V(PrintExternalNotes)) ); VISINDESIGN: True) REGION29(ID: UNKNOWN27; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintLotNumbersVar) = "1" &amp; #P(Lot) &lt;&gt; ""; SECTYPE: GroupHeader; GRPPROP: Lot; VISINDESIGN: True) REGION30(ID: UNKNOWN50; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #P(CustLot) &lt;&gt; "" &amp; #GV(IsCSIB_71568ActiveVar) = "1"; SECTYPE: GroupHeader; GRPPROP: CustLot; VISINDESIGN: True) REGION31(ID: UNKNOWN28; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #P(SerialNum) &lt;&gt; ""; SECTYPE: GroupHeader; GRPPROP: SerialNum; VISINDESIGN: True) REGION32(ID: UNKNOWN49; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #P(CustSerNum) &lt;&gt; "" &amp; #GV(IsCSIB_68758ActiveVar) = "1"; SECTYPE: GroupHeader; GRPPROP: CustSerNum; VISINDESIGN: True) REGION33(ID: UNKNOWN29; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintKitComponents) = "1" &amp; #P(CompItem) &lt;&gt; ""; SECTYPE: GroupHeader; GRPPROP: SerialNum; VISINDESIGN: True) REGION34(ID: UNKNOWN30; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintKitComponents) = "1" &amp; #P(CompItem) &lt;&gt; ""; SECTYPE: Detail; COLLCTX: object; VISINDESIGN: True) REGION35(ID: UNKNOWN31; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintKitComponents) = "1" &amp; #P(CompItem) &lt;&gt; ""; SECTYPE: Detail; COLLCTX: object; VISINDESIGN: True) REGION36(ID: UNKNOWN44; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupFooter; GRPPROP: SerialNum) REGION37(ID: UNKNOWN45; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupFooter; GRPPROP: Lot) REGION38(ID: UNKNOWN46; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupFooter; GRPPROP: Item) REGION39(ID: UNKNOWN32; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupFooter; GRPPROP: ShipmentLine) REGION40(ID: UNKNOWN33; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupFooter; GRPPROP: CoNum) REGION41(ID: UNKNOWN34; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupFooter; GRPPROP: PackageId) REGION42(ID: UNKNOWN35; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(DisplayShipmentPackageNotes) = "1"; SECTYPE: GroupFooter; GRPPROP: PackageId; GROW: True; SUBFRM: ReportNotesViewer; SUBPRM: ( SETVARVALUES(RowPointer=P(ShipPackageRowpointer), ShowInternal=V(PrintInternalNotes), ShowExternal=V(PrintExternalNotes)) ); VISINDESIGN: True) REGION43(ID: UNKNOWN36; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PageBetweenPackagesVar) = "1"; SECTYPE: GroupFooter; GRPPROP: PackageId; VISINDESIGN: True) REGION44(ID: UNKNOWN37; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(DisplayShipmentNotes) = "1"; SECTYPE: GroupFooter; GRPPROP: ShipmentId; GROW: True; SUBFRM: ReportNotesViewer; SUBPRM: ( SETVARVALUES(RowPointer=P(ShipRowpointer), ShowInternal=V(PrintInternalNotes), ShowExternal=V(PrintExternalNotes)) ); VISINDESIGN: True) REGION45(ID: UNKNOWN38; VALUE: 1.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintCertificateOfConformanceVar) = "1" &amp; #P(CertificateOfConformanceText) &lt;&gt; ""; SECTYPE: GroupFooter; GRPPROP: ShipmentId; VISINDESIGN: True) REGION46(ID: UNKNOWN39; VALUE: 6; ORIEN: Fill; ; PACK: Start; BORDER: Enable; EXPVIS: #V(PrintCertificateOfConformanceVar) = "1" &amp; #P(CertificateOfConformanceText) &lt;&gt; ""; SECTYPE: GroupFooter; GRPPROP: ShipmentId; VISINDESIGN: True) REGION47(ID: UNKNOWN48; VALUE: 0.01; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: GroupFooter; GRPPROP: ShipmentIdPackageIdDesc; BRKAFT: True) REGION48(ID: UNKNOWN40; VALUE: 2.25; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: PageFooter) REGION49(ID: UNKNOWN41; VALUE: 1; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: PageFooter) REGION50(ID: UNKNOWN42; VALUE: 1; ORIEN: Fill; ; PACK: Start; BORDER: Enable; SECTYPE: PageFooter) INDEX(0)</LayoutAttributes>
+            </Component>
+            <Component Name="NavigationFlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>-1</TabOrder>
+               <TopPos>0.5</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>2.5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>128</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) REGION3(ID: UNKNOWN3; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) REGION4(ID: UNKNOWN4; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) REGION5(ID: UNKNOWN5; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) REGION6(ID: UNKNOWN6; VALUE: 1fl; ORIEN: Horizontal; ALIGN: Middle; PACK: Center; BORDER: Enable) INDEX(0)</LayoutAttributes>
+            </Component>
+            <Component Name="NextButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>1.05882352941176</TopPos>
+               <LeftPos>55.125</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sNext</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NavigationFlexLayout</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>StdFormPageNext</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_NextButton)) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sNext</EffectiveCaption>
+               <LayoutAttributes>INDEX(4) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="NumofPackagesDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>11.1764705882353</TopPos>
+               <LeftPos>68.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>s#ofPackages</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout7</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>s#ofPackages</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="OrderContact1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>31.6470588235294</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17.375</Width>
+               <Caption>sOrderContact</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout17</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sOrderContact</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="OrderContactDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20.7058823529412</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17.375</Width>
+               <Caption>sOrderContact</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout12</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sOrderContact</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="OrderDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>32.8235294117647</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.75</Width>
+               <Caption>sOrder</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout18</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sOrder</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="Origin1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>37.7647058823529</TopPos>
+               <LeftPos>57.75</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout21</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.Origin</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>EcCode</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sECCode</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(4) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="OriginDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>37.7647058823529</TopPos>
+               <LeftPos>48.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8.25</Width>
+               <Caption>sOrigin</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout21</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sOrigin</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="PackageId1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>34.1176470588235</TopPos>
+               <LeftPos>83.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout19</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <DataSource>object.PackageId</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>PackageIdBase</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sPackageID</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(8) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="PackageIdDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>32.8235294117647</TopPos>
+               <LeftPos>77.75</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.75</Width>
+               <Caption>sPackageId</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout18</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sPackageId</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(7) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="PageFooterDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>217</TabOrder>
+               <TopPos>59.8823529411765</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>1.76470588235294</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout2</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.OfficeAddrFooter</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>LongAddress</PropertyClassName>
+               <Post301Format>JUSTIFY(C) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sAddress</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0,0.25,0,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="PageFooterDetailStatic1">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>218</TabOrder>
+               <TopPos>61.8823529411765</TopPos>
+               <LeftPos>17.875</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>60.375</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout3</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Url</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>LargeURL</PropertyClassName>
+               <Post301Format>JUSTIFY(C) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sURL</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0,0.5,0) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="PageFooterDetailStatic2">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>219</TabOrder>
+               <TopPos>62.8235294117647</TopPos>
+               <LeftPos>43.875</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>3.375</Width>
+               <Caption>sPage</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout33</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sPage</EffectiveCaption>
+               <LayoutAttributes>INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="PageFooterDetailStatic3">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>225</TabOrder>
+               <TopPos>62.8235294117647</TopPos>
+               <LeftPos>47.125</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>1.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout33</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>variables.BG_CURPAGE(INITIALVALUE(BG_CURPAGE))</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C) THEMECLASS(ReportLabel)</Post301Format>
+               <LayoutAttributes>INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="PageFooterDetailStatic4">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>226</TabOrder>
+               <TopPos>62.8235294117647</TopPos>
+               <LeftPos>48.875</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>1.375</Width>
+               <Caption>sOf</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout33</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sOf</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0,0,0.25,0) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="PageFooterDetailStatic5">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>227</TabOrder>
+               <TopPos>62.8235294117647</TopPos>
+               <LeftPos>50.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>1.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout33</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>variables.BG_TOTALPAGES(INITIALVALUE(BG_TOTALPAGES))</DataSource>
+               <Binding>6</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C) THEMECLASS(ReportLabel)</Post301Format>
+               <LayoutAttributes>INDEX(4) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="PageHeaderFlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>1</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 1fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 12; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION2(ID: UNKNOWN2; VALUE: 5fl; ORIEN: Vertical; ALIGN: Stretch; PACK: Start; BORDER: Enable) INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="PickupDateDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>8.70588235294118</TopPos>
+               <LeftPos>68.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>sPickupDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout5</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sPickupDate</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="PreviousButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>1.05882352941176</TopPos>
+               <LeftPos>42</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sPrevious</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NavigationFlexLayout</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>StdFormPagePop</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_PreviousButton)) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sPrevious</EffectiveCaption>
+               <LayoutAttributes>INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="QtyPackagesDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>11.1764705882353</TopPos>
+               <LeftPos>81.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout7</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.QtyPackages</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Packages</PropertyClassName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>s#Packages</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(6) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="QtyRequiredDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>46.4705882352941</TopPos>
+               <LeftPos>68.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>sQtyRequired</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout26</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sQtyRequired</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(4) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="QtyShippedDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>32.8235294117647</TopPos>
+               <LeftPos>61</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.75</Width>
+               <Caption>sQtyShipped</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout18</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sQtyShipped</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(6) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="QtyShippedDetailStatic1">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>230</TabOrder>
+               <TopPos>32.8235294117647</TopPos>
+               <LeftPos>44.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.375</Width>
+               <Caption>sQty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout18</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sQty</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(4) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="ReportCaptionStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>212</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>27.875</LeftPos>
+               <Height>4.23529411764706</Height>
+               <ListHeight>0</ListHeight>
+               <Width>65.625</Width>
+               <Caption>sShipPackingSlip</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PageHeaderFlexLayout</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>FONT(20,0,0,0,700,0,0,0,1,0,0,0,0,Arial) JUSTIFY(R) THEMECLASS(ReportCaption)</Post301Format>
+               <EffectiveCaption>sShipPackingSlip</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.5,0.5,0.5) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="ReportHeaderFlexLayout">
+               <DeviceID>-1</DeviceID>
+               <Type>50</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>1</TopPos>
+               <LeftPos>2</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>92</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MainFlexLayout</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <LayoutAttributes>TYPE(HorizontalBox) AUTOSIZE(0) REGION0(ID: UNKNOWN0; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) REGION1(ID: UNKNOWN1; VALUE: 20; ORIEN: Vertical; ALIGN: Stretch; PACK: Start; BORDER: Enable; MARGIN: 0,0,1,0) REGION2(ID: UNKNOWN2; VALUE: 10fl; ORIEN: Vertical; ALIGN: Stretch; PACK: Start; BORDER: Enable; MARGIN: 0.25,0,0.25,0) REGION3(ID: UNKNOWN3; VALUE: 10fl; ORIEN: Vertical; ALIGN: Stretch; PACK: Start; BORDER: Enable; MARGIN: 0.25,0,0.25,0) REGION4(ID: UNKNOWN4; VALUE: 5fl; ORIEN: Fill; ; PACK: Start; BORDER: Enable) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="RunButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>1.05882352941176</TopPos>
+               <LeftPos>15.75</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sRun</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>NavigationFlexLayout</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>StdFormReportGenerate</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_RunButton)) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sRun</EffectiveCaption>
+               <LayoutAttributes>INDEX(1) TARGET(UNKNOWN1)</LayoutAttributes>
+            </Component>
+            <Component Name="Serial.DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>206</TabOrder>
+               <TopPos>45.4117647058824</TopPos>
+               <LeftPos>28.75</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>sSerial</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout25</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sSerial</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="Serial.DetailStatic1">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>210</TabOrder>
+               <TopPos>45.4117647058824</TopPos>
+               <LeftPos>41.875</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>51.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout25</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.SerialNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>SerNum</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sS/N</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="Serial.DetailStatic2">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>241</TabOrder>
+               <TopPos>40.4705882352941</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>9.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout22</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.SerialNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>SerNum</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sS/N</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="Serial.DetailStatic3">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>206</TabOrder>
+               <TopPos>46.6470588235294</TopPos>
+               <LeftPos>28.75</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>sCustomerS/N</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout35</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCustomerS/N</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="Serial.DetailStatic4">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>210</TabOrder>
+               <TopPos>46.6470588235294</TopPos>
+               <LeftPos>41.875</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>51.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout35</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.CustSerNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CustSerialNum</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCustomerS/N</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="Serial.DetailStatic5">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>206</TabOrder>
+               <TopPos>44.1764705882353</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>40.625</Width>
+               <Caption>sCustomerLot</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout36</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCustomerLot</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="Serial.DetailStatic6">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>210</TabOrder>
+               <TopPos>44.1764705882353</TopPos>
+               <LeftPos>44.125</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>49.375</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout36</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.CustLot</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CustLot</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCustomerLot</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(1) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipCode1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>21.8823529411765</TopPos>
+               <LeftPos>81.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout13</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.ShipCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ShipCode</PropertyClassName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCode</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(6) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipCodeDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>12.4117647058824</TopPos>
+               <LeftPos>81.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout8</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.ShipCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ShipCode</PropertyClassName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sCode</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(6) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipContact1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>31.6470588235294</TopPos>
+               <LeftPos>66.875</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>26.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout17</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.ShipContact</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Contact</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sContact</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipContactDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20.7058823529412</TopPos>
+               <LeftPos>66.875</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>26.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout12</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.ShipContact</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Contact</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sContact</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipmentDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>7.47058823529412</TopPos>
+               <LeftPos>68.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>sShipment</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout4</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sShipment</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipmentIdDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>7.47058823529412</TopPos>
+               <LeftPos>81.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout4</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.ShipmentId</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ShipmentID</PropertyClassName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sShipment</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(6) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipmentLineStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>246</TabOrder>
+               <TopPos>13.6470588235294</TopPos>
+               <LeftPos>2.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout9</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.ShipmentLine</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ShipmentLineBase</PropertyClassName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sLine</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(0) TARGET(UNKNOWN0)</LayoutAttributes>
+            </Component>
+            <Component Name="ShippingContact1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>31.6470588235294</TopPos>
+               <LeftPos>48.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17.375</Width>
+               <Caption>sShippingContact</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout17</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sShippingContact</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="ShippingContactDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>20.7058823529412</TopPos>
+               <LeftPos>48.5</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17.375</Width>
+               <Caption>sShippingContact</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout12</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sShippingContact</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(2) TARGET(UNKNOWN2)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipToDescStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>244</TabOrder>
+               <TopPos>14.8823529411765</TopPos>
+               <LeftPos>63.875</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>29.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout10</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.CustSeq</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CustSeq</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sShipTo</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipToDescStatic2">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>245</TabOrder>
+               <TopPos>24.3529411764706</TopPos>
+               <LeftPos>63.875</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>29.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout15</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.CustSeq</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CustSeq</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sShipTo</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipToLongAddr1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>203</TabOrder>
+               <TopPos>25.6470588235294</TopPos>
+               <LeftPos>42.75</LeftPos>
+               <Height>5.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>27.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout16</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ShipToLongAddr</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>LongAddress</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sAddress</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipToLongAddrDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>14.7058823529412</TopPos>
+               <LeftPos>42.75</LeftPos>
+               <Height>5.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>27.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout11</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.ShipToLongAddr</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>LongAddress</PropertyClassName>
+               <Post301Format>THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sAddress</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(3) TARGET(UNKNOWN3)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipVia1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>21.8823529411765</TopPos>
+               <LeftPos>68.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>sShipVia</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout13</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sShipVia</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="ShipViaDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>12.4117647058824</TopPos>
+               <LeftPos>68.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>sShipVia</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout8</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sShipVia</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="UM1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>34.1176470588235</TopPos>
+               <LeftPos>52.625</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.375</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout19</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>object.UM</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UM</PropertyClassName>
+               <Post301Format>JUSTIFY(L) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sU/M</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="UM2DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>46.4705882352941</TopPos>
+               <LeftPos>81.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>sU/M</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout26</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sU/M</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="UMDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>32.8235294117647</TopPos>
+               <LeftPos>52.625</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.375</Width>
+               <Caption>sU/M</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout18</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sU/M</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN4)</LayoutAttributes>
+            </Component>
+            <Component Name="WarehouseDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>9.94117647058824</TopPos>
+               <LeftPos>68.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>sWarehouse</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout6</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sWarehouse</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="Weight1DetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>23.1764705882353</TopPos>
+               <LeftPos>68.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>sWeight</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout14</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sWeight</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="WeightDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>13.6470588235294</TopPos>
+               <LeftPos>68.25</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <Caption>sWeight</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout9</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sWeight</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(5) TARGET(UNKNOWN5)</LayoutAttributes>
+            </Component>
+            <Component Name="WhseDetailStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>9.94117647058824</TopPos>
+               <LeftPos>81.375</LeftPos>
+               <Height>0.764705882352941</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>flexLayout6</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.Whse</DataSource>
+               <Binding>1</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Whse</PropertyClassName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(GP_GridCol)</Post301Format>
+               <EffectiveCaption>sWarehouse</EffectiveCaption>
+               <LayoutAttributes>MARGIN(0.5,0.25,0.5,0.25) INDEX(6) TARGET(UNKNOWN6)</LayoutAttributes>
+            </Component>
+         </Components>
+         <EventHandlers>
+            <EventHandler Name="InitializeActiveFeatureList" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeActiveFeatureList()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(ActiveFeatureList) &lt;&gt; "", InitializeActiveFeatureList)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="1">
+               <ResponseType>8</ResponseType>
+               <Response>CheckForParentForm()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>SetCpation()</Response>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="cew_DesignButton">
+               <Value>Enabled:#C(DesignButton), #V(StdCurFormPage) &lt;&gt; "0", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_ExportButton">
+               <Value>Enabled:#C(ExportButton), #V(StdLastFormPage) &gt; "0", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_NextButton">
+               <Value>Enabled:#C(NextButton), #V(StdCurFormPage) &lt; #V(StdLastFormPage), "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PreviousButton">
+               <Value>Enabled:#C(PreviousButton), #V(StdCurFormPage) &gt; "0", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_RunButton">
+               <Value>Enabled:#C(RunButton), #V(StdCurFormPage) = "0", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_DataSource">
+               <Value>SLShipmentPackingSlipDetail.Rpt_ShipmentPackingSlipSp( V(fds1_PrimaryMethodParms) V(fds2_PrimaryMethodParms) OBJNAME(oSLShipmentPackingSlipDetail) RECORDCAP(0) LOCKMODE(Row) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_PrimaryMethodParms">
+               <Value>PARMS(VAR V(PrintBlankPickupDate), VAR V(IncludeSerialNumbers), VAR V(DisplayShipmentNotes), VAR V(DisplayShipmentSeqNotes), VAR V(DisplayShipmentPackageNotes), VAR V(SubShipmentStarting), VAR V(SubShipmentEnding), VAR V(CustomerStarting), VAR V(CustomerEnding), VAR V(ShipToStarting), VAR V(ShipToEnding), VAR V(PickupDateStartingOffset), VAR V(PickupDateEndingOffset), VAR V(DateNullVar), VAR V(DateNullVar), VAR V(PrintInternalNotes), VAR V(PrintExternalNotes), VAR V(DisplayHeader), VAR V(pSite),</Value>
+               <Value2> VAR V(PrintDescriptionVar), VAR V(PrintHeaderOnAllPagesVar), VAR V(PageBetweenPackagesVar), VAR V(PrintCertificateOfConformanceVar), VAR V(PrintPackageWeightVar), VAR V(PrintDeliveryIncoTermsVar), VAR V(PrintEUDetailsVar), VAR V(PrintKitComponents),)</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds2_PrimaryMethodParms">
+               <Value>PARMS2( VAR V(PrintLotNumbersVar), VAR V(IncludeCustSerialNumbers), VAR V(PrintCustomerLotNumbersVar))</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine />
+               <ScriptLine />
+               <ScriptLine>Namespace Mongoose.FormScripts</ScriptLine>
+               <ScriptLine>    Public Class ue_HIL_ShipmentPackingSlipDetailViewer</ScriptLine>
+               <ScriptLine>        Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Public Sub SetCpation()</ScriptLine>
+               <ScriptLine>            ThisForm.Components("ItemDetailStatic").Caption = Application.GetStringValue("sItem").ToString() + "/" + Application.GetStringValue("sDescription").ToString()</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>    End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

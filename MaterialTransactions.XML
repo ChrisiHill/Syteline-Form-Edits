@@ -1,0 +1,1217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="MaterialTransactions" Scope="1" ScopeName="[NULL]">
+         <Caption>fMaterialTransactions</Caption>
+         <Type>1</Type>
+         <StandardOperations>673</StandardOperations>
+         <Flags>984</Flags>
+         <Height>28.7999992370605</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>109</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/forms/invtopic/material_transactions.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>0</PaneZeroSize>
+         <FilterFormSpec>MaterialTransactionsQuery</FilterFormSpec>
+         <PrimaryDataSource>V(fds_DataSource)</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <Components>
+            <Component Name="BackflushGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>76</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>11</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>8</ContainerSequence>
+               <DataSource>object.Backflush</DataSource>
+               <Binding>1</Binding>
+               <ComboListSource>INLINE ENTRIES(0\sNo,1\sYes) DISPLAY(2) VALUE(1)</ComboListSource>
+               <Flags>1048608</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/backflush_pending_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sBackflush</EffectiveCaption>
+            </Component>
+            <Component Name="CostCodeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>29</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>531</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>11</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>28</ContainerSequence>
+               <DataSource>object.CostCode</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/cost_code_unposted_job_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCostCode</EffectiveCaption>
+            </Component>
+            <Component Name="DateTimeTransGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>567.285714285714</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>20</Width>
+               <Caption>sDateTimeofTrans</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>31</ContainerSequence>
+               <DataSource>object.CreateDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>DateTime()</DefaultFrom>
+               <PropertyClassName>CurrentDate</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDateTimeofTrans</EffectiveCaption>
+            </Component>
+            <Component Name="DerCoHistStatEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>19.0588235294118</TopPos>
+               <LeftPos>66.25</LeftPos>
+               <Height>1.17647058823529</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerCoHistStat</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CoStatus</PropertyClassName>
+               <Post301Format>STB()</Post301Format>
+               <EffectiveCaption>sStatus</EffectiveCaption>
+            </Component>
+            <Component Name="DerMatltranCostGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>431</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>24</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>24</ContainerSequence>
+               <DataSource>object.DerMatltranCost</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_cost_manual_lifofifo_adjustment_utility.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sUnitCost</EffectiveCaption>
+            </Component>
+            <Component Name="DerMatlTranViewTotalPostedGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>26</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>455</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>24</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>25</ContainerSequence>
+               <DataSource>object.DerMatlTranViewTotalPosted</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_financial/fields/t/total_posted_posted_transaction.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>AmtTot</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sTotalPosted</EffectiveCaption>
+            </Component>
+            <Component Name="DerPoHistStatEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>19</TopPos>
+               <LeftPos>51.5</LeftPos>
+               <Height>1.17647058823529</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerPoHistStat</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>PoStat</PropertyClassName>
+               <Post301Format>STB()</Post301Format>
+               <EffectiveCaption>sStatus</EffectiveCaption>
+            </Component>
+            <Component Name="DocumentNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>27</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>511</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>26</ContainerSequence>
+               <DataSource>object.DocumentNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/d/document_number_mat_trn_rpt.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>DocumentNum</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDocumentNumber</EffectiveCaption>
+            </Component>
+            <Component Name="EmpNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>553</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14.2857142857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>30</ContainerSequence>
+               <DataSource>object.EmpNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/e/employee_job_materialreceipt_error_processing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Employees( PROPERTY(EmpNum) )</MaintainFromSpec>
+               <PropertyClassName>EmpNum</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sEmployee</EffectiveCaption>
+            </Component>
+            <Component Name="FormCollectionGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>109</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>14</ContainerSequence>
+               <DataSource>objects</DataSource>
+               <Binding>3</Binding>
+               <Flags>384</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGrid()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="FovhdCostGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>22</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>371</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>20</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>21</ContainerSequence>
+               <DataSource>object.FovhdCost</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/f/fix_ovhd_cost_job_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sFovhdCost</EffectiveCaption>
+            </Component>
+            <Component Name="ItemGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>237</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.Item</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/i/item_item_mastermaterialmaterial_costsoperationsrates.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Items( PROPERTY(Item) )</MaintainFromSpec>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sItem</EffectiveCaption>
+            </Component>
+            <Component Name="LbrCostGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>21</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>351</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>20</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>20</ContainerSequence>
+               <DataSource>object.LbrCost</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/l/labor_cost_job_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLaborCost</EffectiveCaption>
+            </Component>
+            <Component Name="LocGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>98</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>18</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>10</ContainerSequence>
+               <DataSource>object.Loc</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/l/location_pending_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Loc</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLocation</EffectiveCaption>
+            </Component>
+            <Component Name="LotGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>116</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>18</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>11</ContainerSequence>
+               <DataSource>object.Lot</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/l/lot_pending_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Lots( PROPERTY(Lot) )</MaintainFromSpec>
+               <PropertyClassName>Lot</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLot</EffectiveCaption>
+            </Component>
+            <Component Name="MatlCostGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>20</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>331</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>20</Width>
+               <Caption>sMaterialCost</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>19</ContainerSequence>
+               <DataSource>object.MatlCost</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/m/material_cost_job_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sMaterialCost</EffectiveCaption>
+            </Component>
+            <Component Name="MatlTranViewItemDescGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>18</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>269</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>17</ContainerSequence>
+               <DataSource>object.MatlTranViewItemDesc</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/d/description_item_master_general.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDescription</EffectiveCaption>
+            </Component>
+            <Component Name="MatlTranViewItemUMGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>19</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>301</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>18</ContainerSequence>
+               <DataSource>object.MatlTranViewItemUM</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/u/um_field_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>UM</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sU/M</EffectiveCaption>
+            </Component>
+            <Component Name="MatlTranViewReasonDescGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>17</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>205</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>16</ContainerSequence>
+               <DataSource>object.MatlTranViewReasonDesc</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/r/reason_description_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sReasonDescription</EffectiveCaption>
+            </Component>
+            <Component Name="MatlTranViewTypeDescGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>479</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>32</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object.MatlTranViewTypeDesc</DataSource>
+               <Binding>1</Binding>
+               <ComboListSource>STDMC SL.SLMatlTrans.MtCodeListSp( V(lsm1_MatlTranViewTypeDescGridCol) PROPERTIES(MatlTranViewTypeDesc) DISPLAY(1)DISTINCT() ORDERBY(MatlTranViewTypeDesc))</ComboListSource>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/t/transaction_description_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sTransactionDescription</EffectiveCaption>
+            </Component>
+            <Component Name="OutCostGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>24</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>411</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>20</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>23</ContainerSequence>
+               <DataSource>object.OutCost</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/o/outside_cost_job_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sOutsideCost</EffectiveCaption>
+            </Component>
+            <Component Name="QtyGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>311</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>20</Width>
+               <Caption>sQuantity</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>object.Qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_financial/fields/q/quantity_posted_transaction.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sQuantity</EffectiveCaption>
+            </Component>
+            <Component Name="ReasonCodeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>192</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Caption>sReasonCode</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>15</ContainerSequence>
+               <DataSource>object.ReasonCode</DataSource>
+               <Binding>1</Binding>
+               <ComboListSource>STDOLE SLReasons(  PROPERTIES(ReasonCode, Description) DISPLAY(1,2)DISTINCT() )</ComboListSource>
+               <Flags>4</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/r/reason_code_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ReasonCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sReasonCode</EffectiveCaption>
+            </Component>
+            <Component Name="RefLineSufGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>14</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>169</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <Caption>sRefLine</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>13</ContainerSequence>
+               <DataSource>object.RefLineSuf</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/reference_line_suffix_order_lineblanket_release_maintenance.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetails</MenuName>
+               <MaintainFromSpec>V(RefLineDetails)</MaintainFromSpec>
+               <PropertyClassName>CoLineSuffixPoRmaTrnLine</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sRefLine</EffectiveCaption>
+            </Component>
+            <Component Name="RefNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>147</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>22</Width>
+               <Caption>sRefNumber</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.RefNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/r/ref_number_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetails</MenuName>
+               <MaintainFromSpec>V(RefNumDetails)</MaintainFromSpec>
+               <PropertyClassName>EmpJobCoPoRmapsTrnNum</PropertyClassName>
+               <Post301DataType>DATATYPE(NUMSORTCHAR) LENGTH(10)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sRefNumber</EffectiveCaption>
+            </Component>
+            <Component Name="RefReleaseGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>179</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>14</ContainerSequence>
+               <DataSource>object.RefRelease</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/r/ref_release_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDetails</MenuName>
+               <MaintainFromSpec>V(RefReleaseDetails)</MaintainFromSpec>
+               <PropertyClassName>CoReleaseOperNumPoRelease</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sRefRelease</EffectiveCaption>
+            </Component>
+            <Component Name="RefTypeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>54</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>22</Width>
+               <Caption>sReferenceType</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <DataSource>object.RefType</DataSource>
+               <Binding>1</Binding>
+               <ComboListSource>INLINE ENTRIES(V(lse_RefTypeGridCol)) DISPLAY(2) VALUE(1)</ComboListSource>
+               <Flags>1048608</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/r/reference_type_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>RefTypeIJKOPRSTW</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sReferenceType</EffectiveCaption>
+            </Component>
+            <Component Name="TransDateGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>18</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Caption>sTransDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.TransDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/t/trans_date_pending_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sTransDate</EffectiveCaption>
+            </Component>
+            <Component Name="TransNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>6</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12</Width>
+               <Caption>sTransactionNumber</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.TransNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_financial/fields/t/trans_num_gl_posted_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>MatlTransNum</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sTransactionNumber</EffectiveCaption>
+            </Component>
+            <Component Name="TransTypeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>31</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>23</Width>
+               <Caption>sTransactionType</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.TransType</DataSource>
+               <Binding>1</Binding>
+               <ComboListSource>INLINE ENTRIES(V(lse_TransTypeGridCol)) DISPLAY(2) VALUE(1)</ComboListSource>
+               <Flags>1048576</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/t/transaction_type_material_transactions_reportutility_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>MatlTransType</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sTransactionType</EffectiveCaption>
+            </Component>
+            <Component Name="TrnFromSiteGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>30</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>542</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>11</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>29</ContainerSequence>
+               <DataSource>object.TrnFromSite</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/f/from_site_transfers.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>Site</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sFromSite</EffectiveCaption>
+            </Component>
+            <Component Name="UserCodeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>28</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>525</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>6</Width>
+               <Caption>sUser</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>27</ContainerSequence>
+               <DataSource>object.UserCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/user_initials_pending_job_labor_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>UserCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sUser</EffectiveCaption>
+            </Component>
+            <Component Name="VovhdCostGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>23</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>391</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>20</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>22</ContainerSequence>
+               <DataSource>object.VovhdCost</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/v/var_ovhd_cost_job_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sVovhdCost</EffectiveCaption>
+            </Component>
+            <Component Name="WcGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>13</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>134</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Caption>sWorkCenter</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>12</ContainerSequence>
+               <DataSource>object.Wc</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/w/wc_pending_material_transactions.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Wc</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sWorkCenter</EffectiveCaption>
+            </Component>
+            <Component Name="WhseGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>87</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>11</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>9</ContainerSequence>
+               <DataSource>object.Whse</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/w/warehouse_itemwarehouse.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Whse</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sWarehouse</EffectiveCaption>
+            </Component>
+         </Components>
+         <EventHandlers>
+            <EventHandler Name="StdFormFilterInPlaceBeginCompleted" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>SaveFilter</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SLFormExtMsgEntities.LoadJSONVar( PARMS(VAR MaterialTransactions, RVAR V(JSONVarNotInterpretWithLIT)) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="1">
+               <ResponseType>22</ResponseType>
+               <Response>SETVARVALUES(JSONVarNotInterpret=V(JSONVarNotInterpretWithLIT))</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectRefresh" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>MassageFilter</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>SetReferenceForm</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SLFormExtMsgEntities.FormatJSONVar( PARMS(VAR MaterialTransactions, VAR V(JSONVarNotInterpret), RVAR V(JSONVarWithLIT)) COLID(object) )</Response>
+               <Description>JSONAuto_object</Description>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="2">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(JSONVar=V(JSONVarWithLIT)) COLID(object)</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="3">
+               <ResponseType>47</ResponseType>
+               <Response>JSONMSGTYPE(inforBusinessContext) JSONPAYLOAD(V(JSONVar)) JSONMSGTOCHLD()  COLID(object)</Response>
+               <Description>JSONAuto_object</Description>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="fds_DataSource">
+               <Value>SL.SLMatltrans( FILTERPERM(RefType=isnull(FV(RefTypeVar), RefType)) ORDERBY(TransNum DESC) LOCKMODE(Row) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="InitialCommand">
+               <Value>FilterInPlace</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="lse_DerMatltranTypeDescGridCol">
+               <Value>A\sMatlTransType=A,AC\sMatlTransType=AC,B\sMatlTransType=B,CS\sMatlTransType=CS,CM\sMatlTransType=CM,CA\sMatlTransType=CA,CB\sMatlTransType=CB,C\sMatlTransType=C,DA\sMatlTransType=DA,DS\sMatlTransType=DS,FK\sMatlTransType=FK,FS\sMatlTransType=FS,F\sMatlTransType=F,G\sMatlTransType=G,H\sMatlTransType=H,IC\sMatlTransType=IC,CK\sMatlTransType=CK,IK\sMatlTransType=IK,CP\sMatlTransType=CP,IS\sMatlTransType=IS,IW\sMatlTransType=IW,CF\sMatlTransType=CF,I\sMatlTransType=I,L\sMatlTransType=L,MT\sMatlTran</Value>
+               <Value2>sType=MT,M\sMatlTransType=M,NK\sMatlTransType=NK,NA\sMatlTransType=NA,NS\sMatlTransType=NS,NB\sMatlTransType=NB,NW\sMatlTransType=NW,NL\sMatlTransType=NL,N\sMatlTransType=N,OW\sMatlTransType=OW,O\sMatlTransType=O,P\sMatlTransType=P,RK\sMatlTransType=RK,RS\sMatlTransType=RS,RA\sMatlTransType=RA,R\sMatlTransType=R,V\sMatlTransType=V,SA\sMatlTransType=SA,S\sMatlTransType=S,TT\sMatlTransType=TT,T\sMatlTransType=T,WC\sMatlTransType=WC,W\sMatlTransType=W,WK\sMatlTransType=WK,WO\sMatlTransType=WO,WA\sM</Value2>
+               <Value3>atlTransType=WA,WM\sMatlTransType=WM,WR\sMatlTransType=WR,WP\sMatlTransType=WP,WS\sMatlTransType=WS,WW\sMatlTransType=WW</Value3>
+               <Description />
+            </Variable>
+            <Variable Name="lse_RefTypeGridCol">
+               <Value>C\sRefTypeIJKOPRSTW=C,I\sRefTypeIJKOPRSTW=I,J\sRefTypeIJKOPRSTW=J,K\sRefTypeIJKOPRSTW=K,O\sRefTypeIJKOPRSTW=O,P\sRefTypeIJKOPRSTW=P,R\sRefTypeIJKOPRSTW=R,S\sRefTypeIJKOPRSTW=S,T\sRefTypeIJKOPRSTW=T,W\sRefTypeIJKOPRSTW=W,F\sRefTypeIJKOPRSTW=F</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="lse_TransTypeGridCol">
+               <Value>A\sAdjustment,B\sCycleCount,C\sSplit/Merge/Create,D\sScrap,F\sFinish,G\sMisc.Issue,H\sMisc.Receipt,I\sIssue/WIPChange,L\sTransferLoss,M\sStockMove,N\sLabor/NextOperation,O\sOtherCost,P\sPhysicalInventory,R\sReceipt,S\sShip,T\sTransferOrder,W\sWithdrawal/Return</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="lsm1_MatlTranViewTypeDescGridCol">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports System.Text.RegularExpressions</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Namespace SyteLine.FormScripts</ScriptLine>
+               <ScriptLine>Public class MaterialTransactions</ScriptLine>
+               <ScriptLine>Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SetReferenceForm()</ScriptLine>
+               <ScriptLine>            Dim sType As String</ScriptLine>
+               <ScriptLine>            Dim sRelease As Integer</ScriptLine>
+               <ScriptLine>            Dim sPoHistStat As String</ScriptLine>
+               <ScriptLine>            Dim sCoHistStat As String</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.Variables("RefNumDetails").Value = "UnknownForm( )"</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("RefLineDetails").Value = "UnknownForm( )"</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("RefReleaseDetails").Value = "UnknownForm( )"</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            sType = ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("RefType")</ScriptLine>
+               <ScriptLine>            sRelease = ThisForm.Components("RefReleaseGridCol").GetValueOfInteger(0)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            sPoHistStat = ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("DerPoHistStat")</ScriptLine>
+               <ScriptLine>            sCoHistStat = ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("DerCoHistStat")</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If sType = "J" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefNumDetails").Value = "JobOrders( PROPERTY(Job) )"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefLineDetails").Value = "JobOrders( PROPERTY(Suffix) FILTER(Job=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefReleaseDetails").Value = "JobOperations( PROPERTY(OperNum) FILTER(Job=FP(RefNum) AND Suffix=P(RefLineSuf)) )"</ScriptLine>
+               <ScriptLine>                'ElseIf sType = "I" Then</ScriptLine>
+               <ScriptLine>                'ThisForm.Variables("RefNumDetails").Value = "Items( PROPERTY(null) FILTER(Item=FP(Item)))"</ScriptLine>
+               <ScriptLine>            ElseIf sType = "P" Then</ScriptLine>
+               <ScriptLine>                If sPoHistStat = "H" Then</ScriptLine>
+               <ScriptLine>                   ThisForm.Variables("RefNumDetails").Value = "HistoryPurchaseOrders( PROPERTY(PoNum) )"</ScriptLine>
+               <ScriptLine>                   If sRelease = 0 Then</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefLineDetails").Value = "HistoryPurchaseOrderLines( PROPERTY(PoLine) FILTER(PoNum=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefReleaseDetails").Value = "HistoryPurchaseOrderLines( PROPERTY(PoRelease) FILTER(PoNum=FP(RefNum) AND PoLine=P(RefLineSuf)) )"</ScriptLine>
+               <ScriptLine>                   Else</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefLineDetails").Value = "HistoryPurchaseOrderBlanketLines( PROPERTY(PoLine) FILTER(PoNum=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefReleaseDetails").Value = "HistoryPurchaseOrderBlanketReleases( PROPERTY(PoRelease) FILTER(PoNum=FP(RefNum) AND PoLine=P(RefLineSuf)) )"</ScriptLine>
+               <ScriptLine>                   End If</ScriptLine>
+               <ScriptLine>                Else</ScriptLine>
+               <ScriptLine>                   ThisForm.Variables("RefNumDetails").Value = "PurchaseOrders( PROPERTY(PoNum) )"</ScriptLine>
+               <ScriptLine>                   If sRelease = 0 Then</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefLineDetails").Value = "PurchaseOrderLines( PROPERTY(PoLine) FILTER(PoNum=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefReleaseDetails").Value = "PurchaseOrderLines( PROPERTY(PoRelease) FILTER(PoNum=FP(RefNum) AND PoLine=P(RefLineSuf)) )"</ScriptLine>
+               <ScriptLine>                   Else</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefLineDetails").Value = "PurchaseOrderBlanketLines( PROPERTY(PoLine) FILTER(PoNum=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefReleaseDetails").Value = "PurchaseOrderBlanketReleases( PROPERTY(PoRelease) FILTER(PoNum=FP(RefNum) AND PoLine=P(RefLineSuf)) )"</ScriptLine>
+               <ScriptLine>                   End If</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            ElseIf sType = "O" Then</ScriptLine>
+               <ScriptLine>                If sCoHistStat = "H" Then</ScriptLine>
+               <ScriptLine>                   ThisForm.Variables("RefNumDetails").Value = "HistoryCustomerOrders( PROPERTY(CoNum) )"</ScriptLine>
+               <ScriptLine>                   If sRelease = 0 Then</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefLineDetails").Value = "HistoryCustomerOrderLines( PROPERTY(CoLine) FILTER(CoNum=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefReleaseDetails").Value = "HistoryCustomerOrderLines( PROPERTY(CoRelease) FILTER(CoNum=FP(RefNum) AND CoLine=P(RefLineSuf)) )"</ScriptLine>
+               <ScriptLine>                   Else</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefLineDetails").Value = "HistoryCustomerOrderBlanketLines( PROPERTY(CoLine) FILTER(CoNum=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefReleaseDetails").Value = "HistoryCustomerOrderBlanketReleases( PROPERTY(CoRelease) FILTER(CoNum=FP(RefNum) AND CoLine=P(RefLineSuf)) )"</ScriptLine>
+               <ScriptLine>                   End If</ScriptLine>
+               <ScriptLine>                Else</ScriptLine>
+               <ScriptLine>                   ThisForm.Variables("RefNumDetails").Value = "CustomerOrders( PROPERTY(CoNum) )"</ScriptLine>
+               <ScriptLine>                   If sRelease = 0 Then</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefLineDetails").Value = "CustomerOrderLines( PROPERTY(CoLine) FILTER(CoNum=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefReleaseDetails").Value = "CustomerOrderLines( PROPERTY(CoRelease) FILTER(CoNum=FP(RefNum) AND CoLine=P(RefLineSuf)) )"</ScriptLine>
+               <ScriptLine>                   Else</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefLineDetails").Value = "CustomerOrderBlanketLines( PROPERTY(CoLine) FILTER(CoNum=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>                       ThisForm.Variables("RefReleaseDetails").Value = "BlanketReleases( PROPERTY(CoRelease) FILTER(CoNum=FP(RefNum) AND CoLine=P(RefLineSuf)) )"</ScriptLine>
+               <ScriptLine>                   End If</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>                'ElseIf sType = "K" Then</ScriptLine>
+               <ScriptLine>                'ThisForm.Variables("RefNumDetails").Value = ""</ScriptLine>
+               <ScriptLine>            ElseIf sType = "R" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefNumDetails").Value = "RMAs( PROPERTY(RmaNum) )"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefLineDetails").Value = "RmaLineItems( PROPERTY(RmaLine) FILTER(RmaNum=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>            ElseIf sType = "S" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefNumDetails").Value = "ProductionSchedules( PROPERTY(PsNum) )"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefLineDetails").Value = "ProductionScheduleItems( PROPERTY(Suffix) FILTER(PsNum=FP(RefNum) AND Item=FP(Item)) )"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefReleaseDetails").Value = "ProductionScheduleReleaseOperations( PROPERTY(OperNum) FILTER(PsPsNum=FP(RefNum) AND PitmItem=FP(Item)) )"</ScriptLine>
+               <ScriptLine>            ElseIf sType = "T" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefNumDetails").Value = "TransferOrders( PROPERTY(TrnNum) )"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefLineDetails").Value = "TransferOrderLineItems( PROPERTY(TrnLine) FILTER(TrnNum=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>                'ElseIf sType = "W" Then</ScriptLine>
+               <ScriptLine>                'ThisForm.Variables("RefNumDetails").Value = ""</ScriptLine>
+               <ScriptLine>            ElseIf sType = "C" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefNumDetails").Value = "Projects( PROPERTY(ProjNum) )"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefLineDetails").Value = "ProjectTasks( PROPERTY(TaskNum) FILTER(ProjNum=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefReleaseDetails").Value = "ProjectResources( PROPERTY(Seq) FILTER(ProjNum=FP(RefNum) AND TaskNum=P(RefLineSuf)) )"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            'SSSFS 01 Start</ScriptLine>
+               <ScriptLine>            If sType = "F" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefNumDetails").Value = "ServiceOrders( PROPERTY(SroNum) )"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefLineDetails").Value = "ServiceOrderLines( PROPERTY(SroLine) FILTER(SroNum=FP(RefNum)) )"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("RefReleaseDetails").Value = "ServiceOrderOperations( PROPERTY(SroOper) FILTER(SroNum=FP(RefNum) AND SroLine=P(RefLineSuf)) )"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            'SSSFS 01 Finish</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SaveFilter()</ScriptLine>
+               <ScriptLine>            Dim sOldFilter As String</ScriptLine>
+               <ScriptLine>            Dim sChunk As String</ScriptLine>
+               <ScriptLine>            Dim iStartString As Integer</ScriptLine>
+               <ScriptLine>            Dim iStartQuote As Integer</ScriptLine>
+               <ScriptLine>            Dim iEndQuote As Integer</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            sOldFilter = ThisForm.Variables("SaveFilter").Value</ScriptLine>
+               <ScriptLine>            If sOldFilter &lt;&gt; "" Then</ScriptLine>
+               <ScriptLine>                ' restore the non-massaged filter</ScriptLine>
+               <ScriptLine>                ThisForm.PrimaryIDOCollection.Filter = sOldFilter</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                'push the original value back onto the form</ScriptLine>
+               <ScriptLine>                iStartString = InStr(sOldFilter, "MatlTranViewTypeDesc =")</ScriptLine>
+               <ScriptLine>                If iStartString = 0 Then</ScriptLine>
+               <ScriptLine>                    iStartString = InStr(sOldFilter, "MatlTranViewTypeDesc like")</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>                If iStartString &gt; 0 Then</ScriptLine>
+               <ScriptLine>                    sChunk = Mid(sOldFilter, iStartString, 1024)</ScriptLine>
+               <ScriptLine>                    iStartQuote = InStr(sChunk, "'")</ScriptLine>
+               <ScriptLine>                    sChunk = Mid(sChunk, iStartQuote + 1, 1024)</ScriptLine>
+               <ScriptLine>                    iEndQuote = InStr(sChunk, "'")</ScriptLine>
+               <ScriptLine>                    sChunk = Mid(sChunk, 1, iEndQuote - 1)</ScriptLine>
+               <ScriptLine>                    ThisForm.Components("MatlTranViewTypeDescGridCol").Value = sChunk</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub MassageFilter()</ScriptLine>
+               <ScriptLine>            Dim sOldFilter As String = ThisForm.PrimaryIDOCollection.Filter</ScriptLine>
+               <ScriptLine>            Dim sNewFilter As String = String.Empty</ScriptLine>
+               <ScriptLine>            Dim sPrefix As String = String.Empty</ScriptLine>
+               <ScriptLine>            Dim sSuffix As String = String.Empty</ScriptLine>
+               <ScriptLine>            Dim sChunk As String</ScriptLine>
+               <ScriptLine>            Dim sMtCode As String = String.Empty</ScriptLine>
+               <ScriptLine>            Dim iStartString As Integer = InStr(sOldFilter, "MatlTranViewTypeDesc =")</ScriptLine>
+               <ScriptLine>            Dim iStartQuote As Integer</ScriptLine>
+               <ScriptLine>            Dim iEndQuote As Integer</ScriptLine>
+               <ScriptLine>            Dim iSpace As Integer</ScriptLine>
+               <ScriptLine>            Dim bIsFuzzyQuery As Boolean = False</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If iStartString = 0 Then</ScriptLine>
+               <ScriptLine>                iStartString = InStr(sOldFilter, "MatlTranViewTypeDesc like")</ScriptLine>
+               <ScriptLine>                bIsFuzzyQuery = True</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If iStartString &gt; 0 Then</ScriptLine>
+               <ScriptLine>                If iStartString &gt; 1 Then</ScriptLine>
+               <ScriptLine>                    sPrefix = Mid(sOldFilter, 1, iStartString - 1)</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                sChunk = Mid(sOldFilter, iStartString, 1024)</ScriptLine>
+               <ScriptLine>                iStartQuote = InStr(sChunk, "'")</ScriptLine>
+               <ScriptLine>                sChunk = Mid(sChunk, iStartQuote + 1, 1024)</ScriptLine>
+               <ScriptLine>                iEndQuote = InStr(sChunk, "'")</ScriptLine>
+               <ScriptLine>                sSuffix = Mid(sChunk, iEndQuote + 1)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                If bIsFuzzyQuery Then</ScriptLine>
+               <ScriptLine>                    Dim sMtCodes As String() = {"A", "AC", "B", "C", "CA", "CB", "CF", "CK", "CM", "CP", "CS",</ScriptLine>
+               <ScriptLine>                    "D", "DA", "DS", "F", "FK", "FS", "G", "H", "I", "IC", "IK", "IS", "IW", "L", "M", "MT",</ScriptLine>
+               <ScriptLine>                    "N", "NA", "NB", "NK", "NL", "NS", "NW", "O", "OW", "P", "R", "RA", "RK", "RS", "RW", "S", "SA",</ScriptLine>
+               <ScriptLine>                    "T", "TT", "V", "W", "WA", "WC", "WK", "WM", "WO", "WP", "WR", "WS", "WW"}</ScriptLine>
+               <ScriptLine>                    Dim matches As MatchCollection = New Regex("(?&lt;=%)([^%]*)(?=%)").Matches(sChunk)</ScriptLine>
+               <ScriptLine>                    Dim iCount As Integer = 0</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    If matches.Count &gt; 0 Then</ScriptLine>
+               <ScriptLine>                        sMtCode = matches.Item(0).Value</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    For Each sCode As String In sMtCodes</ScriptLine>
+               <ScriptLine>                        If InStr(sCode, sMtCode) &gt; 0 Then</ScriptLine>
+               <ScriptLine>                            sNewFilter = If(iCount = 0, String.Empty, sNewFilter + " OR ") + GenerateFilterByMtCode(sCode)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            iCount += 1</ScriptLine>
+               <ScriptLine>                        End If</ScriptLine>
+               <ScriptLine>                    Next</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    sNewFilter = "(" + If(String.IsNullOrEmpty(sNewFilter), "1 = 2", sNewFilter) + ")"</ScriptLine>
+               <ScriptLine>                Else</ScriptLine>
+               <ScriptLine>                    iSpace = InStr(sChunk, " ")</ScriptLine>
+               <ScriptLine>                    sMtCode = Mid(sChunk, 1, iSpace - 1)</ScriptLine>
+               <ScriptLine>                    sNewFilter = GenerateFilterByMtCode(sMtCode)</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                ThisForm.Variables("SaveFilter").Value = ThisForm.PrimaryIDOCollection.Filter</ScriptLine>
+               <ScriptLine>                ThisForm.PrimaryIDOCollection.Filter = sPrefix + sNewFilter + sSuffix</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Private Function GenerateFilterByMtCode(sMtCode As String) As String</ScriptLine>
+               <ScriptLine>            If InStr("BGHLP", sMtCode) &gt; 0 And Not String.IsNullOrEmpty(sMtCode) Then</ScriptLine>
+               <ScriptLine>                Return "TransType = N'" &amp; sMtCode &amp; "'"</ScriptLine>
+               <ScriptLine>            ElseIf Len(sMtCode) = 2 And InStr("FK,FS,IC,IW,NW,OW,RK,RS,WC,WK,WS,WW,", sMtCode &amp; ",") &gt; 0 Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'" &amp; Mid(sMtCode, 1, 1) &amp; "' AND RefType = N'" &amp; Mid(sMtCode, 2, 1) &amp; "')"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "AC" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'A' AND Qty = 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "A" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'A' AND Qty != 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "CS" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'C' AND Loc IS NOT NULL AND Qty &lt; 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "CM" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'C' AND Loc IS NOT NULL AND Qty &gt;= 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "CA" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'C' AND Loc IS NULL AND RefType = N'K')"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "CB" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'C' AND Loc IS NULL AND RefType = N'S')"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "C" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'C' AND Loc IS NULL AND RefType NOT IN (N'K', N'S'))"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "DA" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'D' AND Qty &lt; 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "DS" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'D' AND Qty &gt;= 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "F" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'F' AND RefType NOT IN (N'K', N'S'))"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "CK" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'I' AND RefType = N'K' AND Qty = 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "IK" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'I' AND RefType = N'K' AND Qty != 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "CP" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'I' AND RefType = N'S' AND Qty = 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "IS" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'I' AND RefType = N'S' AND Qty != 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "CF" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'I' AND RefType NOT IN (N'C', N'K', N'S', N'W') AND Qty = 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "I" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'I' AND RefType NOT IN (N'C', N'K', N'S', N'W') AND Qty != 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "MT" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'M' AND Qty &gt; 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "M" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'M' AND Qty &lt;= 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "NK" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'N' AND RefType = N'K' AND Qty = 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "NA" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'N' AND RefType = N'K' AND Qty != 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "NS" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'N' AND RefType = N'S' AND Qty = 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "NB" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'N' AND RefType = N'S' AND Qty != 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "NL" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'N' AND RefType NOT IN (N'K', N'S', N'W') AND Qty = 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "N" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'N' AND RefType NOT IN (N'K', N'S', N'W') AND Qty != 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "O" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'O' AND RefType != N'W')"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "RA" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'R' AND RefType NOT IN (N'K', N'S') AND Qty &lt; 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "R" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'R' AND RefType NOT IN (N'K', N'S') AND Qty &gt; 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "V" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'R' AND RefType NOT IN (N'K', N'S') AND Qty = 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "SA" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'S' AND Qty &gt; 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "S" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'S' AND Qty &lt;= 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "TT" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'T' AND Qty &gt; 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "T" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'T' AND Qty &lt;= 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "W" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'W' AND RefType = N'J')"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "WO" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'W' AND RefType = N'O' AND Qty &gt; 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "WA" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'W' AND RefType = N'O' AND Qty &lt;= 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "WM" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'W' AND RefType = N'R')"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "WR" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'W' AND RefType = N'P' AND Qty &lt; 0)"</ScriptLine>
+               <ScriptLine>            ElseIf sMtCode = "WP" Then</ScriptLine>
+               <ScriptLine>                Return "(TransType = N'W' AND RefType = N'P' AND Qty &gt;= 0)"</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                Return "1 = 2"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine>End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="CycleCountUpdate" Scope="1" ScopeName="[NULL]">
+         <Caption>fCycleCountUpdate</Caption>
+         <Type>1</Type>
+         <StandardOperations>937</StandardOperations>
+         <Flags>968</Flags>
+         <Height>28.7999992370605</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>109</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/forms/invtopic/cycle_count_update.htm</HelpFileName>
+         <IconFileName>FORMICON() FORMWALLPAPER()</IconFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>0</PaneZeroSize>
+         <PrimaryDataSource>V(fds_DataSource)</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <LockedBy>chris.h@hillattach.com</LockedBy>
+         <Components>
+            <Component Name="ChangeWarehouseObjectMenu">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sChange&amp;Warehouse</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>ChangeWarehouse</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sChange&amp;Warehouse</EffectiveCaption>
+            </Component>
+            <Component Name="CountQtyGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>84</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>18</Width>
+               <Validators>CycleCount.CountQty,CycleCountSerTracked,GenerateEventNoMsg(CheckLoc),GenerateEventNoMsg(EnableDisable),CountQtyLessThanContained,Ask(PromptMsg, PromptButtons,),GenerateEventNoMsg(ValidateOpenContainerForm)</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.CountQty</DataSource>
+               <Binding>1</Binding>
+               <SelectionEvent>CountedQtyChanged</SelectionEvent>
+               <GainFocusEvent>MarkAsModified</GainFocusEvent>
+               <Flags>32</Flags>
+               <DefaultData>1</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/count_qty_cycle_count_updatetransaction.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301DataType>DEFAULTVALUE(1)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sCountedQty</EffectiveCaption>
+            </Component>
+            <Component Name="CutOffQtyGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>66</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>18</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.CutOffQty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/cut_off_qty_cycle_count_update.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCutOffQty</EffectiveCaption>
+            </Component>
+            <Component Name="FormCollectionGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.2</Height>
+               <ListHeight>2</ListHeight>
+               <Width>108.428571428571</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>objects</DataSource>
+               <Binding>3</Binding>
+               <Flags>384</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGrid()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="GoToItemPiecesMenuItem">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;GoToItemPieces</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>GoToItemPieces</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>ENABLEDWHEN(V(cew_GoToItemPiecesMenuItem))</Post301Format>
+               <EffectiveCaption>s&amp;GoToItemPieces</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_ItemDesc">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30</Width>
+               <Caption>Description</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.ue_description</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>Description</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_PlannerCode_Grid">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>Planner Code</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>8</ContainerSequence>
+               <DataSource>object.ue_plan_code</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>Planner Code</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_ProdCode_Grid">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>Product Code</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>9</ContainerSequence>
+               <DataSource>object.ue_product_code</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>Product Code</EffectiveCaption>
+            </Component>
+            <Component Name="ImportDocIdGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>117</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>28</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>10</ContainerSequence>
+               <DataSource>object.ImportDocId</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/i/import_document_id_void_inventory_sheetstags.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>TaxFreeImports( PROPERTY(ImportDocId) )</MaintainFromSpec>
+               <DefaultFrom>ImportDocIdItem(Item,ImportDocId)</DefaultFrom>
+               <PropertyClassName>ImportDocId</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sImportDocumentId</EffectiveCaption>
+            </Component>
+            <Component Name="ItemGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>6</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Item</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>64</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/cycle_count_update_item.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Items( PROPERTY(Item) )</MaintainFromSpec>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sItem</EffectiveCaption>
+            </Component>
+            <Component Name="ItemLotTrackedGridColH">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>175</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>11</ContainerSequence>
+               <DataSource>object.ItemLotTracked</DataSource>
+               <Binding>1</Binding>
+               <Flags>8</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLotTrack</EffectiveCaption>
+            </Component>
+            <Component Name="ItemSerialLengthGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>195</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>Serial Length</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>13</ContainerSequence>
+               <DataSource>object.ItemSerialLength</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>SerialLength</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>Serial Length</EffectiveCaption>
+            </Component>
+            <Component Name="LocGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>36</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>18</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object.Loc</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/cycle_count_update_location.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Loc</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLocation</EffectiveCaption>
+            </Component>
+            <Component Name="LotGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>102</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Validators>Lot,CreateLot,CreateLotAsk,CreateLotDB</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.Lot</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>32</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/cycle_count_update_lot.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Lots( PROPERTY(Lot) )</MaintainFromSpec>
+               <PropertyClassName>Lot</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLot</EffectiveCaption>
+            </Component>
+            <Component Name="SerialTrackedGridColH">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>185</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>12</ContainerSequence>
+               <DataSource>object.ItemSerialTracked</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sS/NTrack</EffectiveCaption>
+            </Component>
+            <Component Name="SerNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>145</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30</Width>
+               <Validators>SerNum,CreateSerNum,CreateSerNumAsk,CreateSerNumDB</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>object.SerNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/cycle_count_update_serial.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>SerNum</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sS/N</EffectiveCaption>
+            </Component>
+            <Component Name="SortByItemMenu">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sSortByItem</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>SortByItem</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sSortByItem</EffectiveCaption>
+            </Component>
+            <Component Name="SortByLocMenu">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sSortByLocation</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>SortByLoc</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sSortByLocation</EffectiveCaption>
+            </Component>
+            <Component Name="StatGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>54</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <DataSource>object.Stat</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/s/s_cycle_count_update.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CycleStatus</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sStatus</EffectiveCaption>
+            </Component>
+            <Component Name="TaxFreeMatl">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>205</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>14</ContainerSequence>
+               <DataSource>object.ItemTaxFreeMatl</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sTax-FreeImportedMaterial</EffectiveCaption>
+            </Component>
+            <Component Name="TrackPiecesGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>215</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>14.2857142857143</Width>
+               <Caption>sTrackPieces</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>15</ContainerSequence>
+               <DataSource>object.TrackPieces</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sTrackPieces</EffectiveCaption>
+            </Component>
+            <Component Name="WhseGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>229.285714285714</LeftPos>
+               <Height>6.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>14.2857142857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>16</ContainerSequence>
+               <DataSource>object.Whse</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Whse</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sWarehouse</EffectiveCaption>
+            </Component>
+         </Components>
+         <EventHandlers>
+            <EventHandler Name="ChangeFormCaption" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(FormCurWhse=V(CurWhse))</Response>
+            </EventHandler>
+            <EventHandler Name="ChangeFormCaption" Sequence="1">
+               <ResponseType>8</ResponseType>
+               <Response>ChangeWhseFormCaption(fCycleCountUpdate,FormCurWhse)</Response>
+            </EventHandler>
+            <EventHandler Name="ChangeFormCaption" Sequence="2">
+               <ResponseType>21</ResponseType>
+               <Response>StdFormRefresh(  )</Response>
+            </EventHandler>
+            <EventHandler Name="ChangeWarehouse" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>V(ChangeWarehouse)( OKCANCELOPTIONAL() )</Response>
+            </EventHandler>
+            <EventHandler Name="CheckAddLoc" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLCycles.ItemlocValidateSp( PARMS(VAR P(Item), VAR V(FormCurWhse), VAR P(Loc), VAR 0, VAR 0, VAR, MESSAGE, RVAR V(ItemlocValidatePromptMsg), RVAR V(ItemlocValidatePromptButtons), VAR 0, RVAR) ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="CheckAddLoc" Sequence="1">
+               <ResponseType>8</ResponseType>
+               <Response>Ask(ItemlocValidatePromptMsg,ItemlocValidatePromptButtons,)</Response>
+            </EventHandler>
+            <EventHandler Name="CheckAddLoc" Sequence="2">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLItemLocs.ItemLocAddSp( PARMS(VAR V(FormCurWhse), VAR P(Item), VAR P(Loc), VAR 0, VAR, VAR, VAR, VAR, VAR, VAR, VAR 0, RVAR, MESSAGE) ERRORMESSAGE(mValidatorMethodMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="CheckAddLoc" Sequence="3">
+               <ResponseType>21</ResponseType>
+               <Response>CheckAddLot</Response>
+            </EventHandler>
+            <EventHandler Name="CheckAddLot" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLPhyinvs.PhyinvLotV2Sp( PARMS(VAR V(FormCurWhse), VAR P(Item), VAR P(Loc), VAR P(Lot), UI1 1, MESSAGE, RVAR V(InvAddPrompt), RVAR V(InvAddPromptButtons), VAR ) ERRORMESSAGE(mBackEndMessage) SUCCESSMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="CheckAddLot" Sequence="1">
+               <ResponseType>8</ResponseType>
+               <Response>Ask(InvAddPrompt,InvAddPromptButtons,)</Response>
+            </EventHandler>
+            <EventHandler Name="CheckAddLot" Sequence="2">
+               <ResponseType>21</ResponseType>
+               <Response>CreateLot(  ERRORMESSAGE(mValidatorMethodMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="CheckLoc" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>CheckLoc() ERRORMESSAGE(mBlank)</Response>
+            </EventHandler>
+            <EventHandler Name="CountedQtyChanged" Sequence="0">
+               <ResponseType>21</ResponseType>
+               <Response>EnableDisable(  )</Response>
+            </EventHandler>
+            <EventHandler Name="CountedQtyChanged" Sequence="1">
+               <ResponseType>35</ResponseType>
+               <Response>AskUpdatePieces() COLID(object)</Response>
+            </EventHandler>
+            <EventHandler Name="CountedQtyChanged" Sequence="2">
+               <ResponseType>21</ResponseType>
+               <Response>GoToItemPieces(  )</Response>
+            </EventHandler>
+            <EventHandler Name="CreateLot" Sequence="0">
+               <ResponseType>21</ResponseType>
+               <Response>ExpandLot</Response>
+            </EventHandler>
+            <EventHandler Name="CreateLot" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLCycles.PhyinvLotV2Sp( PARMS(VAR V(FormCurWhse), VAR P(Item), VAR P(Loc), VAR P(Lot), VAR 2, MESSAGE, RVAR V(PromptMsg), RVAR V(PromptButtons), VAR ) ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="CreateSerNum" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLCycles.PhyinvSerialV2Sp( PARMS(VAR V(FormCurWhse), VAR P(Item), VAR P(Loc), VAR P(Lot), VAR P(SerNum), VAR 2, MESSAGE, RVAR V(PromptMsg), RVAR V(PromptButtons), VAR P(ImportDocId)) )</Response>
+            </EventHandler>
+            <EventHandler Name="CreateSerNum" Sequence="1">
+               <ResponseType>21</ResponseType>
+               <Response>ExpandSerial()</Response>
+            </EventHandler>
+            <EventHandler Name="EnableDisable" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>EnableDisable()</Response>
+            </EventHandler>
+            <EventHandler Name="ExpandLot" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>ExpandLot()</Response>
+            </EventHandler>
+            <EventHandler Name="ExpandSerial" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>ExpandSerial()</Response>
+            </EventHandler>
+            <EventHandler Name="GoToItemPieces" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>ItemPieces( LINKBY(Item=Item,Whse=Whse,Loc=Loc,Lot=Lot) )</Response>
+            </EventHandler>
+            <EventHandler Name="InitializeActiveFeatureList" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeActiveFeatureList()</Response>
+            </EventHandler>
+            <EventHandler Name="LaunchContainersAsModal" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>Containers( FILTER(Whse = FV(FormCurWhse) AND Loc = FP(Loc) and ConitemItem = FP(Item) AND ISNULL(ConitemItemLot,CHAR(1)) = ISNULL(FP(Lot),CHAR(1))) SETVARVALUES(InitialCommand=Refresh) )</Response>
+            </EventHandler>
+            <EventHandler Name="SortByItem" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>SetSortOrder(Item)</Response>
+            </EventHandler>
+            <EventHandler Name="SortByItem" Sequence="1">
+               <ResponseType>21</ResponseType>
+               <Response>StdFormRefresh</Response>
+            </EventHandler>
+            <EventHandler Name="SortByLoc" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>SetSortOrder(Loc)</Response>
+            </EventHandler>
+            <EventHandler Name="SortByLoc" Sequence="1">
+               <ResponseType>21</ResponseType>
+               <Response>StdFormRefresh</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormCalledFormReturned" Sequence="0">
+               <ResponseType>33</ResponseType>
+               <Response Encoded="1">SCRIPTTEXT(Option Explicit On_x0D_
+Option Strict On_x0D_
+_x0D_
+Imports System_x0D_
+Imports Microsoft.VisualBasic_x0D_
+Imports Mongoose.IDO.Protocol_x0D_
+Imports Mongoose.Scripting_x0D_
+_x0D_
+Namespace SyteLine.GlobalScripts_x0D_
+    Public Class EvHandler_StdFormCalledFormReturned_0_x0D_
+        Inherits GlobalScript_x0D_
+_x0D_
+        Sub Main()_x0D_
+            If ThisForm.LastModalChildEndedOk = True Then_x0D_
+                ' if the user hit cancel on the modal form,_x0D_
+                ' there is no need to continue_x0D_
+                If ThisForm.La</Response>
+               <Response2 Encoded="1">stModalChildName = ThisForm.Variables("ChangeWarehouse").Value Then_x0D_
+                    ThisForm.GenerateEvent("ChangeFormCaption")_x0D_
+                End If_x0D_
+            End If_x0D_
+        End Sub_x0D_
+    End Class_x0D_
+End Namespace_x0D_
+)</Response2>
+            </EventHandler>
+            <EventHandler Name="StdFormCalledFormReturned" Sequence="1">
+               <ResponseType>35</ResponseType>
+               <Response>QuantityValidate()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="0">
+               <ResponseType>21</ResponseType>
+               <Response>ChangeFormCaption(  )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLInvparms.GetSystemParm( PARMS(RVAR V(InvparmsNegFlag), VAR neg_flag) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="2">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLInvparms.GetSystemParm( PARMS(RVAR V(vLotGenExp), VAR lot_gen_exp) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="3">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLInvparms.GetSystemParm( PARMS(RVAR V(VarTrackTaxFreeImports), VAR track_tax_free_imports) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="4">
+               <ResponseType>35</ResponseType>
+               <Response>SetSortOrder(Item)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="5">
+               <ResponseType>0</ResponseType>
+               <Response>SLParms.GetDataTypeLengthSp( PARMS(BSTR LotType, RVAR V(LotLength), MESSAGE) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="6">
+               <ResponseType>35</ResponseType>
+               <Response>ApplyMaskForCountQty()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="7">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(ActiveFeatureList) &lt;&gt; "", InitializeActiveFeatureList)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="8">
+               <ResponseType>35</ResponseType>
+               <Response>SetLinkFormValue</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSave" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>Save()</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>EnableDisable()</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="1">
+               <ResponseType>35</ResponseType>
+               <Response>EnableDisableImportDocId()</Response>
+            </EventHandler>
+            <EventHandler Name="ValidateOpenContainerForm" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>ValidateOpenContainerForm() IGNOREFAILURE()</Response>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="cew_GoToItemPiecesMenuItem">
+               <Value>Enabled:#C(GoToItemPiecesMenuItem), #P(TrackPieces) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_DataSource">
+               <Value>SL.SLCycles( FILTERPERM(Whse='V(FormCurWhse)') ORDERBY(V(SortOrder)) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="InitialCommand">
+               <Value>Refresh</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Namespace SyteLine.FormScripts</ScriptLine>
+               <ScriptLine>    Public Class CycleCountUpdate</ScriptLine>
+               <ScriptLine>        Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub EnableDisable()</ScriptLine>
+               <ScriptLine>            Dim dCountQty As Decimal</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.Components("CountQtyGridCol").Text = "" Then</ScriptLine>
+               <ScriptLine>                dCountQty = 0</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                dCountQty = CDec(ThisForm.Components("CountQtyGridCol").Text)</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.PrimaryIDOCollection.GetNumEntries &gt; 0 Then</ScriptLine>
+               <ScriptLine>                ThisForm.Components("LotGridCol").Enabled = _</ScriptLine>
+               <ScriptLine>                    ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("Lot") = "" And _</ScriptLine>
+               <ScriptLine>                    CStr(IIf(IsNumeric(ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("ItemLotTracked")), ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("ItemLotTracked"), 0)) = "1" _</ScriptLine>
+               <ScriptLine>                    And dCountQty &gt; 0</ScriptLine>
+               <ScriptLine>                ThisForm.Components("SerNumGridCol").Enabled = _</ScriptLine>
+               <ScriptLine>                    ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("SerNum") = "" And _</ScriptLine>
+               <ScriptLine>                    CStr(IIf(IsNumeric(ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("ItemSerialTracked")), ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("ItemSerialTracked"), 0)) = "1"</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                ThisForm.Components("LotGridCol").Required = ThisForm.Components("LotGridCol").Enabled</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                If ThisForm.Components("LotGridCol").Enabled = False Then</ScriptLine>
+               <ScriptLine>                    ThisForm.PrimaryIDOCollection.SetCurrentObjectPropertyModified("LotGridCol", False)</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>        Function Save() As Integer</ScriptLine>
+               <ScriptLine>            Dim dCountQty As Decimal</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.Components("CountQtyGridCol").Text = "" Then</ScriptLine>
+               <ScriptLine>                dCountQty = 0</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                dCountQty = CDec(ThisForm.Components("CountQtyGridCol").Text)</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            Save = 0</ScriptLine>
+               <ScriptLine>            If ThisForm.Components("SerialTrackedGridColH").Text = "1" And _</ScriptLine>
+               <ScriptLine>               ThisForm.Components("CountQtyGridCol").Text = "1" And _</ScriptLine>
+               <ScriptLine>               ThisForm.Components("SerNumGridCol").Text = "" Then</ScriptLine>
+               <ScriptLine>                Save = -1</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("Lot") = "" And _</ScriptLine>
+               <ScriptLine>               ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("ItemLotTracked") = "1" And _</ScriptLine>
+               <ScriptLine>               dCountQty &gt; 0 Then</ScriptLine>
+               <ScriptLine>                ThisForm.CallGlobalScript("MsgApp", "Clear", "OK", "ReturnAction", _</ScriptLine>
+               <ScriptLine>               "mE=NoCompare", _</ScriptLine>
+               <ScriptLine>               Application.GetStringValue("sLot"), _</ScriptLine>
+               <ScriptLine>               Application.GetStringValue("sBlank"), _</ScriptLine>
+               <ScriptLine>               "", "", "", "", "", "", "", "", "", "", "", "", "", "")</ScriptLine>
+               <ScriptLine>                Save = -1</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine>        Sub ExpandLot()</ScriptLine>
+               <ScriptLine>            If ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("ItemLotTracked") = "1" And _</ScriptLine>
+               <ScriptLine>               ThisForm.Variables("vLotGenExp").Value = "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.PrimaryIDOCollection.SetCurrentObjectPropertyPlusModifyRefresh("Lot", _</ScriptLine>
+               <ScriptLine>                   Application.ExpandNumSortedChar(ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("Lot"), _</ScriptLine>
+               <ScriptLine>                                                   ThisForm.Variables("LotLength").GetValueOfInteger(0)))</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>        Sub ExpandSerial()</ScriptLine>
+               <ScriptLine>            ThisForm.PrimaryIDOCollection.SetCurrentObjectPropertyPlusModifyRefresh("SerNum", _</ScriptLine>
+               <ScriptLine>               Application.ExpandNumSortedChar(ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("SerNum"), _</ScriptLine>
+               <ScriptLine>                                               CInt(ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("ItemSerialLength"))))</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SetSortOrder(ByVal SortOrder As String)</ScriptLine>
+               <ScriptLine>            If SortOrder = "Item" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("SortOrder").Value = "Whse,Item,Loc,Lot,SerNum"</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("SortOrder").Value = "Whse,Loc,Item,Lot,SerNum"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub EnableDisableImportDocId()</ScriptLine>
+               <ScriptLine>            If ThisForm.PrimaryIDOCollection.GetNumEntries &gt; 0 Then</ScriptLine>
+               <ScriptLine>                If ThisForm.Variables("VarTrackTaxFreeImports").Value = "0" Or ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("ItemTaxFreeMatl") = "0" Then</ScriptLine>
+               <ScriptLine>                    ThisForm.Components("ImportDocIdGridCol").Enabled = False</ScriptLine>
+               <ScriptLine>                Else</ScriptLine>
+               <ScriptLine>                    ThisForm.Components("ImportDocIdGridCol").Enabled = True</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub CheckLoc()</ScriptLine>
+               <ScriptLine>            Dim dCountQty As Decimal</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.Components("CountQtyGridCol").Text = "" Then</ScriptLine>
+               <ScriptLine>                dCountQty = 0</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                dCountQty = CDec(ThisForm.Components("CountQtyGridCol").Text)</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("ItemLotTracked") = "1" And _</ScriptLine>
+               <ScriptLine>               dCountQty &gt; 0 Then</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("CheckAddLoc")</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>        Function AskUpdatePieces() As Integer</ScriptLine>
+               <ScriptLine>            Dim TrackPiecesVar As String</ScriptLine>
+               <ScriptLine>            Dim Reply As Integer</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            TrackPiecesVar = ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("TrackPieces")</ScriptLine>
+               <ScriptLine>            If TrackPiecesVar = "1" Then</ScriptLine>
+               <ScriptLine>                Reply = Application.ShowMessage(Application.GetStringValue("mDoYouWishToUpdatePieces"), vbOKCancel)</ScriptLine>
+               <ScriptLine>                If Reply = 1 Then</ScriptLine>
+               <ScriptLine>                    AskUpdatePieces = 0</ScriptLine>
+               <ScriptLine>                Else</ScriptLine>
+               <ScriptLine>                    AskUpdatePieces = -1</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                AskUpdatePieces = -1</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine>        Function ValidateOpenContainerForm() As Integer</ScriptLine>
+               <ScriptLine>            If Not ThisForm.Variables("PromptMsg").GetValueOfString("").Equals("") Then</ScriptLine>
+               <ScriptLine>                ThisForm.PostEvent("LaunchContainersAsModal")</ScriptLine>
+               <ScriptLine>                Return -1</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            Return 0</ScriptLine>
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub QuantityValidate()</ScriptLine>
+               <ScriptLine>            If ThisForm.ModalChildForm.Name = "Containers" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Components("CountQtyGridCol").ValidateData(True)</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub ApplyMaskForCountQty()</ScriptLine>
+               <ScriptLine>            Dim strQtyUnitFormatAllowNull As String</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            strQtyUnitFormatAllowNull = Application.Variables("Parm_QtyUnitFormat").Value</ScriptLine>
+               <ScriptLine>            If strQtyUnitFormatAllowNull.IndexOf("Z") &gt; 0 Then</ScriptLine>
+               <ScriptLine>                strQtyUnitFormatAllowNull = strQtyUnitFormatAllowNull.Replace("9", "Z")</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                strQtyUnitFormatAllowNull = strQtyUnitFormatAllowNull.Replace("9", "&gt;")</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.Components("CountQtyGridCol").InputMask = strQtyUnitFormatAllowNull</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>        Sub SetLinkFormValue()</ScriptLine>
+               <ScriptLine>            If Application.Variables("IsRS7786_5ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                Thisform.Components("ChangeWarehouseObjectMenu").Caption = "s&amp;ChangePlantWarehouse"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("ChangeWarehouse").Value = "ChangePlantOrWarehouse"</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("ChangeWarehouse").Value = "ChangeWarehouse"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>    End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

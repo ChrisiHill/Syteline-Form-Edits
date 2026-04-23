@@ -1,0 +1,2476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="RMACreditMemo" Scope="1" ScopeName="[NULL]">
+         <Caption>fRMACreditMemo</Caption>
+         <Type>3</Type>
+         <StandardOperations>33</StandardOperations>
+         <Flags>968</Flags>
+         <Height>30</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>87</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/forms/rmatopic/rma_credit_memo_printpost.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>0</PaneZeroSize>
+         <PrimaryDataSource>V(fds_DataSource)</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <Components>
+            <Component Name="BannerToast">
+               <DeviceID>-1</DeviceID>
+               <Type>51</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>25.5</TopPos>
+               <LeftPos>56</LeftPos>
+               <Height>4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.BannerConfigJson</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <DefaultData>V(BannerConfigJson)</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301DataType>DEFAULTVALUE(V(BannerConfigJson))</Post301DataType>
+               <Post301Format />
+            </Component>
+            <Component Name="CreditMemoDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>1.06666666666667</TopPos>
+               <LeftPos>19.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>10</ListHeight>
+               <Width>13</Width>
+               <Caption>sCreditMemoDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.CreditMemoDate(INITIALVALUE(CURDATE()))</DataSource>
+               <Binding>6</Binding>
+               <Flags>512</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/credit_memo_date_credit_memo_printpost.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateGEVar(ChkDateVar,V(ChkDateVar),,,)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sCreditMemoDate</EffectiveCaption>
+            </Component>
+            <Component Name="CreditMemoDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>49</TabOrder>
+               <TopPos>17.9333333333334</TopPos>
+               <LeftPos>36.8571428571429</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>16.1428571428571</Width>
+               <Caption>sCreditMemoDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sCreditMemoDate</EffectiveCaption>
+            </Component>
+            <Component Name="CreditMemoDateStatid">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>1.33333333333333</TopPos>
+               <LeftPos>2.57142857142857</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>16.1428571428571</Width>
+               <Caption>sCreditMemoDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sCreditMemoDate</EffectiveCaption>
+            </Component>
+            <Component Name="CreditMemoNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>51</TabOrder>
+               <TopPos>21.4666666666667</TopPos>
+               <LeftPos>6</LeftPos>
+               <Height>5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ResultSetGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.InvNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>InvNumBase</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sInvoice</EffectiveCaption>
+            </Component>
+            <Component Name="CreditMemoStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>46</TabOrder>
+               <TopPos>16.4</TopPos>
+               <LeftPos>36.8571428571429</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>16.1428571428571</Width>
+               <Caption>sCreditMemo</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sCreditMemo</EffectiveCaption>
+            </Component>
+            <Component Name="CustNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>52</TabOrder>
+               <TopPos>21.4666666666667</TopPos>
+               <LeftPos>14</LeftPos>
+               <Height>5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ResultSetGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.CustNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Customers( PROPERTY(CustNum) )</MaintainFromSpec>
+               <PropertyClassName>CustNum</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCustomer</EffectiveCaption>
+            </Component>
+            <Component Name="CustomerStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>8.13333333333333</TopPos>
+               <LeftPos>37.4285714285714</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.5714285714286</Width>
+               <Caption>sCustomer</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sCustomer</EffectiveCaption>
+            </Component>
+            <Component Name="EndCreditMemoDate">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>51</TabOrder>
+               <TopPos>17.6</TopPos>
+               <LeftPos>69.8571428571429</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>C(CreditMemoDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.EndCreditMemoDate(INITIALVALUE(CURDATE()))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/credit_memo_date_rma_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateGEVar(ChkDateVar,V(ChkDateVar),,,)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>C(CreditMemoDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="EndCreditMemoEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>48</TabOrder>
+               <TopPos>16.2</TopPos>
+               <LeftPos>69.8571428571429</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>10</ListHeight>
+               <Width>15</Width>
+               <Caption>C(CreditMemoStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.EndCreditMemo</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/credit_memo_rma_credit_memo_printpost.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>InvoiceListing( PROPERTY(InvNum) )</MaintainFromSpec>
+               <DefaultFrom>RMAInvNumVar(,,)</DefaultFrom>
+               <Post301DataType>DATATYPE(NUMSORTCHAR)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>C(CreditMemoStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="EndCustomerEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>36</TabOrder>
+               <TopPos>7.8</TopPos>
+               <LeftPos>69.8571428571429</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>10</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.EndCustomer</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/customer_reportutility_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Customers(PROPERTY(CustNum))</MaintainFromSpec>
+               <DefaultFrom>CustNumVar(,,)</DefaultFrom>
+               <Post301DataType>DATATYPE(NUMSORTCHAR) LENGTH(7)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sCustomerNumber</EffectiveCaption>
+            </Component>
+            <Component Name="EndingStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>27</TabOrder>
+               <TopPos>3.66666666666667</TopPos>
+               <LeftPos>69.8571428571429</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8.71428571428572</Width>
+               <Caption>sEnding</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L)</Post301Format>
+               <EffectiveCaption>sEnding</EffectiveCaption>
+            </Component>
+            <Component Name="EndingStatic1">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>45</TabOrder>
+               <TopPos>14.8</TopPos>
+               <LeftPos>69.8571428571429</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sEnding</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L)</Post301Format>
+               <EffectiveCaption>sEnding</EffectiveCaption>
+            </Component>
+            <Component Name="EndLastReturnDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>39</TabOrder>
+               <TopPos>9.33333333333334</TopPos>
+               <LeftPos>69.8571428571429</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>10</ListHeight>
+               <Width>13</Width>
+               <Caption>C(LastReturnDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.EndLastReturnDate</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/l/last_return_date_rma_credit_memo_printpost.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateGEVar(ChkDateVar,V(ChkDateVar),,,)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>C(LastReturnDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="EndRMAEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>30</TabOrder>
+               <TopPos>4.93333333333333</TopPos>
+               <LeftPos>69.8571428571429</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>10</ListHeight>
+               <Width>13</Width>
+               <Caption>sRMA</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.EndRMA</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/rma_number_rma_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>RMAs( PROPERTY(RmaNum) )</MaintainFromSpec>
+               <DefaultFrom>RmaNumVar(,,)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sRMA</EffectiveCaption>
+            </Component>
+            <Component Name="EndRMALineEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>6.4</TopPos>
+               <LeftPos>69.8571428571429</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>10</ListHeight>
+               <Width>6</Width>
+               <Caption>sRMALine</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.EndRMALine</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/rma_line_rma_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <FindFromSpec>RMALineItemsQuery( ).RmaLine</FindFromSpec>
+               <MaintainFromSpec>RMALineItems( PROPERTY(RmaLine) )</MaintainFromSpec>
+               <DefaultFrom>RmaLine(,,)</DefaultFrom>
+               <Post301Format>MASK(ZZZZ)</Post301Format>
+               <EffectiveCaption>sRMALine</EffectiveCaption>
+            </Component>
+            <Component Name="FinalPrintOutCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>54</TabOrder>
+               <TopPos>20.8888888888889</TopPos>
+               <LeftPos>40.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.5</Width>
+               <Caption>sOPPLTFinalPrintout</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.FinalPrintoutVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/f/final_printout_rma_credit_memo_gen2.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301DataType>DATATYPE(BINARY) BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(FinalPrintOutCheck), #GV(IsCSIB_79744ActiveVar) = 1 &amp; #GV(Avail_PL) = 1, "True") VISIBLEWHEN(Visible:#C(FinalPrintOutCheck), #GV(IsCSIB_79744ActiveVar) = 1, "True")</Post301Format>
+               <EffectiveCaption>sOPPLTFinalPrintout</EffectiveCaption>
+            </Component>
+            <Component Name="GroupBox1">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>2.87</Height>
+               <ListHeight>0</ListHeight>
+               <Width>35</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="GroupBox2">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>2.86666666666667</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>13.0588235294118</Height>
+               <ListHeight>0</ListHeight>
+               <Width>35</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="GroupBox3">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>13</TabOrder>
+               <TopPos>15.8674424264342</TopPos>
+               <LeftPos>0.75</LeftPos>
+               <Height>5.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>35</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="GroupBox4">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>22</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>36.5714285714286</LeftPos>
+               <Height>2.86666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>49.7142857142857</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="GroupBox5">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>2.86666666666667</TopPos>
+               <LeftPos>36.5714285714286</LeftPos>
+               <Height>11</Height>
+               <ListHeight>0</ListHeight>
+               <Width>49.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="GroupBox6">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>43</TabOrder>
+               <TopPos>14</TopPos>
+               <LeftPos>36.5714285714286</LeftPos>
+               <Height>8.53333333333333</Height>
+               <ListHeight>0</ListHeight>
+               <Width>49.5714285714286</Width>
+               <Caption>sReprintOptions</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sReprintOptions</EffectiveCaption>
+            </Component>
+            <Component Name="GroupBox7">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>17</TabOrder>
+               <TopPos>21.3821483087871</TopPos>
+               <LeftPos>0.75</LeftPos>
+               <Height>5.05882352941176</Height>
+               <ListHeight>0</ListHeight>
+               <Width>35</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format>VISIBLEWHEN(V(cvw_GroupBox7))</Post301Format>
+            </Component>
+            <Component Name="IncludeSerialNumbersEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>18.2674424264342</TopPos>
+               <LeftPos>4.03571428571428</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>25</Width>
+               <Caption>sIncludeSerialNumbers</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.IncludeSerialNumbers(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_serial_numbers_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301DataType>DATATYPE(BINARY) BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sIncludeSerialNumbers</EffectiveCaption>
+            </Component>
+            <Component Name="ItemCustomerItemStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>23</TabOrder>
+               <TopPos>1.36666666666667</TopPos>
+               <LeftPos>36.8571428571429</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>22</Width>
+               <Caption>sPrintItemorCustomerItem</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) BTF()</Post301Format>
+               <EffectiveCaption>sPrintItemorCustomerItem</EffectiveCaption>
+            </Component>
+            <Component Name="LangCodeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>53</TabOrder>
+               <TopPos>21.4666666666667</TopPos>
+               <LeftPos>22</LeftPos>
+               <Height>5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.71428571428571</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ResultSetGrid</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.DerLangCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>LangCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLanguage</EffectiveCaption>
+            </Component>
+            <Component Name="LastReturnDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>37</TabOrder>
+               <TopPos>9.6</TopPos>
+               <LeftPos>37.4285714285714</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.5714285714286</Width>
+               <Caption>sLastReturnDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sLastReturnDate</EffectiveCaption>
+            </Component>
+            <Component Name="LotNumbersCombo">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>14</TabOrder>
+               <TopPos>16.8007757597675</TopPos>
+               <LeftPos>4.03571428571428</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <Caption>sIncludeLotNumbers</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintLotNumbers(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_lot_numbers.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format>BTF()</Post301Format>
+               <EffectiveCaption>sIncludeLotNumbers</EffectiveCaption>
+            </Component>
+            <Component Name="PLCityStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>20</TabOrder>
+               <TopPos>24.852691780746</TopPos>
+               <LeftPos>4.03571428571428</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5.25</Width>
+               <Caption>sCity</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>VISIBLEWHEN(V(cvw_PLCityStatic)) JUSTIFY(L)</Post301Format>
+               <EffectiveCaption>sCity</EffectiveCaption>
+            </Component>
+            <Component Name="PLPreviewButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>42</TabOrder>
+               <TopPos>12.25</TopPos>
+               <LeftPos>53.5714285714286</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>s&amp;Preview</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>PLPreview</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mgbaug_cl_sl/mergedprojects/core/buttons/p/preview_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format>ENABLEDWHEN(V(cew_PLPreviewButton)) VISIBLEWHEN(V(cvw_PLPreviewButton))</Post301Format>
+               <EffectiveCaption>s&amp;Preview</EffectiveCaption>
+            </Component>
+            <Component Name="PLPrintCopyRadioButton">
+               <DeviceID>-1</DeviceID>
+               <Type>7</Type>
+               <TabOrder>53</TabOrder>
+               <TopPos>19.2058823529412</TopPos>
+               <LeftPos>62.25</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.625</Width>
+               <Caption>sCopy</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PLPrintWord</DataSource>
+               <Binding>6</Binding>
+               <RadioButtonSelectedValue>COPY</RadioButtonSelectedValue>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/c/copy_rma_credit_memo.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format>ENABLEDWHEN(V(cew_PLPrintCopyRadioButton)) VISIBLEWHEN(V(cvw_PLPrintCopyRadioButton))</Post301Format>
+               <EffectiveCaption>sCopy</EffectiveCaption>
+            </Component>
+            <Component Name="PLPrintNoneRadioButton">
+               <DeviceID>-1</DeviceID>
+               <Type>7</Type>
+               <TabOrder>52</TabOrder>
+               <TopPos>19.2058823529412</TopPos>
+               <LeftPos>49.75</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.625</Width>
+               <Caption>sNone</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PLPrintWord</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/none_rma_credit_memo.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format>ENABLEDWHEN(V(cew_PLPrintNoneRadioButton)) VISIBLEWHEN(V(cvw_PLPrintNoneRadioButton))</Post301Format>
+               <EffectiveCaption>sNone</EffectiveCaption>
+            </Component>
+            <Component Name="PLPrintOriginalRadioButton">
+               <DeviceID>-1</DeviceID>
+               <Type>7</Type>
+               <TabOrder>54</TabOrder>
+               <TopPos>19.2058823529412</TopPos>
+               <LeftPos>74.2321428571429</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.625</Width>
+               <Caption>sOriginal</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PLPrintWord</DataSource>
+               <Binding>6</Binding>
+               <RadioButtonSelectedValue>ORIGINAL</RadioButtonSelectedValue>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/o/original_rma_credit_memo.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format>ENABLEDWHEN(V(cew_PLPrintOriginalRadioButton)) VISIBLEWHEN(V(cvw_PLPrintOriginalRadioButton))</Post301Format>
+               <EffectiveCaption>sOriginal</EffectiveCaption>
+            </Component>
+            <Component Name="PLProcessButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>12.25</TopPos>
+               <LeftPos>69.75</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>sPr&amp;ocess</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>PLProcess</EventToGenerate>
+               <Flags>65536</Flags>
+               <DefaultData>P</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/buttons/p/process_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(P)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(V(cew_PLProcessButton)) VISIBLEWHEN(V(cvw_PLProcessButton))</Post301Format>
+               <EffectiveCaption>sPr&amp;ocess</EffectiveCaption>
+            </Component>
+            <Component Name="PLVarCityEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>21</TabOrder>
+               <TopPos>24.7056329572166</TopPos>
+               <LeftPos>9.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>14.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PLCity</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/c/city_rma_credit_memo.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format>ENABLEDWHEN(V(cew_PLVarCityEdit)) VISIBLEWHEN(V(cvw_PLVarCityEdit))</Post301Format>
+            </Component>
+            <Component Name="PLVarPrintLabelDefCheckBox">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>19</TabOrder>
+               <TopPos>23.3232800160401</TopPos>
+               <LeftPos>4.03571428571428</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30</Width>
+               <Caption>sOPPLTPrintLabelDef</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PLPrintLabelDef(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_label_def_rma_credit_memo.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301DataType>DATATYPE(BINARY) BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(V(cew_PLVarPrintLabelDefCheckBox)) VISIBLEWHEN(V(cvw_PLVarPrintLabelDefCheckBox))</Post301Format>
+               <EffectiveCaption>sOPPLTPrintLabelDef</EffectiveCaption>
+            </Component>
+            <Component Name="PLVarPrintTariffCodeCheckBox">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>18</TabOrder>
+               <TopPos>22.0291623689813</TopPos>
+               <LeftPos>4.03571428571428</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30</Width>
+               <Caption>sOPPLTPrintTariffClassification</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PLPrintTariffCode(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_tariff_code_rma_credit_memo.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301DataType>DATATYPE(BINARY) BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(V(cew_PLVarPrintTariffCodeCheckBox)) VISIBLEWHEN(V(cvw_PLVarPrintTariffCodeCheckBox))</Post301Format>
+               <EffectiveCaption>sOPPLTPrintTariffClassification</EffectiveCaption>
+            </Component>
+            <Component Name="PrintByInvoiceNumberChk">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>14.6470588235294</TopPos>
+               <LeftPos>4.14285714285714</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20.375</Width>
+               <Caption>sPrintbyInvoiceNumber</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintbyInvoiceNumber</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_by_invoice_number_order_invoicing_credit_memo.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format>VISIBLEWHEN(V(cvw_PrintByInvoiceNumberChk))</Post301Format>
+               <EffectiveCaption>sPrintbyInvoiceNumber</EffectiveCaption>
+            </Component>
+            <Component Name="PrintInJapanInvoiceFormatChkbox">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>10.8235294117647</TopPos>
+               <LeftPos>53.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32</Width>
+               <Caption>sPrintInJapanInvoiceFormat</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintInJPInvoiceFormat(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_financial/fields/p/print_in_japan_invoice_format_consumption_tax_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format>VISIBLEWHEN(V(cvw_PrintInJapanInvoiceFormatChkbox))</Post301Format>
+               <EffectiveCaption>sPrintInJapanInvoiceFormat</EffectiveCaption>
+            </Component>
+            <Component Name="PrintItemCustItemCombo">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>24</TabOrder>
+               <TopPos>1.06666666666667</TopPos>
+               <LeftPos>59.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>24</Width>
+               <Caption>sPrintItemorCustomerItem</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintItemCustItem(INITIALVALUE(CI))</DataSource>
+               <Binding>6</Binding>
+               <Flags>512</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_item_or_customer_item_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Sortby4Var(IC,sItemThenCustomerItem,CI,sCustomerItemThenItem,C,sCustomerItem,I,sItem)</DefaultFrom>
+               <Post301Format>BTF()</Post301Format>
+               <EffectiveCaption>sPrintItemorCustomerItem</EffectiveCaption>
+            </Component>
+            <Component Name="PrintItemOverview">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>13.2573529411765</TopPos>
+               <LeftPos>4.14285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>22</Width>
+               <Caption>sPrintItemOverview</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintItemOverview(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_item_overview.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPrintItemOverview</EffectiveCaption>
+            </Component>
+            <Component Name="PrintOrderNotesCheck">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>9.08823529411765</TopPos>
+               <LeftPos>4.14285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>28</Width>
+               <Caption>sPrintStandardOrderText</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintOrderNotes(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_standard_order_text.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>CheckBoxVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPrintStandardOrderText</EffectiveCaption>
+            </Component>
+            <Component Name="PrintRMALineTextEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>4.91911764705882</TopPos>
+               <LeftPos>4.14285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23</Width>
+               <Caption>sPrintRMALineNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintRMALineNotes(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301DataType>DATATYPE(BINARY) BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sPrintRMALineNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintTextBEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>6.30882352941176</TopPos>
+               <LeftPos>4.14285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>22</Width>
+               <Caption>sPrintBillToNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintBillToNotes(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>CheckBoxVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPrintBillToNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintTextEEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>10.4779411764706</TopPos>
+               <LeftPos>4.14285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23</Width>
+               <Caption>sPrintExternalNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintExternalNotes(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>CheckBoxVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPrintExternalNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintTextIEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>11.8676470588235</TopPos>
+               <LeftPos>4.14285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23</Width>
+               <Caption>sPrintInternalNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintInternalNotes(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>CheckBoxVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPrintInternalNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintTextREdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>3.52941176470588</TopPos>
+               <LeftPos>4.14285714285714</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>0</ListHeight>
+               <Width>31.25</Width>
+               <Caption>sPrintRMANotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintRMANotes(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>CheckBoxVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPrintRMANotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintTextSEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>7.69852941176471</TopPos>
+               <LeftPos>4.14285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>22</Width>
+               <Caption>sPrintShipToNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintShipToNotes(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>CheckBoxVar()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPrintShipToNotes</EffectiveCaption>
+            </Component>
+            <Component Name="ProcessButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>12.25</TopPos>
+               <LeftPos>69.75</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>sPr&amp;ocess</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>Process</EventToGenerate>
+               <Flags>65536</Flags>
+               <DefaultData>P</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/buttons/p/process_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(P)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sPr&amp;ocess</EffectiveCaption>
+            </Component>
+            <Component Name="ReportOutputFIlesBtn">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>42</TabOrder>
+               <TopPos>12.3333333333333</TopPos>
+               <LeftPos>37.5</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>Report Output</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>61</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>HIL_ReportOutput</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mgbaug_cl_sl/mergedprojects/core/buttons/p/preview_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format>ENABLEDWHEN(V(cew_PLPreviewButton)) VISIBLEWHEN(V(cvw_PLPreviewButton))</Post301Format>
+               <EffectiveCaption>Report Output</EffectiveCaption>
+            </Component>
+            <Component Name="Reprint">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>55</TabOrder>
+               <TopPos>20.75</TopPos>
+               <LeftPos>53.5714285714286</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>s&amp;Reprint</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>Reprint</EventToGenerate>
+               <Flags>0</Flags>
+               <DefaultData>R</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/buttons/r/reprint_button_rma_credit_memo.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(R)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>s&amp;Reprint</EffectiveCaption>
+            </Component>
+            <Component Name="ResultSetGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>57</TabOrder>
+               <TopPos>24.25</TopPos>
+               <LeftPos>43.125</LeftPos>
+               <Height>5</Height>
+               <ListHeight>1</ListHeight>
+               <Width>32.714286</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>objects</DataSource>
+               <Binding>3</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGrid()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="RMA">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>28</TabOrder>
+               <TopPos>5.2</TopPos>
+               <LeftPos>37.4285714285714</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.5714285714286</Width>
+               <Caption>sRMA</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sRMA</EffectiveCaption>
+            </Component>
+            <Component Name="RMALineStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>31</TabOrder>
+               <TopPos>6.66666666666667</TopPos>
+               <LeftPos>37.4285714285714</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15.5714285714286</Width>
+               <Caption>sRMALine</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sRMALine</EffectiveCaption>
+            </Component>
+            <Component Name="SelectPrinterToolbarButton">
+               <DeviceID>-1</DeviceID>
+               <Type>11</Type>
+               <TabOrder>510</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sSelectPrinter</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>SelectPrinter</EventToGenerate>
+               <Flags>38617376</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <BitmapFileName>SelectPrinter.png</BitmapFileName>
+               <HelpContextID>1246576928</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sSelectPrinter</EffectiveCaption>
+            </Component>
+            <Component Name="SessionId">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>56</TabOrder>
+               <TopPos>27.3676470588235</TopPos>
+               <LeftPos>1.875</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>40</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.SessionID(INITIALVALUE(NEWGUID()))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="StartCreditMemoDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>50</TabOrder>
+               <TopPos>17.6</TopPos>
+               <LeftPos>53.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>10</ListHeight>
+               <Width>13</Width>
+               <Caption>C(CreditMemoDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StartCreditMemoDate(INITIALVALUE(CURDATE()))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/credit_memo_date_rma_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateGEVar(ChkDateVar,V(ChkDateVar),StartCreditMemoDateEdit,EndCreditMemoDate)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>C(CreditMemoDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="StartCreditMemoEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>47</TabOrder>
+               <TopPos>16.2</TopPos>
+               <LeftPos>53.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>10</ListHeight>
+               <Width>15</Width>
+               <Caption>C(CreditMemoStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StartCreditMemo</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/credit_memo_rma_credit_memo_printpost.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>InvoiceListing( PROPERTY(InvNum) )</MaintainFromSpec>
+               <DefaultFrom>RMAInvNumVar(StartCreditMemoEdit,EndCreditMemoEdit)</DefaultFrom>
+               <Post301DataType>DATATYPE(NUMSORTCHAR)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>C(CreditMemoStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="StartCustomerEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>7.86666666666667</TopPos>
+               <LeftPos>53.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>10</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StartCustomer</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/c/customer_reportutility_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Customers(PROPERTY(CustNum))</MaintainFromSpec>
+               <DefaultFrom>CustNumVar(StartCustomerEdit,EndCustomerEdit)</DefaultFrom>
+               <Post301DataType>DATATYPE(NUMSORTCHAR) LENGTH(7)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sCustomerNumber</EffectiveCaption>
+            </Component>
+            <Component Name="StartingStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>26</TabOrder>
+               <TopPos>3.66666666666667</TopPos>
+               <LeftPos>53.5714285714286</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>9.14285714285714</Width>
+               <Caption>sStarting</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L)</Post301Format>
+               <EffectiveCaption>sStarting</EffectiveCaption>
+            </Component>
+            <Component Name="StartingStatic1">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>44</TabOrder>
+               <TopPos>14.8</TopPos>
+               <LeftPos>53.5714285714286</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sStarting</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L)</Post301Format>
+               <EffectiveCaption>sStarting</EffectiveCaption>
+            </Component>
+            <Component Name="StartLastReturnDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>38</TabOrder>
+               <TopPos>9.33333333333334</TopPos>
+               <LeftPos>53.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>10</ListHeight>
+               <Width>13</Width>
+               <Caption>C(LastReturnDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StartLastReturnDate</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/l/last_return_date_rma_credit_memo_printpost.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateGEVar(ChkDateVar,V(ChkDateVar),StartLastReturnDateEdit,EndLastReturnDateEdit)</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>C(LastReturnDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="StartRMAEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>29</TabOrder>
+               <TopPos>4.93333333333333</TopPos>
+               <LeftPos>53.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>10</ListHeight>
+               <Width>13</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StartRMA</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/rma_number_rma_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>RMAs( PROPERTY(RmaNum) )</MaintainFromSpec>
+               <DefaultFrom>RmaNumVar(StartRMAEdit,EndRMAEdit)</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="StartRMALineEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>32</TabOrder>
+               <TopPos>6.4</TopPos>
+               <LeftPos>53.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>10</ListHeight>
+               <Width>6</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.StartRMALine</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/rma_line_rma_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <FindFromSpec>RMALineItemsQuery( ).RmaLine</FindFromSpec>
+               <MaintainFromSpec>RMALineItems( PROPERTY(RmaLine) )</MaintainFromSpec>
+               <DefaultFrom>RmaLine(StartRMALineEdit,EndRMALineEdit)</DefaultFrom>
+               <Post301Format>MASK(ZZZZ)</Post301Format>
+            </Component>
+            <Component Name="TranslateToDomesticCurrencyEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>19.8007757597675</TopPos>
+               <LeftPos>4.03571428571428</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30</Width>
+               <Caption>sTranslateToDomesticCurrency</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.TranslateToDomesticCurrency(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_financial/fields/t/translate_to_domestic_currency_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format />
+               <EffectiveCaption>sTranslateToDomesticCurrency</EffectiveCaption>
+            </Component>
+         </Components>
+         <ActiveXComponents>
+            <ActiveXComponentProperty ComponentName="BannerToast">
+               <Properties>{"Name":"SLToaster","InitString":null,"Reserved":null}</Properties>
+            </ActiveXComponentProperty>
+         </ActiveXComponents>
+         <EventHandlers>
+            <EventHandler Name="CheckProcessBySplitting" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>SplitRangePrintTaskByKeyPosition(RMACreditMemo,SplitProcessingByRange,V(BGTaskNameInvoice),BGTaskParmsInvoice,8,9,1,BGProfileValues,V(StartRMA),V(EndRMA),V(StartRMALine),V(EndRMALine),V(StartCustomer),V(EndCustomer),V(StartLastReturnDate),V(EndLastReturnDate))</Response>
+            </EventHandler>
+            <EventHandler Name="CheckReprintReportBySplitting" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>SplitRangePrintTaskByKeyAnchor(RMACreditMemo,SplitReprintingByRange,V(BGTaskName),ReportOptions,BCrmNum=,ECrmNum=,1,BGProfileValues,V(StartCreditMemo),V(EndCreditMemo),V(StartCreditMemoDate),V(EndCreditMemoDate),V(TranslateToDomesticCurrency))</Response>
+            </EventHandler>
+            <EventHandler Name="CollectionRefresh" Sequence="0">
+               <ResponseType>28</ResponseType>
+               <Response>object</Response>
+            </EventHandler>
+            <EventHandler Name="ExistingPreProcessAsk" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>Ask(PromptMsg, PromptButtons, PromptResponse)</Response>
+            </EventHandler>
+            <EventHandler Name="ExistingPrint" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #V(PrintbyInvoiceNumber) &lt;&gt; "1", "GenerateProfileReport")</Response>
+            </EventHandler>
+            <EventHandler Name="ExistingPrint" Sequence="1">
+               <ResponseType>21</ResponseType>
+               <Response>SubmitReportInvoice(  )</Response>
+            </EventHandler>
+            <EventHandler Name="ExistingPrint" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>CheckSplitProcessResponse()</Response>
+            </EventHandler>
+            <EventHandler Name="ExistingPrint" Sequence="3">
+               <ResponseType>8</ResponseType>
+               <Response>ReportSubmitted()</Response>
+            </EventHandler>
+            <EventHandler Name="ExistingReprint" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>CheckSplitProcessResponse()</Response>
+            </EventHandler>
+            <EventHandler Name="ExistingStdFormPredisplay" Sequence="0">
+               <ResponseType>49</ResponseType>
+               <Response>SLParms( SETV(DefaultOneBusinessDocumentPerReportVar=DefaultOneBusinessDocumentPerReport) )</Response>
+            </EventHandler>
+            <EventHandler Name="ExistingStdFormPredisplay" Sequence="1">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(Set:#V(PrintbyInvoiceNumber), #GV(Avail_JP) = "1" &amp; #V(DefaultOneBusinessDocumentPerReportVar) = "1", "1")</Response>
+            </EventHandler>
+            <EventHandler Name="ExistingSubmitReportInvoice" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #V(PrintbyInvoiceNumber) &lt;&gt; "1", "SubmitReportInvoiceBG", GenEvent:"ThisForm", #V(PrintbyInvoiceNumber) = "1", "CheckProcessBySplitting") ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="FRPrompt" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>MsgApp(Clear, Prompt, SuccessFailure, mUnlinkedUnitCodesInvoicingWarningMsg, STRINGS(sPrintRMACreditMemo))</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateProfileReport" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>GenerateProfileReport()</Response>
+            </EventHandler>
+            <EventHandler Name="HIL_ReportOutput" Sequence="0">
+               <ResponseType>7</ResponseType>
+               <Response>ReportOutputFiles( )</Response>
+            </EventHandler>
+            <EventHandler Name="InitializeActiveFeatureList" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeActiveFeatureList()</Response>
+            </EventHandler>
+            <EventHandler Name="NoReportSubmitted" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>MsgApp(Clear, Prompt, SuccessFailure, sNoCreditMemosProcessed))</Response>
+            </EventHandler>
+            <EventHandler Name="PLCallPromptPrintRMACreditMemo" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEventRet:"ThisForm", #V(PLPREVIEW) = PREVIEW, PLPromptPreviewRMACreditMemo, GenEventRet:"ThisForm", #V(PLPREVIEW) &lt;&gt; PREVIEW, PLPromptPrintRMACreditMemo)</Response>
+            </EventHandler>
+            <EventHandler Name="PLClearRMA" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response> SETCOMPVALUES(StartRMALineEdit=, StartRMAEdit=, StartCustomerEdit=, StartLastReturnDateEdit=, EndRMAEdit=, EndRMALineEdit=, EndCustomerEdit=, EndLastReturnDateEdit=)</Response>
+            </EventHandler>
+            <EventHandler Name="PLCreateVariables" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SP!.GetSessionIDSp(PARMS(RVAR V(SessionID)))</Response>
+            </EventHandler>
+            <EventHandler Name="PLCreateVariables" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SP!.DefineVariableSp( PARMS(VAR PLPrintTariffCode, VAR V(PLPrintTariffCode), MESSAGE) )</Response>
+            </EventHandler>
+            <EventHandler Name="PLCreateVariables" Sequence="2">
+               <ResponseType>0</ResponseType>
+               <Response>SP!.DefineVariableSp( PARMS(VAR PLPPrintRule, VAR V(PLPrintLabelDef), MESSAGE) )</Response>
+            </EventHandler>
+            <EventHandler Name="PLCreateVariables" Sequence="3">
+               <ResponseType>0</ResponseType>
+               <Response>SP!.DefineVariableSp( PARMS(VAR PCity, VAR V(PLCity), MESSAGE) )</Response>
+            </EventHandler>
+            <EventHandler Name="PLCreateVariables" Sequence="4">
+               <ResponseType>0</ResponseType>
+               <Response>DefineVariables.DefineVariableSp( PARMS(VAR PLFinalPrintOut, VAR V(FinalPrintoutVar), MESSAGE) )</Response>
+            </EventHandler>
+            <EventHandler Name="PLCreditMemoChange" Sequence="0">
+               <ResponseType>21</ResponseType>
+               <Response>PLSetEnding</Response>
+            </EventHandler>
+            <EventHandler Name="PLCreditMemoChange" Sequence="1">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(PLRMsg=)</Response>
+            </EventHandler>
+            <EventHandler Name="PLCreditMemoChange" Sequence="2">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #C(StartCreditMemoEdit) &lt;&gt; "", "PLGetOptions")</Response>
+            </EventHandler>
+            <EventHandler Name="PLCreditMemoChange" Sequence="3">
+               <ResponseType>35</ResponseType>
+               <Response>PLChangeReprintBtn()</Response>
+            </EventHandler>
+            <EventHandler Name="PLCreditMemoChange" Sequence="4">
+               <ResponseType>21</ResponseType>
+               <Response>PLClearRMA</Response>
+            </EventHandler>
+            <EventHandler Name="PLEnsureQRCodePrintOut" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SLPLKSeFDocuments.EnsureQRs( PARMS(VAR V(StartCreditMemo), VAR 0, MESSAGE) ERRORMESSAGE(mBackEndMessage) SUCCESSMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="PLFieldsLocking" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #C(StartCreditMemoEdit) = "", PLUnlockFields, GenEvent:"ThisForm", #C(StartCreditMemoEdit) &lt;&gt; "", PLLockFields)</Response>
+            </EventHandler>
+            <EventHandler Name="PLPrePreviewAsk" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(PromptResponse=0)</Response>
+            </EventHandler>
+            <EventHandler Name="PLPreProcessAsk" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>Ask(PromptMsg, PromptButtons, PromptResponse)</Response>
+            </EventHandler>
+            <EventHandler Name="PLPreview" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(PLPREVIEW=PREVIEW)</Response>
+            </EventHandler>
+            <EventHandler Name="PLPreview" Sequence="1">
+               <ResponseType>21</ResponseType>
+               <Response>Process(  )</Response>
+            </EventHandler>
+            <EventHandler Name="PLPreview" Sequence="2">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(PLPREVIEW=)</Response>
+            </EventHandler>
+            <EventHandler Name="PLPrint" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>GenerateProfileReport()</Response>
+            </EventHandler>
+            <EventHandler Name="PLPrint" Sequence="1">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEventRet:"ThisForm", #V(PLPREVIEW) &lt;&gt; PREVIEW, SubmitReportInvoice, GenEventRet:"ThisForm", #V(PLPREVIEW) = PREVIEW, PLSubmitPreview)</Response>
+            </EventHandler>
+            <EventHandler Name="PLPrint" Sequence="2">
+               <ResponseType>8</ResponseType>
+               <Response>ReportSubmitted()</Response>
+            </EventHandler>
+            <EventHandler Name="PLPrint" Sequence="3">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #V(PLPREVIEW) &lt;&gt; PREVIEW, PLShowPDF)</Response>
+            </EventHandler>
+            <EventHandler Name="PLProcess" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(PLPREVIEW=)</Response>
+            </EventHandler>
+            <EventHandler Name="PLProcess" Sequence="1">
+               <ResponseType>21</ResponseType>
+               <Response>Process(  )</Response>
+            </EventHandler>
+            <EventHandler Name="PLProcess" Sequence="2">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #V(PLPREVIEW) &lt;&gt; "PREVIEW", PLShowReportTest)</Response>
+            </EventHandler>
+            <EventHandler Name="PLPromptPreviewRMACreditMemo" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>MsgApp(Clear, Prompt, SuccessFailure, mQ=CmdPerformNoYes, STRINGS(sOPPLTPrintPreviewRMACreditMemo))</Response>
+            </EventHandler>
+            <EventHandler Name="PLPromptPrintRMACreditMemo" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>MsgApp(Clear, Prompt, SuccessFailure, mQ=CmdPerformNoYes, STRINGS(sPrintRMACreditMemo))</Response>
+            </EventHandler>
+            <EventHandler Name="PLResetComponents" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>PLResetComponents</Response>
+            </EventHandler>
+            <EventHandler Name="PLSetEnding" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(EndCreditMemo=V(StartCreditMemo), EndCreditMemoDate=V(StartCreditMemoDate), EndCustomer=V(StartCustomer), EndLastReturnDate=V(StartLastReturnDate), EndRMA=V(StartRMA), EndRMALine=V(StartRMALine))</Response>
+            </EventHandler>
+            <EventHandler Name="PLSetPrintWord" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SP!.GetSessionIDSp(PARMS(RVAR V(SessionID)))</Response>
+            </EventHandler>
+            <EventHandler Name="PLSetPrintWord" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SP!.DefineVariableSp( PARMS(VAR PLPrintWord, VAR V(PLPrintWord), MESSAGE) )</Response>
+            </EventHandler>
+            <EventHandler Name="PLShowPDF" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>PLShowPDF()</Response>
+            </EventHandler>
+            <EventHandler Name="PLShowReportTest" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>PLShowReportTest()</Response>
+            </EventHandler>
+            <EventHandler Name="PLSubmitPreview" Sequence="0">
+               <ResponseType>40</ResponseType>
+               <Response>TASKNAME(V(BGTaskNamePLPreview))TASKPARMS(V(BGTaskParmsPLPreview))PROFILEVALUES(V(PLLang)) ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="PLSubmitReportInvoice" Sequence="0">
+               <ResponseType>19</ResponseType>
+               <Response>TASKNAME(V(BGTaskNameInvoice))TASKPARMS(V(BGTaskParmsInvoice))TASKSTATUS(V(BGTaskStatus))TASKNUMBER(BGTaskNumber)PROFILEVALUES(V(BGProfileValues)) ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="PreProcess" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1", PLCreateVariables)</Response>
+            </EventHandler>
+            <EventHandler Name="PreProcess" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SLPeriods.DateChkSp( PARMS(VAR C(CreditMemoDateEdit), BSTR C(CreditMemoDateStatic), BSTR @%update, MESSAGE, RVAR V(DateChkPromptMsg), RVAR V(DateChkPromptButtons)) ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="PreProcess" Sequence="2">
+               <ResponseType>8</ResponseType>
+               <Response>Ask(DateChkPromptMsg,DateChkPromptButtons,)</Response>
+            </EventHandler>
+            <EventHandler Name="PreProcess" Sequence="3">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLInvHdrs.RMA10RPreCheckSp( PARMS(BSTR V(StartRMA), BSTR V(EndRMA), BSTR V(StartRMALine), BSTR V(EndRMALine), BSTR V(StartCustomer), BSTR V(EndCustomer), BSTR V(StartLastReturnDate), BSTR V(EndLastReturnDate), RVAR V(PromptMsg), RVAR V(PromptButtons)) )</Response>
+            </EventHandler>
+            <EventHandler Name="PreProcess" Sequence="4">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEventRet:"ThisForm", #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1" &amp; #V(PLPREVIEW) &lt;&gt; PREVIEW, PLPreProcessAsk, GenEventRet:"ThisForm", #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1" &amp; #V(PLPREVIEW) = PREVIEW, PLPrePreviewAsk)</Response>
+            </EventHandler>
+            <EventHandler Name="PreProcess" Sequence="5">
+               <ResponseType>35</ResponseType>
+               <Response>PLPreProcess()</Response>
+            </EventHandler>
+            <EventHandler Name="PreProcess" Sequence="6">
+               <ResponseType>35</ResponseType>
+               <Response>AbortProcess()</Response>
+            </EventHandler>
+            <EventHandler Name="Print" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>SetBGTaskNameForFrance()</Response>
+            </EventHandler>
+            <EventHandler Name="Print" Sequence="1">
+               <ResponseType>35</ResponseType>
+               <Response>PLSetBGTaskName()</Response>
+            </EventHandler>
+            <EventHandler Name="Print" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>PLPrint()</Response>
+            </EventHandler>
+            <EventHandler Name="PrintRMACreditMemo" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEventRet:"ThisForm", #GV(IsCSIB_97770ActiveVar) &lt;&gt; "1" | #GV(Avail_FR) &lt;&gt; "1", "Prompt", GenEventRet:"ThisForm", #GV(IsCSIB_97770ActiveVar) = "1" &amp; #GV(Avail_FR) = "1", "FRPrompt")</Response>
+            </EventHandler>
+            <EventHandler Name="PrintRMACreditMemo" Sequence="1">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(ProcessReprint=P)</Response>
+            </EventHandler>
+            <EventHandler Name="PrintRMACreditMemo" Sequence="2">
+               <ResponseType>21</ResponseType>
+               <Response>Print(  )</Response>
+            </EventHandler>
+            <EventHandler Name="Process" Sequence="0">
+               <ResponseType>21</ResponseType>
+               <Response>PreProcess</Response>
+            </EventHandler>
+            <EventHandler Name="Process" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLInvHdrs.CrmPostSp( V(ehm1_Process1) ERRORMESSAGE(mBackEndMessage) DISABLED() )</Response>
+            </EventHandler>
+            <EventHandler Name="Process" Sequence="2">
+               <ResponseType>21</ResponseType>
+               <Response>PrintRMACreditMemo(  ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="Prompt" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>MsgApp(Clear, Prompt, SuccessFailure, mQ=CmdPerformNoYes, STRINGS(sPrintRMACreditMemo))</Response>
+            </EventHandler>
+            <EventHandler Name="ReportSubmitted" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>ReportSubmitted()</Response>
+            </EventHandler>
+            <EventHandler Name="Reprint" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(ProcessReprint=R)</Response>
+            </EventHandler>
+            <EventHandler Name="Reprint" Sequence="1">
+               <ResponseType>35</ResponseType>
+               <Response>SetBGTaskNameForFrance()</Response>
+            </EventHandler>
+            <EventHandler Name="Reprint" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>PLSetBGTaskName()</Response>
+            </EventHandler>
+            <EventHandler Name="Reprint" Sequence="3">
+               <ResponseType>35</ResponseType>
+               <Response>GenerateProfileReport()</Response>
+            </EventHandler>
+            <EventHandler Name="Reprint" Sequence="4">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1", PLSetPrintWord)</Response>
+            </EventHandler>
+            <EventHandler Name="Reprint" Sequence="5">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1", PLCreateVariables)</Response>
+            </EventHandler>
+            <EventHandler Name="Reprint" Sequence="6">
+               <ResponseType>21</ResponseType>
+               <Response>SubmitReport(  )</Response>
+            </EventHandler>
+            <EventHandler Name="Reprint" Sequence="7">
+               <ResponseType>35</ResponseType>
+               <Response>PLReprint()</Response>
+            </EventHandler>
+            <EventHandler Name="Reprint" Sequence="8">
+               <ResponseType>8</ResponseType>
+               <Response>ReportSubmitted()</Response>
+            </EventHandler>
+            <EventHandler Name="Reprint" Sequence="9">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(IsCSIB_79744ActiveVar) = 1 &amp; #GV(Avail_PL) = 1 &amp; #V(FinalPrintoutVar) = "1", "PLEnsureQRCodePrintOut")</Response>
+            </EventHandler>
+            <EventHandler Name="SelectPrinter" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>ReportOptions( OKCANCELOPTIONAL() )</Response>
+            </EventHandler>
+            <EventHandler Name="ShowMessageOfFormSplit" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>SplitRangePrintCheckKeyCount(RMACreditMemo,SplitProcessingByRange,V(StartRMA),V(EndRMA),V(StartRMALine),V(EndRMALine),V(StartCustomer),V(EndCustomer),V(StartLastReturnDate),V(EndLastReturnDate))</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(ActiveFeatureList) &lt;&gt; "", InitializeActiveFeatureList)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="1">
+               <ResponseType>22</ResponseType>
+               <Response>SETVARVALUES(AvailFRFinVar=0)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="2">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLArtrans.CheckforFRCPSp( PARMS(RVAR V(AvailFRFinVar)) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="3">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLInvSequences.CheckInvLengthSp( PARMS(RVAR V(PreDisplayResult), MESSAGE) ERRORMESSAGE(mBackEndMessage) IGNOREFAILURE() )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="4">
+               <ResponseType>35</ResponseType>
+               <Response>FormPreDisplay</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="5">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLArparms.GetArparmLinesPerDocSp( PARMS(RVAR V(UsePrePrintedForms), RVAR V(LinesPerInv), RVAR V(LinesPerDM), RVAR V(LinesPerCM)) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="6">
+               <ResponseType>35</ResponseType>
+               <Response>DisableReprintOption()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="7">
+               <ResponseType>35</ResponseType>
+               <Response>SetCurrentCultureName()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="8">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(ActiveFeatureList) &lt;&gt; "", InitializeActiveFeatureList)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="9">
+               <ResponseType>35</ResponseType>
+               <Response>PLPreDisplayEvent()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="10">
+               <ResponseType>35</ResponseType>
+               <Response>PLEnableDisableComponents()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="11">
+               <ResponseType>0</ResponseType>
+               <Response>SLFormAdoption.LoadBannerStatus( PARMS(VAR V(CurrentFormName), RVAR V(DisableBanner), RVAR V(EndOfSupport), RVAR V(NewFormName), RVAR V(ToastStatus)) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="12">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeSLToast()</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitReport" Sequence="0">
+               <ResponseType>19</ResponseType>
+               <Response>TASKNAME(V(BGTaskName))TASKPARMS(V(BGTaskParms))TASKSTATUS(V(BGTaskStatus))TASKNUMBER(BGTaskNumber)PROFILEVALUES(V(BGProfileValues)) ERRORMESSAGE(mBackEndMessage) DISABLED()</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitReport" Sequence="1">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #V(PrintbyInvoiceNumber) &lt;&gt; "1", "SubmitReportBG", GenEvent:"ThisForm", #V(PrintbyInvoiceNumber) = "1" &amp; #V(ProcessReprint) = "R", "CheckReprintReportBySplitting") ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitReportBG" Sequence="0">
+               <ResponseType>19</ResponseType>
+               <Response>TASKNAME(V(BGTaskName))TASKPARMS(V(ReportOptions))TASKSTATUS(V(BGTaskStatus))TASKNUMBER(BGTaskNumber)PROFILEVALUES(V(BGProfileValues)) ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitReportInvoice" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>PLSubmitReportInvoice()</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitReportInvoiceBG" Sequence="0">
+               <ResponseType>19</ResponseType>
+               <Response>TASKNAME(V(BGTaskNameInvoice))TASKPARMS(V(BGTaskParmsInvoice))TASKSTATUS(V(BGTaskStatus))TASKNUMBER(BGTaskNumber)PROFILEVALUES(V(BGProfileValues)) ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="BannerConfigJson">
+               <Value>{"title":"{ToastTitle}","message":"&lt;a class='sl-toast-body'&gt;{ToastBody}&amp;nbsp;&lt;/a&gt;&lt;a class='sl-toast-runform'&gt;{ToastRunForm}&lt;/a&gt;","status":"{ToastStatus}","formName":"{NewFormName}"}</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGProfileValues">
+               <Value>V(LangCode)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskName">
+               <Value>RMACreditMemoLaser</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskNameInvoice">
+               <Value>InvoicingBGSp</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskNamePLPreview">
+               <Value>PLRMACreditMemoLaserPreviewReport</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParms">
+               <Value>V(SessionID), V(ProcessReprint), V(PrintItemCustItem), V(IncludeSerialNumbers), V(TranslateToDomesticCurrency), V(StartCreditMemo), V(EndCreditMemo), V(StartCreditMemoDate), V(EndCreditMemoDate), V(PrintOrderNotes), V(PrintRMANotes), V(PrintShipToNotes), V(PrintBillToNotes), V(PrintInternalNotes), V(PrintExternalNotes), V(PrintItemOverview), V(PrintRMALineNotes),V(PrintLotNumbers),V(Parm_UseAlternateAddressReportFormat)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParmsInvoice">
+               <Value>V(SessionID),R,V(BGTaskName),V(FormType),,V(CreditMemoDate),V(StartCustomer),V(EndCustomer),V(StartRMA),V(EndRMA),V(StartRMALine),V(EndRMALine),,,V(StartLastReturnDate),V(EndLastReturnDate),,,,V(PrintInJPInvoiceFormat),,,,V(StartCreditMemo),V(EndCreditMemo),V(PrintItemCustItem), V(TranslateToDomesticCurrency), V(IncludeSerialNumbers),,,,, V(PrintOrderNotes), V(PrintRMALineNotes), V(PrintRMANotes),, V(PrintInternalNotes), V(PrintExternalNotes), V(PrintItemOverview),,, V(PrintShipToNotes), V(Print</Value>
+               <Value2>BillToNotes),,,,,V(User_UserID), MESSAGE,,,,,,,,,,,,,,,,,,,,V(PrintLotNumbers),,,V(strCurrentCultureName),,,,,,,,,,,,</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParmsPLPreview">
+               <Value>SETVARVALUES(SessionID=V(SessionID),InvoiceType=R,InvType=V(FormType),InvDate=V(CreditMemoDate),StartCustomer=V(StartCustomer),EndCustomer=V(EndCustomer),StartOrderNum=V(StartRMA),EndOrderNum=V(EndRMA),StartLine=V(StartRMALine),EndLine=V(EndRMALine),StartLastShipDate=V(StartLastReturnDate),EndLastShipDate=V(EndLastReturnDate),StartInvNum=V(StartCreditMemo),EndInvNum=V(EndCreditMemo),PrintItemCustomerItem=V(PrintItemCustItem),TransToDomCurr=V(TranslateToDomesticCurrency),PrintSerialNumbers=V(Incl</Value>
+               <Value2>udeSerialNumbers),PrintOrderNotes=V(PrintOrderNotes),PrintOrderLineNotes=V(PrintRMALineNotes),PrintOrderBlanketLineNotes=V(PrintRMANotes),PrintInternalNotes=V(PrintInternalNotes),PrintExternalNotes=V(PrintExternalNotes),PrintItemOverview=V(PrintItemOverview),PrintStandardOrderText=V(PrintShipToNotes),PrintBillToNotes=V(PrintBillToNotes),UserId=V(User_UserID),PrintLotNumbers=V(PrintLotNumbers),CurrentCultureName=V(strCurrentCultureName),Infobar=V(Infobar))</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PLPreviewButton">
+               <Value>Enabled:#C(PLPreviewButton), #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PLPrintCopyRadioButton">
+               <Value>Enabled:#C(PLPrintCopyRadioButton), #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PLPrintNoneRadioButton">
+               <Value>Enabled:#C(PLPrintNoneRadioButton), #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PLPrintOriginalRadioButton">
+               <Value>Enabled:#C(PLPrintOriginalRadioButton), #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PLProcessButton">
+               <Value>Enabled:#C(PLProcessButton), #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PLVarCityEdit">
+               <Value>Enabled:#C(PLVarCityEdit), #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PLVarPrintLabelDefCheckBox">
+               <Value>Enabled:#C(PLVarPrintLabelDefCheckBox), #GV(IsCSIB_79704ActiveVar) = "1", "True", Enabled:#C(PLVarPrintLabelDefCheckBox), #GV(Avail_PL) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PLVarPrintTariffCodeCheckBox">
+               <Value>Enabled:#C(PLVarPrintTariffCodeCheckBox), #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintTextBEdit">
+               <Value>Enabled:#C(PrintTextBEdit), #GV(IsCSIB_79704ActiveVar) &lt;&gt; "1" &amp; #GV(Avail_PL) &lt;&gt; "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ChkDateVar">
+               <Value>1/1/1753</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="CurrentFormName">
+               <Value>RMACreditMemo</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_GroupBox7">
+               <Value>Visible:#C(GroupBox7), #GV(IsCSIB_79704ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PLCityStatic">
+               <Value>Visible:#C(PLCityStatic), #GV(IsCSIB_79704ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PLPreviewButton">
+               <Value>Visible:#C(PLPreviewButton), #GV(Avail_PL) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PLPrintCopyRadioButton">
+               <Value>Visible:#C(PLPrintCopyRadioButton), #GV(IsCSIB_79704ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PLPrintNoneRadioButton">
+               <Value>Visible:#C(PLPrintNoneRadioButton), #GV(IsCSIB_79704ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PLPrintOriginalRadioButton">
+               <Value>Visible:#C(PLPrintOriginalRadioButton), #GV(IsCSIB_79704ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PLProcessButton">
+               <Value>Visible:#C(PLProcessButton), #GV(IsCSIB_79704ActiveVar) = "1" &amp; #GV(Avail_PL) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PLVarCityEdit">
+               <Value>Visible:#C(PLVarCityEdit), #GV(IsCSIB_79704ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PLVarPrintLabelDefCheckBox">
+               <Value>Visible:#C(PLVarPrintLabelDefCheckBox), #GV(IsCSIB_79704ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PLVarPrintTariffCodeCheckBox">
+               <Value>Visible:#C(PLVarPrintTariffCodeCheckBox), #GV(IsCSIB_79704ActiveVar) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PrintByInvoiceNumberChk">
+               <Value>Visible:#C(PrintByInvoiceNumberChk), #GV(IsCSIB_68929ActiveVar) = "1" &amp; #GV(Avail_JP) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PrintInJapanInvoiceFormatChkbox">
+               <Value>Visible:#C(PrintInJapanInvoiceFormatChkbox), #GV(Avail_JP) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PrintTextBEdit">
+               <Value>Visible:#C(PrintTextBEdit), #GV(IsCSIB_79704ActiveVar) &lt;&gt; "1" &amp; #GV(Avail_PL) &lt;&gt; "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PrintTextSEdit">
+               <Value>Visible:#C(PrintTextSEdit), #GV(IsCSIB_79704ActiveVar) &lt;&gt; "1" &amp; #GV(Avail_PL) &lt;&gt; "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="DefaultOneBusinessDocumentPerReportVar">
+               <Value />
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ehm1_Process1">
+               <Value>PARMS(VAR V(FormType), VAR V(CreditMemoDate), VAR V(TranslateToDomesticCurrency), VAR V(StartRMA), VAR V(EndRMA), VAR V(StartRMALine), VAR V(EndRMALine), VAR V(StartCustomer), VAR V(EndCustomer), VAR V(StartLastReturnDate), VAR V(EndLastReturnDate), RVAR V(StartCreditMemo), RVAR V(EndCreditMemo), RVAR V(StartCreditMemoDate), RVAR V(EndCreditMemoDate), VAR V(PrintOrderNotes), VAR V(PrintRMANotes), VAR V(PrintShipToNotes), VAR V(PrintBillToNotes), VAR V(PrintInternalNotes), VAR V(PrintExternalNote</Value>
+               <Value2>s), VAR V(PrintRMALineNotes), MESSAGE, RVAR V(SessionID))</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_DataSource">
+               <Value>SL.SLInvHdrs.ProfileRMACreditMemoSp( V(fds1_PrimaryMethodParms) OBJNAME(objects) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC2">
+               <Value>OBJECT2( SL.SLInvHdrs.ProfileRMACreditMemoSp( V(fds1_SecCol2MethodParms) CA() OBJNAME(Objects2) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_PrimaryMethodParms">
+               <Value>PARMS(VAR V(StartCreditMemo), VAR V(EndCreditMemo), VAR V(StartCreditMemoDate), VAR V(EndCreditMemoDate))</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol2MethodParms">
+               <Value>PARMS(VAR V(StartCreditMemo), VAR V(EndCreditMemo), VAR V(StartCreditMemoDate), VAR V(EndCreditMemoDate))</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="PLLang">
+               <Value>pl-PL</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ReportOptions">
+               <Value>SETVARVALUES(SessionID=V(SessionID),ProcessReprint=V(ProcessReprint),PrintItemCustItem=V(PrintItemCustItem),TPrSerialNum=V(IncludeSerialNumbers),TTransDomCurr=V(TranslateToDomesticCurrency),BCrmNum=V(StartCreditMemo),ECrmNum=V(EndCreditMemo),BCrmDate=V(StartCreditMemoDate),ECrmDate=V(EndCreditMemoDate),PrintOrderNotes=V(PrintOrderNotes),PrintRMANotes=V(PrintRMANotes),PrintShipToNotes=V(PrintShipToNotes),PrintBillToNotes=V(PrintBillToNotes),ShowInternal=V(PrintInternalNotes),ShowExternal=V(PrintE</Value>
+               <Value2>xternalNotes),PrintItemOverview=V(PrintItemOverview),PrintRMALineNotes=V(PrintRMALineNotes),PrintLotNumbers=V(PrintLotNumbers),BGSessionId=V(SessionID),UseAlternateAddressReportFormat=V(Parm_UseAlternateAddressReportFormat),PLFinalPrintout=V(FinalPrintoutVar),PrintInJPInvoiceFormat=V(PrintInJPInvoiceFormat))</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ToastTitle">
+               <Value>sEndOfSupport</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Namespace SyteLine.FormScripts</ScriptLine>
+               <ScriptLine>    Public Class RMACreditMemo</ScriptLine>
+               <ScriptLine>        Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        '  If no credit memos were processed, a different message is displayed.</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub DisableReprintOption()</ScriptLine>
+               <ScriptLine>            Dim bEnabled As Boolean</ScriptLine>
+               <ScriptLine>            bEnabled = True</ScriptLine>
+               <ScriptLine>            If ThisForm.Variables("UsePrePrintedForms").Value = "" Or ThisForm.Variables("UsePrePrintedForms").Value = "0" Then</ScriptLine>
+               <ScriptLine>                bEnabled = True</ScriptLine>
+               <ScriptLine>            ElseIf CInt(ThisForm.Variables("UsePrePrintedForms").Value) &gt; 0 Then</ScriptLine>
+               <ScriptLine>                bEnabled = False</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            ThisForm.Components("Reprint").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("StartCreditMemoEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            ThisForm.Components("StartCreditMemoDateEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If Not Application.Variables("IsCSIB_79704ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Components("EndCreditMemoEdit").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>                ThisForm.Components("EndCreditMemoDate").Enabled = bEnabled</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub GenerateProfileReport()</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            Dim linIndex As Integer</ScriptLine>
+               <ScriptLine>            Dim linStart As Integer</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.GenerateEvent("CollectionRefresh")</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            '  If none are processed, a different message will be displayed.</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("NumberProcessedVar").Value = CStr(ThisForm.PrimaryIDOCollection.GetNumEntries)</ScriptLine>
+               <ScriptLine>            Do While linIndex &lt; ThisForm.PrimaryIDOCollection.GetNumEntries</ScriptLine>
+               <ScriptLine>                linStart = linIndex</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("SubStartCreditMemo").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("InvNum", linStart)</ScriptLine>
+               <ScriptLine>                For linIndex = linStart + 1 To ThisForm.PrimaryIDOCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                    If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linIndex) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linStart) Then Exit For</ScriptLine>
+               <ScriptLine>                Next</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("SubEndCreditMemo").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("InvNum", linIndex - 1)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                ThisForm.Variables("LangCode").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linStart)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                If Application.Variables("IsCSIB_79704ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                    If Application.Variables("Avail_PL").Value = "1" Then</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("LangCode").Value = ThisForm.Variables("PLLang").Value</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                'ThisForm.GenerateEvent("SubmitReport")</ScriptLine>
+               <ScriptLine>            Loop</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Function AbortProcess() As Integer</ScriptLine>
+               <ScriptLine>            AbortProcess = 0</ScriptLine>
+               <ScriptLine>            Dim Response As Integer</ScriptLine>
+               <ScriptLine>            Response = CInt(ThisForm.Variables("PromptResponse").Value)</ScriptLine>
+               <ScriptLine>            If Response = vbNo Then</ScriptLine>
+               <ScriptLine>                AbortProcess = 1</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        'This functions check whether the invoice length is set in the coparms table or not</ScriptLine>
+               <ScriptLine>        'It checks for the variable that is returned from the SP and closes the form if the</ScriptLine>
+               <ScriptLine>        'value is not set.</ScriptLine>
+               <ScriptLine>        Function FormPreDisplay() As Integer</ScriptLine>
+               <ScriptLine>            FormPreDisplay = 0</ScriptLine>
+               <ScriptLine>            If ThisForm.Variables("PreDisplayResult").Value = "-1 " Then</ScriptLine>
+               <ScriptLine>                FormPreDisplay = -1</ScriptLine>
+               <ScriptLine>                ThisForm.PostEvent("StdFormClose")</ScriptLine>
+               <ScriptLine>                Exit Function</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SetBGTaskNameForFrance()</ScriptLine>
+               <ScriptLine>            Dim Avail_FR As Integer = Application.Variables("Avail_FR").GetValueOfInteger(0)</ScriptLine>
+               <ScriptLine>            If Application.Variables("IsCSIB_83572ActiveVar").Value = "1" And Avail_FR = 1 Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("BGTaskName").Value = "FRRMACreditMemoLaserReport"</ScriptLine>
+               <ScriptLine>            ElseIf ThisForm.Variables("AvailFRFinVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("BGTaskName").Value = "EXTFRRMACreditMemo"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLSetBGTaskName()</ScriptLine>
+               <ScriptLine>            If Application.Variables("IsCSIB_79704ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                If Application.Variables("Avail_PL").Value = "1" Then</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("BGTaskName").Value = "PLRMACreditMemoLaserReport"</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SetCurrentCultureName()</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("strCurrentCultureName").Value = System.Threading.Thread.CurrentThread.CurrentCulture.Name</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Function CheckSplitProcessResponse() As Integer</ScriptLine>
+               <ScriptLine>            If ThisForm.Variables("PrintbyInvoiceNumber").GetValueOfInteger(0) &lt;&gt; 1 Then</ScriptLine>
+               <ScriptLine>                Return 0</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If IsNumeric(ThisForm.Variables("SplitPromptResponseVar").Value) Then</ScriptLine>
+               <ScriptLine>                Return CInt(ThisForm.Variables("SplitPromptResponseVar").Value)</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                Return -1</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLUnlockFields()</ScriptLine>
+               <ScriptLine>            ThisForm.Components("GroupBox5").Enabled = True</ScriptLine>
+               <ScriptLine>            ThisForm.Components("GroupBox2").Enabled = True</ScriptLine>
+               <ScriptLine>            ThisForm.Components("GroupBox3").Enabled = True</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLLockFields()</ScriptLine>
+               <ScriptLine>            ThisForm.Components("GroupBox5").Enabled = False</ScriptLine>
+               <ScriptLine>            ThisForm.Components("GroupBox2").Enabled = False</ScriptLine>
+               <ScriptLine>            ThisForm.Components("GroupBox3").Enabled = False</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLEnableDisableComponents()</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If Application.Variables("IsCSIB_79704ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                If Application.Variables("Avail_PL").Value = "1" Then</ScriptLine>
+               <ScriptLine>                    ThisForm.Components("PrintTextBEdit").Enabled = False</ScriptLine>
+               <ScriptLine>                    ThisForm.Components("PrintTextSEdit").Enabled = False</ScriptLine>
+               <ScriptLine>                    ThisForm.Components("ProcessButton").Enabled = False</ScriptLine>
+               <ScriptLine>                    ThisForm.Components("ProcessButton").Visible = False</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLPreDisplayEvent()</ScriptLine>
+               <ScriptLine>            If Application.Variables("IsCSIB_79704ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                If Application.Variables("Avail_PL").Value &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("ExistingStdFormPredisplay")</ScriptLine>
+               <ScriptLine>                Else</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("LangCode").Value = ThisForm.Variables("PLLang").Value</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("ExistingStdFormPredisplay")</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLResetComponents()</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PrintTextREdit").Value = "1"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PrintRMALineTextEdit").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PrintOrderNotesCheck").Value = "1"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PrintTextEEdit").Value = "1"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PrintTextIEdit").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PrintItemOverview").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PrintTextBEdit").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PrintTextSEdit").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("LotNumbersCombo").Value = "1"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("IncludeSerialNumbersEdit").Value = "1"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("TranslateToDomesticCurrencyEdit").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PLVarPrintTariffCodeCheckBox").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PLVarCityEdit").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Components("PLVarPrintLabelDefCheckBox").Value = "0"</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLChangeReprintBtn()</ScriptLine>
+               <ScriptLine>            If ThisForm.Variables("PLRMsg").Value.ToString() = "" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Components("Reprint").Enabled = True</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.Components("Reprint").Enabled = False</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("PLResetComponents")</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLShowReportTest()</ScriptLine>
+               <ScriptLine>            Dim tasknumber As String = ThisForm.Variables("BGTaskNumber").Value</ScriptLine>
+               <ScriptLine>            Dim taskname As String = ThisForm.Variables("BGTaskName").Value</ScriptLine>
+               <ScriptLine>            System.Threading.Thread.Sleep(2000)</ScriptLine>
+               <ScriptLine>            Dim ir As InvokeRequestData = New InvokeRequestData()</ScriptLine>
+               <ScriptLine>            ir.IDOName = "SLInvHdrs"</ScriptLine>
+               <ScriptLine>            ir.MethodName = "PLInvoicingBGRows2SP"</ScriptLine>
+               <ScriptLine>            ir.Parameters.Add(tasknumber)</ScriptLine>
+               <ScriptLine>            ir.Parameters.Add(1)</ScriptLine>
+               <ScriptLine>            ir.Parameters.Add("")</ScriptLine>
+               <ScriptLine>            ir.Parameters.Add(taskname)</ScriptLine>
+               <ScriptLine>            ir.Parameters.Add("")</ScriptLine>
+               <ScriptLine>            Dim response As InvokeResponseData = IDOClient.Invoke(ir)</ScriptLine>
+               <ScriptLine>            Dim taski() As String = response.Parameters(2).Value.Split(New String() {"|"}, StringSplitOptions.RemoveEmptyEntries)</ScriptLine>
+               <ScriptLine>            For Each task As String In taski</ScriptLine>
+               <ScriptLine>                Application.ViewReportOutputFor(task)</ScriptLine>
+               <ScriptLine>            Next</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("StartCreditMemo").Value = response.Parameters(4).Value</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("EndCreditMemo").Value = response.Parameters(4).Value</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLShowPDF()</ScriptLine>
+               <ScriptLine>            Dim tasknumber As String = ThisForm.Variables("BGTaskNumber").Value</ScriptLine>
+               <ScriptLine>            System.Threading.Thread.Sleep(2000)</ScriptLine>
+               <ScriptLine>            Dim ir As InvokeRequestData = New InvokeRequestData()</ScriptLine>
+               <ScriptLine>            ir.IDOName = "SLInvHdrs"</ScriptLine>
+               <ScriptLine>            ir.MethodName = "PLInvoicingBGRowsSp"</ScriptLine>
+               <ScriptLine>            ir.Parameters.Add(tasknumber)</ScriptLine>
+               <ScriptLine>            ir.Parameters.Add(1)</ScriptLine>
+               <ScriptLine>            ir.Parameters.Add("")</ScriptLine>
+               <ScriptLine>            Dim response As InvokeResponseData = IDOClient.Invoke(ir)</ScriptLine>
+               <ScriptLine>            Dim taski() As String = response.Parameters(2).Value.Split(New String() {"|"}, StringSplitOptions.RemoveEmptyEntries)</ScriptLine>
+               <ScriptLine>            For Each task As String In taski</ScriptLine>
+               <ScriptLine>                Application.ViewReportOutputFor(task)</ScriptLine>
+               <ScriptLine>            Next</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLSubmitReportInvoice()</ScriptLine>
+               <ScriptLine>            If Application.Variables("IsCSIB_79704ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                If Application.Variables("Avail_PL").Value = "1" Then</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("PLSubmitReportInvoice")</ScriptLine>
+               <ScriptLine>                Else</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("ExistingSubmitReportInvoice")</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("ExistingSubmitReportInvoice")</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLPreProcess()</ScriptLine>
+               <ScriptLine>            If Application.Variables("IsCSIB_79704ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                If Application.Variables("Avail_PL").Value &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("ExistingPreProcessAsk")</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("ExistingPreProcessAsk")</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLPrint()</ScriptLine>
+               <ScriptLine>            If Application.Variables("IsCSIB_79704ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                If Application.Variables("Avail_PL").Value = "1" Then</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("PLPrint")</ScriptLine>
+               <ScriptLine>                Else</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("ExistingPrint")</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("ExistingPrint")</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub PLReprint()</ScriptLine>
+               <ScriptLine>            If Application.Variables("IsCSIB_79704ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                If Application.Variables("Avail_PL").Value &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("ExistingReprint")</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("ExistingReprint")</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>    End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

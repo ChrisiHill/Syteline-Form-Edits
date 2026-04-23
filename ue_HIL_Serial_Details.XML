@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="ue_HIL_Serial_Details" Scope="1" ScopeName="[NULL]">
+         <Caption>Serial Details</Caption>
+         <Type>0</Type>
+         <StandardOperations>1019</StandardOperations>
+         <Flags>1048584</Flags>
+         <Height>100</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>200</Width>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>0</PaneZeroSize>
+         <PrimaryDataSource>SLSerials</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <LockedBy>chris.h@hillattach.com</LockedBy>
+         <Components>
+            <Component Name="AssignedToBePickedQtyCheckBox">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>57</TabOrder>
+               <TopPos>9.52810457516342</TopPos>
+               <LeftPos>71.7985714285714</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20.625</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>11</ContainerSequence>
+               <DataSource>object.AssignedToBePicked</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/assigned_to_be_picked_serial_numbers.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sAssignedToBePicked</EffectiveCaption>
+            </Component>
+            <Component Name="DerCustomerStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>55</TabOrder>
+               <TopPos>8.01222222222222</TopPos>
+               <LeftPos>61.2833333333333</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sCustomer</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>9</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sCustomer</EffectiveCaption>
+            </Component>
+            <Component Name="DerDestCustomerEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>56</TabOrder>
+               <TopPos>7.71222222222222</TopPos>
+               <LeftPos>71.7985714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>26</Width>
+               <Caption>C(DerCustomerStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>10</ContainerSequence>
+               <DataSource>object.DerDestCustomer</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/customer_serial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>Name</PropertyClassName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerCustomerStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerDestEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>54</TabOrder>
+               <TopPos>6.28222222222222</TopPos>
+               <LeftPos>71.7985714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11</Width>
+               <Caption>C(DerDestStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>8</ContainerSequence>
+               <DataSource>object.DerDest</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/d/destination_serial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerDestStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerDestIssueDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>47</TabOrder>
+               <TopPos>3.42222222222222</TopPos>
+               <LeftPos>71.7985714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>C(DerDestIssueDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.DerDestIssueDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/i/issue_date_serial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerDestIssueDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerDestIssueDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>46</TabOrder>
+               <TopPos>3.65555555555562</TopPos>
+               <LeftPos>59.2833333333333</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sIssueDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sIssueDate</EffectiveCaption>
+            </Component>
+            <Component Name="DerDestRefLineSufEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>51</TabOrder>
+               <TopPos>4.85222222222222</TopPos>
+               <LeftPos>89.3414285714284</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <Caption>C(DerDestRefTypeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object.DerDestRefLineSuf</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/r/reference_serial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>CoLineSuffixProjTaskTrnLine</PropertyClassName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerDestRefTypeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerDestRefNumEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>50</TabOrder>
+               <TopPos>4.85222222222222</TopPos>
+               <LeftPos>77.07</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>C(DerDestRefTypeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.DerDestRefNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/r/reference_serial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>EmpJobCoPoRmapsTrnNum</PropertyClassName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerDestRefTypeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerDestRefReleaseEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>52</TabOrder>
+               <TopPos>4.85222222222222</TopPos>
+               <LeftPos>94.612857142857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <Caption>C(DerDestRefTypeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>object.DerDestRefRelease</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/r/reference_serial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>CoReleaseOperNumPoRelease</PropertyClassName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerDestRefTypeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerDestRefTypeEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>49</TabOrder>
+               <TopPos>4.85222222222222</TopPos>
+               <LeftPos>71.7985714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <Caption>C(DerDestRefTypeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.DerDestRefType</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/r/reference_serial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>RefTypeIJKOPRSTW</PropertyClassName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerDestRefTypeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerDestRefTypeStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>48</TabOrder>
+               <TopPos>5.08555555555552</TopPos>
+               <LeftPos>61.2833333333333</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sReference</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sReference</EffectiveCaption>
+            </Component>
+            <Component Name="DerDestStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>53</TabOrder>
+               <TopPos>6.51555555555552</TopPos>
+               <LeftPos>61.2833333333333</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sDestination</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>7</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sDestination</EffectiveCaption>
+            </Component>
+            <Component Name="DerLotTrimStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>140</TabOrder>
+               <TopPos>163.15</TopPos>
+               <LeftPos>3</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+            </Component>
+            <Component Name="DerSourceEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>42</TabOrder>
+               <TopPos>6.23555555555556</TopPos>
+               <LeftPos>24.0535714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11</Width>
+               <Caption>C(DerSourceStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>8</ContainerSequence>
+               <DataSource>object.DerSource</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/s/source_serial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerSourceStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerSourceRefLineSufEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>4.72222222222222</TopPos>
+               <LeftPos>41.4307142857142</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <Caption>C(DerSourceRefTypeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object.DerSourceRefLineSuf</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/s/source_ref_lotserial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>CoLineSuffixProjTaskTrnLine</PropertyClassName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerSourceRefTypeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerSourceRefNumEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>39</TabOrder>
+               <TopPos>4.72222222222222</TopPos>
+               <LeftPos>29.1592857142856</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>C(DerSourceRefTypeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.DerSourceRefNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/s/source_ref_lotserial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>EmpJobCoPoRmapsTrnNum</PropertyClassName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerSourceRefTypeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerSourceRefReleaseEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>4.72222222222222</TopPos>
+               <LeftPos>46.7021428571428</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <Caption>C(DerSourceRefTypeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>object.DerSourceRefRelease</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/s/source_ref_lotserial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>CoReleaseOperNumPoRelease</PropertyClassName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerSourceRefTypeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerSourceRefTypeEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>38</TabOrder>
+               <TopPos>4.72222222222222</TopPos>
+               <LeftPos>23.8878571428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <Caption>C(DerSourceRefTypeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.DerSourceRefType</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/s/source_ref_lotserial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <PropertyClassName>RefTypeIJKOPRSTW</PropertyClassName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerSourceRefTypeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerSourceRefTypeStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>37</TabOrder>
+               <TopPos>4.95555555555552</TopPos>
+               <LeftPos>13.372619047619</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sSourceRef</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sSourceRef</EffectiveCaption>
+            </Component>
+            <Component Name="DerSourceStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>6.41888888888892</TopPos>
+               <LeftPos>13.372619047619</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sSource</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>7</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sSource</EffectiveCaption>
+            </Component>
+            <Component Name="DerSourceVendorEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>44</TabOrder>
+               <TopPos>7.62444444444444</TopPos>
+               <LeftPos>24.0535714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>26</Width>
+               <Caption>C(DerVendorStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>10</ContainerSequence>
+               <DataSource>object.DerSourceVendor</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/v/vendor_serial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>C(DerVendorStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerVendorStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>43</TabOrder>
+               <TopPos>7.95777777777778</TopPos>
+               <LeftPos>13.5535714285714</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sVendor</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>9</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sVendor</EffectiveCaption>
+            </Component>
+            <Component Name="SourceGroup">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>2.22222222222222</TopPos>
+               <LeftPos>11.625</LeftPos>
+               <Height>7.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>42.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="SourceGroup1">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>45</TabOrder>
+               <TopPos>2.22222222222222</TopPos>
+               <LeftPos>58.25</LeftPos>
+               <Height>9.66666666666667</Height>
+               <ListHeight>0</ListHeight>
+               <Width>42.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>22</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="StatEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>36</TabOrder>
+               <TopPos>3.29222222222222</TopPos>
+               <LeftPos>23.8878571428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>29</Width>
+               <Caption>C(StatStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.Stat</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/s/status_serial_number_master.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>SerialStat()</DefaultFrom>
+               <PropertyClassName>SerialStatus</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(StatStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="static1_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>1.11111111111111</TopPos>
+               <LeftPos>13.372619047619</LeftPos>
+               <Height>1.61111111111111</Height>
+               <ListHeight>0</ListHeight>
+               <Width>27.375</Width>
+               <Caption>Source</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(G2Header)</Post301Format>
+               <EffectiveCaption>Source</EffectiveCaption>
+            </Component>
+            <Component Name="static2_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>1.11111111111111</TopPos>
+               <LeftPos>61.2833333333333</LeftPos>
+               <Height>1.61111111111111</Height>
+               <ListHeight>0</ListHeight>
+               <Width>27.375</Width>
+               <Caption>Destination</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(G2Header)</Post301Format>
+               <EffectiveCaption>Destination</EffectiveCaption>
+            </Component>
+            <Component Name="StatStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>3.55888888888892</TopPos>
+               <LeftPos>13.372619047619</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>Status</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>Status</EffectiveCaption>
+            </Component>
+         </Components>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

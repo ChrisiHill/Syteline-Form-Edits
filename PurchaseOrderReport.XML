@@ -1,0 +1,3147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="PurchaseOrderReport" Scope="1" ScopeName="[NULL]">
+         <Caption>fPurchaseOrderReport</Caption>
+         <Type>3</Type>
+         <StandardOperations>32</StandardOperations>
+         <Flags>968</Flags>
+         <Height>38.8</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>142</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/forms/potopics/purchase_order.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>0</PaneZeroSize>
+         <PrimaryDataSource>V(fds_DataSource)</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <Components>
+            <Component Name="BackgroundQueue">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>60</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;Background</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RunBackgroundQueue</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(BackgroundQueue), #V(PrintbyPONumber) &lt;&gt; "1", "True")</Post301Format>
+               <EffectiveCaption>s&amp;Background</EffectiveCaption>
+            </Component>
+            <Component Name="Box">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>17</TabOrder>
+               <TopPos>6</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>7.5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>84</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="Box1">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>26</TabOrder>
+               <TopPos>6</TopPos>
+               <LeftPos>85.5</LeftPos>
+               <Height>7.5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>55.25</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="Box2">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>32</TabOrder>
+               <TopPos>13.5</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>140.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="CoverSheetCompany">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>47</TabOrder>
+               <TopPos>18.2</TopPos>
+               <LeftPos>62.4285714285714</LeftPos>
+               <Height>9.6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11.2857142857143</Width>
+               <Caption>sCoverSheetCompany</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportSetGrid</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <DataSource>object.DerCoverSheetCompany</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Name</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCoverSheetCompany</EffectiveCaption>
+            </Component>
+            <Component Name="DateToAppearOnPOStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>14.6617647058823</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>16.375</Width>
+               <Caption>sDateToAppearOnPO</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sDateToAppearOnPO</EffectiveCaption>
+            </Component>
+            <Component Name="DerCoverSheetContact">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>48</TabOrder>
+               <TopPos>18.2</TopPos>
+               <LeftPos>73.8571428571429</LeftPos>
+               <Height>9.6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.8571428571429</Width>
+               <Caption>sCoverSheetContact</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportSetGrid</ContainerName>
+               <ContainerSequence>8</ContainerSequence>
+               <DataSource>object.DerCoverSheetContact</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Contact</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCoverSheetContact</EffectiveCaption>
+            </Component>
+            <Component Name="DestinationGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>45</TabOrder>
+               <TopPos>18.2</TopPos>
+               <LeftPos>46.4285714285714</LeftPos>
+               <Height>9.6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportSetGrid</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object.Destination</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Destination</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDestination</EffectiveCaption>
+            </Component>
+            <Component Name="DomCurrFlag">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>28</TabOrder>
+               <TopPos>8.5</TopPos>
+               <LeftPos>87</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>33</Width>
+               <Caption>sTranslateToDomesticCurrency</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DomCurrFlag(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_financial/fields/t/translate_to_domestic_currency_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sTranslateToDomesticCurrency</EffectiveCaption>
+            </Component>
+            <Component Name="DueDateEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>64</TabOrder>
+               <TopPos>26.7</TopPos>
+               <LeftPos>71.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>C(DueDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DueDateEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/d/due_date_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterDateCombo)</Post301Format>
+               <EffectiveCaption>C(DueDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DueDateEndingOffset">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>67</TabOrder>
+               <TopPos>26.4833333333333</TopPos>
+               <LeftPos>105</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DueDateEndingOffset</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>DateOffsetVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="DueDateIncrement">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>65</TabOrder>
+               <TopPos>26.7</TopPos>
+               <LeftPos>84.9</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DueDateIncrement(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/i/increment_date.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateIncrementVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sIncrementDate</EffectiveCaption>
+            </Component>
+            <Component Name="DueDateStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>63</TabOrder>
+               <TopPos>26.7</TopPos>
+               <LeftPos>53.625</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>C(DueDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DueDateStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/d/due_date_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateVar(DueDateStarting,DueDateEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterDateCombo)</Post301Format>
+               <EffectiveCaption>C(DueDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DueDateStartingOffset">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>66</TabOrder>
+               <TopPos>26.4833333333333</TopPos>
+               <LeftPos>99.375</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DueDateStartingOffset</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>DateOffsetVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="DueDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>62</TabOrder>
+               <TopPos>27</TopPos>
+               <LeftPos>39.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.571429</Width>
+               <Caption>sDueDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sDueDate</EffectiveCaption>
+            </Component>
+            <Component Name="Ending">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>52</TabOrder>
+               <TopPos>22.5</TopPos>
+               <LeftPos>71.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sEnding</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sEnding</EffectiveCaption>
+            </Component>
+            <Component Name="GenerateReport">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>78</TabOrder>
+               <TopPos>32</TopPos>
+               <LeftPos>71.5</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>sP&amp;rint</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>GenerateReport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/buttons/p/print_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301DataType>LENGTH(15)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterButton)</Post301Format>
+               <EffectiveCaption>sP&amp;rint</EffectiveCaption>
+            </Component>
+            <Component Name="GetOptionsMenuItem">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;GetOptions</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>32484</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RunGetOptions</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>s&amp;GetOptions</EffectiveCaption>
+            </Component>
+            <Component Name="InclBlnWORelEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>61</TabOrder>
+               <TopPos>25.2</TopPos>
+               <LeftPos>89</LeftPos>
+               <Height>1.2</Height>
+               <ListHeight>0</ListHeight>
+               <Width>36</Width>
+               <Caption>sIncludeBlanketsWithoutReleases</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.InclBlnWORel(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/i/include_blankets_without_releases.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sIncludeBlanketsWithoutReleases</EffectiveCaption>
+            </Component>
+            <Component Name="LangCodeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>42</TabOrder>
+               <TopPos>18.2</TopPos>
+               <LeftPos>22.4285714285714</LeftPos>
+               <Height>9.6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportSetGrid</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.DerLangCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>LangCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sLanguage</EffectiveCaption>
+            </Component>
+            <Component Name="LineReleaseStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>56</TabOrder>
+               <TopPos>25.5</TopPos>
+               <LeftPos>39.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.571429</Width>
+               <Caption>sLine/Release</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sLine/Release</EffectiveCaption>
+            </Component>
+            <Component Name="MethodGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>44</TabOrder>
+               <TopPos>18.2</TopPos>
+               <LeftPos>38.4285714285714</LeftPos>
+               <Height>9.6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportSetGrid</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.Method</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>OutputMethod</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sMethod</EffectiveCaption>
+            </Component>
+            <Component Name="NumCopiesGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>46</TabOrder>
+               <TopPos>18.2</TopPos>
+               <LeftPos>54.4285714285714</LeftPos>
+               <Height>9.6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportSetGrid</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>object.NumCopies</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Copies</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCopies</EffectiveCaption>
+            </Component>
+            <Component Name="OrderDateEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>73</TabOrder>
+               <TopPos>29.7</TopPos>
+               <LeftPos>71.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>C(OrderDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.OrderDateEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/o/order_date_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterDateCombo)</Post301Format>
+               <EffectiveCaption>C(OrderDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="OrderDateEndingOffset">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>76</TabOrder>
+               <TopPos>29.35</TopPos>
+               <LeftPos>105</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.OrderDateEndingOffset</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>DateOffsetVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="OrderDateIncrement">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>74</TabOrder>
+               <TopPos>29.7</TopPos>
+               <LeftPos>84.9</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.OrderDateIncrement(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/i/increment_date.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateIncrementVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sIncrementDate</EffectiveCaption>
+            </Component>
+            <Component Name="OrderDateStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>72</TabOrder>
+               <TopPos>29.7</TopPos>
+               <LeftPos>53.625</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>C(OrderDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.OrderDateStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/o/order_date_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateVar(OrderDateStarting,OrderDateEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterDateCombo)</Post301Format>
+               <EffectiveCaption>C(OrderDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="OrderDateStartingOffset">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>75</TabOrder>
+               <TopPos>29.35</TopPos>
+               <LeftPos>99.375</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.OrderDateStartingOffset</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>DateOffsetVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="OrderDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>71</TabOrder>
+               <TopPos>30</TopPos>
+               <LeftPos>39.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.571429</Width>
+               <Caption>sOrderDate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sOrderDate</EffectiveCaption>
+            </Component>
+            <Component Name="PODate">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>14.3617647058823</TopPos>
+               <LeftPos>20.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>C(DateToAppearOnPOStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PODate(INITIALVALUE(CURDATE()))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/d/date_to_appear_on_po_purchase_order.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterDateCombo)</Post301Format>
+               <EffectiveCaption>C(DateToAppearOnPOStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="PODateIncrement">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>14.3676470588235</TopPos>
+               <LeftPos>34.125</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>18</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PODateIncrement(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/i/increment_date.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>DateIncrementVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sIncrementDate</EffectiveCaption>
+            </Component>
+            <Component Name="PODateOffset">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>31</TabOrder>
+               <TopPos>11.3633333509786</TopPos>
+               <LeftPos>108.491942882421</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PODateOffset</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>DateOffsetVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="POEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>55</TabOrder>
+               <TopPos>23.7</TopPos>
+               <LeftPos>71.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>16.75</Width>
+               <Caption>C(PurchaseOrderStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/po_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>PurchaseOrders( PROPERTY(PoNum) )</MaintainFromSpec>
+               <DefaultFrom>PoNumVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(PurchaseOrderStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="pOLine/ReleaseStatusBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>50</LeftPos>
+               <Height>6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>35</Width>
+               <Caption>sPOLine/ReleaseStatus</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPOLine/ReleaseStatus</EffectiveCaption>
+            </Component>
+            <Component Name="POLineEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>59</TabOrder>
+               <TopPos>25.2</TopPos>
+               <LeftPos>71.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <Caption>C(LineReleaseStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POLineEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/l/linerelease_purchasechange_order_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>POLineVar(,,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+               <EffectiveCaption>C(LineReleaseStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="POLineStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>57</TabOrder>
+               <TopPos>25.2</TopPos>
+               <LeftPos>53.625</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <Caption>C(LineReleaseStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POLineStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/l/linerelease_purchasechange_order_report_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>POLineVar(,POLineStarting,POLineEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+               <EffectiveCaption>C(LineReleaseStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="POLineStatusC">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>2.58823529411765</TopPos>
+               <LeftPos>67.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11</Width>
+               <Caption>sPoitemStatus=C</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POLineStatusC(INITIALVALUE( ))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/po_linerelease_status_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(C) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPoitemStatus=C</EffectiveCaption>
+            </Component>
+            <Component Name="POLineStatusF">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>1.14285714285714</TopPos>
+               <LeftPos>67.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sPoitemStatus=F</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POLineStatusF(INITIALVALUE( ))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/po_linerelease_status_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(F) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPoitemStatus=F</EffectiveCaption>
+            </Component>
+            <Component Name="POLineStatusO">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>2.58823529411765</TopPos>
+               <LeftPos>52.5209523809524</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sPoitemStatus=O</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POLineStatusO(INITIALVALUE(O))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/po_linerelease_status_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(O) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPoitemStatus=O</EffectiveCaption>
+            </Component>
+            <Component Name="POLineStatusP">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>1.14285714285714</TopPos>
+               <LeftPos>52.5209523809524</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sPoitemStatus=P</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POLineStatusP(INITIALVALUE(P))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/po_linerelease_status_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(P) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPoitemStatus=P</EffectiveCaption>
+            </Component>
+            <Component Name="PoNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>18.2</TopPos>
+               <LeftPos>6.42857142857143</LeftPos>
+               <Height>9.6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportSetGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerPoNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>PurchaseOrders( PROPERTY(PoNum) )</MaintainFromSpec>
+               <PropertyClassName>PoNum</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sPO</EffectiveCaption>
+            </Component>
+            <Component Name="PORelEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>60</TabOrder>
+               <TopPos>25.2</TopPos>
+               <LeftPos>80</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <Caption>C(LineReleaseStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PORelEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/release_number_utility_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>PurchaseOrderBlanketReleases( FILTER(PoNum LIKE ISNULL(FV(POEnding),'%') AND PoLine LIKE ISNULL(FV(POLineEnding),'%')) )</MaintainFromSpec>
+               <DefaultFrom>POReleaseVar(POEnding,POLineEnding,,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+               <EffectiveCaption>C(LineReleaseStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="PORelStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>58</TabOrder>
+               <TopPos>25.2</TopPos>
+               <LeftPos>62.125</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <Caption>C(LineReleaseStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PORelStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/release_number_utility_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>PurchaseOrderBlanketReleases( FILTER(PoNum LIKE ISNULL(FV(POStarting),'%') AND PoLine LIKE ISNULL(FV(POLineStarting),'%')) )</MaintainFromSpec>
+               <DefaultFrom>POReleaseVar(POStarting,POLineStarting,PORelStarting,PORelEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+               <EffectiveCaption>C(LineReleaseStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="POStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>54</TabOrder>
+               <TopPos>23.7</TopPos>
+               <LeftPos>53.625</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>16.375</Width>
+               <Caption>C(PurchaseOrderStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/po_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>PurchaseOrders( PROPERTY(PoNum) )</MaintainFromSpec>
+               <DefaultFrom>PoNumVar(POStarting,POEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(PurchaseOrderStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="POStatusBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>24</LeftPos>
+               <Height>6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>25.5</Width>
+               <Caption>sPOStatus</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPOStatus</EffectiveCaption>
+            </Component>
+            <Component Name="POStatusC">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>4.13</TopPos>
+               <LeftPos>25.5223809523818</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>sPoStatus=C</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POStatusC(INITIALVALUE( ))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/po_status_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(C) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPoStatus=C</EffectiveCaption>
+            </Component>
+            <Component Name="POStatusO">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>2.58823529411765</TopPos>
+               <LeftPos>25.5223809523818</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>sPoStatus=O</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POStatusO(INITIALVALUE(O))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/po_status_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(O) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPoStatus=O</EffectiveCaption>
+            </Component>
+            <Component Name="POStatusP">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>1.14285714285714</TopPos>
+               <LeftPos>25.5223809523818</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>sPoStatus=P</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POStatusP(INITIALVALUE(P))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/po_status_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(P) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPoStatus=P</EffectiveCaption>
+            </Component>
+            <Component Name="PostFlag">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>29</TabOrder>
+               <TopPos>10</TopPos>
+               <LeftPos>87</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>22</Width>
+               <Caption>sPostStatusChanges</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PostFlag(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/post_status_changes_po_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPostStatusChanges</EffectiveCaption>
+            </Component>
+            <Component Name="POTypeB">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>2.63</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>sPoType=B</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POTypeB(INITIALVALUE(B))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/po_type_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(B) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPoType=B</EffectiveCaption>
+            </Component>
+            <Component Name="POTypeBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>22.5</Width>
+               <Caption>sPOType</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPOType</EffectiveCaption>
+            </Component>
+            <Component Name="POTypeR">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>1.13</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>sPoType=R</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.POTypeR(INITIALVALUE(R))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/po_type_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(R) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPoType=R</EffectiveCaption>
+            </Component>
+            <Component Name="Preview">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>77</TabOrder>
+               <TopPos>32</TopPos>
+               <LeftPos>55.125</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>sPrev&amp;iew</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>PreviewReport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/buttons/p/preview_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301DataType>LENGTH(15)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterButton)</Post301Format>
+               <EffectiveCaption>sPrev&amp;iew</EffectiveCaption>
+            </Component>
+            <Component Name="PrintAuthorizationSignaturesEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>47</TabOrder>
+               <TopPos>17.7</TopPos>
+               <LeftPos>95</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30</Width>
+               <Caption>sPrintAuthorizationSignatures</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintAuthorizationSignaturesVar(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <DefaultData>0</DefaultData>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/t/templates_purchase_order_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintAuthorizationSignaturesEdit)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintAuthorizationSignatures</EffectiveCaption>
+            </Component>
+            <Component Name="PrintBlanketDesc">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>20</TabOrder>
+               <TopPos>10</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>28</Width>
+               <Caption>sPrintBlanketDescription</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintBlanketDesc(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_blanket_description_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintBlanketDescription</EffectiveCaption>
+            </Component>
+            <Component Name="PrintBlanketNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>23</TabOrder>
+               <TopPos>8.45588235294118</TopPos>
+               <LeftPos>45.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>22</Width>
+               <Caption>sPrintBlanketNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintBlanketNotes(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintBlanketNotes), #V(PurchaseOrderTemplateVar) &lt;&gt; 2 &amp; #V(PurchaseOrderTemplateVar) &lt;&gt; 4, "True") THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintBlanketNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintByPONumberChk">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>48</TabOrder>
+               <TopPos>19.2</TopPos>
+               <LeftPos>95</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>21</Width>
+               <Caption>sPrintbyPONumber</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintbyPONumber</DataSource>
+               <Binding>6</Binding>
+               <SelectionEvent>PrintByPONumberDataChange</SelectionEvent>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_by_po_number_purchase_order_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>VISIBLEWHEN(V(cvw_PrintByPONumberChk)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintbyPONumber</EffectiveCaption>
+            </Component>
+            <Component Name="PrintCommodityCodeEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>45</TabOrder>
+               <TopPos>17.7</TopPos>
+               <LeftPos>62.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23</Width>
+               <Caption>sPrintCommodityCode</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintCommodityCodeVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <DefaultData>0</DefaultData>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/t/templates_purchase_order_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintCommodityCodeEdit)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintCommodityCode</EffectiveCaption>
+            </Component>
+            <Component Name="PrintDeliveryIncoTermsEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>43</TabOrder>
+               <TopPos>17.7</TopPos>
+               <LeftPos>28.75</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>0</ListHeight>
+               <Width>27</Width>
+               <Caption>sPrintDeliveryIncoTerms</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintDeliveryIncoTermsVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <DefaultData>0</DefaultData>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/t/templates_purchase_order_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintDeliveryIncoTermsEdit)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintDeliveryIncoTerms</EffectiveCaption>
+            </Component>
+            <Component Name="PrintDrawingNumberEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>17.7</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23</Width>
+               <Caption>sPrintDrawingNumber</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintDrawingNumberVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <DefaultData>0</DefaultData>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintDrawingNumberEdit)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintDrawingNumber</EffectiveCaption>
+            </Component>
+            <Component Name="PrintEUCodeEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>42</TabOrder>
+               <TopPos>19.2</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>16</Width>
+               <Caption>sPrintEUCode</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintEUCodeVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <DefaultData>0</DefaultData>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintEUCodeEdit)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintEUCode</EffectiveCaption>
+            </Component>
+            <Component Name="PrintEuroTotal">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>27</TabOrder>
+               <TopPos>7</TopPos>
+               <LeftPos>87</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>19</Width>
+               <Caption>sPrintEuroTotal</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintEuroTotal(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_euro_total_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintEuroTotal</EffectiveCaption>
+            </Component>
+            <Component Name="PrintExternalNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>24</TabOrder>
+               <TopPos>10</TopPos>
+               <LeftPos>45.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintExternalNotes</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>PrintExternalNotesVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintExternalNotes), #V(PurchaseOrderTemplateVar) &lt;&gt; 2 &amp; #V(PurchaseOrderTemplateVar) &lt;&gt; 4, "True") THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintExternalNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintHeaderOnAllPagesEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>46</TabOrder>
+               <TopPos>19.2</TopPos>
+               <LeftPos>62.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>24.75</Width>
+               <Caption>sPrintHeaderOnAllPages</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintHeaderOnAllPagesVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <DefaultData>0</DefaultData>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/t/templates_purchase_order_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintHeaderOnAllPagesEdit)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintHeaderOnAllPages</EffectiveCaption>
+            </Component>
+            <Component Name="PrintInternalNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>11.5</TopPos>
+               <LeftPos>45.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintInternalNotes(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>PrintInternalNotesVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintInternalNotes), #V(PurchaseOrderTemplateVar) &lt;&gt; 2 &amp; #V(PurchaseOrderTemplateVar) &lt;&gt; 4, "True") THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintInternalNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintItemBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>0.117647058823529</TopPos>
+               <LeftPos>85.5</LeftPos>
+               <Height>6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>55.25</Width>
+               <Caption>sPrintItem</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPrintItem</EffectiveCaption>
+            </Component>
+            <Component Name="PrintItemItem">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>13</TabOrder>
+               <TopPos>1.13050420168067</TopPos>
+               <LeftPos>87</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sItem</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintItemItem(INITIALVALUE(I))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <DefaultData>I</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_item_or_vendor_item_purchasechange_order_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(I) BOOLFALSE( ) DEFAULTVALUE(I)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintItemItem), #V(PurchaseOrderTemplateVar) &lt;&gt; "4", "True") THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sItem</EffectiveCaption>
+            </Component>
+            <Component Name="PrintItemOverviewCheckBox">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>2.61764705882353</TopPos>
+               <LeftPos>104.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>22</Width>
+               <Caption>sPrintItemOverview</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintItemOverviewVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_item_overview.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>PrintItemOverviewVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintItemOverviewCheckBox), #V(PurchaseOrderTemplateVar) = 1 | #V(PurchaseOrderTemplateVar) = 4, "True") THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintItemOverview</EffectiveCaption>
+            </Component>
+            <Component Name="PrintItemPictureCheckBox">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>4.11764705882353</TopPos>
+               <LeftPos>104.375</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>22</Width>
+               <Caption>sPrintItemPicture</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintItemPictureVar(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_item_picture_estimate_response_form_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintItemPictureCheckBox), #GV(IsCSIB_129839ActiveVar) = "1" &amp; #V(PurchaseOrderTemplateVar) = "4", "True") VISIBLEWHEN(Visible:#C(PrintItemPictureCheckBox), #GV(IsCSIB_129839ActiveVar) = "1", "True") THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintItemPicture</EffectiveCaption>
+            </Component>
+            <Component Name="PrintItemVendor">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>14</TabOrder>
+               <TopPos>2.58823529411765</TopPos>
+               <LeftPos>87</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>sVendorItem</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintItemVendor(INITIALVALUE(V))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_item_or_vendor_item_purchasechange_order_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(V) BOOLFALSE( )</Post301DataType>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintItemVendor), #V(PurchaseOrderTemplateVar) &lt;&gt; "4", "True") THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sVendorItem</EffectiveCaption>
+            </Component>
+            <Component Name="PrintLine/ReleaseDesc">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>19</TabOrder>
+               <TopPos>8.45588235294118</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>33</Width>
+               <Caption>sPrintLine/ReleaseDescription</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintLine/ReleaseDesc(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_linerelease_description_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintLine/ReleaseDescription</EffectiveCaption>
+            </Component>
+            <Component Name="PrintLineReleaseNotes">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>22</TabOrder>
+               <TopPos>6.99</TopPos>
+               <LeftPos>45.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>27</Width>
+               <Caption>sPrintLine/ReleaseNotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintLine/ReleaseNotes</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintLineReleaseNotes), #V(PurchaseOrderTemplateVar) &lt;&gt; 2 &amp; #V(PurchaseOrderTemplateVar) &lt;&gt; 4, "True") THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintLine/ReleaseNotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintManufacturerItemCheckBox">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>1.13050420168067</TopPos>
+               <LeftPos>104.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <Caption>sManufacturerItem</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintManufacturerItem(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/m/manufacturer_item_reports_and_utilities.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sManufacturerItem</EffectiveCaption>
+            </Component>
+            <Component Name="PrintOrderTextPO">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>21</TabOrder>
+               <TopPos>11.5</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>sPrintPONotes</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintOrderTextPO</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/n/note_types_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(PrintOrderTextPO), #V(PurchaseOrderTemplateVar) &lt;&gt; 2 &amp; #V(PurchaseOrderTemplateVar) &lt;&gt; 4, "True") THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintPONotes</EffectiveCaption>
+            </Component>
+            <Component Name="PrintOrderTextStd">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>18</TabOrder>
+               <TopPos>6.99</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>28</Width>
+               <Caption>sPrintStandardOrderText</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintOrderTextStd(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/p/print_standard_order_text.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintStandardOrderText</EffectiveCaption>
+            </Component>
+            <Component Name="PrintOriginCodeEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>44</TabOrder>
+               <TopPos>19.2</TopPos>
+               <LeftPos>28.75</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <Caption>sPrintOriginCode</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintOriginCodeVar</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <DefaultData>0</DefaultData>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/t/templates_purchase_order_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(0)</Post301DataType>
+               <Post301Format>ENABLEDWHEN(V(cew_PrintOriginCodeEdit)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintOriginCode</EffectiveCaption>
+            </Component>
+            <Component Name="ProfileExistsGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>43</TabOrder>
+               <TopPos>18.2</TopPos>
+               <LeftPos>30.4285714285714</LeftPos>
+               <Height>9.6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportSetGrid</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.DerProfileExists</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+            </Component>
+            <Component Name="PurchaseOrderStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>53</TabOrder>
+               <TopPos>24</TopPos>
+               <LeftPos>39.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.571429</Width>
+               <Caption>sPurchaseOrder</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sPurchaseOrder</EffectiveCaption>
+            </Component>
+            <Component Name="PurchaseOrderTemplateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>39</TabOrder>
+               <TopPos>14.4</TopPos>
+               <LeftPos>113.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <Caption>C(PurchaseOrderTemplate)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PurchaseOrderTemplateVar</DataSource>
+               <Binding>6</Binding>
+               <SelectionEvent>TemplateChanged</SelectionEvent>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/purchase_order_template_purchasing_parameters.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>ReportTemplateVar(PurchaseOrderTemplateListVar)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(PurchaseOrderTemplate)</EffectiveCaption>
+            </Component>
+            <Component Name="PurchaseOrderTemplateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>38</TabOrder>
+               <TopPos>14.7</TopPos>
+               <LeftPos>88.75</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>24.125</Width>
+               <Caption>sPurchaseOrderTemplate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sPurchaseOrderTemplate</EffectiveCaption>
+            </Component>
+            <Component Name="RangeBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>49</TabOrder>
+               <TopPos>21.5</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>9.52941176470588</Height>
+               <ListHeight>0</ListHeight>
+               <Width>140.125</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="ReportSetGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>50</TabOrder>
+               <TopPos>24.2</TopPos>
+               <LeftPos>0.571428571428571</LeftPos>
+               <Height>9.6</Height>
+               <ListHeight>2</ListHeight>
+               <Width>22.8571428571429</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>objects</DataSource>
+               <Binding>3</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGrid()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="ReviewPrint">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>79</TabOrder>
+               <TopPos>33.21</TopPos>
+               <LeftPos>114.25</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>4</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ReviewPrint(INITIALVALUE(P))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="RoundPlaces">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>37</TabOrder>
+               <TopPos>14.3676470588235</TopPos>
+               <LeftPos>78</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5.125</Width>
+               <Caption>C(RoundToDecimalPlaces)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.RoundPlaces(INITIALVALUE(3))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/r/round_to_decimal_places_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>RoundPlacesVar()</DefaultFrom>
+               <Post301Format>MASK(Z) THEMECLASS(MasterEdit)</Post301Format>
+               <EffectiveCaption>C(RoundToDecimalPlaces)</EffectiveCaption>
+            </Component>
+            <Component Name="RoundToDecimalPlaces">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>36</TabOrder>
+               <TopPos>14.7</TopPos>
+               <LeftPos>54.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>23.25</Width>
+               <Caption>sRoundToDecimalPlaces</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sRoundToDecimalPlaces</EffectiveCaption>
+            </Component>
+            <Component Name="SelectPrinterToolbarButton">
+               <DeviceID>-1</DeviceID>
+               <Type>11</Type>
+               <TabOrder>510</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sSelectPrinter</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>SelectPrinter</EventToGenerate>
+               <Flags>38617376</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <BitmapFileName>SelectPrinter.png</BitmapFileName>
+               <HelpContextID>1246576928</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sSelectPrinter</EffectiveCaption>
+            </Component>
+            <Component Name="Starting">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>51</TabOrder>
+               <TopPos>22.5</TopPos>
+               <LeftPos>53.625</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sStarting</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sStarting</EffectiveCaption>
+            </Component>
+            <Component Name="StoreOptionsMenuItem">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;StoreOptions</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>32484</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RunStoreOptions</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>s&amp;StoreOptions</EffectiveCaption>
+            </Component>
+            <Component Name="TemplatesStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>16.7</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>4.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>140.125</Width>
+               <Caption>sTemplates</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sTemplates</EffectiveCaption>
+            </Component>
+            <Component Name="UseEmailJob">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>80</TabOrder>
+               <TopPos>33.21</TopPos>
+               <LeftPos>120.875</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>4</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.UseEmailJob</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="UseFaxJob">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>81</TabOrder>
+               <TopPos>33.21</TopPos>
+               <LeftPos>127.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>4</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.UseFaxJob</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="UsePrintJob">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>82</TabOrder>
+               <TopPos>33.21</TopPos>
+               <LeftPos>134.125</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>4</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.UsePrintJob</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>THEMECLASS(MasterEdit)</Post301Format>
+            </Component>
+            <Component Name="UseProfileCheckBox">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>30</TabOrder>
+               <TopPos>11.5</TopPos>
+               <LeftPos>87</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20.375</Width>
+               <Caption>sUseProfile</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.UseProfile(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <SelectionEvent>UseProfileDataChange</SelectionEvent>
+               <Flags>0</Flags>
+               <DefaultData>1</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/u/use_profile.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>CheckBoxVar()</DefaultFrom>
+               <Post301DataType>DEFAULTVALUE(1)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sUseProfile</EffectiveCaption>
+            </Component>
+            <Component Name="VendNumGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>18.2</TopPos>
+               <LeftPos>14.4285714285714</LeftPos>
+               <Height>9.6</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>ReportSetGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.VendNum</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>Vendors( PROPERTY(VendNum) )</MaintainFromSpec>
+               <PropertyClassName>VendNum</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sVendor</EffectiveCaption>
+            </Component>
+            <Component Name="VendorEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>70</TabOrder>
+               <TopPos>28.2</TopPos>
+               <LeftPos>71.5</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>C(VendorStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.VendorEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/v/vendor_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Vendors( PROPERTY(VendNum) )</MaintainFromSpec>
+               <DefaultFrom>VendNumRangeVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(VendorStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="VendorStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>69</TabOrder>
+               <TopPos>28.2</TopPos>
+               <LeftPos>53.625</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>C(VendorStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.VendorStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/v/vendor_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Vendors( PROPERTY(VendNum) )</MaintainFromSpec>
+               <DefaultFrom>VendNumRangeVar(VendorStarting,VendorEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(VendorStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="VendorStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>68</TabOrder>
+               <TopPos>28.5</TopPos>
+               <LeftPos>39.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13.571429</Width>
+               <Caption>sVendor</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sVendor</EffectiveCaption>
+            </Component>
+         </Components>
+         <EventHandlers>
+            <EventHandler Name="BackGroundQueueSubmit" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>ReportSubmitted()</Response>
+            </EventHandler>
+            <EventHandler Name="CheckPrintProcessThreshold" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>CheckPrintProcessThreshold(PurchaseOrderReport,PreviewPrintReport,V(POTypeR)V(POTypeB),V(POStatusP)V(POStatusO)V(POStatusC),V(POLineStatusP)V(POLineStatusO)V(POLineStatusF)V(POLineStatusC),V(POStarting),V(POEnding),V(POLineStarting),V(POLineEnding),V(PORelStarting),V(PORelEnding),V(DueDateStarting),V(DueDateEnding),V(VendorStarting),V(VendorEnding),V(OrderDateStarting),V(OrderDateEnding))</Response>
+            </EventHandler>
+            <EventHandler Name="CheckPrintReportBySplitting" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>SplitRangePrintTaskByKeyAnchor(PurchaseOrderReport,SplitPrintingByRange,V(BGTaskName),BGTaskParms,StartPoNum=,EndPoNum=,1,BGProfileValues,V(POTypeR)V(POTypeB),V(POStatusP)V(POStatusO)V(POStatusC),V(POLineStatusP)V(POLineStatusO)V(POLineStatusF)V(POLineStatusC),V(POStarting),V(POEnding),V(POLineStarting),V(POLineEnding),V(PORelStarting),V(PORelEnding),V(DueDateStarting),V(DueDateEnding),V(VendorStarting),V(VendorEnding),V(OrderDateStarting),V(OrderDateEnding))</Response>
+            </EventHandler>
+            <EventHandler Name="CollectionRefresh" Sequence="0">
+               <ResponseType>28</ResponseType>
+               <Response>object COLID(object)</Response>
+            </EventHandler>
+            <EventHandler Name="CreateTempTables" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SLPos.CreatePurchaseOrderTTSp( PARMS(VAR V(SessionId), VAR V(SubmitReportCnt), VAR V(SkipStageDelete), MESSAGE) ERRORMESSAGE(mBackendMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateBackGroundReport" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(ReviewPrint=P)</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateBackGroundReport" Sequence="1">
+               <ResponseType>8</ResponseType>
+               <Response>SetDateOffset(PODate,PODateOffset,PODateIncrement,DueDateStarting,DueDateStartingOffset,DueDateIncrement,DueDateEnding,DueDateEndingOffset,DueDateIncrement,OrderDateStarting,OrderDateStartingOffset,OrderDateIncrement,OrderDateEnding,OrderDateEndingOffset,OrderDateIncrement)</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateBackGroundReport" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>SetBGTaskNameForFrench()</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateBackGroundReport" Sequence="3">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(POType=V(POTypeR)V(POTypeB), POStatus=V(POStatusP)V(POStatusO)V(POStatusC), POLineStat=V(POLineStatusP)V(POLineStatusO)V(POLineStatusF)V(POLineStatusC), PrintItemVI=V(PrintItemItem)V(PrintItemVendor))</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateBackGroundReport" Sequence="4">
+               <ResponseType>35</ResponseType>
+               <Response>GenerateBackGroundReport()</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(ReviewPrint=P)</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="1">
+               <ResponseType>8</ResponseType>
+               <Response>SetDateOffset(PODate,PODateOffset,PODateIncrement,DueDateStarting,DueDateStartingOffset,DueDateIncrement,DueDateEnding,DueDateEndingOffset,DueDateIncrement,OrderDateStarting,OrderDateStartingOffset,OrderDateIncrement,OrderDateEnding,OrderDateEndingOffset,OrderDateIncrement)</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="2">
+               <ResponseType>35</ResponseType>
+               <Response>SetBGTaskNameForFrench()</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="3">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(POType=V(POTypeR)V(POTypeB), POStatus=V(POStatusP)V(POStatusO)V(POStatusC), POLineStat=V(POLineStatusP)V(POLineStatusO)V(POLineStatusF)V(POLineStatusC), PrintItemVI=V(PrintItemItem)V(PrintItemVendor))</Response>
+               <Description>Values set here are for decreasing the length of the BGTaskParms Call</Description>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="4">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEventRet:"ThisForm", #V(PrintbyPONumber) &lt;&gt; "1", "CheckPrintProcessThreshold")</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="5">
+               <ResponseType>35</ResponseType>
+               <Response>GenerateProfileReport()</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="6">
+               <ResponseType>35</ResponseType>
+               <Response>CheckSplitProcessResponse()</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="7">
+               <ResponseType>8</ResponseType>
+               <Response>ReportSubmitted()</Response>
+            </EventHandler>
+            <EventHandler Name="InitializeActiveFeatureList" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeActiveFeatureList()</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>SetDateOffset(PODate,PODateOffset,PODateIncrement,DueDateStarting,DueDateStartingOffset,DueDateIncrement,DueDateEnding,DueDateEndingOffset,DueDateIncrement,OrderDateStarting,OrderDateStartingOffset,OrderDateIncrement,OrderDateEnding,OrderDateEndingOffset,OrderDateIncrement)</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="1">
+               <ResponseType>21</ResponseType>
+               <Response>SetGuid</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="2">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(ReviewPrint=R, SubPOStarting=V(POStarting), SubPOEnding=V(POEnding), SubmitReportCnt=1)</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="3">
+               <ResponseType>21</ResponseType>
+               <Response>CreateTempTables</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="4">
+               <ResponseType>35</ResponseType>
+               <Response>SetBGTaskNameForFrench()</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="5">
+               <ResponseType>21</ResponseType>
+               <Response>CheckPrintProcessThreshold(  )</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="6">
+               <ResponseType>40</ResponseType>
+               <Response>TASKNAME(V(BGTaskName))TASKPARMS(V(BGTaskParms)) ERRORMESSAGE(mPrintPreviewError)</Response>
+            </EventHandler>
+            <EventHandler Name="PrintByPONumberDataChange" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(Set:#V(UseProfile), #V(PrintbyPONumber) = "1", "0")</Response>
+            </EventHandler>
+            <EventHandler Name="RunBackgroundQueue" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response>SETVARVALUES(SkipStageDelete=1)</Response>
+            </EventHandler>
+            <EventHandler Name="RunBackgroundQueue" Sequence="1">
+               <ResponseType>35</ResponseType>
+               <Response>SetNoOfReports()</Response>
+            </EventHandler>
+            <EventHandler Name="RunBackgroundQueue" Sequence="2">
+               <ResponseType>3</ResponseType>
+               <Response>BackgroundQueue( OKCANCELOPTIONAL() SETVARVALUES(BGTaskName=V(BGTaskName), RunTaskEvent=GenerateReport, ReportSubmitEvent=BackGroundQueueSubmit) )</Response>
+            </EventHandler>
+            <EventHandler Name="RunGetOptions" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>GetOptions(OKCANCELOPTIONAL())</Response>
+            </EventHandler>
+            <EventHandler Name="RunStoreOptions" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>StoreOptions(OKCANCELOPTIONAL())</Response>
+            </EventHandler>
+            <EventHandler Name="SelectPrinter" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>ReportOptions( OKCANCELOPTIONAL() )</Response>
+            </EventHandler>
+            <EventHandler Name="SetGuid" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SLCos.GenerateGUIDSp( PARMS(RVAR V(SessionId)) ERRORMESSAGE(mBackendMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormCalledFormReturned" Sequence="0">
+               <ResponseType>22</ResponseType>
+               <Response>SETVARVALUES(SkipStageDelete=0)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(ActiveFeatureList) &lt;&gt; "", "InitializeActiveFeatureList")</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="1">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(AvailFRFinVar=0, SkipStageDelete=0)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="2">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLArtrans.CheckforFRCPSp( PARMS(RVAR V(AvailFRFinVar)) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="3">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(POEnding=V(PoNumVar), POStarting=V(PoNumVar))</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="4">
+               <ResponseType>35</ResponseType>
+               <Response>SetRecordCap()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="5">
+               <ResponseType>0</ResponseType>
+               <Response>SLPoParms.GetPoParmsSp( PARMS(RVAR , RVAR , RVAR , RVAR , RVAR , VAR , RVAR V(PurchaseOrderTemplateVar)) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="6">
+               <ResponseType>21</ResponseType>
+               <Response>TemplateChanged()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="7">
+               <ResponseType>35</ResponseType>
+               <Response>ActivateForFeatureManagement()</Response>
+               <Description>CSIB-56178</Description>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="8">
+               <ResponseType>49</ResponseType>
+               <Response>SLParms( SETV(DefaultOneBusinessDocumentPerReportVar=DefaultOneBusinessDocumentPerReport) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="9">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(Set:#V(PrintbyPONumber), #GV(Avail_JP) = "1" &amp; #V(DefaultOneBusinessDocumentPerReportVar) = "1", "1")</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="10">
+               <ResponseType>21</ResponseType>
+               <Response>PrintByPONumberDataChange(  )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="11">
+               <ResponseType>35</ResponseType>
+               <Response>SetPurchaseOrderTemplateList()</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitReport" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #V(PrintbyPONumber) &lt;&gt; "1", "SubmitReportBG", GenEvent:"ThisForm", #V(PrintbyPONumber) = "1", "CheckPrintReportBySplitting") ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="SubmitReportBG" Sequence="0">
+               <ResponseType>19</ResponseType>
+               <Response>TASKNAME(V(BGTaskName))TASKPARMS(V(BGTaskParms))TASKSTATUS(V(BGTaskStatus))TASKNUMBER(BGTaskNumber)PROFILEVALUES(V(BGProfileValues)) ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="TemplateChanged" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>Reset()</Response>
+            </EventHandler>
+            <EventHandler Name="UseProfileDataChange" Sequence="0">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(Set:#V(PrintbyPONumber), #V(UseProfile) = "1", "0")</Response>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="AdvFormsRptName">
+               <Value>PurchaseOrderReportJet</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGProfileValues">
+               <Value>V(LangCode), V(FaxNumber), V(Email), V(NumCopies), V(Printer),V(CoverSheetContact),V(FaxTemplateInfo),V(CoverSheetCompany)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskName">
+               <Value>PurchaseOrderReport2</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParms">
+               <Value>SETVARVALUES(POType=V(POTypeR)V(POTypeB),PoStat=V(POStatusP)V(POStatusO)V(POStatusC),PoitemStat=V(POLineStatusP)V(POLineStatusO)V(POLineStatusF)V(POLineStatusC),PostFlag=V(PostFlag),PODate=V(PODateOffset),RoundPlaces=V(RoundPlaces),PrintItemVI=V(PrintItemItem)V(PrintItemVendor),PrPoTxt=V(PrintOrderTextStd),PrPoBlnNote=V(PrintBlanketNotes),PrPoLineNote=V(PrintLine/ReleaseNotes),PrPoBlnDesc=V(PrintBlanketDesc),PrPoLineDesc=V(PrintLine/ReleaseDesc),PrPONote=V(PrintOrderTextPO),TransDomCurr=V(DomCur</Value>
+               <Value2>rFlag),PrintEuro=V(PrintEuroTotal),StartPoNum=V(SubPOStarting),EndPoNum=V(SubPOEnding),StartPoLine=V(POLineStarting),EndPoLine=V(POLineEnding),StartPoRElease=V(PORelStarting),EndPoRelease=V(PORelEnding),StartDueDate=V(DueDateStartingOffset),EndDueDate=V(DueDateEndingOffset),Startvendor=V(VendorStarting),EndVendor=V(VendorEnding),StartorderDate=V(OrderDateStartingOffset),EndOrderDate=V(OrderDateEndingOffset),ReviewPrint=V(ReviewPrint),PODateOffset=V(DateNullVar),StartDueDateOffset=V(DateNullVar),</Value2>
+               <Value3>EndDueDateOffset=V(DateNullVar),StartOrderDateOffset=V(DateNullVar),EndOrderDateOffset=V(DateNullVar),ShowInternal=V(PrintInternalNotes),ShowExternal=V(PrintExternalNotes),IncludeBlnsWOReleases=V(InclBlnWORel),PrintManufacturerItem=V(PrintManufacturerItem),Site=V(Parm_Site),PrintDrawingNumber=V(PrintDrawingNumberVar),PrintDeliveryIncoTerms=V(PrintDeliveryIncoTermsVar),PrintEUCode=V(PrintEUCodeVar),PrintOriginCode=V(PrintOriginCodeVar),PrintCommodityCode=V(PrintCommodityCodeVar),PrintHeaderOnAllPages=V(PrintHeaderOnAllPagesVar),PrintAuthorizationSignatures=V(PrintAuthorizationSignaturesVar),PrintItemOverview=V(PrintItemOverviewVar),ProfileExists=V(ProfileExists),UseProfile=V(UseProfile),Method=V(Method),Destination=V(Destination),PrintItemPictureVar=V(PrintItemPictureVar),ReportTemplateVar=V(PurchaseOrderTemplateVar))</Value3>
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintAuthorizationSignaturesEdit">
+               <Value>Enabled:#C(PrintAuthorizationSignaturesEdit), #V(PurchaseOrderTemplateVar) &gt; 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintCommodityCodeEdit">
+               <Value>Enabled:#C(PrintCommodityCodeEdit), #V(PurchaseOrderTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintDeliveryIncoTermsEdit">
+               <Value>Enabled:#C(PrintDeliveryIncoTermsEdit), #V(PurchaseOrderTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintDrawingNumberEdit">
+               <Value>Enabled:#C(PrintDrawingNumberEdit), #V(PurchaseOrderTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintEUCodeEdit">
+               <Value>Enabled:#C(PrintEUCodeEdit), #V(PurchaseOrderTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintHeaderOnAllPagesEdit">
+               <Value>Enabled:#C(PrintHeaderOnAllPagesEdit), #V(PurchaseOrderTemplateVar) &gt; 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintItemOverviewCheckBox">
+               <Value>Enabled:#C(PrintItemOverviewCheckBox), #V(PurchaseOrderTemplateVar) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintManufacturerItemCheckBox">
+               <Value>Enabled:#C(PrintManufacturerItemCheckBox), #V(PurchaseOrderTemplateVar) = 1, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_PrintOriginCodeEdit">
+               <Value>Enabled:#C(PrintOriginCodeEdit), #V(PurchaseOrderTemplateVar) = 3, "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cvw_PrintByPONumberChk">
+               <Value>Visible:#C(PrintByPONumberChk), #GV(IsCSIB_68929ActiveVar) = "1" &amp; #GV(Avail_JP) = "1", "True"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="DefaultOneBusinessDocumentPerReportVar">
+               <Value />
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ehm1_PopulateGrid0">
+               <Value>PARMS(VAR pPoType, VAR pPoStat, VAR pPoitemStat, VAR pPostFlag, VAR pPODate, VAR pRoundPlaces, VAR pPrintItemVI, VAR pPrPoTxt, VAR pPrPoBlnNote, VAR pPrPoLineNote, VAR pPrPoBlnDesc, VAR pPrPoLineDesc, VAR pPrPONote, VAR pTransDomCurr, VAR pPrintEuro, VAR pStartPoNum, VAR pEndPoNum, VAR pStartPoLine, VAR pEndPoLine, VAR pStartPoRElease, VAR pEndPoRelease, VAR pStartDueDate, VAR pEndDueDate, VAR pStartvendor, VAR pEndVendor, VAR pStartorderDate, VAR pEndOrderDate, VAR pReviewPrint, VAR pPODateOffs</Value>
+               <Value2>et, VAR pStartDueDateOffset, VAR pEndDueDateOffset, VAR pStartOrderDateOffset, VAR pEndOrderDateOffset, VAR ShowInternal, VAR ShowExternal, VAR pUseProfile)</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_DataSource">
+               <Value>SL.SLDocProfileVendors.ProfilePurchaseOrderSp( V(fds1_PrimaryMethodParms) LOCKMODE(Row) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_PrimaryMethodParms">
+               <Value>PARMS(VAR V(POType), VAR V(POStatus), VAR V(POLineStat), VAR V(PrintItemVI), VAR V(POStarting), VAR V(POEnding), VAR V(POLineStarting), VAR V(POLineEnding), VAR V(PORelStarting), VAR V(PORelEnding), VAR V(DueDateStarting), VAR V(DueDateEnding), VAR V(VendorStarting), VAR V(VendorEnding), VAR V(OrderDateStarting), VAR V(OrderDateEnding), VAR V(0), VAR V(0), VAR V(0), VAR V(0), VAR V(InclBlnWORel))</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="InclBlnWORel">
+               <Value>~LIT~(0)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="PurchaseOrderTemplateListVar">
+               <Value>\sOrderVerificationTemplateType=1,2\sOrderVerificationTemplateType=2,3\sOrderVerificationTemplateType=3</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ReportParms">
+               <Value>V(POTypeR)V(POTypeB),V(POStatusP)V(POStatusO)V(POStatusC),V(POLineStatusP)V(POLineStatusO)V(POLineStatusF)V(POLineStatusC),V(PostFlag),V(PODate),V(RoundPlaces),V(PrintItemItem)V(PrintItemVendor),V(PrintOrderTextStd),V(PrintBlanketNotes),V(PrintLine/ReleaseNotes),V(PrintBlanketDesc),V(PrintLine/ReleaseDesc),V(PrintOrderTextPO),V(DomCurrFlag),V(PrintEuroTotal),V(SubPOStarting),V(SubPOEnding),V(POLineStarting),V(POLineEnding),V(PORelStarting),V(PORelEnding),V(DueDateStarting),V(DueDateEnding),V(Ven</Value>
+               <Value2>dorStarting),V(VendorEnding),V(OrderDateStarting),V(OrderDateEnding),V(ReviewPrint),V(PODateOffset),V(DueDateStartingOffset),V(DueDateEndingOffset),V(OrderDateStartingOffset),V(OrderDateEndingOffset),V(PrintInternalNotes),V(PrintExternalNotes),V(InclBlnWORel)</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Namespace SyteLine.FormScripts</ScriptLine>
+               <ScriptLine>    Public Class PurchaseOrderReport</ScriptLine>
+               <ScriptLine>        Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub GenerateProfileReport()</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            Dim linIndex As Integer</ScriptLine>
+               <ScriptLine>            Dim linStart As Integer</ScriptLine>
+               <ScriptLine>            Dim linProfIdx As Integer</ScriptLine>
+               <ScriptLine>            Dim LinSubmitReportCnt As Integer</ScriptLine>
+               <ScriptLine>            Const NoProfileParm As String = "NoProfileParm"</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.Variables("LangCode").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("NumCopies").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("FaxNumber").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Email").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Printer").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("CoverSheetContact").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("FaxTemplateInfo").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("CoverSheetCompany").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Destination").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Method").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("ProfileExists").Value = ""</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            LinSubmitReportCnt = 0</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.Variables("UseProfile").Value &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("SubPOStarting").Value = ThisForm.Variables("POStarting").Value</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("SubPOEnding").Value = ThisForm.Variables("POEnding").Value</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                ThisForm.GenerateEvent("SetGuid")</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("SubmitReportCnt").Value = "1"</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("CreateTempTables")</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("SubmitReport")</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("CollectionRefresh")</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                'Start - Issue #76095</ScriptLine>
+               <ScriptLine>                If ThisForm.PrimaryIDOCollection.GetNumEntries &lt;= 0 Then</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("SubPOStarting").Value = ThisForm.Variables("POStarting").Value</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("SubPOEnding").Value = ThisForm.Variables("POEnding").Value</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("SetGuid")</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("SubmitReportCnt").Value = "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("CreateTempTables")</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("SubmitReport")</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>                'End - Issue #76095</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                Do While linIndex &lt; ThisForm.PrimaryIDOCollection.GetNumEntries</ScriptLine>
+               <ScriptLine>                    linStart = linIndex</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("SubPOStarting").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerPoNum", linStart)</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("LangCode").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linStart)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    'From starting point to the number of entries that fit our criteria.</ScriptLine>
+               <ScriptLine>                    For linIndex = linStart + 1 To ThisForm.PrimaryIDOCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                        'ProfileExists flag for the first PO is set to No</ScriptLine>
+               <ScriptLine>                        If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linStart) &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                            'The last PO number prior to a change in the ProfileExists flag.</ScriptLine>
+               <ScriptLine>                            If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linIndex) = "1" Then Exit For</ScriptLine>
+               <ScriptLine>                        Else ' If the ProfileExists flag for the first PO is yes</ScriptLine>
+               <ScriptLine>                            'The last PO number prior to a change in po.vend_num</ScriptLine>
+               <ScriptLine>                            If ThisForm.PrimaryIDOCollection.GetObjectProperty("VendNum", linIndex) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("VendNum", linStart) Then Exit For</ScriptLine>
+               <ScriptLine>                        End If</ScriptLine>
+               <ScriptLine>                        If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linIndex) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linStart) Then Exit For</ScriptLine>
+               <ScriptLine>                    Next</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    ThisForm.Variables("SubPOEnding").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerPoNum", linIndex - 1)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    ThisForm.Variables("NumCopies").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("FaxNumber").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("Email").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("Printer").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("CoverSheetContact").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("FaxTemplateInfo").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("CoverSheetCompany").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("Destination").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("Method").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("ProfileExists").Value = ""</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linStart) &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                        ThisForm.GenerateEvent("SetGuid")</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("SubmitReportCnt").Value = "1"</ScriptLine>
+               <ScriptLine>                        ThisForm.GenerateEvent("CreateTempTables")</ScriptLine>
+               <ScriptLine>                        ThisForm.GenerateEvent("SubmitReport")</ScriptLine>
+               <ScriptLine>                    Else</ScriptLine>
+               <ScriptLine>                        ThisForm.GenerateEvent("SetGuid")</ScriptLine>
+               <ScriptLine>                        For linProfIdx = linStart To linIndex - 1</ScriptLine>
+               <ScriptLine>                            If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerPoNum", linProfIdx) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("DerPoNum", linStart) Or</ScriptLine>
+               <ScriptLine>                               ThisForm.PrimaryIDOCollection.GetObjectProperty("VendNum", linProfIdx) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("VendNum", linStart) _</ScriptLine>
+               <ScriptLine>                            Then Exit For</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            ThisForm.Variables("NumCopies").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("FaxNumber").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("Email").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("Printer").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("Destination").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("Method").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("ProfileExists").Value = ""</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            Select Case ThisForm.PrimaryIDOCollection.GetObjectProperty("Method", linProfIdx)</ScriptLine>
+               <ScriptLine>                                Case "F"</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("FaxNumber").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("Destination", linProfIdx)</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("CoverSheetContact").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerCoverSheetContact", linProfIdx)</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("CoverSheetCompany").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerCoverSheetCompany", linProfIdx)</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("Method").Value = "Fax"</ScriptLine>
+               <ScriptLine>                                Case "E"</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("Email").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("Destination", linProfIdx)</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("Method").Value = "E-mail"</ScriptLine>
+               <ScriptLine>                                Case "P"</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("Printer").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("Destination", linProfIdx)</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("Method").Value = "Printer"</ScriptLine>
+               <ScriptLine>                            End Select</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("Destination").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("Destination", linProfIdx)</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("ProfileExists").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linProfIdx)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            If IsNumeric(ThisForm.PrimaryIDOCollection.GetObjectProperty("NumCopies", linProfIdx)) Then</ScriptLine>
+               <ScriptLine>                                If CDec(ThisForm.PrimaryIDOCollection.GetObjectProperty("NumCopies", linProfIdx)) &gt; 1 Then</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("NumCopies").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("NumCopies", linProfIdx)</ScriptLine>
+               <ScriptLine>                                End If</ScriptLine>
+               <ScriptLine>                            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            LinSubmitReportCnt = LinSubmitReportCnt + 1</ScriptLine>
+               <ScriptLine>                            ThisForm.GenerateEvent("SubmitReport")</ScriptLine>
+               <ScriptLine>                        Next</ScriptLine>
+               <ScriptLine>                        If LinSubmitReportCnt &gt; 0 Then</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("SubmitReportCnt").Value = CStr(LinSubmitReportCnt)</ScriptLine>
+               <ScriptLine>                            ThisForm.GenerateEvent("CreateTempTables")</ScriptLine>
+               <ScriptLine>                            LinSubmitReportCnt = 0</ScriptLine>
+               <ScriptLine>                        End If</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                Loop</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            'Clean up variables in case "Preview" is selected next.</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("NumCopies").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("FaxNumber").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Email").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Printer").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("LangCode").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Destination").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Method").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("ProfileExists").Value = ""</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SetBGTaskNameForFrench()</ScriptLine>
+               <ScriptLine>            If Application.Variables("IsRS8261_1ActiveVar").Value &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                If ThisForm.Variables("AvailFRFinVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("BGTaskName").Value = "EXTFRPurchaseOrder"</ScriptLine>
+               <ScriptLine>                Else</ScriptLine>
+               <ScriptLine>                    Select Case ThisForm.Variables("PurchaseOrderTemplateVar").Value</ScriptLine>
+               <ScriptLine>                        Case "1"</ScriptLine>
+               <ScriptLine>                            If Application.Variables("IsCSIB-56178_01ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                                ThisForm.Variables("BGTaskName").Value = "PurchaseOrderReport2"</ScriptLine>
+               <ScriptLine>                            Else</ScriptLine>
+               <ScriptLine>                                ThisForm.Variables("BGTaskName").Value = "PurchaseOrderReport"</ScriptLine>
+               <ScriptLine>                            End If</ScriptLine>
+               <ScriptLine>                        Case "2"</ScriptLine>
+               <ScriptLine>                            If Application.Variables("IsCSIB-56178_01ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                                ThisForm.Variables("BGTaskName").Value = "PurchaseOrderSimpleReport2"</ScriptLine>
+               <ScriptLine>                            Else</ScriptLine>
+               <ScriptLine>                                ThisForm.Variables("BGTaskName").Value = "PurchaseOrderSimpleReport"</ScriptLine>
+               <ScriptLine>                            End If</ScriptLine>
+               <ScriptLine>                        Case "3"</ScriptLine>
+               <ScriptLine>                            If Application.Variables("IsCSIB-56178_01ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                                ThisForm.Variables("BGTaskName").Value = "PurchaseOrderDetailReport2"</ScriptLine>
+               <ScriptLine>                            Else</ScriptLine>
+               <ScriptLine>                                ThisForm.Variables("BGTaskName").Value = "PurchaseOrderDetailReport"</ScriptLine>
+               <ScriptLine>                            End If</ScriptLine>
+               <ScriptLine>                        Case "4"</ScriptLine>
+               <ScriptLine>                            If Application.Variables("IsCSIB_129839ActiveVar").GetValueOfInteger(0) = 1 Then</ScriptLine>
+               <ScriptLine>                                ThisForm.Variables("BGTaskName").Value = "PurchaseOrderVisualSimpleReport"</ScriptLine>
+               <ScriptLine>                            End If</ScriptLine>
+               <ScriptLine>                    End Select</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                Select Case ThisForm.Variables("PurchaseOrderTemplateVar").Value</ScriptLine>
+               <ScriptLine>                    Case "1"</ScriptLine>
+               <ScriptLine>                        If Application.Variables("IsCSIB-56178_01ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("BGTaskName").Value = "PurchaseOrderReport2"</ScriptLine>
+               <ScriptLine>                        Else</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("BGTaskName").Value = "PurchaseOrderReport"</ScriptLine>
+               <ScriptLine>                        End If</ScriptLine>
+               <ScriptLine>                    Case "2"</ScriptLine>
+               <ScriptLine>                        If Application.Variables("IsCSIB-56178_01ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("BGTaskName").Value = "PurchaseOrderSimpleReport2"</ScriptLine>
+               <ScriptLine>                        Else</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("BGTaskName").Value = "PurchaseOrderSimpleReport"</ScriptLine>
+               <ScriptLine>                        End If</ScriptLine>
+               <ScriptLine>                    Case "3"</ScriptLine>
+               <ScriptLine>                        If Application.Variables("IsCSIB-56178_01ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("BGTaskName").Value = "PurchaseOrderDetailReport2"</ScriptLine>
+               <ScriptLine>                        Else</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("BGTaskName").Value = "PurchaseOrderDetailReport"</ScriptLine>
+               <ScriptLine>                        End If</ScriptLine>
+               <ScriptLine>                    Case "4"</ScriptLine>
+               <ScriptLine>                        If Application.Variables("IsCSIB_129839ActiveVar").GetValueOfInteger(0) = 1 Then</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("BGTaskName").Value = "PurchaseOrderVisualSimpleReport"</ScriptLine>
+               <ScriptLine>                        End If</ScriptLine>
+               <ScriptLine>                End Select</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SetRecordCap()</ScriptLine>
+               <ScriptLine>            ThisForm.PrimaryIDOCollection.RecordCapOverride = 0</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub Reset()</ScriptLine>
+               <ScriptLine>            Select Case ThisForm.Variables("PurchaseOrderTemplateVar").Value</ScriptLine>
+               <ScriptLine>                Case "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintLine/ReleaseNotes").Value = "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintOrderTextPO").Value = "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintExternalNotes").Value = "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintAuthorizationSignaturesVar").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintItemOverviewVar").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintItemPictureVar").Value = "0"</ScriptLine>
+               <ScriptLine>                Case "2"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintLine/ReleaseNotes").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintOrderTextPO").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintExternalNotes").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintAuthorizationSignaturesVar").Value = "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintItemOverviewVar").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintItemPictureVar").Value = "0"</ScriptLine>
+               <ScriptLine>                Case "3"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintOrderTextPO").Value = "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintLine/ReleaseNotes").Value = "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintExternalNotes").Value = "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintAuthorizationSignaturesVar").Value = "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintItemOverviewVar").Value = "0"</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("PrintItemPictureVar").Value = "0"</ScriptLine>
+               <ScriptLine>                Case "4"</ScriptLine>
+               <ScriptLine>                    If Application.Variables("IsCSIB_129839ActiveVar").GetValueOfInteger(0) = 1 Then</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("PrintLine/ReleaseNotes").Value = "0"</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("PrintOrderTextPO").Value = "0"</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("PrintExternalNotes").Value = "0"</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("PrintAuthorizationSignaturesVar").Value = "1"</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("PrintItemItem").Value = "I"</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("PrintItemVendor").Value = "V"</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("PrintItemOverviewVar").Value = "1"</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("PrintItemPictureVar").Value = "1"</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            End Select</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.Variables("PrintInternalNotes").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("PrintBlanketNotes").Value = "0"</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.Variables("PrintDrawingNumberVar").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("PrintDeliveryIncoTermsVar").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("PrintEUCodeVar").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("PrintOriginCodeVar").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("PrintCommodityCodeVar").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("PrintHeaderOnAllPagesVar").Value = "0"</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SetNoOfReports()</ScriptLine>
+               <ScriptLine>            Dim linIndex As Integer</ScriptLine>
+               <ScriptLine>            Dim linStart As Integer</ScriptLine>
+               <ScriptLine>            Dim linProfIdx As Integer</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.Variables("NoOfReports").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("ActualCount").Value = "0"</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("LangCode").Value = ""</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.Variables("UseProfile").Value &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("NoOfReports").Value = "0"</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("CollectionRefresh")</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                If ThisForm.PrimaryIDOCollection.GetNumEntries &lt;= 0 Then</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("NoOfReports").Value = "0"</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                Do While linIndex &lt; ThisForm.PrimaryIDOCollection.GetNumEntries</ScriptLine>
+               <ScriptLine>                    linStart = linIndex</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("LangCode").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linStart)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    'From starting point to the number of entries that fit our criteria.</ScriptLine>
+               <ScriptLine>                    For linIndex = linStart + 1 To ThisForm.PrimaryIDOCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                        'ProfileExists flag for the first PO is set to No</ScriptLine>
+               <ScriptLine>                        If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linStart) &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                            'The last PO number prior to a change in the ProfileExists flag.</ScriptLine>
+               <ScriptLine>                            If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linIndex) = "1" Then Exit For</ScriptLine>
+               <ScriptLine>                        Else ' If the ProfileExists flag for the first PO is yes</ScriptLine>
+               <ScriptLine>                            'The last PO number prior to a change in po.vend_num</ScriptLine>
+               <ScriptLine>                            If ThisForm.PrimaryIDOCollection.GetObjectProperty("VendNum", linIndex) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("VendNum", linStart) Then Exit For</ScriptLine>
+               <ScriptLine>                        End If</ScriptLine>
+               <ScriptLine>                        If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linIndex) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linStart) Then Exit For</ScriptLine>
+               <ScriptLine>                    Next</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linStart) &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("NoOfReports").Value = CStr(CInt(ThisForm.Variables("NoOfReports").Value) + 1)</ScriptLine>
+               <ScriptLine>                    Else</ScriptLine>
+               <ScriptLine>                        For linProfIdx = linStart To linIndex - 1</ScriptLine>
+               <ScriptLine>                            If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerPoNum", linProfIdx) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("DerPoNum", linStart) Or</ScriptLine>
+               <ScriptLine>                               ThisForm.PrimaryIDOCollection.GetObjectProperty("VendNum", linProfIdx) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("VendNum", linStart) _</ScriptLine>
+               <ScriptLine>                            Then Exit For</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("NoOfReports").Value = CStr(CInt(ThisForm.Variables("NoOfReports").Value) + 1)</ScriptLine>
+               <ScriptLine>                        Next</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                Loop</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub GenerateBackGroundReport()</ScriptLine>
+               <ScriptLine>            ' This method is triggered by the GenerateBackGroundReport event.  That event is called from the</ScriptLine>
+               <ScriptLine>            ' Background Queue form when the form variable, "NoOfReports" (populated in the SetNoOfReports method),</ScriptLine>
+               <ScriptLine>            ' is greater than zero.  Therefore, this method executes "NoOfReports" times when submitted via the Background</ScriptLine>
+               <ScriptLine>            ' form (if NoOfReports is zero then GenerateProfile is executed).   This method is exactly the same as</ScriptLine>
+               <ScriptLine>            ' GenerateProfile report except Submit only occurs when the incrementing form variable, "ActualCount" is equal to</ScriptLine>
+               <ScriptLine>            ' the incrementing local variable, "ActualCount".  </ScriptLine>
+               <ScriptLine>            ' The CollectionRefresh is unnecessary as it is done in SetNoOfReports</ScriptLine>
+               <ScriptLine>            Dim linIndex As Integer</ScriptLine>
+               <ScriptLine>            Dim linStart As Integer</ScriptLine>
+               <ScriptLine>            Dim linProfIdx As Integer</ScriptLine>
+               <ScriptLine>            Dim LinSubmitReportCnt As Integer</ScriptLine>
+               <ScriptLine>            Const NoProfileParm As String = "NoProfileParm"</ScriptLine>
+               <ScriptLine>            Dim linActualCount As Integer</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            linActualCount = 0</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.Variables("LangCode").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("NumCopies").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("FaxNumber").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Email").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Printer").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("CoverSheetContact").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("FaxTemplateInfo").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("CoverSheetCompany").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Destination").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("Method").Value = ""</ScriptLine>
+               <ScriptLine>            ThisForm.Variables("ProfileExists").Value = ""</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            LinSubmitReportCnt = 0</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.Variables("UseProfile").Value &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("SubPOStarting").Value = ThisForm.Variables("POStarting").Value</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("SubPOEnding").Value = ThisForm.Variables("POEnding").Value</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                ThisForm.GenerateEvent("SetGuid")</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("SubmitReportCnt").Value = "1"</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("CreateTempTables")</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("SubmitReport")</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("CollectionRefresh")</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                'Start - Issue #76095</ScriptLine>
+               <ScriptLine>                If ThisForm.PrimaryIDOCollection.GetNumEntries &lt;= 0 Then</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("SubPOStarting").Value = ThisForm.Variables("POStarting").Value</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("SubPOEnding").Value = ThisForm.Variables("POEnding").Value</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("SetGuid")</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("SubmitReportCnt").Value = "1"</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("CreateTempTables")</ScriptLine>
+               <ScriptLine>                    ThisForm.GenerateEvent("SubmitReport")</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>                'End - Issue #76095</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                Do While linIndex &lt; ThisForm.PrimaryIDOCollection.GetNumEntries</ScriptLine>
+               <ScriptLine>                    linStart = linIndex</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("SubPOStarting").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerPoNum", linStart)</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("LangCode").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linStart)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    'From starting point to the number of entries that fit our criteria.</ScriptLine>
+               <ScriptLine>                    For linIndex = linStart + 1 To ThisForm.PrimaryIDOCollection.GetNumEntries - 1</ScriptLine>
+               <ScriptLine>                        'ProfileExists flag for the first PO is set to No</ScriptLine>
+               <ScriptLine>                        If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linStart) &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                            'The last PO number prior to a change in the ProfileExists flag.</ScriptLine>
+               <ScriptLine>                            If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linIndex) = "1" Then Exit For</ScriptLine>
+               <ScriptLine>                        Else ' If the ProfileExists flag for the first PO is yes</ScriptLine>
+               <ScriptLine>                            'The last PO number prior to a change in po.vend_num</ScriptLine>
+               <ScriptLine>                            If ThisForm.PrimaryIDOCollection.GetObjectProperty("VendNum", linIndex) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("VendNum", linStart) Then Exit For</ScriptLine>
+               <ScriptLine>                        End If</ScriptLine>
+               <ScriptLine>                        If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linIndex) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("DerLangCode", linStart) Then Exit For</ScriptLine>
+               <ScriptLine>                    Next</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    ThisForm.Variables("SubPOEnding").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerPoNum", linIndex - 1)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    ThisForm.Variables("NumCopies").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("FaxNumber").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("Email").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("Printer").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("CoverSheetContact").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("FaxTemplateInfo").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("CoverSheetCompany").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("Destination").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("Method").Value = ""</ScriptLine>
+               <ScriptLine>                    ThisForm.Variables("ProfileExists").Value = ""</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linStart) &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                        If CStr(linActualCount) = ThisForm.Variables("ActualCount").Value Then</ScriptLine>
+               <ScriptLine>                            ThisForm.GenerateEvent("SetGuid")</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("ActualCount").Value = CStr(CInt(ThisForm.Variables("ActualCount").Value) + 1)</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("SubmitReportCnt").Value = "1"</ScriptLine>
+               <ScriptLine>                            ThisForm.GenerateEvent("CreateTempTables")</ScriptLine>
+               <ScriptLine>                            ThisForm.GenerateEvent("SubmitReport")</ScriptLine>
+               <ScriptLine>                            If LinSubmitReportCnt &gt; 0 Then</ScriptLine>
+               <ScriptLine>                                ThisForm.Variables("SubmitReportCnt").Value = CStr(LinSubmitReportCnt)</ScriptLine>
+               <ScriptLine>                                ThisForm.GenerateEvent("CreateTempTables")</ScriptLine>
+               <ScriptLine>                                LinSubmitReportCnt = 0</ScriptLine>
+               <ScriptLine>                            End If</ScriptLine>
+               <ScriptLine>                            Exit Sub</ScriptLine>
+               <ScriptLine>                        End If</ScriptLine>
+               <ScriptLine>                        linActualCount = linActualCount + 1</ScriptLine>
+               <ScriptLine>                    Else</ScriptLine>
+               <ScriptLine>                        ThisForm.GenerateEvent("SetGuid")</ScriptLine>
+               <ScriptLine>                        For linProfIdx = linStart To linIndex - 1</ScriptLine>
+               <ScriptLine>                            If ThisForm.PrimaryIDOCollection.GetObjectProperty("DerPoNum", linProfIdx) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("DerPoNum", linStart) Or</ScriptLine>
+               <ScriptLine>                               ThisForm.PrimaryIDOCollection.GetObjectProperty("VendNum", linProfIdx) &lt;&gt; ThisForm.PrimaryIDOCollection.GetObjectProperty("VendNum", linStart) _</ScriptLine>
+               <ScriptLine>                            Then Exit For</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            ThisForm.Variables("NumCopies").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("FaxNumber").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("Email").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("Printer").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("Destination").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("Method").Value = ""</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("ProfileExists").Value = ""</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            Select Case ThisForm.PrimaryIDOCollection.GetObjectProperty("Method", linProfIdx)</ScriptLine>
+               <ScriptLine>                                Case "F"</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("FaxNumber").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("Destination", linProfIdx)</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("CoverSheetContact").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerCoverSheetContact", linProfIdx)</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("CoverSheetCompany").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerCoverSheetCompany", linProfIdx)</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("Method").Value = "Fax"</ScriptLine>
+               <ScriptLine>                                Case "E"</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("Email").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("Destination", linProfIdx)</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("Method").Value = "E-mail"</ScriptLine>
+               <ScriptLine>                                Case "P"</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("Printer").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("Destination", linProfIdx)</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("Method").Value = "Printer"</ScriptLine>
+               <ScriptLine>                            End Select</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("Destination").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("Destination", linProfIdx)</ScriptLine>
+               <ScriptLine>                            ThisForm.Variables("ProfileExists").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("DerProfileExists", linProfIdx)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            If IsNumeric(ThisForm.PrimaryIDOCollection.GetObjectProperty("NumCopies", linProfIdx)) Then</ScriptLine>
+               <ScriptLine>                                If CDec(ThisForm.PrimaryIDOCollection.GetObjectProperty("NumCopies", linProfIdx)) &gt; 1 Then</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("NumCopies").Value = ThisForm.PrimaryIDOCollection.GetObjectProperty("NumCopies", linProfIdx)</ScriptLine>
+               <ScriptLine>                                End If</ScriptLine>
+               <ScriptLine>                            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                            If CStr(linActualCount) = ThisForm.Variables("ActualCount").Value Then</ScriptLine>
+               <ScriptLine>                                LinSubmitReportCnt = LinSubmitReportCnt + 1</ScriptLine>
+               <ScriptLine>                                ThisForm.Variables("ActualCount").Value = CStr(CInt(ThisForm.Variables("ActualCount").Value) + 1)</ScriptLine>
+               <ScriptLine>                                ThisForm.GenerateEvent("SubmitReport")</ScriptLine>
+               <ScriptLine>                                If LinSubmitReportCnt &gt; 0 Then</ScriptLine>
+               <ScriptLine>                                    ThisForm.Variables("SubmitReportCnt").Value = CStr(LinSubmitReportCnt)</ScriptLine>
+               <ScriptLine>                                    ThisForm.GenerateEvent("CreateTempTables")</ScriptLine>
+               <ScriptLine>                                    LinSubmitReportCnt = 0</ScriptLine>
+               <ScriptLine>                                End If</ScriptLine>
+               <ScriptLine>                                Exit Sub</ScriptLine>
+               <ScriptLine>                            End If</ScriptLine>
+               <ScriptLine>                            linActualCount = linActualCount + 1</ScriptLine>
+               <ScriptLine>                        Next</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                Loop</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>        Sub ActivateForFeatureManagement()</ScriptLine>
+               <ScriptLine>            Select Case ThisForm.Variables("PurchaseOrderTemplateVar").Value</ScriptLine>
+               <ScriptLine>                Case "1"</ScriptLine>
+               <ScriptLine>                    If Application.Variables("IsCSIB-56178_01ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("BGTaskName").Value = "PurchaseOrderReport2"</ScriptLine>
+               <ScriptLine>                    Else</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("BGTaskName").Value = "PurchaseOrderReport"</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                Case "2"</ScriptLine>
+               <ScriptLine>                    If Application.Variables("IsCSIB-56178_01ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("BGTaskName").Value = "PurchaseOrderSimpleReport2"</ScriptLine>
+               <ScriptLine>                    Else</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("BGTaskName").Value = "PurchaseOrderSimpleReport"</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                Case "3"</ScriptLine>
+               <ScriptLine>                    If Application.Variables("IsCSIB-56178_01ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("BGTaskName").Value = "PurchaseOrderDetailReport2"</ScriptLine>
+               <ScriptLine>                    Else</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("BGTaskName").Value = "PurchaseOrderDetailReport"</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                Case "4"</ScriptLine>
+               <ScriptLine>                    If Application.Variables("IsCSIB_129839ActiveVar").GetValueOfInteger(0) = 1 Then</ScriptLine>
+               <ScriptLine>                        ThisForm.Variables("BGTaskName").Value = "PurchaseOrderVisualSimpleReport"</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>            End Select</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Function CheckSplitProcessResponse() As Integer</ScriptLine>
+               <ScriptLine>            If ThisForm.Variables("PrintbyPONumber").GetValueOfInteger(0) &lt;&gt; 1 Then</ScriptLine>
+               <ScriptLine>                Return 0</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If IsNumeric(ThisForm.Variables("SplitPromptResponseVar").Value) Then</ScriptLine>
+               <ScriptLine>                Return CInt(ThisForm.Variables("SplitPromptResponseVar").Value)</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                Return -1</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Function</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SetPurchaseOrderTemplateList()</ScriptLine>
+               <ScriptLine>            Dim PurchaseOrderTemplateListVar AS String</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If Application.Variables("IsCSIB_129839ActiveVar").GetValueOfInteger(0) = 1 Then</ScriptLine>
+               <ScriptLine>               PurchaseOrderTemplateListVar = "1\sOrderVerificationTemplateType=1,2\sOrderVerificationTemplateType=2,3\sOrderVerificationTemplateType=3,4\sOrderVerificationTemplateType=4"</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>               PurchaseOrderTemplateListVar = "1\sOrderVerificationTemplateType=1,2\sOrderVerificationTemplateType=2,3\sOrderVerificationTemplateType=3"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.Variables("PurchaseOrderTemplateListVar").Value = PurchaseOrderTemplateListVar</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>    End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

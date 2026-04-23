@@ -1,0 +1,895 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="ue_HIL_SalesAdminDashboard" Scope="1" ScopeName="[NULL]">
+         <Caption>Sales Dashboard</Caption>
+         <Type>1</Type>
+         <StandardOperations>1</StandardOperations>
+         <Flags>1048584</Flags>
+         <Height>38.764705657959</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>156</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_financial/forms/gltopics/controller_home.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>0</PaneZeroSize>
+         <PrimaryDataSource>V(fds_DataSource)</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <LockedBy>chris.h@hillattach.com</LockedBy>
+         <Components>
+            <Component Name="HitchStockTab">
+               <DeviceID>-1</DeviceID>
+               <Type>13</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>2.61111111111111</TopPos>
+               <LeftPos>0.875</LeftPos>
+               <Height>35.0555555555556</Height>
+               <ListHeight>0</ListHeight>
+               <Width>155</Width>
+               <Caption>Hitch Stock</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>HomeNotebook</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>Hitch Stock</EffectiveCaption>
+            </Component>
+            <Component Name="HomeNotebook">
+               <DeviceID>-1</DeviceID>
+               <Type>12</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>2.61111111111111</TopPos>
+               <LeftPos>0.875</LeftPos>
+               <Height>35.0555555555556</Height>
+               <ListHeight>2</ListHeight>
+               <Width>155</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>386</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>AUTOIME(Off)</Post301Format>
+            </Component>
+            <Component Name="MiscStockTab">
+               <DeviceID>-1</DeviceID>
+               <Type>13</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>2.61111111111111</TopPos>
+               <LeftPos>0.875</LeftPos>
+               <Height>35.0555555555556</Height>
+               <ListHeight>0</ListHeight>
+               <Width>155</Width>
+               <Caption>Misc Stock</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>HomeNotebook</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>Misc Stock</EffectiveCaption>
+            </Component>
+            <Component Name="PickedSerialsTab">
+               <DeviceID>-1</DeviceID>
+               <Type>13</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>2.61111111111111</TopPos>
+               <LeftPos>0.875</LeftPos>
+               <Height>35.0555555555556</Height>
+               <ListHeight>0</ListHeight>
+               <Width>155</Width>
+               <Caption>Picked Serials</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>HomeNotebook</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>Picked Serials</EffectiveCaption>
+            </Component>
+            <Component Name="PlannedOrderLinesTab">
+               <DeviceID>-1</DeviceID>
+               <Type>13</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>2.61111111111111</TopPos>
+               <LeftPos>0.875</LeftPos>
+               <Height>35.0555555555556</Height>
+               <ListHeight>0</ListHeight>
+               <Width>155</Width>
+               <Caption>Planned Order Lines</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>HomeNotebook</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>Planned Order Lines</EffectiveCaption>
+            </Component>
+            <Component Name="RoleStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.611111111111111</TopPos>
+               <LeftPos>0.875</LeftPos>
+               <Height>1.79999995231628</Height>
+               <ListHeight>2</ListHeight>
+               <Width>30.8571434020996</Width>
+               <Caption>Sales Dataviews</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>FONT(18,0,0,0,700,0,0,0,0,0,0,0,0,Microsoft Sans Serif) AUTOIME(Off) JUSTIFY(L)</Post301Format>
+               <EffectiveCaption>Sales Dataviews</EffectiveCaption>
+            </Component>
+            <Component Name="SSSWBSuperGrid1_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>47</Type>
+               <TabOrder>171</TabOrder>
+               <TopPos>4.22222222222222</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>34.1111111111111</Height>
+               <ListHeight>0</ListHeight>
+               <Width>150</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PickedSerialsTab</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>V(cds_SSSWBSuperGrid1_SITE)</DataSource>
+               <Binding>21</Binding>
+               <Flags>386</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDataView</MenuName>
+               <Post301Format>AUTOIME(Off)</Post301Format>
+            </Component>
+            <Component Name="SSSWBSuperGrid2_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>47</Type>
+               <TabOrder>171</TabOrder>
+               <TopPos>4.22222222222222</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>33</Height>
+               <ListHeight>0</ListHeight>
+               <Width>220</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>HitchStockTab</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>V(cds_SSSWBSuperGrid2_SITE)</DataSource>
+               <Binding>21</Binding>
+               <Flags>386</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDataView</MenuName>
+               <Post301Format>AUTOIME(Off)</Post301Format>
+            </Component>
+            <Component Name="SSSWBSuperGrid3_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>47</Type>
+               <TabOrder>171</TabOrder>
+               <TopPos>4.22222222222222</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>33</Height>
+               <ListHeight>0</ListHeight>
+               <Width>220</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>MiscStockTab</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>V(cds_SSSWBSuperGrid3_SITE)</DataSource>
+               <Binding>21</Binding>
+               <Flags>386</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDataView</MenuName>
+               <Post301Format>AUTOIME(Off)</Post301Format>
+            </Component>
+            <Component Name="SSSWBSuperGrid5_SITE">
+               <DeviceID>-1</DeviceID>
+               <Type>47</Type>
+               <TabOrder>171</TabOrder>
+               <TopPos>4.22222222222222</TopPos>
+               <LeftPos>3.5</LeftPos>
+               <Height>34.1111111111111</Height>
+               <ListHeight>0</ListHeight>
+               <Width>150</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>PlannedOrderLinesTab</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>V(cds_SSSWBSuperGrid5_SITE)</DataSource>
+               <Binding>21</Binding>
+               <Flags>386</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDataView</MenuName>
+               <Post301Format>AUTOIME(Off)</Post301Format>
+            </Component>
+         </Components>
+         <Variables>
+            <Variable Name="BannerConfigJson">
+               <Value>{"title":"{ToastTitle}","message":"&lt;a class='sl-toast-body'&gt;{ToastBody}&amp;nbsp;&lt;/a&gt;&lt;a class='sl-toast-runform'&gt;{ToastRunForm}&lt;/a&gt;","status":"{ToastStatus}","formName":"{NewFormName}"}</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_CashBalGraph">
+               <Value>chart.object21( DATASERIESPROPERTIES(DomBalance) XAXISLABEL(BankCode) LEGENDS(sBalance) CHARTSTYLE(Multi-Series Charts) CHARTTYPE(MSColumn2D) LOADJIT())</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_CUSTRENDERdiagram1">
+               <Value>V(cds_SHAPELIBdiagram1) DIAGRAMLAYOUTLAYER(50) DIAGRAMLAYOUTVERTEX(100) </Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_DataSourceAccountsLedgerGrid">
+               <Value>object3.SLLedgerAlls( CA(IVR) READMODE(COMMITTED) FILTERPERM(TransDate BETWEEN FV(PeriodStartDate) AND dbo.DayEndOf(FV(PeriodEndDate)) AND FromId IN (SELECT id FROM jour_hdr WITH (READUNCOMMITTED) WHERE (jour_hdr.type = 'U' OR jour_hdr.id = 'General'))) ORDERBY(SiteRef,TransNum) LINKBY(LedgerAcct=Acct,SiteRef=SiteRef) DEFERREFRESHUNTILVISIBLE() )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_DataSourceJobVarMatlGrid">
+               <Value>object14.SLControllerAlls2.Home_JobVarianceMatlSp( V(cdsmp1_JobVarMatlGrid) CA(IGVR) LINKBY(JobJob=JobJob,JobSuffix=JobSuffix,JobItem=JobItem,JobQtyReleased=JobQtyReleased,SiteRef=SiteRef) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_DataSourceJobVarOperGrid">
+               <Value>object14.SLControllerAlls.Home_JobVarianceOperSp( V(cdsmp1_JobVarOperGrid) CA(IGVR) LINKBY(JobJob=JobJob,JobSuffix=JobSuffix,JobItem=JobItem,JobQtyReleased=JobQtyReleased,SiteRef=SiteRef) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_DataSourcePurchaseCostPOGrid">
+               <Value>object13.SLControllerAlls.Home_POVarianceSp( V(cdsmp1_PurchaseCostPOGrid) CA(IGVR) ORDERBY(SiteRef, VendNum, PoNum, PoLine) LINKBY(SLControllerAlls=SiteRef,SLControllerAlls=VendNum,SLControllerAlls=PoNum,SLControllerAlls=PoLine) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_diagram1">
+               <Value>diagram(DIAGRAMTOOLBARVISIBLE(0) DIAGRAMTOOLBARLOCATION(Top) DIAGRAMNAVPANEVISIBLE(0) DIAGRAMVIEWBACKCOLOR(0,0,0) DIAGRAMVIEWLAYOUT(Fit) DIAGRAMADJUSTDOCSIZETOVIEW(0) DIAGRAMSHAPEIDVARNAME(DiagramSelectedShapeID) DIAGRAMSHAPENAMEVARNAME(DiagramSelectedShapeName) DIAGRAMSHAPEGUIDVARNAME(DiagramSelectedShapeUniqueID) DIAGRAMSHAPEDOUBLECLICKEVENT(DiagramShapeDoubleClicked) V(cds_PROTECT1Ddiagram1) V(cds_PROTECT2Ddiagram1) V(cds_CUSTRENDERdiagram1) DIAGRAMUSECUSTOMTERACTIVE(1) V(cds_DSDVIdiagram1) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_DSDVIdiagram1">
+               <Value Encoded="1">DIAGRAMVIEWINTERACTIVE(&lt;?xml version="1.0"?&gt;_x0D_
+&lt;NInteractiveAppearance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SelectedAppearanceChangeMode="FillStyle"&gt;_x0D_
+  &lt;SelectedFillStyle xsi:type="NColorFillStyle" Color="0,4289781990" /&gt;_x0D_
+  &lt;SelectedStrokeStyle Color="0,4294901760"&gt;_x0D_
+    &lt;Width Value="1" MeasurementUnit="GDI,Point" /&gt;_x0D_
+  &lt;/SelectedStrokeStyle&gt;_x0D_
+  &lt;HighlightedFillStyle xsi:type="NColorFillStyle" Color="0,4294967265" /&gt;_x0D_
+  &lt;Highlighted</Value>
+               <Value2 Encoded="1">StrokeStyle Color="0,4290690750"&gt;_x0D_
+    &lt;Width Value="2" MeasurementUnit="GDI,Point" /&gt;_x0D_
+  &lt;/HighlightedStrokeStyle&gt;_x0D_
+  &lt;SelectedTextFillStyle xsi:type="NColorFillStyle" Color="0,4278190080" /&gt;_x0D_
+  &lt;HighlightedTextFillStyle xsi:type="NColorFillStyle" Color="0,4278190208" /&gt;_x0D_
+&lt;/NInteractiveAppearance&gt;) </Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge1_SITE">
+               <Value>gauge.kpi( GAUGETYPE(Cylinder) GAUGECRITICALNUMBER(137) GAUGEGROUP(FA) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge10_SITE">
+               <Value>gauge.kpi( GAUGETYPE(AngularGauge) GAUGECRITICALNUMBER(130) GAUGEGROUP(FA) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge11_SITE">
+               <Value>gauge.kpi( GAUGETYPE(Cylinder) GAUGECRITICALNUMBER(137) GAUGEGROUP(H-GNDF) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge12_SITE">
+               <Value>gauge.kpi( GAUGETYPE(Cylinder) GAUGECRITICALNUMBER(137) GAUGEGROUP(H-GNDC) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge13_SITE">
+               <Value>gauge.kpi( GAUGETYPE(Cylinder) GAUGECRITICALNUMBER(137) GAUGEGROUP(H-WLD) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge14_SITE">
+               <Value>gauge.kpi( GAUGETYPE(Cylinder) GAUGECRITICALNUMBER(137) GAUGEGROUP(KIT) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge15_SITE">
+               <Value>gauge.kpi( GAUGETYPE(Cylinder) GAUGECRITICALNUMBER(137) GAUGEGROUP(PNT) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge16_SITE">
+               <Value>gauge.kpi( GAUGETYPE(Cylinder) GAUGECRITICALNUMBER(137) GAUGEGROUP(B-GND) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge17_SITE">
+               <Value>gauge.kpi( GAUGETYPE(Cylinder) GAUGECRITICALNUMBER(137) GAUGEGROUP(B-WLD) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge18_SITE">
+               <Value>gauge.kpi( GAUGETYPE(Cylinder) GAUGECRITICALNUMBER(137) GAUGEGROUP(B-BLD) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge2_SITE">
+               <Value>gauge.kpi( GAUGETYPE(AngularGauge) GAUGECRITICALNUMBER(130) GAUGEGROUP(H-GNDF) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge3_SITE">
+               <Value>gauge.kpi( GAUGETYPE(AngularGauge) GAUGECRITICALNUMBER(130) GAUGEGROUP(H-GNDC) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge4_SITE">
+               <Value>gauge.kpi( GAUGETYPE(AngularGauge) GAUGECRITICALNUMBER(130) GAUGEGROUP(H-WLD) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge5_SITE">
+               <Value>gauge.kpi( GAUGETYPE(AngularGauge) GAUGECRITICALNUMBER(130) GAUGEGROUP(PNT) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge6_SITE">
+               <Value>gauge.kpi( GAUGETYPE(AngularGauge) GAUGECRITICALNUMBER(130) GAUGEGROUP(KIT) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge7_SITE">
+               <Value>gauge.kpi( GAUGETYPE(AngularGauge) GAUGECRITICALNUMBER(130) GAUGEGROUP(B-BLD) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge8_SITE">
+               <Value>gauge.kpi( GAUGETYPE(AngularGauge) GAUGECRITICALNUMBER(130) GAUGEGROUP(B-GND) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_gauge9_SITE">
+               <Value>gauge.kpi( GAUGETYPE(AngularGauge) GAUGECRITICALNUMBER(130) GAUGEGROUP(B-WLD) GAUGEDATERANGE(Today) GAUGECAPTIONFRMT(Short) GAUGESUBCAPTIONFRMT(Actual) GAUGEAUTOMATICREFRESHINTERVAL(900) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_MetricCashImpactGraph">
+               <Value>chart.object20( DATASERIESPROPERTIES(GraphAmount) XAXISLABEL(GraphDate) LEGENDS(sRunningNetChange) CHARTSTYLE(Multi-Series Charts) CHARTTYPE(MSLine) LOADJIT())</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_MetricDPOGraph">
+               <Value>chart.object16( DATASERIESPROPERTIES(DPOAmount1) XAXISLABEL(KPIDate) LEGENDS(sAmount) CHARTSTYLE(Multi-Series Charts) CHARTTYPE(MSBar2D) LOADJIT())</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_MetricDSOGraph">
+               <Value>chart.object( DATASERIESPROPERTIES(DSOAmount1) XAXISLABEL(KPIDate) LEGENDS(sAmount) CHARTSTYLE(Multi-Series Charts) CHARTTYPE(MSBar2D) LOADJIT())</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_PROTECT1Ddiagram1">
+               <Value>TrackersEdit,ContextMenuEdit,MoveX,MoveY,ResizeX,ResizeY,ChangeAspectRatio,Rotate,Delete,Group,Ungroup,Compose,Decompose,ChangeStartPoint,ChangeEndPoint,ReorderElements,InsertElements,RemoveElements,Copy,</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_PROTECT2Ddiagram1">
+               <Value>TrackersEdit,ContextMenuEdit,MoveX,MoveY,ResizeX,ResizeY,ChangeAspectRatio,Rotate,Delete,Group,Ungroup,Compose,Decompose,ChangeStartPoint,ChangeEndPoint,ReorderElements,InsertElements,RemoveElements,Copy,</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SHAPELIBdiagram1">
+               <Value>DIAGRAMSHAPELIBRARYVISIBLE(0) DIAGRAMSHAPEALLOWDROP(0) </Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBAcctBalCritical">
+               <Value>gauge.kpi( GAUGETYPE(HLinearGauge) GAUGECANNEDCRITICALNUMBER(3) GAUGEDATERANGE(All) GAUGECAPTIONFRMT(Default) GAUGESUBCAPTIONFRMT(All) LOADJIT() )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBBadDebtCritical">
+               <Value>gauge.kpi( GAUGETYPE(AngularGauge) GAUGECANNEDCRITICALNUMBER(84) GAUGEDATERANGE(All) GAUGECAPTIONFRMT(Default) GAUGESUBCAPTIONFRMT(All) GAUGEKPIPARM1(V(BankCodeVar)) LOADJIT() )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBCredDayCritical">
+               <Value>gauge.kpi( GAUGETYPE(Thermometer) GAUGECANNEDCRITICALNUMBER(86) GAUGEDATERANGE(All) GAUGECAPTIONFRMT(Default) GAUGESUBCAPTIONFRMT(All) LOADJIT() )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBCusCredCritical">
+               <Value>gauge.kpi( GAUGETYPE(Bulb) GAUGECANNEDCRITICALNUMBER(83) GAUGEDATERANGE(All) GAUGECAPTIONFRMT(Long) GAUGESUBCAPTIONFRMT(None) GAUGEKPIPARM2(V(BankCodeVar)) LOADJIT() )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBDebtDayCritical">
+               <Value>gauge.kpi( GAUGETYPE(Thermometer) GAUGECANNEDCRITICALNUMBER(85) GAUGEDATERANGE(All) GAUGECAPTIONFRMT(Default) GAUGESUBCAPTIONFRMT(All) LOADJIT() )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBInvTrnsCritical">
+               <Value>gauge.kpi( GAUGETYPE(AngularGauge) GAUGECANNEDCRITICALNUMBER(28) GAUGEDATERANGE(All) GAUGECAPTIONFRMT(Default) GAUGESUBCAPTIONFRMT(Actual) LOADJIT() )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBInvValCritical">
+               <Value>gauge.kpi( GAUGETYPE(HLinearGauge) GAUGECANNEDCRITICALNUMBER(2) GAUGEDATERANGE(All) GAUGECAPTIONFRMT(Default) GAUGESUBCAPTIONFRMT(All) GAUGEKPIPARM2(V(ItemVar)) LOADJIT() )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBSuperGrid">
+               <Value>dataview( DATAVIEWMODE(PREDEFINED) DATAVIEWNAME(HIL Aftersales Open Orders) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBSuperGrid1_SITE">
+               <Value>dataview( DATAVIEWMODE(PREDEFINED) DATAVIEWNAME(HIL Picked Serial Numbers) DATAVIEWLAYOUT(Default) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBSuperGrid2_SITE">
+               <Value>dataview( DATAVIEWMODE(PREDEFINED) DATAVIEWNAME(HIL Hitch Stock Levels) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBSuperGrid3_SITE">
+               <Value>dataview( DATAVIEWMODE(PREDEFINED) DATAVIEWNAME(HIL Finished Goods Stock Levels) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBSuperGrid4_SITE">
+               <Value>dataview( DATAVIEWMODE(PREDEFINED) DATAVIEWNAME(HIL Requested Date Check) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cds_SSSWBSuperGrid5_SITE">
+               <Value>dataview( DATAVIEWMODE(PREDEFINED) DATAVIEWNAME(HIL Planned Order Lines) DATAVIEWLAYOUT(Default) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cdsmp1_JobVarMatlGrid">
+               <Value>PARMS(VAR V(vHomeJobVarianceMatlFilterString), VAR C(JobVarJobJobGridCol), VAR C(JobVarJobSuffixGridCol), VAR C(JobVarJobItemGridCol), VAR C(JobVarJobQtyReleasedGridCol), VAR V(SiteGroup), VAR C(JobVarJobPlantGridCol))</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cdsmp1_JobVarOperGrid">
+               <Value>PARMS(VAR V(vHomeJobVarianceOperFilterString), VAR C(JobVarJobJobGridCol), VAR C(JobVarJobSuffixGridCol), VAR C(JobVarJobItemGridCol), VAR C(JobVarJobQtyReleasedGridCol), VAR V(SiteGroup), VAR C(JobVarJobPlantGridCol))</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cdsmp1_PurchaseCostPOGrid">
+               <Value>PARMS(VAR V(vHomePOVarianceFilterString), VAR C(PurchaseCostItemItemGridCol), VAR V(SiteGroup), VAR C(PurchaseCostSiteGridCol))</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="CurrentFormName">
+               <Value>ControllerHome</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ehm1_GetAccountsFiscalPeriods0">
+               <Value>PARMS(VAR C(AccountsFiscalYearEdit), RVAR V(AccountsPeriodStart1), RVAR V(AccountsPeriodStart2), RVAR V(AccountsPeriodStart3), RVAR V(AccountsPeriodStart4), RVAR V(AccountsPeriodStart5), RVAR V(AccountsPeriodStart6), RVAR V(AccountsPeriodStart7), RVAR V(AccountsPeriodStart8), RVAR V(AccountsPeriodStart9), RVAR V(AccountsPeriodStart10), RVAR V(AccountsPeriodStart11), RVAR V(AccountsPeriodStart12), RVAR V(AccountsPeriodStart13), RVAR V(AccountsPeriodEnd1), RVAR V(AccountsPeriodEnd2), RVAR V(Accoun</Value>
+               <Value2>tsPeriodEnd3), RVAR V(AccountsPeriodEnd4), RVAR V(AccountsPeriodEnd5), RVAR V(AccountsPeriodEnd6), RVAR V(AccountsPeriodEnd7), RVAR V(AccountsPeriodEnd8), RVAR V(AccountsPeriodEnd9), RVAR V(AccountsPeriodEnd10),)</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ehm1_GetFiscalPeriods0">
+               <Value>PARMS(VAR C(AccountsFiscalYearEdit), RVAR V(AccountsPeriodStart1), RVAR V(AccountsPeriodStart2), RVAR V(AccountsPeriodStart3), RVAR V(AccountsPeriodStart4), RVAR V(AccountsPeriodStart5), RVAR V(AccountsPeriodStart6), RVAR V(AccountsPeriodStart7), RVAR V(AccountsPeriodStart8), RVAR V(AccountsPeriodStart9), RVAR V(AccountsPeriodStart10), RVAR V(AccountsPeriodStart11), RVAR V(AccountsPeriodStart12), RVAR V(AccountsPeriodStart13), RVAR V(AccountsPeriodEnd1), RVAR V(AccountsPeriodEnd2), RVAR V(Accoun</Value>
+               <Value2>tsPeriodEnd3), RVAR V(AccountsPeriodEnd4), RVAR V(AccountsPeriodEnd5), RVAR V(AccountsPeriodEnd6), RVAR V(AccountsPeriodEnd7), RVAR V(AccountsPeriodEnd8), RVAR V(AccountsPeriodEnd9), RVAR V(AccountsPeriodEnd10),)</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ehm1_GetJobVarFiscalPeriods0">
+               <Value>PARMS(VAR C(JobVarFiscalYearEdit), RVAR V(JobVarPeriodStart1), RVAR V(JobVarPeriodStart2), RVAR V(JobVarPeriodStart3), RVAR V(JobVarPeriodStart4), RVAR V(JobVarPeriodStart5), RVAR V(JobVarPeriodStart6), RVAR V(JobVarPeriodStart7), RVAR V(JobVarPeriodStart8), RVAR V(JobVarPeriodStart9), RVAR V(JobVarPeriodStart10), RVAR V(JobVarPeriodStart11), RVAR V(JobVarPeriodStart12), RVAR V(JobVarPeriodStart13), RVAR V(JobVarPeriodEnd1), RVAR V(JobVarPeriodEnd2), RVAR V(JobVarPeriodEnd3), RVAR V(JobVarPeriod</Value>
+               <Value2>End4), RVAR V(JobVarPeriodEnd5), RVAR V(JobVarPeriodEnd6), RVAR V(JobVarPeriodEnd7), RVAR V(JobVarPeriodEnd8), RVAR V(JobVarPeriodEnd9), RVAR V(JobVarPeriodEnd10), RVAR V(JobVarPeriodEnd11), RVAR V(JobVarPeriodEnd12),)</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ehm2_GetAccountsFiscalPeriods0">
+               <Value>PARMS2( RVAR V(AccountsPeriodEnd11), RVAR V(AccountsPeriodEnd12), RVAR V(AccountsPeriodEnd13), MESSAGE)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ehm2_GetFiscalPeriods0">
+               <Value>PARMS2( RVAR V(AccountsPeriodEnd11), RVAR V(AccountsPeriodEnd12), RVAR V(AccountsPeriodEnd13), MESSAGE)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ehm2_GetJobVarFiscalPeriods0">
+               <Value>PARMS2( RVAR V(JobVarPeriodEnd13), MESSAGE)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_DataSource">
+               <Value>( NOTPRIMARY() DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC10">
+               <Value>OBJECT10( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol10MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC11">
+               <Value>OBJECT11( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol11MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC12">
+               <Value>OBJECT12( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol12MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC13">
+               <Value>OBJECT13( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol13MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC14">
+               <Value>OBJECT14( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol14MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC15">
+               <Value>OBJECT15( SLBankHdrs( CA(R) OBJNAME(oBankReconciliationHeader) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC16">
+               <Value>OBJECT16( SLBankHdrs( CA(R) OBJNAME(oBankReconciliationHeader) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC17">
+               <Value>OBJECT17( SLBankHdrs( CA(R) OBJNAME(oBankReconciliationHeader) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC18">
+               <Value>OBJECT18( SLBankHdrs( CA(R) OBJNAME(oBankReconciliationHeader) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC19">
+               <Value>OBJECT19( SLBankHdrs( CA(R) OBJNAME(oBankReconciliationHeader) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC2">
+               <Value>OBJECT2( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol2MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC20">
+               <Value>OBJECT20( SLBankHdrs( CA(R) OBJNAME(oBankReconciliationHeader) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC21">
+               <Value>OBJECT21( SLBankHdrs( CA(R) OBJNAME(oBankReconciliationHeader) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC3">
+               <Value>OBJECT3( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol3MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC4">
+               <Value>OBJECT4( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol4MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC5">
+               <Value>OBJECT5( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol5MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC6">
+               <Value>OBJECT6( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol6MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC7">
+               <Value>OBJECT7( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol7MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC8">
+               <Value>OBJECT8( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol8MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SC9">
+               <Value>OBJECT9( SLControllers.Home_MetricCashImpactSp( V(fds1_SecCol9MethodParms) CA(R) OBJNAME(oSLControllers) DEFERREFRESHUNTILVISIBLE() LOCKMODE(Row) ) )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds_SecondaryCollections">
+               <Value> V(fds_SC2) V(fds_SC3) V(fds_SC4) V(fds_SC5) V(fds_SC6)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_PrimaryMethodParms">
+               <Value>PARMS(VAR , VAR , VAR )</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol10MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol11MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol12MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol13MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol14MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol15MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol16MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol17MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol18MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol19MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol20MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol2MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol3MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol4MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol5MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol6MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol7MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol8MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="fds1_SecCol9MethodParms">
+               <Value>PARMS()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="HelpFileVar">
+               <Value>FlowHelp9Edit</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="InitialCommand">
+               <Value>Refresh</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="lse_CashImpactCashTypeGridCol">
+               <Value>ARTransaction\sARTransaction,CustomerOrder\sCustomerOrder,ProgressiveBill\sProgressiveBill,COBlanketLine\sCOBlanketLine,EstimateOrder\sEstimateOrder,TotalCashIn\sTotalCashIn,APTransaction\sAPTransaction,PurchaseOrder\sPurchaseOrder,POBlanketLine\sPOBlanketLine,PORequisitions\sPORequisitions,TotalCashOut\sTotalCashOut,NetChange\sNetChange,RunningNetChange\sRunningNetChange</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="lsm1_PurchaseCostItemItemGridCol">
+               <Value>PARMS(VAR V(vFilterString), VAR V(SiteGroup))</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="SiteFilter">
+               <Value>SiteRef IN (select site from site_group where site_group.site_group = FV(SiteGroup))</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="SSSWBSuperGridMode">
+               <Value>View</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ToastTitle">
+               <Value>sEndOfSupport</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports System.Diagnostics</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine>Imports System.Globalization</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Namespace SyteLine.FormScripts</ScriptLine>
+               <ScriptLine>    Public Class ue_HIL_SalesAdminDashboard</ScriptLine>
+               <ScriptLine>        Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>    End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

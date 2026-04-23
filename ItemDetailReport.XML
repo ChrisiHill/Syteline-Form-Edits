@@ -1,0 +1,1462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="ItemDetailReport" Scope="1" ScopeName="[NULL]">
+         <Caption>fItemDetailReport</Caption>
+         <Type>3</Type>
+         <StandardOperations>32</StandardOperations>
+         <Flags>776</Flags>
+         <Height>28.7999992370605</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>109</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/forms/invtopic/item_detail_report.htm</HelpFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>0</PaneZeroSize>
+         <PrimaryDataSource />
+         <MasterDeviceID>0</MasterDeviceID>
+         <Components>
+            <Component Name="ABCCodeA">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>14</TabOrder>
+               <TopPos>6.2</TopPos>
+               <LeftPos>74.8571428571431</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>5</Width>
+               <Caption>sA</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ABCCodeA(INITIALVALUE(A))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/abc_code_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(A) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sA</EffectiveCaption>
+            </Component>
+            <Component Name="ABCCodeB">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>7.66666666666667</TopPos>
+               <LeftPos>74.8571428571431</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>5</Width>
+               <Caption>sB</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ABCCodeB(INITIALVALUE(B))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/abc_code_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(B) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sB</EffectiveCaption>
+            </Component>
+            <Component Name="ABCCodeBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>13</TabOrder>
+               <TopPos>5.33333333333333</TopPos>
+               <LeftPos>53.815</LeftPos>
+               <Height>5.33333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>54.7142857142857</Width>
+               <Caption>sABCCode</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sABCCode</EffectiveCaption>
+            </Component>
+            <Component Name="ABCCodeC">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>9.13333333333333</TopPos>
+               <LeftPos>74.8571428571431</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>5</Width>
+               <Caption>sC</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ABCCodeC(INITIALVALUE(C))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/abc_code_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(C) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sC</EffectiveCaption>
+            </Component>
+            <Component Name="BackgroundQueue">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;Background</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RunBackgroundQueue</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>s&amp;Background</EffectiveCaption>
+            </Component>
+            <Component Name="ComplianceBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>22.9333333333333</TopPos>
+               <LeftPos>0.857142857142857</LeftPos>
+               <Height>2.86666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>107.571428571429</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="ComplianceProgEditor">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>43</TabOrder>
+               <TopPos>24.1333333333333</TopPos>
+               <LeftPos>27.1428571428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15.5714285714286</Width>
+               <Validators>InCompliancePrograms</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ComplianceProgramId</DataSource>
+               <Binding>6</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/compliance_program_compliance_programs.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>ComplianceProgramIdVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+            </Component>
+            <Component Name="ComplianceProgStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>42</TabOrder>
+               <TopPos>24.4117647058824</TopPos>
+               <LeftPos>5.5</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>21</Width>
+               <Caption>sComplianceProgram</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sComplianceProgram</EffectiveCaption>
+            </Component>
+            <Component Name="ComplianceStatusEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>45</TabOrder>
+               <TopPos>24.1333333333333</TopPos>
+               <LeftPos>61.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15.5714285714286</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ComplianceStatus(INITIALVALUE(B))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/compliance_status_item_detail_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>ComplianceStatusVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+            </Component>
+            <Component Name="ComplianceStatusStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>44</TabOrder>
+               <TopPos>24.4117647058824</TopPos>
+               <LeftPos>44.125</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>16.75</Width>
+               <Caption>sComplianceStatus</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sComplianceStatus</EffectiveCaption>
+            </Component>
+            <Component Name="DisplayCustomersforItems">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>24</TabOrder>
+               <TopPos>14.3529411764706</TopPos>
+               <LeftPos>38.1428571428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>30</Width>
+               <Caption>sDisplayCustomersforItems</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DisplayCustomersforItems(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/d/display_customers_for_items_item_detail_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sDisplayCustomersforItems</EffectiveCaption>
+            </Component>
+            <Component Name="DisplayHeaderCheckBox">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>28</TabOrder>
+               <TopPos>14.3529411764706</TopPos>
+               <LeftPos>79</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>24.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DisplayHeader(INITIALVALUE(V(Parm_DisplayReportHeaders)))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>DisplayHeaderVar()</DefaultFrom>
+               <Post301Format>ENABLEDWHEN(V(cew_DisplayHeaderCheckBox)) THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sDisplayReportHeader</EffectiveCaption>
+            </Component>
+            <Component Name="DisplayStockroomLocations">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>22</TabOrder>
+               <TopPos>11.4666666666667</TopPos>
+               <LeftPos>38.1428571428571</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>2</ListHeight>
+               <Width>30</Width>
+               <Caption>sDisplayStockroomLocations</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DisplayStockroomLocations(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/d/display_stockroom_locations_item_detail_report.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sDisplayStockroomLocations</EffectiveCaption>
+            </Component>
+            <Component Name="DisplayVendorsfortheItems">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>23</TabOrder>
+               <TopPos>12.9333333333333</TopPos>
+               <LeftPos>38.1428571428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>28</Width>
+               <Caption>sDisplayVendorsforItems</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.DisplayVendorsfortheItems(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/d/display_vendors_for_the_items_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sDisplayVendorsforItems</EffectiveCaption>
+            </Component>
+            <Component Name="EndingStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>31</TabOrder>
+               <TopPos>17.1333333333333</TopPos>
+               <LeftPos>61.4285714285714</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12.2857142857143</Width>
+               <Caption>sEnding</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sEnding</EffectiveCaption>
+            </Component>
+            <Component Name="ExtrasBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>17</TabOrder>
+               <TopPos>10.6</TopPos>
+               <LeftPos>0.857142857142857</LeftPos>
+               <Height>5.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>107.571428571429</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="GetOptionsMenuItem">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;GetOptions</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>32484</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RunGetOptions</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>s&amp;GetOptions</EffectiveCaption>
+            </Component>
+            <Component Name="ItemEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>37</TabOrder>
+               <TopPos>19.8</TopPos>
+               <LeftPos>61.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>33</Width>
+               <Caption>C(ItemStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ItemEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/i/item_activityreportutility_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Items( PROPERTY(Item) )</MaintainFromSpec>
+               <DefaultFrom>ItemVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(ItemStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ItemStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>36</TabOrder>
+               <TopPos>19.8</TopPos>
+               <LeftPos>27.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>33</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ItemStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/i/item_activityreportutility_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Items( PROPERTY(Item) )</MaintainFromSpec>
+               <DefaultFrom>ItemVar(ItemStarting,ItemEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+            </Component>
+            <Component Name="ItemStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>20.0166666666667</TopPos>
+               <LeftPos>14.7142857142857</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12.2857142857143</Width>
+               <Caption>sItem</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sItem</EffectiveCaption>
+            </Component>
+            <Component Name="MaterialStatusActive">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>0.733333333333333</TopPos>
+               <LeftPos>18.5714285714286</LeftPos>
+               <Height>1.13</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <Caption>sActive</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.MaterialStatusActive(INITIALVALUE(A))</DataSource>
+               <Binding>6</Binding>
+               <Flags>1024</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/m/material_status_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(A) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sActive</EffectiveCaption>
+            </Component>
+            <Component Name="MaterialStatusBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>0.857142857142857</LeftPos>
+               <Height>5.2</Height>
+               <ListHeight>2</ListHeight>
+               <Width>52.4285714285714</Width>
+               <Caption>sMaterialStatus</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sMaterialStatus</EffectiveCaption>
+            </Component>
+            <Component Name="MaterialStatusObsolete">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>2.06666666666667</TopPos>
+               <LeftPos>18.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <Caption>sObsolete</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.MaterialStatusObsolete(INITIALVALUE(O))</DataSource>
+               <Binding>6</Binding>
+               <Flags>1024</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/m/material_status_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(O) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sObsolete</EffectiveCaption>
+            </Component>
+            <Component Name="MaterialStatusSlowMoving">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>3.6</TopPos>
+               <LeftPos>18.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>17</Width>
+               <Caption>sSlowMoving</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.MaterialStatusSlowMoving(INITIALVALUE(S))</DataSource>
+               <Binding>6</Binding>
+               <Flags>1024</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/m/material_status_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(S) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sSlowMoving</EffectiveCaption>
+            </Component>
+            <Component Name="MaterialTypeBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>53.815</LeftPos>
+               <Height>5.26666666666667</Height>
+               <ListHeight>2</ListHeight>
+               <Width>54.7142857142857</Width>
+               <Caption>sMaterialType</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sMaterialType</EffectiveCaption>
+            </Component>
+            <Component Name="MaterialTypeFixture">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>1.06666666666667</TopPos>
+               <LeftPos>80.7142857142853</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <Caption>sFixture</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.MaterialTypeFixture(INITIALVALUE(F))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/m/material_type_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(F) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sFixture</EffectiveCaption>
+            </Component>
+            <Component Name="MaterialTypeLabor">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>2.56666666666667</TopPos>
+               <LeftPos>64.7142857142861</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>11</Width>
+               <Caption>sTool</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.MaterialTypeTool(INITIALVALUE(T))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/m/material_type_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(T) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sTool</EffectiveCaption>
+            </Component>
+            <Component Name="MaterialTypeMaterial">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>1.06666666666667</TopPos>
+               <LeftPos>64.7142857142861</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>11</Width>
+               <Caption>sMaterial</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.MaterialTypeMaterial(INITIALVALUE(M))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/m/material_type_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(M) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sMaterial</EffectiveCaption>
+            </Component>
+            <Component Name="MaterialTypeOther">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>2.56666666666667</TopPos>
+               <LeftPos>80.7142857142853</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <Caption>sOther</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.MaterialTypeOther(INITIALVALUE(O))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/m/material_type_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(O) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sOther</EffectiveCaption>
+            </Component>
+            <Component Name="PreviewButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>46</TabOrder>
+               <TopPos>26.8</TopPos>
+               <LeftPos>38.5714285714286</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15</Width>
+               <Caption>sPrev&amp;iew</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>PreviewReport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/buttons/p/preview_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>JUSTIFY(C) THEMECLASS(MasterButton)</Post301Format>
+               <EffectiveCaption>sPrev&amp;iew</EffectiveCaption>
+            </Component>
+            <Component Name="PrintButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>47</TabOrder>
+               <TopPos>26.8</TopPos>
+               <LeftPos>54.88</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15</Width>
+               <Caption>sP&amp;rint</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>GenerateReport</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/core/buttons/p/print_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MenuName>StdDefault</MenuName>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>JUSTIFY(C) THEMECLASS(MasterButton)</Post301Format>
+               <EffectiveCaption>sP&amp;rint</EffectiveCaption>
+            </Component>
+            <Component Name="PrintCost">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>21</TabOrder>
+               <TopPos>14.3529411764706</TopPos>
+               <LeftPos>17.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Caption>sPrintCost</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintCost(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_cost_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>PrintCostVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintCost</EffectiveCaption>
+            </Component>
+            <Component Name="PrintPrice">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>20</TabOrder>
+               <TopPos>12.9333333333333</TopPos>
+               <LeftPos>17.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <Caption>sPrintPrice</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintPrice(INITIALVALUE(0))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/p/print_price_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>PrintPriceVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintPrice</EffectiveCaption>
+            </Component>
+            <Component Name="PrintZeroQtyOnHandItems">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>11.4666666666667</TopPos>
+               <LeftPos>79</LeftPos>
+               <Height>1.29411764705882</Height>
+               <ListHeight>2</ListHeight>
+               <Width>31</Width>
+               <Caption>sPrintZeroQtyOnHandItems</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.PrintZeroQtyOnHandItems(INITIALVALUE(1))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/p/print_zero_qty_on_hand_items_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(1) BOOLFALSE(0)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPrintZeroQtyOnHandItems</EffectiveCaption>
+            </Component>
+            <Component Name="ProductCodeEnding">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>21.2</TopPos>
+               <LeftPos>61.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <Caption>C(ProductCodeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ProductCodeEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/p/product_code_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>ProductCodes( PROPERTY(ProductCode) )</MaintainFromSpec>
+               <DefaultFrom>ProductCodeVar(,,)</DefaultFrom>
+               <Post301DataType>LENGTH(10)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(ProductCodeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ProductCodeStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>39</TabOrder>
+               <TopPos>21.2</TopPos>
+               <LeftPos>27.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>13</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ProductCodeStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/p/product_code_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>ProductCodes( PROPERTY(ProductCode) )</MaintainFromSpec>
+               <DefaultFrom>ProductCodeVar(ProductCodeStarting,ProductCodeEnding)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+            </Component>
+            <Component Name="ProductCodeStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>38</TabOrder>
+               <TopPos>21.3166666666667</TopPos>
+               <LeftPos>14.7142857142857</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12.2857142857143</Width>
+               <Caption>sProductCode</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sProductCode</EffectiveCaption>
+            </Component>
+            <Component Name="RangeBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>29</TabOrder>
+               <TopPos>16.3333333333333</TopPos>
+               <LeftPos>0.857142857142857</LeftPos>
+               <Height>6.6</Height>
+               <ListHeight>2</ListHeight>
+               <Width>107.571428571429</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="ReportOptionComboBox">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>27</TabOrder>
+               <TopPos>12.9333333333333</TopPos>
+               <LeftPos>79</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.ReportOption(INITIALVALUE(R))</DataSource>
+               <Binding>6</Binding>
+               <Flags>512</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>ReportOptionVar()</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+            </Component>
+            <Component Name="ReportOptionStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>26</TabOrder>
+               <TopPos>13.0588235294118</TopPos>
+               <LeftPos>66.875</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>11.375</Width>
+               <Caption>sReportOption</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sReportOption</EffectiveCaption>
+            </Component>
+            <Component Name="SelectPrinterToolbarButton">
+               <DeviceID>-1</DeviceID>
+               <Type>11</Type>
+               <TabOrder>510</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sSelectPrinter</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>SelectPrinter</EventToGenerate>
+               <Flags>38617376</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <BitmapFileName>SelectPrinter.png</BitmapFileName>
+               <HelpContextID>1246576928</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sSelectPrinter</EffectiveCaption>
+            </Component>
+            <Component Name="SourceBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>5.33333333333333</TopPos>
+               <LeftPos>0.857142857142857</LeftPos>
+               <Height>5.33333333333333</Height>
+               <ListHeight>2</ListHeight>
+               <Width>52.4285714285714</Width>
+               <Caption>sSource</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sSource</EffectiveCaption>
+            </Component>
+            <Component Name="SourceManufactured">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>6.13333333333333</TopPos>
+               <LeftPos>18.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>15</Width>
+               <Caption>sManufactured</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.SourceManufactured(INITIALVALUE(M))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/s/source_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(M) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sManufactured</EffectiveCaption>
+            </Component>
+            <Component Name="SourcePurchased">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>7.6</TopPos>
+               <LeftPos>18.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <Caption>sPurchased</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.SourcePurchased(INITIALVALUE(P))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/s/source_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(P) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sPurchased</EffectiveCaption>
+            </Component>
+            <Component Name="SourceTransferred">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>9.06666666666667</TopPos>
+               <LeftPos>18.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>14</Width>
+               <Caption>sTransferred</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.SourceTransferred(INITIALVALUE(T))</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/s/source_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>BooleanVar()</DefaultFrom>
+               <Post301DataType>BOOLTRUE(T) BOOLFALSE( )</Post301DataType>
+               <Post301Format>THEMECLASS(MasterCheckBox)</Post301Format>
+               <EffectiveCaption>sTransferred</EffectiveCaption>
+            </Component>
+            <Component Name="StartingStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>30</TabOrder>
+               <TopPos>17.1333333333333</TopPos>
+               <LeftPos>27.5714285714286</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12.2857142857143</Width>
+               <Caption>sStarting</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(L) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sStarting</EffectiveCaption>
+            </Component>
+            <Component Name="Stocked">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>19</TabOrder>
+               <TopPos>11.4666666666667</TopPos>
+               <LeftPos>17.2857142857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>10</Width>
+               <Caption>C(StockedStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.varStocked(INITIALVALUE(B))</DataSource>
+               <Binding>6</Binding>
+               <SelectionEvent>SetStockType</SelectionEvent>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/s/stocked_report_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Sortby3Var(Y,sYes,N,sNo,B,sBoth)</DefaultFrom>
+               <Post301DataType>LENGTH(6)</Post301DataType>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>C(StockedStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="StockedStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>18</TabOrder>
+               <TopPos>11.6666666666667</TopPos>
+               <LeftPos>8</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8.714286</Width>
+               <Caption>sStocked</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sStocked</EffectiveCaption>
+            </Component>
+            <Component Name="StoreOptionsMenuItem">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;StoreOptions</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>32484</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RunStoreOptions</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>s&amp;StoreOptions</EffectiveCaption>
+            </Component>
+            <Component Name="WarehouseEndinging">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>18.4</TopPos>
+               <LeftPos>61.4285714285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.WarehouseEnding</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/w/warehousewhse_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>WhseVar(,,)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>sWhse</EffectiveCaption>
+            </Component>
+            <Component Name="WarehouseStarting">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>18.4</TopPos>
+               <LeftPos>27.5714285714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>2</ListHeight>
+               <Width>8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.WarehouseStarting</DataSource>
+               <Binding>6</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/w/warehousewhse_range_field.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>WhseVar(WarehouseStarting,WarehouseEndinging)</DefaultFrom>
+               <Post301Format>THEMECLASS(MasterComboBox)</Post301Format>
+               <EffectiveCaption>sWhse</EffectiveCaption>
+            </Component>
+            <Component Name="WarehouseStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>32</TabOrder>
+               <TopPos>18.5833333333333</TopPos>
+               <LeftPos>14.7142857142857</LeftPos>
+               <Height>1</Height>
+               <ListHeight>2</ListHeight>
+               <Width>12.2857142857143</Width>
+               <Caption>sWarehouse</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>16</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R) THEMECLASS(ReportLabel)</Post301Format>
+               <EffectiveCaption>sWarehouse</EffectiveCaption>
+            </Component>
+         </Components>
+         <EventHandlers>
+            <EventHandler Name="GenerateReport" Sequence="0">
+               <ResponseType>21</ResponseType>
+               <Response>SetStockType( )</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="1">
+               <ResponseType>8</ResponseType>
+               <Response>SetBGValues()</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="2">
+               <ResponseType>19</ResponseType>
+               <Response>TASKNAME(V(BGTaskName))TASKPARMS(V(BGTaskParms))TASKSTATUS(V(BGTaskStatus))TASKNUMBER(BGTaskNumber) ERRORMESSAGE(mBackEndMessage)</Response>
+            </EventHandler>
+            <EventHandler Name="GenerateReport" Sequence="3">
+               <ResponseType>8</ResponseType>
+               <Response>ReportSubmitted()</Response>
+            </EventHandler>
+            <EventHandler Name="InitializeActiveFeatureList" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeActiveFeatureList()</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="0">
+               <ResponseType>21</ResponseType>
+               <Response>SetStockType( )</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="1">
+               <ResponseType>8</ResponseType>
+               <Response>SetBGValues()</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="2">
+               <ResponseType>8</ResponseType>
+               <Response>PreviewDataview()</Response>
+            </EventHandler>
+            <EventHandler Name="PreviewReport" Sequence="3">
+               <ResponseType>40</ResponseType>
+               <Response>TASKNAME(V(BGTaskName))TASKPARMS(V(BGTaskParms)) ERRORMESSAGE(mPrintPreviewError)</Response>
+            </EventHandler>
+            <EventHandler Name="RunBackgroundQueue" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>SetBGValues()</Response>
+            </EventHandler>
+            <EventHandler Name="RunBackgroundQueue" Sequence="1">
+               <ResponseType>3</ResponseType>
+               <Response>BackgroundQueue( SETVARVALUES(BGTaskName=V(BGTaskName), RunTaskEvent=GenerateReport) )</Response>
+            </EventHandler>
+            <EventHandler Name="RunGetOptions" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>GetOptions(OKCANCELOPTIONAL())</Response>
+            </EventHandler>
+            <EventHandler Name="RunStoreOptions" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>StoreOptions(OKCANCELOPTIONAL())</Response>
+            </EventHandler>
+            <EventHandler Name="SelectPrinter" Sequence="0">
+               <ResponseType>3</ResponseType>
+               <Response>ReportOptions( OKCANCELOPTIONAL() )</Response>
+            </EventHandler>
+            <EventHandler Name="SetStockType" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>SetStockVariables()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeCostPriceCheckbox(PrintPrice)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="1">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeCostPriceCheckbox(PrintCost)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="2">
+               <ResponseType>36</ResponseType>
+               <Response>ACTION(GenEvent:"ThisForm", #GV(ActiveFeatureList) &lt;&gt; "", InitializeActiveFeatureList)</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="3">
+               <ResponseType>35</ResponseType>
+               <Response>ActivateForFeatureManagement()</Response>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="ABCCode">
+               <Value>V(ABCCodeA) V(ABCCodeB) V(ABCCodeC)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskName_DV">
+               <Value>ItemDetailReport_DV</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskName_DV1">
+               <Value>ItemDetailReport_DV</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskName_DV2">
+               <Value>ItemDetailReport_DV2</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskName_RF">
+               <Value>ItemDetailReport</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParms_DV">
+               <Value>V(MaterialStatus),V(Source),V(MaterialType),V(ABCCode),V(Stocked),V(NotStocked),V(DisplayStockroomLocations),V(DisplayVendorsfortheItems),V(DisplayCustomersforItems),V(PrintZeroQtyOnHandItems),V(PrintCost),V(PrintPrice),V(DisplayHeader),V(WarehouseStarting),V(WarehouseEnding),V(ItemStarting),V(ItemEnding),V(ProductCodeStarting),V(ProductCodeEnding),V(ComplianceProgramId),V(ComplianceStatus),V(Parm_Site)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParms_DV1">
+               <Value>V(MaterialStatus),V(Source),V(MaterialType),V(ABCCode),V(Stocked),V(NotStocked),V(DisplayStockroomLocations),V(DisplayVendorsfortheItems),V(DisplayCustomersforItems),V(PrintZeroQtyOnHandItems),V(PrintCost),V(PrintPrice),V(DisplayHeader),V(WarehouseStarting),V(WarehouseEnding),V(ItemStarting),V(ItemEnding),V(ProductCodeStarting),V(ProductCodeEnding),V(ComplianceProgramId),V(ComplianceStatus),V(Parm_Site)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParms_DV1Preview">
+               <Value>SETVARVALUES(DataViewName=Item Detail Report,InputParameter1=V(MaterialStatus),InputParameter2=V(Source),InputParameter3=V(MaterialType),InputParameter4=V(ABCCode),InputParameter5=V(Stocked),InputParameter6=V(NotStocked),InputParameter7=V(DisplayStockroomLocations),InputParameter8=V(DisplayVendorsfortheItems),InputParameter9=V(DisplayCustomersforItems),InputParameter10=V(PrintZeroQtyOnHandItems),InputParameter11=V(PrintCost),InputParameter12=V(PrintPrice),InputParameter13=V(DisplayHeader),InputP</Value>
+               <Value2>arameter14=V(WarehouseStarting),InputParameter15=V(WarehouseEnding),InputParameter16=V(ItemStarting),InputParameter17=V(ItemEnding),InputParameter18=V(ProductCodeStarting),InputParameter19=V(ProductCodeEnding),InputParameter20=V(ComplianceProgramId),InputParameter21=V(ComplianceStatus),InputParameter22=V(Parm_Site))</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParms_DV2">
+               <Value>V(MaterialStatus),V(Source),V(MaterialType),V(ABCCode),V(Stocked),V(NotStocked),V(DisplayStockroomLocations),V(DisplayVendorsfortheItems),V(DisplayCustomersforItems),V(PrintZeroQtyOnHandItems),V(PrintCost),V(PrintPrice),V(DisplayHeader),V(WarehouseStarting),V(WarehouseEnding),V(ItemStarting),V(ItemEnding),V(ProductCodeStarting),V(ProductCodeEnding),V(ComplianceProgramId),V(ComplianceStatus),V(Parm_Site),NEWGUID()</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParms_DV2Preview">
+               <Value>SETVARVALUES(DataViewName=Item Detail Report 2,InputParameter1=V(MaterialStatus),InputParameter2=V(Source),InputParameter3=V(MaterialType),InputParameter4=V(ABCCode),InputParameter5=V(Stocked),InputParameter6=V(NotStocked),InputParameter7=V(DisplayStockroomLocations),InputParameter8=V(DisplayVendorsfortheItems),InputParameter9=V(DisplayCustomersforItems),InputParameter10=V(PrintZeroQtyOnHandItems),InputParameter11=V(PrintCost),InputParameter12=V(PrintPrice),InputParameter13=V(DisplayHeader),Inpu</Value>
+               <Value2>tParameter14=V(WarehouseStarting),InputParameter15=V(WarehouseEnding),InputParameter16=V(ItemStarting),InputParameter17=V(ItemEnding),InputParameter18=V(ProductCodeStarting),InputParameter19=V(ProductCodeEnding),InputParameter20=V(ComplianceProgramId),InputParameter21=V(ComplianceStatus),InputParameter22=V(Parm_Site),InputParameter23=NEWGUID())</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParms_DVPreview">
+               <Value>SETVARVALUES(DataViewName=Item Detail Report,InputParameter1=V(MaterialStatus),InputParameter2=V(Source),InputParameter3=V(MaterialType),InputParameter4=V(ABCCode),InputParameter5=V(Stocked),InputParameter6=V(NotStocked),InputParameter7=V(DisplayStockroomLocations),InputParameter8=V(DisplayVendorsfortheItems),InputParameter9=V(DisplayCustomersforItems),InputParameter10=V(PrintZeroQtyOnHandItems),InputParameter11=V(PrintCost),InputParameter12=V(PrintPrice),InputParameter13=V(DisplayHeader),InputP</Value>
+               <Value2>arameter14=V(WarehouseStarting),InputParameter15=V(WarehouseEnding),InputParameter16=V(ItemStarting),InputParameter17=V(ItemEnding),InputParameter18=V(ProductCodeStarting),InputParameter19=V(ProductCodeEnding),InputParameter20=V(ComplianceProgramId),InputParameter21=V(ComplianceStatus),InputParameter22=V(Parm_Site))</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="BGTaskParms_RF">
+               <Value>SETVARVALUES(MaterialStatus=V(MaterialStatus),Source=V(Source),MaterialType=V(MaterialType),ABCCode=V(ABCCode),Stocked=V(Stocked),NotStocked=V(NotStocked),DisplayStockroomLocations=V(DisplayStockroomLocations),DisplayVendorsfortheItems=V(DisplayVendorsfortheItems),DisplayCustomersforItems=V(DisplayCustomersforItems),PrintZeroQtyOnHandItems=V(PrintZeroQtyOnHandItems),PrintCost=V(PrintCost),PrintPrice=V(PrintPrice),DisplayHeader=V(DisplayHeader),WarehouseStarting=V(WarehouseStarting),WarehouseEndi</Value>
+               <Value2>ng=V(WarehouseEnding),ItemStarting=V(ItemStarting),ItemEnding=V(ItemEnding),ProductCodeStarting=V(ProductCodeStarting),ProductCodeEnding=V(ProductCodeEnding),ComplianceProgramId=V(ComplianceProgramId),ComplianceStatus=V(ComplianceStatus))</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="cew_DisplayHeaderCheckBox">
+               <Value>Enabled:#C(DisplayHeaderCheckBox), #V(ReportOption) = "R", "True", Set:#V(DisplayHeader), #V(ReportOption) = "D", "1"</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="MaterialStatus">
+               <Value>V(MaterialStatusActive) V(MaterialStatusObsolete) V(MaterialStatusSlowMoving)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="MaterialType">
+               <Value>V(MaterialTypeMaterial) V(MaterialTypeTool) V(MaterialTypeFixture) V(MaterialTypeOther)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="Source">
+               <Value>V(SourceManufactured) V(SourcePurchased) V(SourceTransferred)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Namespace SyteLine.FormScripts</ScriptLine>
+               <ScriptLine>    Public Class ItemDetailReport</ScriptLine>
+               <ScriptLine>        Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub SetStockVariables()</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If (ThisForm.Components("Stocked").Text = "Y") Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("Stocked").Value = "1"</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("Stocked").Value = "0"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If (ThisForm.Components("Stocked").Text = "N") Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("NotStocked").Value = "1"</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("NotStocked").Value = "0"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If (ThisForm.Components("Stocked").Text = "B") Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("Stocked").Value = "1"</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("NotStocked").Value = "1"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub ActivateForFeatureManagement()</ScriptLine>
+               <ScriptLine>            If Application.Variables("IsCSIB_72495_01ActiveVar").Value = "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("BGTaskName_RF").Value = "ItemDetailReport2"</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.Variables("BGTaskName_RF").Value = "ItemDetailReport"</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If Application.Variables("IsCSIB_62418_05ActiveVar").Value = "1" Then                </ScriptLine>
+               <ScriptLine>               ThisForm.Variables("BGTaskName_DV").Value = ThisForm.Variables("BGTaskName_DV2").Value </ScriptLine>
+               <ScriptLine>               ThisForm.Variables("BGTaskParms_DV").Value = ThisForm.Variables("BGTaskParms_DV2").Value </ScriptLine>
+               <ScriptLine>               ThisForm.Variables("BGTaskParms_DVPreview").Value = ThisForm.Variables("BGTaskParms_DV2Preview").Value </ScriptLine>
+               <ScriptLine>            Else  </ScriptLine>
+               <ScriptLine>               ThisForm.Variables("BGTaskName_DV").Value = ThisForm.Variables("BGTaskName_DV1").Value </ScriptLine>
+               <ScriptLine>               ThisForm.Variables("BGTaskParms_DV").Value = ThisForm.Variables("BGTaskParms_DV1").Value </ScriptLine>
+               <ScriptLine>               ThisForm.Variables("BGTaskParms_DVPreview").Value = ThisForm.Variables("BGTaskParms_DV1Preview").Value </ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>    End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

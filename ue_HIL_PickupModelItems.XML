@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="ue_HIL_PickupModelItems" Scope="1" ScopeName="[NULL]">
+         <Caption>Excavator Pickup Items</Caption>
+         <Type>1</Type>
+         <StandardOperations>1019</StandardOperations>
+         <Flags>1048584</Flags>
+         <Height>32</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>100</Width>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>10</PaneZeroSize>
+         <PrimaryDataSource>ue_HIL_PickupModelItems</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <Components>
+            <Component Name="CommentGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>Comment</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.ItemComment</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>Comment</EffectiveCaption>
+            </Component>
+            <Component Name="FormCollectionGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0.125</LeftPos>
+               <Height>32</Height>
+               <ListHeight>0</ListHeight>
+               <Width>100</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>objects</DataSource>
+               <Binding>3</Binding>
+               <Flags>384</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format />
+            </Component>
+            <Component Name="ItemGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <Caption>Item</Caption>
+               <Validators>HIL_ItemValid</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.Item</DataSource>
+               <Binding>1</Binding>
+               <ComboListSource>STDOLE SLItems(  PROPERTIES(Item) RECORDCAP(0))</ComboListSource>
+               <Flags>416</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDetails</MenuName>
+               <MaintainFromSpec>Items( FILTER(Item = FP(Item)) )</MaintainFromSpec>
+               <Post301Format />
+               <EffectiveCaption>Item</EffectiveCaption>
+            </Component>
+            <Component Name="ManufacturerGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <Caption>Manufacturer</Caption>
+               <Validators>HIL_ManufacturerValid</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Manufacturer</DataSource>
+               <Binding>1</Binding>
+               <ComboListSource>STDOLE ue_HIL_MachineManufacturers(  PROPERTIES(Manufacturer) RECORDCAP(0))</ComboListSource>
+               <Flags>416</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDetailsAdd</MenuName>
+               <MaintainFromSpec>ue_HIL_MachineManufacturers( FILTER(Manufacturer = FP(Manufacturer)) )</MaintainFromSpec>
+               <Post301Format />
+               <EffectiveCaption>Manufacturer</EffectiveCaption>
+            </Component>
+            <Component Name="ModelGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <Caption>Model</Caption>
+               <Validators>HIL_ModelValid</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.Model</DataSource>
+               <Binding>1</Binding>
+               <ComboListSource>STDOLE ue_HIL_ManufacturerModels(  PROPERTIES(Model) FILTER(Manufacturer = FP(Manufacturer))ORDERBY(Model)RECORDCAP(0))</ComboListSource>
+               <Flags>416</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MenuName>StdDetails</MenuName>
+               <MaintainFromSpec>ue_HIL_ManufacturerModels( FILTER(Manufacturer = FP(Manufacturer) and Model = FP(Model)) )</MaintainFromSpec>
+               <Post301Format />
+               <EffectiveCaption>Model</EffectiveCaption>
+            </Component>
+         </Components>
+         <Variables>
+            <Variable Name="InitialCommand">
+               <Value>FilterInPlace</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>

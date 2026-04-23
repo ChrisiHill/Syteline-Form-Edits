@@ -1,0 +1,3279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormsAndObjectsExport Version="010000">
+   <Forms Type="1">
+      <Form Name="ItemPricing" Scope="1" ScopeName="[NULL]">
+         <Caption>fItemPricing</Caption>
+         <Type>0</Type>
+         <StandardOperations>1019</StandardOperations>
+         <Flags>202</Flags>
+         <Height>28.7999992370605</Height>
+         <LeftPos>0</LeftPos>
+         <TopPos>0</TopPos>
+         <Width>109</Width>
+         <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/forms/invtopic/item_pricing.htm</HelpFileName>
+         <IconFileName>FORMICON() FORMWALLPAPER()</IconFileName>
+         <HelpContextID>-1</HelpContextID>
+         <PaneZeroSize>63</PaneZeroSize>
+         <FilterFormSpec>ItemPricingQuery</FilterFormSpec>
+         <PrimaryDataSource>SL.SLItemprices( RLAS() LOCKMODE(Row) )</PrimaryDataSource>
+         <MasterDeviceID>0</MasterDeviceID>
+         <Components>
+            <Component Name="BannerToast">
+               <DeviceID>-1</DeviceID>
+               <Type>51</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>24.2999992370605</TopPos>
+               <LeftPos>56</LeftPos>
+               <Height>4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>variables.BannerConfigJson</DataSource>
+               <Binding>6</Binding>
+               <Flags>1</Flags>
+               <DefaultData>V(BannerConfigJson)</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301DataType>DEFAULTVALUE(V(BannerConfigJson))</Post301DataType>
+               <Post301Format />
+            </Component>
+            <Component Name="BaseCode_1Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>43</TabOrder>
+               <TopPos>18.6</TopPos>
+               <LeftPos>19.714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>C(BaseCode_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BaseCode_1</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/base_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>PriceBaseCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(BaseCode_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BaseCode_1GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>23</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>384</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>22</ContainerSequence>
+               <DataSource>object.BaseCode_1</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/base_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>PriceBaseCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sBaseCode1</EffectiveCaption>
+            </Component>
+            <Component Name="BaseCode_1Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>38</TabOrder>
+               <TopPos>17.4</TopPos>
+               <LeftPos>20</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>sBaseCode</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>sBaseCode</EffectiveCaption>
+            </Component>
+            <Component Name="BaseCode_2Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>48</TabOrder>
+               <TopPos>20.133333</TopPos>
+               <LeftPos>19.714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>C(BaseCode_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BaseCode_2</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/base_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>PriceBaseCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(BaseCode_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BaseCode_2GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>24</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>399</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>23</ContainerSequence>
+               <DataSource>object.BaseCode_2</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/base_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>PriceBaseCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sBaseCode2</EffectiveCaption>
+            </Component>
+            <Component Name="BaseCode_3Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>53</TabOrder>
+               <TopPos>21.6</TopPos>
+               <LeftPos>19.714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>C(BaseCode_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BaseCode_3</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/base_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>PriceBaseCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(BaseCode_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BaseCode_3GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>414</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>24</ContainerSequence>
+               <DataSource>object.BaseCode_3</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/base_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>PriceBaseCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sBaseCode3</EffectiveCaption>
+            </Component>
+            <Component Name="BaseCode_4Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>58</TabOrder>
+               <TopPos>23</TopPos>
+               <LeftPos>19.714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>C(BaseCode_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BaseCode_4</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/base_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>PriceBaseCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(BaseCode_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BaseCode_4GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>26</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>429</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>25</ContainerSequence>
+               <DataSource>object.BaseCode_4</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/base_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>PriceBaseCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sBaseCode4</EffectiveCaption>
+            </Component>
+            <Component Name="BaseCode_5Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>63</TabOrder>
+               <TopPos>24.466667</TopPos>
+               <LeftPos>19.714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12</Width>
+               <Caption>C(BaseCode_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BaseCode_5</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/base_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>PriceBaseCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(BaseCode_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BaseCode_5GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>27</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>444</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>26</ContainerSequence>
+               <DataSource>object.BaseCode_5</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/base_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>PriceBaseCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sBaseCode5</EffectiveCaption>
+            </Component>
+            <Component Name="BrkPrice_1Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>45</TabOrder>
+               <TopPos>18.6</TopPos>
+               <LeftPos>42.857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(BrkPrice_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BrkPrice_1</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/v/value_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(BrkPrice_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BrkPrice_1GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>509</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>32</ContainerSequence>
+               <DataSource>object.BrkPrice_1</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/v/value_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sBreakCost1</EffectiveCaption>
+            </Component>
+            <Component Name="BrkPrice_1Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>17.4</TopPos>
+               <LeftPos>42.857143</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>sValue</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>sValue</EffectiveCaption>
+            </Component>
+            <Component Name="BrkPrice_2Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>50</TabOrder>
+               <TopPos>20.133333</TopPos>
+               <LeftPos>42.857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(BrkPrice_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BrkPrice_2</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/v/value_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(BrkPrice_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BrkPrice_2GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>526</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>33</ContainerSequence>
+               <DataSource>object.BrkPrice_2</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/v/value_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sBreakCost2</EffectiveCaption>
+            </Component>
+            <Component Name="BrkPrice_3Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>55</TabOrder>
+               <TopPos>21.6</TopPos>
+               <LeftPos>42.857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(BrkPrice_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BrkPrice_3</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/v/value_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(BrkPrice_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BrkPrice_3GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>543</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>34</ContainerSequence>
+               <DataSource>object.BrkPrice_3</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/v/value_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sBreakCost3</EffectiveCaption>
+            </Component>
+            <Component Name="BrkPrice_4Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>60</TabOrder>
+               <TopPos>23</TopPos>
+               <LeftPos>42.857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(BrkPrice_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BrkPrice_4</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/v/value_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(BrkPrice_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BrkPrice_4GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>36</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>560</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>35</ContainerSequence>
+               <DataSource>object.BrkPrice_4</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/v/value_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sBreakCost4</EffectiveCaption>
+            </Component>
+            <Component Name="BrkPrice_5Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>65</TabOrder>
+               <TopPos>24.466667</TopPos>
+               <LeftPos>42.857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(BrkPrice_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BrkPrice_5</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/v/value_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(BrkPrice_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BrkPrice_5GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>37</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>577</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>36</ContainerSequence>
+               <DataSource>object.BrkPrice_5</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/v/value_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sBreakCost5</EffectiveCaption>
+            </Component>
+            <Component Name="BrkQty_1Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>42</TabOrder>
+               <TopPos>18.6</TopPos>
+               <LeftPos>2.142857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(BrkQty_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BrkQty_1</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/break_point_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(BrkQty_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BrkQty_1GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>18</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>299</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>17</ContainerSequence>
+               <DataSource>object.BrkQty_1</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/break_point_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sBreakQty1</EffectiveCaption>
+            </Component>
+            <Component Name="BrkQty_1Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>37</TabOrder>
+               <TopPos>17.4</TopPos>
+               <LeftPos>2.142857</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>sBreakQty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>sBreakQty</EffectiveCaption>
+            </Component>
+            <Component Name="BrkQty_2Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>47</TabOrder>
+               <TopPos>20.133333</TopPos>
+               <LeftPos>2.142857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(BrkQty_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BrkQty_2</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/break_point_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(BrkQty_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BrkQty_2GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>19</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>316</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>18</ContainerSequence>
+               <DataSource>object.BrkQty_2</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/break_point_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sBreakQty2</EffectiveCaption>
+            </Component>
+            <Component Name="BrkQty_3Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>52</TabOrder>
+               <TopPos>21.6</TopPos>
+               <LeftPos>2.142857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(BrkQty_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BrkQty_3</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/break_point_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(BrkQty_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BrkQty_3GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>20</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>333</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>19</ContainerSequence>
+               <DataSource>object.BrkQty_3</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/break_point_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sBreakQty3</EffectiveCaption>
+            </Component>
+            <Component Name="BrkQty_4Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>57</TabOrder>
+               <TopPos>23</TopPos>
+               <LeftPos>2.142857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(BrkQty_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BrkQty_4</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/break_point_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(BrkQty_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BrkQty_4GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>21</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>350</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>20</ContainerSequence>
+               <DataSource>object.BrkQty_4</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/break_point_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sBreakQty4</EffectiveCaption>
+            </Component>
+            <Component Name="BrkQty_5Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>62</TabOrder>
+               <TopPos>24.466667</TopPos>
+               <LeftPos>2.142857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(BrkQty_1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.BrkQty_5</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/break_point_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(BrkQty_1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="BrkQty_5GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>22</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>367</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>21</ContainerSequence>
+               <DataSource>object.BrkQty_5</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/b/break_point_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sBreakQty5</EffectiveCaption>
+            </Component>
+            <Component Name="CurrCodeEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>2.6</TopPos>
+               <LeftPos>57.942857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7</Width>
+               <Caption>C(CurrCodeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CurrCode</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <SelectionEvent>ChangeCurrCode</SelectionEvent>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/currency_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>CurrencyCodes( PROPERTY(CurrCode) )</MaintainFromSpec>
+               <DefaultFrom>CurrCodeWithMask(,,CurrCstPrcFormat)</DefaultFrom>
+               <PropertyClassName>CurrCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(CurrCodeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="CurrCodeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>83</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.CurrCode</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <SelectionEvent>ChangeCurrCode</SelectionEvent>
+               <Flags>0</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/currency_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>CurrencyCodes( PROPERTY(CurrCode) )</MaintainFromSpec>
+               <DefaultFrom>CurrCodeWithMask(,,CurrCstPrcFormat)</DefaultFrom>
+               <PropertyClassName>CurrCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sCurrency</EffectiveCaption>
+            </Component>
+            <Component Name="CurrCodeStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>2.9</TopPos>
+               <LeftPos>49.714286</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7.5</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sCurrency</EffectiveCaption>
+            </Component>
+            <Component Name="CurrCstPrcFormatEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>69</TabOrder>
+               <TopPos>27.066667</TopPos>
+               <LeftPos>17</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>15</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.CurrCstPrcFormat</DataSource>
+               <Binding>1</Binding>
+               <Flags>1025</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>InputMask</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sAmountFormat</EffectiveCaption>
+            </Component>
+            <Component Name="DerOldUnitPrice1Hidden">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>68</TabOrder>
+               <TopPos>28.2</TopPos>
+               <LeftPos>5.857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>4</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerOldUnitPrice1</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format />
+            </Component>
+            <Component Name="DerQtyOnHandEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>26</TabOrder>
+               <TopPos>6.8</TopPos>
+               <LeftPos>57.285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(DerQtyOnHandStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerQtyOnHand</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/o/on_hand_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DerQtyOnHandStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyOnHandGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>13</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>209</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>12</ContainerSequence>
+               <DataSource>object.DerQtyOnHand</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/o/on_hand_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>QtyUnit</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sQtyOnHand</EffectiveCaption>
+            </Component>
+            <Component Name="DerQtyOnHandStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>7.066667</TopPos>
+               <LeftPos>42.142857</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>14.428571</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sQtyOnHand</EffectiveCaption>
+            </Component>
+            <Component Name="DerUnitPrice1Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>46</TabOrder>
+               <TopPos>18.6</TopPos>
+               <LeftPos>60.428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerUnitPrice1</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sUnitPrice1</EffectiveCaption>
+            </Component>
+            <Component Name="DerUnitPrice1GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>38</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>594</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>sCalculatedUnitPrice1</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>37</ContainerSequence>
+               <DataSource>object.DerUnitPrice1</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sCalculatedUnitPrice1</EffectiveCaption>
+            </Component>
+            <Component Name="DerUnitPrice2Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>51</TabOrder>
+               <TopPos>20.133333</TopPos>
+               <LeftPos>60.428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerUnitPrice2</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sUnitPrice2</EffectiveCaption>
+            </Component>
+            <Component Name="DerUnitPrice2GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>39</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>611</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>sCalculatedUnitPrice2</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>38</ContainerSequence>
+               <DataSource>object.DerUnitPrice2</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sCalculatedUnitPrice2</EffectiveCaption>
+            </Component>
+            <Component Name="DerUnitPrice3Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>56</TabOrder>
+               <TopPos>21.6</TopPos>
+               <LeftPos>60.428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerUnitPrice3</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sUnitPrice3</EffectiveCaption>
+            </Component>
+            <Component Name="DerUnitPrice3GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>40</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>628</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>sCalculatedUnitPrice3</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>39</ContainerSequence>
+               <DataSource>object.DerUnitPrice3</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sCalculatedUnitPrice3</EffectiveCaption>
+            </Component>
+            <Component Name="DerUnitPrice4Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>61</TabOrder>
+               <TopPos>23</TopPos>
+               <LeftPos>60.428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerUnitPrice4</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sUnitPrice4</EffectiveCaption>
+            </Component>
+            <Component Name="DerUnitPrice4GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>645</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>sCalculatedUnitPrice4</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>40</ContainerSequence>
+               <DataSource>object.DerUnitPrice4</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sCalculatedUnitPrice4</EffectiveCaption>
+            </Component>
+            <Component Name="DerUnitPrice5Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>66</TabOrder>
+               <TopPos>24.466667</TopPos>
+               <LeftPos>60.428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DerUnitPrice5</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sUnitPrice5</EffectiveCaption>
+            </Component>
+            <Component Name="DerUnitPrice5GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>42</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>662</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>sCalculatedUnitPrice5</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>41</ContainerSequence>
+               <DataSource>object.DerUnitPrice5</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sCalculatedUnitPrice5</EffectiveCaption>
+            </Component>
+            <Component Name="DolPercent_1Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>44</TabOrder>
+               <TopPos>18.6</TopPos>
+               <LeftPos>32.428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>C(DolPercent_2Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DolPercent_1</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/amtpercent_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListAmountPercent</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DolPercent_2Static)</EffectiveCaption>
+            </Component>
+            <Component Name="DolPercent_1GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>28</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>459</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>27</ContainerSequence>
+               <DataSource>object.DolPercent_1</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/amtpercent_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListAmountPercent</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sAmount/Percent1</EffectiveCaption>
+            </Component>
+            <Component Name="DolPercent_2Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>49</TabOrder>
+               <TopPos>20.133333</TopPos>
+               <LeftPos>32.428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>C(DolPercent_2Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DolPercent_2</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/amtpercent_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListAmountPercent</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DolPercent_2Static)</EffectiveCaption>
+            </Component>
+            <Component Name="DolPercent_2GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>29</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>469</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>28</ContainerSequence>
+               <DataSource>object.DolPercent_2</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/amtpercent_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListAmountPercent</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sAmount/Percent2</EffectiveCaption>
+            </Component>
+            <Component Name="DolPercent_2Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>39</TabOrder>
+               <TopPos>17.4</TopPos>
+               <LeftPos>32.571429</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>sAmt/Percent</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>sAmt/Percent</EffectiveCaption>
+            </Component>
+            <Component Name="DolPercent_3Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>54</TabOrder>
+               <TopPos>21.6</TopPos>
+               <LeftPos>32.428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>C(DolPercent_2Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DolPercent_3</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/amtpercent_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListAmountPercent</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DolPercent_2Static)</EffectiveCaption>
+            </Component>
+            <Component Name="DolPercent_3GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>30</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>479</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>29</ContainerSequence>
+               <DataSource>object.DolPercent_3</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/amtpercent_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListAmountPercent</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sAmount/Percent3</EffectiveCaption>
+            </Component>
+            <Component Name="DolPercent_4Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>59</TabOrder>
+               <TopPos>23</TopPos>
+               <LeftPos>32.428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>C(DolPercent_2Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DolPercent_4</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/amtpercent_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListAmountPercent</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DolPercent_2Static)</EffectiveCaption>
+            </Component>
+            <Component Name="DolPercent_4GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>31</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>489</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>30</ContainerSequence>
+               <DataSource>object.DolPercent_4</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/amtpercent_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListAmountPercent</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sAmount/Percent4</EffectiveCaption>
+            </Component>
+            <Component Name="DolPercent_5">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>64</TabOrder>
+               <TopPos>24.466667</TopPos>
+               <LeftPos>32.428571</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Caption>C(DolPercent_2Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.DolPercent_5</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/amtpercent_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListAmountPercent</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(DolPercent_2Static)</EffectiveCaption>
+            </Component>
+            <Component Name="DolPercent_5GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>32</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>499</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>31</ContainerSequence>
+               <DataSource>object.DolPercent_5</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/a/amtpercent_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListAmountPercent</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sAmount/Percent5</EffectiveCaption>
+            </Component>
+            <Component Name="EffectDateEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>26</Type>
+               <TabOrder>4</TabOrder>
+               <TopPos>1.2</TopPos>
+               <LeftPos>54.571429</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <Caption>C(EffectDateStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.EffectDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>33</Flags>
+               <DefaultData>CURDATE()</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/e/effective_date_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301DataType>DEFAULTVALUE(CURDATE())</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>C(EffectDateStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="EffectDateGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>70</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>13</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>2</ContainerSequence>
+               <DataSource>object.EffectDate</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/e/effective_date_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sEffectiveDate</EffectiveCaption>
+            </Component>
+            <Component Name="EffectDateStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>3</TabOrder>
+               <TopPos>1.433333</TopPos>
+               <LeftPos>41.428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.714286</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sEffectiveDate</EffectiveCaption>
+            </Component>
+            <Component Name="FormCollectionGrid">
+               <DeviceID>-1</DeviceID>
+               <Type>14</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>2</ListHeight>
+               <Width>89</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>objects</DataSource>
+               <Binding>3</Binding>
+               <Flags>384</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGridWithActions()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="HiddenPlantStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>4.61111111111111</TopPos>
+               <LeftPos>69.25</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>20</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.UbPlant</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Plant</PropertyClassName>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sPlant</EffectiveCaption>
+            </Component>
+            <Component Name="ItemBtn">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>82</TabOrder>
+               <TopPos>14.5333333333333</TopPos>
+               <LeftPos>43</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>s&amp;Items</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>LaunchItemForm</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/buttons/i/item_maint_button_item_cost_maintenance.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>s&amp;Items</EffectiveCaption>
+            </Component>
+            <Component Name="ItemEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>1.2</TopPos>
+               <LeftPos>8.714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32</Width>
+               <Caption>C(ItemStatic)</Caption>
+               <Validators>ItempriceItemValid(Item, Reprice, ItmDescription, UnitPrice1, ItmUM, CurrCode, DerQtyOnHand, ItmUnitCost, ItmCurUCost, Pricecode, PriDescription, ItmProductCode)</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Item</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <SelectionEvent>ItemChange</SelectionEvent>
+               <Flags>33</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/i/item_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Items(PROPERTY(Item) FINDSETPROP(ItmDescription=Description))</MaintainFromSpec>
+               <DefaultFrom>Item(ItmDescription)</DefaultFrom>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(ItemStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ItemGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>6</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32</Width>
+               <Validators>ItempriceItemValid(Item, Reprice, ItmDescription, UnitPrice1, ItmUM, CurrCode, DerQtyOnHand, ItmUnitCost, ItmCurUCost, Pricecode, PriDescription, ItmProductCode)</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Item</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <SelectionEvent>ItemChange</SelectionEvent>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/i/item_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <MaintainFromSpec>Items(PROPERTY(Item) FINDSETPROP(ItmDescription=Description))</MaintainFromSpec>
+               <DefaultFrom>Item(ItmDescription)</DefaultFrom>
+               <PropertyClassName>Item</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sItem</EffectiveCaption>
+            </Component>
+            <Component Name="ItemGroupBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>0.13</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>4.35</Height>
+               <ListHeight>0</ListHeight>
+               <Width>79.4</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="ItemJobEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>70</TabOrder>
+               <TopPos>26.933333</TopPos>
+               <LeftPos>44.857143</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ItmJob</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>JobOrders( PROPERTY(Job) )</MaintainFromSpec>
+               <PropertyClassName>Job</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sJob</EffectiveCaption>
+            </Component>
+            <Component Name="ItemStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>1</TabOrder>
+               <TopPos>1.5</TopPos>
+               <LeftPos>2.428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5.857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sItem</EffectiveCaption>
+            </Component>
+            <Component Name="ItmCurUCostEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>30</TabOrder>
+               <TopPos>9.7</TopPos>
+               <LeftPos>57.285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(ItmCurUCostStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ItmCurUCost</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/current_unit_cost_item_master_general.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(ItmCurUCostStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ItmCurUCostGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>243</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>14</ContainerSequence>
+               <DataSource>object.ItmCurUCost</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/c/current_unit_cost_item_master_general.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sCurrentUnitCost</EffectiveCaption>
+            </Component>
+            <Component Name="ItmCurUCostStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>29</TabOrder>
+               <TopPos>9.966667</TopPos>
+               <LeftPos>42.142857</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>14.428571</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sCurrentUnitCost</EffectiveCaption>
+            </Component>
+            <Component Name="ItmDescriptionEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>2.6</TopPos>
+               <LeftPos>8.714286</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>40</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ItmDescription</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/d/description_item_master_general.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDescription</EffectiveCaption>
+            </Component>
+            <Component Name="ItmDescriptionGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>2</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>38</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32</Width>
+               <Caption>sItemDescription</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>1</ContainerSequence>
+               <DataSource>object.ItmDescription</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/d/description_item_master_general.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sItemDescription</EffectiveCaption>
+            </Component>
+            <Component Name="ItmProductCodeHidden">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>67</TabOrder>
+               <TopPos>28.2</TopPos>
+               <LeftPos>1.142857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>4</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ItmProductCode</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <MaintainFromSpec>ProductCodes( PROPERTY(ProductCode) )</MaintainFromSpec>
+               <PropertyClassName>ProductCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sProductCode</EffectiveCaption>
+            </Component>
+            <Component Name="ItmSuffixEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>71</TabOrder>
+               <TopPos>27</TopPos>
+               <LeftPos>56.857143</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ItmSuffix</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>True</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Suffix</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sJobSuffix</EffectiveCaption>
+            </Component>
+            <Component Name="ItmUMEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>2.6</TopPos>
+               <LeftPos>71.771429</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7</Width>
+               <Caption>C(ItmUMStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ItmUM</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/u/um_field_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>UM</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(ItmUMStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ItmUMGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>5</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>90</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.ItmUM</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/fields/u/um_field_option.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>UM</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sU/M</EffectiveCaption>
+            </Component>
+            <Component Name="ItmUMStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>2.9</TopPos>
+               <LeftPos>65.7</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>5.642857</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sU/M</EffectiveCaption>
+            </Component>
+            <Component Name="ItmUnitCostEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>28</TabOrder>
+               <TopPos>8.233333</TopPos>
+               <LeftPos>57.285714</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(ItmUnitCostStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.ItmUnitCost</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_cost_standard_unit_cost_item_masteritem_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(ItmUnitCostStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="ItmUnitCostGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>14</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>226</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>13</ContainerSequence>
+               <DataSource>object.ItmUnitCost</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_cost_standard_unit_cost_item_masteritem_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sUnitCost</EffectiveCaption>
+            </Component>
+            <Component Name="ItmUnitCostStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>27</TabOrder>
+               <TopPos>8.533333</TopPos>
+               <LeftPos>42.142857</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>14.428571</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sUnitCost</EffectiveCaption>
+            </Component>
+            <Component Name="ListCurrentRouting">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>70</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sLis&amp;tCurrentRouting</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>ListCurrentRouting</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sLis&amp;tCurrentRouting</EffectiveCaption>
+            </Component>
+            <Component Name="ListCustomerOrders">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>71</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sListCusto&amp;merOrders</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>ListCustomerOrders</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sListCusto&amp;merOrders</EffectiveCaption>
+            </Component>
+            <Component Name="ListECNs">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>75</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sList&amp;ECNs</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>ListECNs</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sList&amp;ECNs</EffectiveCaption>
+            </Component>
+            <Component Name="ListJobMaterials">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>74</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sList&amp;JobMaterials</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>ListJobMaterials</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sList&amp;JobMaterials</EffectiveCaption>
+            </Component>
+            <Component Name="ListJobOrders">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>73</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sListJo&amp;bOrders</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>ListJobOrders</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sListJo&amp;bOrders</EffectiveCaption>
+            </Component>
+            <Component Name="ListProductionScheduleMaterials">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>77</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sListProductionScheduleMaterials</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>ListProductionScheduleMaterials</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sListProductionScheduleMaterials</EffectiveCaption>
+            </Component>
+            <Component Name="ListProductionSchedules">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>76</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sListProductionSchedules</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>ListProductionSchedules</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sListProductionSchedules</EffectiveCaption>
+            </Component>
+            <Component Name="ListProjectResources">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>78</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sListProjectResources</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>ListProjectResources</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sListProjectResources</EffectiveCaption>
+            </Component>
+            <Component Name="ListPurchaseOrders">
+               <DeviceID>-1</DeviceID>
+               <Type>10</Type>
+               <TabOrder>72</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>sListPurc&amp;haseOrders</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>ListPurchaseOrders</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format />
+               <EffectiveCaption>sListPurc&amp;haseOrders</EffectiveCaption>
+            </Component>
+            <Component Name="PriceBreaksGroupBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>36</TabOrder>
+               <TopPos>16</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>10.5</Height>
+               <ListHeight>0</ListHeight>
+               <Width>79.4</Width>
+               <Caption>sPriceBreaks</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+               <EffectiveCaption>sPriceBreaks</EffectiveCaption>
+            </Component>
+            <Component Name="PricecodeEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>27</Type>
+               <TabOrder>33</TabOrder>
+               <TopPos>12.333333</TopPos>
+               <LeftPos>51.371429</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8</Width>
+               <Caption>C(PricecodeStatic)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Pricecode</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/p/price_code_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>ItemPriceCode(PriDescription)</DefaultFrom>
+               <PropertyClassName>PriceCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>C(PricecodeStatic)</EffectiveCaption>
+            </Component>
+            <Component Name="PricecodeGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>260</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>7</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>15</ContainerSequence>
+               <DataSource>object.Pricecode</DataSource>
+               <Binding>1</Binding>
+               <EventToGenerate>StdCurCompDetails</EventToGenerate>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/p/price_code_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>ItemPriceCode(PriDescription)</DefaultFrom>
+               <PropertyClassName>PriceCode</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sPriceCode</EffectiveCaption>
+            </Component>
+            <Component Name="PriceCodeGroupBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>31</TabOrder>
+               <TopPos>11.4</TopPos>
+               <LeftPos>40.571429</LeftPos>
+               <Height>2.82</Height>
+               <ListHeight>0</ListHeight>
+               <Width>39.75</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="PricecodeStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>32</TabOrder>
+               <TopPos>12.6</TopPos>
+               <LeftPos>42</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8.8</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sPriceCode</EffectiveCaption>
+            </Component>
+            <Component Name="PriDescriptionEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>34</TabOrder>
+               <TopPos>12.333333</TopPos>
+               <LeftPos>60.242857</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>18</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.PriDescription</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/d/price_code_description.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sDescription</EffectiveCaption>
+            </Component>
+            <Component Name="PriDescriptionGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>17</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>267</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>32</Width>
+               <Caption>sPriceCodeDescription</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>16</ContainerSequence>
+               <DataSource>object.PriDescription</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_custvend/fields/d/price_code_description.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sPriceCodeDescription</EffectiveCaption>
+            </Component>
+            <Component Name="RecalculateButton">
+               <DeviceID>-1</DeviceID>
+               <Type>8</Type>
+               <TabOrder>35</TabOrder>
+               <TopPos>14.5333333333333</TopPos>
+               <LeftPos>63.428571</LeftPos>
+               <Height>1.4</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>s&amp;Recalculate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>RecalculateButton</EventToGenerate>
+               <Flags>20497</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/buttons/r/recalculate_button_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <DefaultFrom>Button()</DefaultFrom>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>s&amp;Recalculate</EffectiveCaption>
+            </Component>
+            <Component Name="RepriceEdit">
+               <DeviceID>-1</DeviceID>
+               <Type>5</Type>
+               <TabOrder>23</TabOrder>
+               <TopPos>5.2</TopPos>
+               <LeftPos>30.571429</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>8.142857</Width>
+               <Validators>InInlineList,ItemPricingReprice</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.Reprice</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <DefaultData>0</DefaultData>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/m/markup_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301DataType>DEFAULTVALUE(0)</Post301DataType>
+               <Post301Format />
+               <EffectiveCaption>sMarkup</EffectiveCaption>
+            </Component>
+            <Component Name="RepriceGridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>199</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10</Width>
+               <Validators>InInlineList,ItemPricingReprice</Validators>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>11</ContainerSequence>
+               <DataSource>object.Reprice</DataSource>
+               <Binding>1</Binding>
+               <Flags>8</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/m/markup_item_pricing.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>ListYesNo</PropertyClassName>
+               <Post301Format />
+               <EffectiveCaption>sMarkup</EffectiveCaption>
+            </Component>
+            <Component Name="TranslateButton">
+               <DeviceID>-1</DeviceID>
+               <Type>11</Type>
+               <TabOrder>25</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>0</Height>
+               <ListHeight>0</ListHeight>
+               <Width>0</Width>
+               <Caption>s&amp;Translate</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>TranslateButton</EventToGenerate>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <BitmapFileName>translate.svg</BitmapFileName>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_main/buttons/t/translate_button.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>s&amp;Translate</EffectiveCaption>
+            </Component>
+            <Component Name="UMGroupBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>24</TabOrder>
+               <TopPos>5.793333</TopPos>
+               <LeftPos>40.428571</LeftPos>
+               <Height>5.85</Height>
+               <ListHeight>0</ListHeight>
+               <Width>39.87</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="UnitPrice1Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>12</TabOrder>
+               <TopPos>5.2</TopPos>
+               <LeftPos>12.857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(UnitPrice1Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.UnitPrice1</DataSource>
+               <Binding>1</Binding>
+               <SelectionEvent>ChangeUnitPrice1</SelectionEvent>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_1_6_item_pricing_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(UnitPrice1Static)</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice1GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>6</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>97</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>5</ContainerSequence>
+               <DataSource>object.UnitPrice1</DataSource>
+               <Binding>1</Binding>
+               <SelectionEvent>ChangeUnitPrice1</SelectionEvent>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_1_6_item_pricing_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sUnitPrice1</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice1Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>5.466667</TopPos>
+               <LeftPos>1.428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sUnitPrice1</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice2Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>14</TabOrder>
+               <TopPos>6.6</TopPos>
+               <LeftPos>12.857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(UnitPrice2Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.UnitPrice2</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_1_6_item_pricing_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(UnitPrice2Static)</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice2GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>7</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>114</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>6</ContainerSequence>
+               <DataSource>object.UnitPrice2</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_1_6_item_pricing_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sUnitPrice2</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice2Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>13</TabOrder>
+               <TopPos>6.9</TopPos>
+               <LeftPos>1.428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sUnitPrice2</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice3Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>16</TabOrder>
+               <TopPos>8.066667</TopPos>
+               <LeftPos>12.857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(UnitPrice3Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.UnitPrice3</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_1_6_item_pricing_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(UnitPrice3Static)</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice3GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>8</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>131</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>7</ContainerSequence>
+               <DataSource>object.UnitPrice3</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_1_6_item_pricing_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sUnitPrice3</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice3Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>15</TabOrder>
+               <TopPos>8.366667</TopPos>
+               <LeftPos>1.428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sUnitPrice3</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice4Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>18</TabOrder>
+               <TopPos>9.533333</TopPos>
+               <LeftPos>12.857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(UnitPrice4Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.UnitPrice4</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_1_6_item_pricing_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(UnitPrice4Static)</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice4GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>9</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>148</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>8</ContainerSequence>
+               <DataSource>object.UnitPrice4</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_1_6_item_pricing_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sUnitPrice4</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice4Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>17</TabOrder>
+               <TopPos>9.833333</TopPos>
+               <LeftPos>1.428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sUnitPrice4</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice5Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>20</TabOrder>
+               <TopPos>11</TopPos>
+               <LeftPos>12.857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(UnitPrice5Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.UnitPrice5</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_1_6_item_pricing_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(UnitPrice5Static)</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice5GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>165</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>9</ContainerSequence>
+               <DataSource>object.UnitPrice5</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_1_6_item_pricing_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sUnitPrice5</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice5Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>19</TabOrder>
+               <TopPos>11.3</TopPos>
+               <LeftPos>1.428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sUnitPrice5</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice6Edit">
+               <DeviceID>-1</DeviceID>
+               <Type>1</Type>
+               <TabOrder>22</TabOrder>
+               <TopPos>12.466667</TopPos>
+               <LeftPos>12.857143</LeftPos>
+               <Height>1.3</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>C(UnitPrice6Static)</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <DataSource>object.UnitPrice6</DataSource>
+               <Binding>1</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_1_6_item_pricing_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>C(UnitPrice6Static)</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice6GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>11</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>182</LeftPos>
+               <Height>28.8</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>10</ContainerSequence>
+               <DataSource>object.UnitPrice6</DataSource>
+               <Binding>1</Binding>
+               <Flags>32</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpFileName>default.html?helpcontent=mergedProjects/sl_invprod/fields/u/unit_price_1_6_item_pricing_range.htm</HelpFileName>
+               <HelpContextID>-1</HelpContextID>
+               <PropertyClassName>CostPrc</PropertyClassName>
+               <Post301Format>MASK(-&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;9.99999)</Post301Format>
+               <EffectiveCaption>sUnitPrice6</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPrice6Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>21</TabOrder>
+               <TopPos>12.766667</TopPos>
+               <LeftPos>1.428571</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>10.857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>sUnitPrice6</EffectiveCaption>
+            </Component>
+            <Component Name="UnitPriceGroupBox">
+               <DeviceID>-1</DeviceID>
+               <Type>6</Type>
+               <TabOrder>10</TabOrder>
+               <TopPos>4.26</TopPos>
+               <LeftPos>1</LeftPos>
+               <Height>10</Height>
+               <ListHeight>0</ListHeight>
+               <Width>38.857143</Width>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <DefaultFrom>StdGroupBox()</DefaultFrom>
+               <Post301Format />
+            </Component>
+            <Component Name="UnitPriceStatic">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>41</TabOrder>
+               <TopPos>17.4</TopPos>
+               <LeftPos>60.714286</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>17</Width>
+               <Caption>sUnitPrice</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName />
+               <ContainerSequence>0</ContainerSequence>
+               <Binding>0</Binding>
+               <EventToGenerate>UnitPriceButton</EventToGenerate>
+               <Flags>17</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(C)</Post301Format>
+               <EffectiveCaption>sUnitPrice</EffectiveCaption>
+            </Component>
+         </Components>
+         <ActiveXComponents>
+            <ActiveXComponentProperty ComponentName="BannerToast">
+               <Properties>{"Name":"SLToaster","InitString":null,"Reserved":null}</Properties>
+            </ActiveXComponentProperty>
+         </ActiveXComponents>
+         <EventHandlers>
+            <EventHandler Name="CalcUnitPrice1" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLItemprices.CalcUnitPrice1Sp( PARMS(VAR P(CurrCode), RVAR P(UnitPrice1), VAR P(Item), VAR , VAR , VAR , VAR , VAR ) ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="ChangeCurrCode" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>ApplyMask()</Response>
+            </EventHandler>
+            <EventHandler Name="ChangeUnitPrice1" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>ChangeUnitPrice1()</Response>
+            </EventHandler>
+            <EventHandler Name="ItemChange" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>ItemChange()</Response>
+            </EventHandler>
+            <EventHandler Name="LaunchItemForm" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>Items( LINKBY(Item=Item) )</Response>
+            </EventHandler>
+            <EventHandler Name="ListCurrentRouting" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>BomListing( LINKBY(ItmJob=Job,ItmSuffix=Suffix,UbPlant=JobPlant) )</Response>
+            </EventHandler>
+            <EventHandler Name="ListCustomerOrders" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>CustomerOrderListing( LINKBY(Item=Item) )</Response>
+            </EventHandler>
+            <EventHandler Name="ListECNs" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>EngineeringChangeNoticeItems( LINKBY(Item=Item) )</Response>
+            </EventHandler>
+            <EventHandler Name="ListJobMaterials" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>JobMaterialsListing( LINKBY(Item=Item) )</Response>
+            </EventHandler>
+            <EventHandler Name="ListJobOrders" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>JobOrders( LINKBY(Item=Item) )</Response>
+            </EventHandler>
+            <EventHandler Name="ListProductionScheduleMaterials" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>ProductionScheduleMaterials( LINKBY(Item=Item) )</Response>
+            </EventHandler>
+            <EventHandler Name="ListProductionSchedules" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>ProductionScheduleItems( LINKBY(Item=Item) )</Response>
+            </EventHandler>
+            <EventHandler Name="ListProjectResources" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>ProjectResources( LINKBY(Item=Item) )</Response>
+            </EventHandler>
+            <EventHandler Name="ListPurchaseOrders" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>PurchaseOrderListing( LINKBY(Item=Item) )</Response>
+            </EventHandler>
+            <EventHandler Name="RecalculateButton" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLItemprices.ItempricePostQuerySp( V(ehm1_RecalculateButton0) ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormCopy" Sequence="0">
+               <ResponseType>21</ResponseType>
+               <Response>StdFormPerformValidations(  )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormCopyCompleted" Sequence="0">
+               <ResponseType>8</ResponseType>
+               <Response>CopyCompletedMarkComponentsValid()</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="0">
+               <ResponseType>0</ResponseType>
+               <Response>SL.SLCurrParms.GetSystemParm( PARMS(RVAR V(CurrParmsCurrCode), VAR curr_code) ERRORMESSAGE(mBackEndMessage) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="1">
+               <ResponseType>0</ResponseType>
+               <Response>SLFormExtMsgEntities.LoadJSONVar( PARMS(VAR ItemPricing, RVAR V(JSONVarNotInterpretWithLIT)) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="2">
+               <ResponseType>22</ResponseType>
+               <Response>SETVARVALUES(JSONVarNotInterpret=V(JSONVarNotInterpretWithLIT))</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="3">
+               <ResponseType>0</ResponseType>
+               <Response>SLFormAdoption.LoadBannerStatus( PARMS(VAR V(CurrentFormName), RVAR V(DisableBanner), RVAR V(EndOfSupport), RVAR V(NewFormName), RVAR V(ToastStatus)) )</Response>
+            </EventHandler>
+            <EventHandler Name="StdFormPredisplay" Sequence="4">
+               <ResponseType>8</ResponseType>
+               <Response>InitializeSLToast()</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectNewCompleted" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>CalculatePrice()</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="0">
+               <ResponseType>35</ResponseType>
+               <Response>ApplyMask()</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="1">
+               <ResponseType>35</ResponseType>
+               <Response>InitFormVariables()</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="2">
+               <ResponseType>0</ResponseType>
+               <Response>SLFormExtMsgEntities.FormatJSONVar( PARMS(VAR ItemPricing, VAR V(JSONVarNotInterpret), RVAR V(JSONVarWithLIT)) COLID(object) )</Response>
+               <Description>JSONAuto_object</Description>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="3">
+               <ResponseType>22</ResponseType>
+               <Response> SETVARVALUES(JSONVar=V(JSONVarWithLIT)) COLID(object)</Response>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompleted" Sequence="4">
+               <ResponseType>47</ResponseType>
+               <Response>JSONMSGTYPE(inforBusinessContext) JSONPAYLOAD(V(JSONVar)) JSONMSGTOCHLD()  COLID(object)</Response>
+               <Description>JSONAuto_object</Description>
+            </EventHandler>
+            <EventHandler Name="StdObjectSelectCurrentCompletedxx" Sequence="0">
+               <ResponseType>33</ResponseType>
+               <Response>SCRIPTTEXT(Option Explicit On
+Option Strict On
+
+Imports System
+Imports Microsoft.VisualBasic
+Imports Mongoose.IDO.Protocol
+Imports Mongoose.Scripting
+
+Namespace SyteLine.GlobalScripts
+    Public Class EvHandler_StdObjectSelectCurrentCompletedxx_0
+        Inherits GlobalScript
+
+        Sub Main()
+            Dim bEnabled As Boolean
+
+            bEnabled = Not ThisForm.PrimaryIDOCollection.IsCurrentObjectNew
+
+            ThisForm.Components("RecalculateButton").Enabled = bEnabled
+            ThisF</Response>
+               <Response2>orm.Components("TranslateButton").Enabled = bEnabled
+
+        End Sub
+    End Class
+End Namespace
+)</Response2>
+            </EventHandler>
+            <EventHandler Name="TranslateButton" Sequence="0">
+               <ResponseType>6</ResponseType>
+               <Response>ItemPricingDomesticCurrency( LINKBY(Item=Item) SETVARVALUESONLINKUPDATE(V(LinkVariableList) V(LinkVariableList2)) )</Response>
+            </EventHandler>
+         </EventHandlers>
+         <Variables>
+            <Variable Name="BannerConfigJson">
+               <Value>{"title":"{ToastTitle}","message":"&lt;a class='sl-toast-body'&gt;{ToastBody}&amp;nbsp;&lt;/a&gt;&lt;a class='sl-toast-runform'&gt;{ToastRunForm}&lt;/a&gt;","status":"{ToastStatus}","formName":"{NewFormName}"}</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="CurrentFormName">
+               <Value>ItemPricing</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ehm1_RecalculateButton0">
+               <Value>PARMS(VAR P(UnitPrice1), VAR P(UnitPrice2), VAR P(UnitPrice3), VAR P(UnitPrice4), VAR P(UnitPrice5), VAR P(UnitPrice6), VAR P(ItmUnitCost), VAR P(Item), VAR P(CurrCode), VAR P(EffectDate), VAR P(DolPercent_1), VAR P(DolPercent_2), VAR P(DolPercent_3)', VAR P(DolPercent_4), VAR P(DolPercent_5), VAR P(BaseCode_1), VAR P(BaseCode_2), VAR P(BaseCode_3), VAR P(BaseCode_4), VAR P(BaseCode_5), VAR P(BrkQty_1), VAR P(BrkQty_2), VAR P(BrkQty_3), VAR P(BrkQty_4), VAR P(BrkQty_5), VAR P(BrkPrice_1), VAR P(</Value>
+               <Value2>BrkPrice_2), VAR P(BrkPrice_3), VAR P(BrkPrice_4), VAR P(BrkPrice_5), RVAR P(DerUnitPrice1), RVAR P(DerUnitPrice2), RVAR P(DerUnitPrice3), RVAR P(DerUnitPrice4), RVAR P(DerUnitPrice5))</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="InitialCommand">
+               <Value>FilterInPlace</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="LinkVariableList">
+               <Value>CurrCode = P(CurrCode), Item = P(Item), ItmDescription = P(ItmDescription), ItmUnitCost = P(ItmUnitCost), ItmCurUCost = P(ItmCurUCost), DolPercent_1 = P(DolPercent_1), DolPercent_2 = P(DolPercent_2), DolPercent_3 = P(DolPercent_3), DolPercent_4 = P(DolPercent_4), DolPercent_5 = P(DolPercent_5), UnitPrice1 = P(UnitPrice1), UnitPrice2 = P(UnitPrice2), UnitPrice3 = P(UnitPrice3), UnitPrice4 = P(UnitPrice4), UnitPrice5 = P(UnitPrice5), UnitPrice6 = P(UnitPrice6), BrkPrice_5 = P(BrkPrice_5), BrkPrice</Value>
+               <Value2>_4 = P(BrkPrice_4), BrkPrice_3 = P(BrkPrice_3), BrkPrice_2 = P(BrkPrice_2), BrkPrice_1 = P(BrkPrice_1), DerUnitPrice1 = P(DerUnitPrice1), DerUnitPrice2 = P(DerUnitPrice2), DerUnitPrice3 = P(DerUnitPrice3)</Value2>
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="LinkVariableList2">
+               <Value>, DerUnitPrice4 = P(DerUnitPrice4), DerUnitPrice5 = P(DerUnitPrice5), EffectDate = P(EffectDate)</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+            <Variable Name="ToastTitle">
+               <Value>sEndOfSupport</Value>
+               <Value2 />
+               <Value3 />
+               <Description />
+            </Variable>
+         </Variables>
+         <Script Language="Visual Basic">
+            <ScriptLines>
+               <ScriptLine>Option Explicit On</ScriptLine>
+               <ScriptLine>Option Strict On</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Imports System</ScriptLine>
+               <ScriptLine>Imports Microsoft.VisualBasic</ScriptLine>
+               <ScriptLine>Imports Mongoose.IDO.Protocol</ScriptLine>
+               <ScriptLine>Imports Mongoose.Scripting</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>Namespace SyteLine.FormScripts</ScriptLine>
+               <ScriptLine>    Public Class ItemPricing</ScriptLine>
+               <ScriptLine>        Inherits FormScript</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub RepriceCheckBoxDataChange()</ScriptLine>
+               <ScriptLine>            Application.ShowMessage("Prop = " &amp; ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("Reprice") &amp; vbLf &amp; _</ScriptLine>
+               <ScriptLine>                   "Edit = " &amp; ThisForm.Components("RepriceEdit").Text &amp; vbLf &amp; _</ScriptLine>
+               <ScriptLine>                   "Grid = " &amp; ThisForm.Components("RepriceGridCol").Text)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.Components("RepriceEdit").Text = "1" Then</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("CalcUnitPrice1")</ScriptLine>
+               <ScriptLine>            Else</ScriptLine>
+               <ScriptLine>                ThisForm.Components("UnitPrice1Edit").Text = ThisForm.Components("DerOldUnitPrice1Hidden").Text</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub ChangeUnitPrice1()</ScriptLine>
+               <ScriptLine>            If ThisForm.Components("UnitPrice1Edit").Text &lt;&gt; "0" Then</ScriptLine>
+               <ScriptLine>                ThisForm.Components("DerOldUnitPrice1Hidden").Text = ThisForm.Components("UnitPrice1Edit").Text</ScriptLine>
+               <ScriptLine>                If ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("Reprice") = "1" Then</ScriptLine>
+               <ScriptLine>                    ThisForm.PrimaryIDOCollection.SetCurrentObjectPropertyPlusModifyRefresh("Reprice", "0")</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>        Sub CalculatePrice()</ScriptLine>
+               <ScriptLine>            If ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("Reprice") = "1" And ThisForm.IsLinkedChild And (ThisForm.ParentFormName = "Items" Or ThisForm.ParentFormName = "Items.gen2") Then</ScriptLine>
+               <ScriptLine>                ThisForm.GenerateEvent("CalcUnitPrice1")</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            If ThisForm.Components("ItemEdit").Text &lt;&gt; "" And ThisForm.PrimaryIDOCollection.IsCurrentObjectNew() Then</ScriptLine>
+               <ScriptLine>                ThisForm.Components("ItemEdit").ValidateData(True)</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>        Sub InitFormVariables()</ScriptLine>
+               <ScriptLine>            If ThisForm.IsLinkedChild And (ThisForm.ParentFormName = "Items" Or ThisForm.ParentFormName = "Items.gen2") Then</ScriptLine>
+               <ScriptLine>                If ThisForm.PrimaryIDOCollection.IsCurrentObjectNew = True Then</ScriptLine>
+               <ScriptLine>                    ThisForm.PrimaryIDOCollection.SetCurrentObjectPropertyModified("Item", True)</ScriptLine>
+               <ScriptLine>                    ThisForm.PrimaryIDOCollection.SetCurrentObjectPropertyPlusModifyRefresh("ItmDescription", ThisForm.Variables("vItemDescLnk").Value)</ScriptLine>
+               <ScriptLine>                    ThisForm.PrimaryIDOCollection.SetCurrentObjectPropertyPlusModifyRefresh("ItmUM", ThisForm.Variables("vItemUMLnk").Value)</ScriptLine>
+               <ScriptLine>                    ThisForm.PrimaryIDOCollection.SetCurrentObjectPropertyPlusModifyRefresh("CurrCode", ThisForm.Components("CurrCodeEdit").Text)</ScriptLine>
+               <ScriptLine>                    ThisForm.PrimaryIDOCollection.SetCurrentObjectPropertyPlusModifyRefresh("CurrCstPrcFormat", Application.Variables("CstPrcFormatVar").Value)</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>                    If ThisForm.Components("RepriceEdit").Text &lt;&gt; "1" Then</ScriptLine>
+               <ScriptLine>                        ThisForm.PrimaryIDOCollection.SetCurrentObjectPropertyPlusModifyRefresh("UnitPrice1", ThisForm.Components("DerOldUnitPrice1Hidden").Text)</ScriptLine>
+               <ScriptLine>                    End If</ScriptLine>
+               <ScriptLine>                End If</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub ApplyMask()</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            Dim strCstPrcMask As String</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            If ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("CurrCstPrcFormat") = "" Then</ScriptLine>
+               <ScriptLine>                ThisForm.PrimaryIDOCollection.SetCurrentObjectPropertyPlusModifyRefresh("CurrCstPrcFormat", Application.Variables("CstPrcFormatVar").Value)</ScriptLine>
+               <ScriptLine>            End If</ScriptLine>
+               <ScriptLine>            strCstPrcMask = ThisForm.PrimaryIDOCollection.GetCurrentObjectProperty("CurrCstPrcFormat")</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            'If strCstPrcMask &lt;&gt; "" And ThisForm.Components("UnitPrice1Edit").InputMask &lt;&gt; strCstPrcMask Then</ScriptLine>
+               <ScriptLine>            ThisForm.Components("UnitPrice1Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("UnitPrice2Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("UnitPrice3Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("UnitPrice4Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("UnitPrice5Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("UnitPrice6Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("ItmUnitCostEdit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("ItmCurUCostEdit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("BrkPrice_1Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("BrkPrice_2Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("BrkPrice_3Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("BrkPrice_4Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("BrkPrice_5Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("DerUnitPrice1Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("DerUnitPrice2Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("DerUnitPrice3Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("DerUnitPrice4Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("DerUnitPrice5Edit").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.Components("UnitPrice1GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("UnitPrice2GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("UnitPrice3GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("UnitPrice4GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("UnitPrice5GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("UnitPrice6GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("ItmUnitCostGridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("ItmCurUCostGridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("BrkPrice_1GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("BrkPrice_2GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("BrkPrice_3GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("BrkPrice_4GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("BrkPrice_5GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("DerUnitPrice1GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("DerUnitPrice2GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("DerUnitPrice3GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("DerUnitPrice4GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            ThisForm.Components("DerUnitPrice5GridCol").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>            ThisForm.Components("DerOldUnitPrice1Hidden").InputMask = strCstPrcMask</ScriptLine>
+               <ScriptLine>            'End If</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine />
+               <ScriptLine>        Sub ItemChange()</ScriptLine>
+               <ScriptLine>            ThisForm.Components("CurrCodeEdit").ValidateData(False)</ScriptLine>
+               <ScriptLine>            ApplyMask()</ScriptLine>
+               <ScriptLine>        End Sub</ScriptLine>
+               <ScriptLine>    End Class</ScriptLine>
+               <ScriptLine>End Namespace</ScriptLine>
+            </ScriptLines>
+         </Script>
+      </Form>
+   </Forms>
+</FormsAndObjectsExport>
