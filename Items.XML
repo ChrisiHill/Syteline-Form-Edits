@@ -10798,7 +10798,7 @@
                <Hidden>False</Hidden>
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram17Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram17_Edit1_SITE), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram17Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram17Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.17 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram17_Static">
