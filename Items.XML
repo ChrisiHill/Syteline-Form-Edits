@@ -54,7 +54,7 @@
                <Validators>InInlineList</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>16</ContainerSequence>
+               <ContainerSequence>18</ContainerSequence>
                <DataSource>object.AbcCode</DataSource>
                <Binding>1</Binding>
                <Flags>544</Flags>
@@ -167,7 +167,7 @@
                <Width>10</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>70</ContainerSequence>
+               <ContainerSequence>72</ContainerSequence>
                <DataSource>object.AcceptReq</DataSource>
                <Binding>1</Binding>
                <Flags>8</Flags>
@@ -609,7 +609,7 @@
                <Validators>NeverInvalid</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>7</ContainerSequence>
+               <ContainerSequence>9</ContainerSequence>
                <DataSource>object.AltItem</DataSource>
                <Binding>1</Binding>
                <Flags>32</Flags>
@@ -1899,7 +1899,7 @@
                <Caption>sBatchingAttributes</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>26</ContainerSequence>
+               <ContainerSequence>24</ContainerSequence>
                <Binding>0</Binding>
                <Flags>1</Flags>
                <ReadOnly>False</ReadOnly>
@@ -2265,7 +2265,7 @@
                <Width>32</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>8</ContainerSequence>
+               <ContainerSequence>10</ContainerSequence>
                <DataSource>object.Buyer</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -2806,7 +2806,7 @@
                <Width>12.5</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>37</ContainerSequence>
+               <ContainerSequence>39</ContainerSequence>
                <DataSource>object.CNItemTaxCategory</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -3374,7 +3374,7 @@
                <Validators>Item.CostMethod,InInlineList,CostMethodForItem</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>18</ContainerSequence>
+               <ContainerSequence>20</ContainerSequence>
                <DataSource>object.CostMethod</DataSource>
                <Binding>1</Binding>
                <SelectionEvent>CostMethodChange</SelectionEvent>
@@ -3465,7 +3465,7 @@
                <Validators>InInlineList,CostMethodForItem</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>17</ContainerSequence>
+               <ContainerSequence>19</ContainerSequence>
                <DataSource>object.CostType</DataSource>
                <Binding>1</Binding>
                <SelectionEvent>CostTypeChanged</SelectionEvent>
@@ -3818,7 +3818,7 @@
                <Width>20</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>20</ContainerSequence>
+               <ContainerSequence>22</ContainerSequence>
                <DataSource>object.DerCurUCost</DataSource>
                <Binding>1</Binding>
                <Flags>16</Flags>
@@ -3931,7 +3931,7 @@
                <Width>10</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>40</ContainerSequence>
+               <ContainerSequence>42</ContainerSequence>
                <DataSource>object.ActiveForDataIntegration</DataSource>
                <Binding>1</Binding>
                <Flags>8</Flags>
@@ -4090,7 +4090,7 @@
                <Validators>GreaterThanEqualZero</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>80</ContainerSequence>
+               <ContainerSequence>82</ContainerSequence>
                <DataSource>object.DaysSupply</DataSource>
                <Binding>1</Binding>
                <SelectionEvent>ValidateDaysSupply</SelectionEvent>
@@ -4608,7 +4608,7 @@
                <Width>9</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>5</ContainerSequence>
+               <ContainerSequence>7</ContainerSequence>
                <DataSource>object.DerEcnTracked</DataSource>
                <Binding>1</Binding>
                <Flags>8</Flags>
@@ -4788,7 +4788,7 @@
                <Width>22</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>34</ContainerSequence>
+               <ContainerSequence>36</ContainerSequence>
                <DataSource>object.DerQtyAllocCo</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -4855,7 +4855,7 @@
                <Width>22</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>29</ContainerSequence>
+               <ContainerSequence>31</ContainerSequence>
                <DataSource>object.DerNonNettableStock</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -4922,7 +4922,7 @@
                <Width>22</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>28</ContainerSequence>
+               <ContainerSequence>30</ContainerSequence>
                <DataSource>object.DerQtyOnHand</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -4989,7 +4989,7 @@
                <Width>22</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>31</ContainerSequence>
+               <ContainerSequence>33</ContainerSequence>
                <DataSource>object.DerQtyOrdered</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -5123,7 +5123,7 @@
                <Width>22</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>35</ContainerSequence>
+               <ContainerSequence>37</ContainerSequence>
                <DataSource>object.DerQtyRsvdCo</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -5257,7 +5257,7 @@
                <Width>22</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>32</ContainerSequence>
+               <ContainerSequence>34</ContainerSequence>
                <DataSource>object.DerQtyWip</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -5324,7 +5324,7 @@
                <Width>22</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>30</ContainerSequence>
+               <ContainerSequence>32</ContainerSequence>
                <DataSource>object.DerSafetyStock</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -5614,7 +5614,7 @@
                <Width>12.5</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>27</ContainerSequence>
+               <ContainerSequence>29</ContainerSequence>
                <DataSource>object.DimensionUM</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -5658,7 +5658,7 @@
                <Caption>C(DockTimeStatic)</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>41</ContainerSequence>
+               <ContainerSequence>39</ContainerSequence>
                <DataSource>object.DockTime</DataSource>
                <Binding>1</Binding>
                <Flags>1</Flags>
@@ -5682,7 +5682,7 @@
                <Width>14</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>60</ContainerSequence>
+               <ContainerSequence>62</ContainerSequence>
                <DataSource>object.DockTime</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -5706,7 +5706,7 @@
                <Width>13.25</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>43</ContainerSequence>
+               <ContainerSequence>42</ContainerSequence>
                <Binding>0</Binding>
                <Flags>1</Flags>
                <ReadOnly>False</ReadOnly>
@@ -5750,7 +5750,7 @@
                <Width>27</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>6</ContainerSequence>
+               <ContainerSequence>8</ContainerSequence>
                <DataSource>object.DrawingNbr</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -5890,7 +5890,7 @@
                <Validators>Date</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>85</ContainerSequence>
+               <ContainerSequence>87</ContainerSequence>
                <DataSource>object.EarliestPlannedPoReceipt</DataSource>
                <Binding>1</Binding>
                <Flags>4194336</Flags>
@@ -6189,7 +6189,7 @@
                <Caption>C(ExpLeadTimeStatic)</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>37</ContainerSequence>
+               <ContainerSequence>35</ContainerSequence>
                <DataSource>object.ExpLeadTime</DataSource>
                <Binding>1</Binding>
                <Flags>1</Flags>
@@ -6213,7 +6213,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>59</ContainerSequence>
+               <ContainerSequence>61</ContainerSequence>
                <DataSource>object.ExpLeadTime</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -6237,7 +6237,7 @@
                <Width>13.25</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>39</ContainerSequence>
+               <ContainerSequence>37</ContainerSequence>
                <Binding>0</Binding>
                <Flags>1</Flags>
                <ReadOnly>False</ReadOnly>
@@ -6395,7 +6395,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>48</ContainerSequence>
+               <ContainerSequence>50</ContainerSequence>
                <DataSource>object.FamilyCode</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -6688,7 +6688,7 @@
                <Validators>GreaterThan0</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>84</ContainerSequence>
+               <ContainerSequence>86</ContainerSequence>
                <DataSource>object.FixedOrderQty</DataSource>
                <Binding>1</Binding>
                <Flags>32</Flags>
@@ -6799,7 +6799,7 @@
                <Width>12.5</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>83</ContainerSequence>
+               <ContainerSequence>85</ContainerSequence>
                <DataSource>object.ForecastBOMSupplyFlag</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -7055,995 +7055,6 @@
                <HelpContextID>0</HelpContextID>
                <Post301Format>JUSTIFY(R)</Post301Format>
                <EffectiveCaption>sPP_Grade</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram01_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>115</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.1</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>116</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo01</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram01_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-TH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram01_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-TH", "True")</Post301Format>
-               <EffectiveCaption>P.1</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram05Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>124</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.5 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>125</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo05_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram05Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram05Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.5 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram06_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>125</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.6</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>126</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo06</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram06_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram06_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.6</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram06Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>126</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.6 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>127</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo06_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram06Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram06Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.6 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram07_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>127</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.7</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>128</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo07</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram07_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram07_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.7</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram07Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>128</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.7 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>129</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo07_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram07Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram07Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.7 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram08_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>129</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.8</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>130</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo08</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram08_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram08_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.8</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram08Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>130</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.8 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>131</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo08_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram08Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram08Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.8 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram09_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>131</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.9</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>132</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo09</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram09_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram09_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.9</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram09Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>132</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.9 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>133</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo09_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram09Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram09Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.9 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram10_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>133</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.10</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>134</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo10</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram10_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram10_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.10</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram01Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>116</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.1 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>117</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo01_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram01Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-TH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram01Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-TH", "True")</Post301Format>
-               <EffectiveCaption>P.1 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram10Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>134</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.10 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>135</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo10_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram10Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram10Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.10 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram11_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>135</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.11</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>136</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo11</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram11_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram11_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.11</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram11Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>136</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.11 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>137</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo11_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram11Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram11Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.11 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram12_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>137</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.12</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>138</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo12</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram12_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram12_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.12</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram12Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>138</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.12 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>139</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo12_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram12Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram12Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.12 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram13_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>139</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.13</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>140</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo13</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram13_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram13_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.13</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram13Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>140</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.13 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>141</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo13_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram13Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram13Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.13 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram14_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>141</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.14</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>142</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo14</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram14_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram14_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.14</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram14Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>142</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.14 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>143</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo14_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram14Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram14Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.14 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram15_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>143</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.15</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>144</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo15</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram15_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram15_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.15</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram02_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>117</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.2</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>118</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo02</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram02_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram02_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.2</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram15Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>144</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.15 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>145</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo15_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram15Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram15Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.15 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram16_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>145</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.16</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>146</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo16</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram16_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.16</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram16Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>146</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.16 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>147</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo16_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram16Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.16 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram16a_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>147</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.16A</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>148</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo16a</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram16a_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.16A</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram16aQty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>148</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.16A Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>149</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo16a_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram16aQty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.16A Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram17_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>149</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.17</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>150</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo17</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram17_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram17_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.17</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram17Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>150</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.17 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>151</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo17_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram17Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram17Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.17 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram18_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>151</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.18</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>152</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo18</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram18_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram18_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.18</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram18Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>152</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.18 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>153</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo18_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram18Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram18Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.18 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram19_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>153</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.19</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>154</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo19</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram19_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram19_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.19</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram02Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>118</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.2 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>119</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo02_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram02Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram02Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.2 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram19Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>154</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.19 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>155</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo19_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram19Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram19Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.19 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="gridColumn41_SITE">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>112</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>Tonnage</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>113</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDimentionsTonnage</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(gridColumn41_SITE), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-B" | #P(ProductCode) = "FG-O" | #P(ProductCode) = "FG-TH", "True") REQUIREDWHEN(Required:#C(gridColumn41_SITE), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-B" | #P(ProductCode) = "FG-O" | #P(ProductCode) = "FG-TH", "True")</Post301Format>
-               <EffectiveCaption>Tonnage</EffectiveCaption>
-            </Component>
-            <Component Name="gridColumn42_SITE">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>113</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>Comment</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>114</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDimentionsComment</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>Description</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(gridColumn42_SITE), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-B" | #P(ProductCode) = "FG-O" | #P(ProductCode) = "KIT" | #P(ProductCode) = "FG-TH", "True")</Post301Format>
-               <EffectiveCaption>Comment</EffectiveCaption>
-            </Component>
-            <Component Name="gridColumn43_SITE">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>114</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>Category</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>115</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDimentionsCategory</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>Description</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(gridColumn43_SITE), #P(ProductCode) = "FG-B" | #P(ProductCode) = "FG-O", "True") REQUIREDWHEN(Required:#C(gridColumn43_SITE), #P(ProductCode) = "FG-B", "True")</Post301Format>
-               <EffectiveCaption>Category</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram03_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>119</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.3</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>120</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo03</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram03_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram03_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.3</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram03Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>120</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.3 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>121</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo03_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram03Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram03Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.3 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram04_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>121</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.4</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>122</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo04</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram04_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram04_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.4</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram04Qty_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>122</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.4 Qty</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>123</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo04_qty</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram04Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram04Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.4 Qty</EffectiveCaption>
-            </Component>
-            <Component Name="HIL_Diagram05_GridCol">
-               <DeviceID>-1</DeviceID>
-               <Type>15</Type>
-               <TabOrder>123</TabOrder>
-               <TopPos>0</TopPos>
-               <LeftPos>0</LeftPos>
-               <Height>5.88235294117647</Height>
-               <ListHeight>0</ListHeight>
-               <Width>12.5</Width>
-               <Caption>P.5</Caption>
-               <MaxCharacters>0</MaxCharacters>
-               <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>124</ContainerSequence>
-               <DataSource>object.itmUf_HIL_ItemDiagramInfo05</DataSource>
-               <Binding>1</Binding>
-               <Flags>0</Flags>
-               <ReadOnly>True</ReadOnly>
-               <Hidden>False</Hidden>
-               <HelpContextID>0</HelpContextID>
-               <PropertyClassName>UetDefault</PropertyClassName>
-               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram05_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram05_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
-               <EffectiveCaption>P.5</EffectiveCaption>
             </Component>
             <Component Name="groupBox1_SITE">
                <DeviceID>-1</DeviceID>
@@ -8420,7 +7431,7 @@
                <Width>12.5</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>25</ContainerSequence>
+               <ContainerSequence>27</ContainerSequence>
                <DataSource>object.Height</DataSource>
                <Binding>1</Binding>
                <Flags>512</Flags>
@@ -8580,7 +7591,7 @@
                <Caption>Bucket Centre</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>103</ContainerSequence>
+               <ContainerSequence>105</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsBC</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -8647,7 +7658,7 @@
                <Caption>Bucket Dipper Pin Diameter</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>99</ContainerSequence>
+               <ContainerSequence>101</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsBDPD</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -8714,7 +7725,7 @@
                <Caption>Bucket Dipper Width</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>101</ContainerSequence>
+               <ContainerSequence>103</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsBDW</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -8803,7 +7814,7 @@
                <Caption>Bottom Frame Width</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>106</ContainerSequence>
+               <ContainerSequence>108</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsBFW</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -8849,7 +7860,7 @@
                <Caption>Bucket Link Pin Diameter</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>100</ContainerSequence>
+               <ContainerSequence>102</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsBLPD</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -8916,7 +7927,7 @@
                <Caption>Bucket Link Width</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>102</ContainerSequence>
+               <ContainerSequence>104</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsBLW</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -8983,7 +7994,7 @@
                <Caption>Bucket Pin to Pin Centres Max</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>105</ContainerSequence>
+               <ContainerSequence>107</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsBPTPCMax</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -9050,7 +8061,7 @@
                <Caption>Bucket Pin to Pin Centres Min</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>104</ContainerSequence>
+               <ContainerSequence>106</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsBPTPCMin</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -9118,7 +8129,7 @@
                <Caption>Bottom Thickness</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>111</ContainerSequence>
+               <ContainerSequence>113</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimentionsBT</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -9194,6 +8205,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Category_Edit), #P(ProductCode) = "FG-B" | #P(ProductCode) = "FG-O", "True") REQUIREDWHEN(Required:#C(HIL_Category_Edit), #P(ProductCode) = "FG-B", "True")</Post301Format>
                <EffectiveCaption>Category</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Category_Grid">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>114</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>Category</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>4</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDimentionsCategory</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Category_Grid), #P(ProductCode) = "FG-B" | #P(ProductCode) = "FG-O", "True") REQUIREDWHEN(Required:#C(HIL_Category_Grid), #P(ProductCode) = "FG-B", "True")</Post301Format>
+               <EffectiveCaption>Category</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Category_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -9236,6 +8270,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>Description</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Comment_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-B" | #P(ProductCode) = "FG-O" | #P(ProductCode) = "KIT" | #P(ProductCode) = "FG-TH", "True")</Post301Format>
+               <EffectiveCaption>Comment</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Comment_Grid">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>113</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>30</Width>
+               <Caption>Comment</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>3</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDimentionsComment</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Description</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Comment_Grid), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-B" | #P(ProductCode) = "FG-O" | #P(ProductCode) = "KIT" | #P(ProductCode) = "FG-TH", "True")</Post301Format>
                <EffectiveCaption>Comment</EffectiveCaption>
             </Component>
             <Component Name="HIL_Comment_Static">
@@ -9282,6 +8339,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram01_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-TH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram01_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-TH", "True")</Post301Format>
                <EffectiveCaption>P.1</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram01_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>115</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.1</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>116</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo01</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram01_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-TH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram01_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-TH", "True")</Post301Format>
+               <EffectiveCaption>P.1</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram01_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -9324,6 +8404,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram01Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-TH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram01Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-TH", "True")</Post301Format>
+               <EffectiveCaption>P.1 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram01Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>116</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.1 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>117</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo01_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram01Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-TH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram01Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-TH", "True")</Post301Format>
                <EffectiveCaption>P.1 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram01Qty_Static">
@@ -9370,6 +8473,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram02_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram02_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.2</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram02_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>117</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.2</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>118</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo02</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram02_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram02_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.2</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram02_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -9412,6 +8538,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram02Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram02Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.2 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram02Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>118</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.2 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>119</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo02_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram02Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram02Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.2 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram02Qty_Static">
@@ -9458,6 +8607,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram03_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram03_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.3</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram03_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>119</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.3</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>120</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo03</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram03_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram03_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.3</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram03_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -9500,6 +8672,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram03Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram03Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.3 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram03Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>120</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.3 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>121</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo03_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram03Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram03Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.3 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram03Qty_Static">
@@ -9546,6 +8741,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram04_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram04_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.4</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram04_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>121</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.4</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>122</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo04</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram04_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram04_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.4</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram04_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -9588,6 +8806,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram04Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram04Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.4 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram04Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>122</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.4 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>123</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo04_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram04Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram04Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.4 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram04Qty_Static">
@@ -9634,6 +8875,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram05_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram05_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.5</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram05_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>123</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.5</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>124</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo05</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram05_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram05_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.5</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram05_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -9676,6 +8940,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram05Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram05Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.5 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram05Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>124</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.5 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>125</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo05_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram05Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram05Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.5 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram05Qty_Static">
@@ -9722,6 +9009,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram06_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram06_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.6</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram06_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>125</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.6</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>126</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo06</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram06_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram06_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.6</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram06_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -9764,6 +9074,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram06Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram06Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.6 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram06Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>126</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.6 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>127</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo06_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram06Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram06Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.6 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram06Qty_Static">
@@ -9810,6 +9143,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram07_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram07_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.7</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram07_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>127</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.7</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>128</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo07</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram07_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram07_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.7</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram07_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -9852,6 +9208,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram07Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram07Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.7 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram07Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>128</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.7 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>129</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo07_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram07Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram07Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.7 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram07Qty_Static">
@@ -9898,6 +9277,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram08_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram08_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.8</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram08_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>129</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.8</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>130</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo08</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram08_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram08_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.8</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram08_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -9940,6 +9342,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram08Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram08Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.8 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram08Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>130</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.8 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>131</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo08_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram08Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram08Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.8 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram08Qty_Static">
@@ -9986,6 +9411,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram09_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram09_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.9</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram09_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>131</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.9</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>132</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo09</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram09_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram09_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.9</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram09_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -10028,6 +9476,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram09Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram09Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.9 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram09Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>132</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.9 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>133</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo09_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram09Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram09Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.9 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram09Qty_Static">
@@ -10074,6 +9545,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram10_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram10_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.10</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram10_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>133</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.10</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>134</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo10</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram10_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram10_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.10</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram10_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -10116,6 +9610,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram10Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram10Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.10 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram10Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>134</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.10 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>135</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo10_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram10Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram10Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.10 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram10Qty_Static">
@@ -10162,6 +9679,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram11_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram11_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.11</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram11_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>135</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.11</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>136</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo11</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram11_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram11_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.11</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram11_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -10204,6 +9744,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram11Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram11Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.11 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram11Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>136</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.11 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>137</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo11_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram11Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram11Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.11 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram11Qty_Static">
@@ -10250,6 +9813,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram12_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram12_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.12</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram12_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>137</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.12</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>138</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo12</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram12_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram12_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.12</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram12_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -10292,6 +9878,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram12Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram12Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.12 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram12Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>138</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.12 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>139</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo12_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram12Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram12Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.12 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram12Qty_Static">
@@ -10338,6 +9947,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram13_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram13_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.13</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram13_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>139</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.13</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>140</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo13</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram13_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram13_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.13</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram13_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -10380,6 +10012,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram13Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram13Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.13 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram13Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>140</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.13 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>141</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo13_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram13Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram13Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.13 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram13Qty_Static">
@@ -10426,6 +10081,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram14_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram14_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.14</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram14_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>141</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.14</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>142</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo14</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram14_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram14_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.14</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram14_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -10468,6 +10146,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram14Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram14Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.14 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram14Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>142</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.14 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>143</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo14_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram14Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram14Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.14 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram14Qty_Static">
@@ -10514,6 +10215,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram15_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram15_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.15</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram15_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>143</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.15</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>144</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo15</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram15_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram15_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.15</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram15_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -10556,6 +10280,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram15Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram15Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.15 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram15Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>144</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.15 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>145</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo15_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram15Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram15Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.15 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram15Qty_Static">
@@ -10602,6 +10349,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram16_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.16</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram16_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>145</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.16</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>146</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo16</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram16_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.16</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram16_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -10644,6 +10414,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram16a_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.16A</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram16a_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>147</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.16A</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>148</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo16a</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram16a_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.16A</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram16a_Static">
@@ -10690,6 +10483,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram16aQty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.16A Qty</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram16aQty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>148</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.16A Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>149</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo16a_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram16aQty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.16A Qty</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram16aQty_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -10732,6 +10548,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram16Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.16 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram16Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>146</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.16 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>147</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo16_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram16Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.16 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram16Qty_Static">
@@ -10778,6 +10617,50 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram17_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram17_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.17</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram17_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>149</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.17</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>150</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo17</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram17_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram17_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.17</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram17_Static">
+               <DeviceID>-1</DeviceID>
+               <Type>0</Type>
+               <TabOrder>0</TabOrder>
+               <TopPos>36.5904712762298</TopPos>
+               <LeftPos>8.25</LeftPos>
+               <Height>1</Height>
+               <ListHeight>0</ListHeight>
+               <Width>4</Width>
+               <Caption>P.17</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>HitchDiagramTab</ContainerName>
+               <ContainerSequence>73</ContainerSequence>
+               <Binding>0</Binding>
+               <Flags>1</Flags>
+               <ReadOnly>False</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <Post301Format>JUSTIFY(R)</Post301Format>
+               <EffectiveCaption>P.17</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram17Qty_Edit">
                <DeviceID>-1</DeviceID>
                <Type>1</Type>
@@ -10801,26 +10684,28 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram17Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram17Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.17 Qty</EffectiveCaption>
             </Component>
-            <Component Name="HIL_Diagram17_Static">
+            <Component Name="HIL_Diagram17Qty_GridCol">
                <DeviceID>-1</DeviceID>
-               <Type>0</Type>
-               <TabOrder>0</TabOrder>
-               <TopPos>36.5904712762298</TopPos>
-               <LeftPos>8.25</LeftPos>
-               <Height>1</Height>
+               <Type>15</Type>
+               <TabOrder>150</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
                <ListHeight>0</ListHeight>
-               <Width>4</Width>
-               <Caption>P.17</Caption>
+               <Width>12.5</Width>
+               <Caption>P.17 Qty</Caption>
                <MaxCharacters>0</MaxCharacters>
-               <ContainerName>HitchDiagramTab</ContainerName>
-               <ContainerSequence>73</ContainerSequence>
-               <Binding>0</Binding>
-               <Flags>1</Flags>
-               <ReadOnly>False</ReadOnly>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>151</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo17_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
                <Hidden>False</Hidden>
                <HelpContextID>0</HelpContextID>
-               <Post301Format>JUSTIFY(R)</Post301Format>
-               <EffectiveCaption>P.17</EffectiveCaption>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram17Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram17Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.17 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram17Qty_Static">
                <DeviceID>-1</DeviceID>
@@ -10864,6 +10749,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram18_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram18_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.18</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram18_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>151</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.18</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>152</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo18</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram18_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram18_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.18</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram18_Static">
@@ -10910,6 +10818,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram18Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram18Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.18 Qty</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram18Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>152</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.18 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>153</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo18_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram18Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram18Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.18 Qty</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram18Qty_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -10954,6 +10885,29 @@
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram19_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram19_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.19</EffectiveCaption>
             </Component>
+            <Component Name="HIL_Diagram19_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>153</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.19</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>154</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo19</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram19_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram19_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.19</EffectiveCaption>
+            </Component>
             <Component Name="HIL_Diagram19_Static">
                <DeviceID>-1</DeviceID>
                <Type>0</Type>
@@ -10996,6 +10950,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram19Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram19Qty_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
+               <EffectiveCaption>P.19 Qty</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Diagram19Qty_GridCol">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>154</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>P.19 Qty</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>155</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDiagramInfo19_qty</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Diagram19Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True") REQUIREDWHEN(Required:#C(HIL_Diagram19Qty_GridCol), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH", "True")</Post301Format>
                <EffectiveCaption>P.19 Qty</EffectiveCaption>
             </Component>
             <Component Name="HIL_Diagram19Qty_Static">
@@ -11151,7 +11128,7 @@
                <Caption>Mix-Match</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>98</ContainerSequence>
+               <ContainerSequence>100</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimentionsMixMatch</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -11242,7 +11219,7 @@
                <Caption>Excavator Centre</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>97</ContainerSequence>
+               <ContainerSequence>99</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsEC</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -11309,7 +11286,7 @@
                <Caption>Dipper Pin Diameter</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>93</ContainerSequence>
+               <ContainerSequence>95</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsEDPD</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -11376,7 +11353,7 @@
                <Caption>Excavator Dipper Width</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>95</ContainerSequence>
+               <ContainerSequence>97</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsEDW</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -11443,7 +11420,7 @@
                <Caption>Excavator Link Pin Diameter</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>94</ContainerSequence>
+               <ContainerSequence>96</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsELPD</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -11510,7 +11487,7 @@
                <Caption>Excavator Link Width</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>96</ContainerSequence>
+               <ContainerSequence>98</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimensionsELW</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -11599,7 +11576,7 @@
                <Caption>Front/Rear Gub Pin</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>107</ContainerSequence>
+               <ContainerSequence>109</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimentionsGub</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -11666,7 +11643,7 @@
                <Caption>Pin Length Head to Hole</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>109</ContainerSequence>
+               <ContainerSequence>111</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimentionsPLHTH</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -11735,7 +11712,7 @@
                <Caption>Spacer Thickness</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>112</ContainerSequence>
+               <ContainerSequence>114</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimentionsST</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -11788,6 +11765,29 @@
                <HelpContextID>0</HelpContextID>
                <PropertyClassName>UetDefault</PropertyClassName>
                <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Tonnage_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-B" | #P(ProductCode) = "FG-O" | #P(ProductCode) = "FG-TH", "True") REQUIREDWHEN(Required:#C(HIL_Tonnage_Edit), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-B" | #P(ProductCode) = "FG-O" | #P(ProductCode) = "FG-TH", "True")</Post301Format>
+               <EffectiveCaption>Tonnage</EffectiveCaption>
+            </Component>
+            <Component Name="HIL_Tonnage_Grid">
+               <DeviceID>-1</DeviceID>
+               <Type>15</Type>
+               <TabOrder>112</TabOrder>
+               <TopPos>0</TopPos>
+               <LeftPos>0</LeftPos>
+               <Height>5.88235294117647</Height>
+               <ListHeight>0</ListHeight>
+               <Width>12.5</Width>
+               <Caption>Tonnage</Caption>
+               <MaxCharacters>0</MaxCharacters>
+               <ContainerName>FormCollectionGrid</ContainerName>
+               <ContainerSequence>115</ContainerSequence>
+               <DataSource>object.itmUf_HIL_ItemDimentionsTonnage</DataSource>
+               <Binding>1</Binding>
+               <Flags>0</Flags>
+               <ReadOnly>True</ReadOnly>
+               <Hidden>False</Hidden>
+               <HelpContextID>0</HelpContextID>
+               <PropertyClassName>UetDefault</PropertyClassName>
+               <Post301Format>ENABLEDWHEN(Enabled:#C(HIL_Tonnage_Grid), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-B" | #P(ProductCode) = "FG-O" | #P(ProductCode) = "FG-TH", "True") REQUIREDWHEN(Required:#C(HIL_Tonnage_Grid), #P(ProductCode) = "FG-CH" | #P(ProductCode) = "FG-FH" | #P(ProductCode) = "FG-B" | #P(ProductCode) = "FG-O" | #P(ProductCode) = "FG-TH", "True")</Post301Format>
                <EffectiveCaption>Tonnage</EffectiveCaption>
             </Component>
             <Component Name="HIL_Tonnage_Static">
@@ -11847,7 +11847,7 @@
                <Caption>Top Thickness</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>110</ContainerSequence>
+               <ContainerSequence>112</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimentionsTT</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -11914,7 +11914,7 @@
                <Caption>WLL</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>108</ContainerSequence>
+               <ContainerSequence>110</ContainerSequence>
                <DataSource>object.itmUf_HIL_ItemDimentionsWLL</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -12070,7 +12070,7 @@
                <Width>10</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>68</ContainerSequence>
+               <ContainerSequence>70</ContainerSequence>
                <DataSource>object.InfinitePart</DataSource>
                <Binding>1</Binding>
                <Flags>8</Flags>
@@ -12118,7 +12118,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>51</ContainerSequence>
+               <ContainerSequence>53</ContainerSequence>
                <DataSource>object.InventoryLclTolerance</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -12187,7 +12187,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>52</ContainerSequence>
+               <ContainerSequence>54</ContainerSequence>
                <DataSource>object.InventoryUclTolerance</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -13086,6 +13086,7 @@
                <ReadOnly>False</ReadOnly>
                <Hidden>True</Hidden>
                <HelpContextID>0</HelpContextID>
+               <PropertyClassName>Date</PropertyClassName>
                <Post301Format />
                <EffectiveCaption>sLastCost-RollupDate</EffectiveCaption>
             </Component>
@@ -13171,7 +13172,7 @@
                <Caption>C(LeadTimeStatic)</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>33</ContainerSequence>
+               <ContainerSequence>31</ContainerSequence>
                <DataSource>object.LeadTime</DataSource>
                <Binding>1</Binding>
                <Flags>1</Flags>
@@ -13195,7 +13196,7 @@
                <Width>9</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>58</ContainerSequence>
+               <ContainerSequence>60</ContainerSequence>
                <DataSource>object.LeadTime</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -13220,7 +13221,7 @@
                <Caption>sFixed</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>35</ContainerSequence>
+               <ContainerSequence>33</ContainerSequence>
                <Binding>0</Binding>
                <Flags>1</Flags>
                <ReadOnly>False</ReadOnly>
@@ -13266,7 +13267,7 @@
                <Width>12.5</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>24</ContainerSequence>
+               <ContainerSequence>26</ContainerSequence>
                <DataSource>object.Length</DataSource>
                <Binding>1</Binding>
                <Flags>512</Flags>
@@ -13793,7 +13794,7 @@
                <Width>17</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>89</ContainerSequence>
+               <ContainerSequence>91</ContainerSequence>
                <DataSource>object.LotPrefix</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -13888,7 +13889,7 @@
                <Validators>GreaterThan0</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>21</ContainerSequence>
+               <ContainerSequence>23</ContainerSequence>
                <DataSource>object.LotSize</DataSource>
                <Binding>1</Binding>
                <SelectionEvent>LotChange</SelectionEvent>
@@ -13956,7 +13957,7 @@
                <Width>8</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>87</ContainerSequence>
+               <ContainerSequence>89</ContainerSequence>
                <DataSource>object.LotTracked</DataSource>
                <Binding>1</Binding>
                <SelectionEvent>LotTrackedChanged</SelectionEvent>
@@ -14004,7 +14005,7 @@
                <Width>8</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>36</ContainerSequence>
+               <ContainerSequence>38</ContainerSequence>
                <DataSource>object.LowLevel</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -14189,7 +14190,7 @@
                <Validators>MatlTypeForItem,InInlineList</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>13</ContainerSequence>
+               <ContainerSequence>15</ContainerSequence>
                <DataSource>object.MatlType</DataSource>
                <Binding>1</Binding>
                <Flags>544</Flags>
@@ -14300,7 +14301,7 @@
                <Width>11</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>69</ContainerSequence>
+               <ContainerSequence>71</ContainerSequence>
                <DataSource>object.MfgSupplySwitchingActive</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -14390,7 +14391,7 @@
                <Caption>sDays</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>25</ContainerSequence>
+               <ContainerSequence>43</ContainerSequence>
                <Binding>0</Binding>
                <Flags>17</Flags>
                <ReadOnly>False</ReadOnly>
@@ -14434,7 +14435,7 @@
                <Width>9</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>45</ContainerSequence>
+               <ContainerSequence>47</ContainerSequence>
                <DataSource>object.MpsFlag</DataSource>
                <Binding>1</Binding>
                <SelectionEvent>MpsFlagChanged</SelectionEvent>
@@ -14460,7 +14461,7 @@
                <Validators>GreaterThanOrEqualTo0</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>24</ContainerSequence>
+               <ContainerSequence>41</ContainerSequence>
                <DataSource>object.MpsPlanFence</DataSource>
                <Binding>1</Binding>
                <Flags>33</Flags>
@@ -14484,7 +14485,7 @@
                <Validators>GreaterThanOrEqualTo0</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>47</ContainerSequence>
+               <ContainerSequence>49</ContainerSequence>
                <DataSource>object.MpsPlanFence</DataSource>
                <Binding>1</Binding>
                <Flags>32</Flags>
@@ -14550,7 +14551,7 @@
                <Width>9</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>67</ContainerSequence>
+               <ContainerSequence>69</ContainerSequence>
                <DataSource>object.MrpPart</DataSource>
                <Binding>1</Binding>
                <Flags>8</Flags>
@@ -14596,7 +14597,7 @@
                <Width>16</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>72</ContainerSequence>
+               <ContainerSequence>74</ContainerSequence>
                <DataSource>object.MustUseFutureRcptsBeforePLN</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -14711,7 +14712,7 @@
                <Width>8</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>46</ContainerSequence>
+               <ContainerSequence>48</ContainerSequence>
                <DataSource>object.IncludeInNetChangePlanning</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -14985,7 +14986,7 @@
                <Width>21</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>79</ContainerSequence>
+               <ContainerSequence>81</ContainerSequence>
                <DataSource>object.OrderMax</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -15054,7 +15055,7 @@
                <Width>21</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>77</ContainerSequence>
+               <ContainerSequence>79</ContainerSequence>
                <DataSource>object.OrderMin</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -15123,7 +15124,7 @@
                <Width>21</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>78</ContainerSequence>
+               <ContainerSequence>80</ContainerSequence>
                <DataSource>object.OrderMult</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -15467,7 +15468,7 @@
                <Width>12.5</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>38</ContainerSequence>
+               <ContainerSequence>40</ContainerSequence>
                <DataSource>object.PackageType</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -15515,7 +15516,7 @@
                <Width>12.5</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>39</ContainerSequence>
+               <ContainerSequence>41</ContainerSequence>
                <DataSource>object.PackageTypeMaxQty</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -15647,7 +15648,7 @@
                <Caption>C(PaperTimeStatic)</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>29</ContainerSequence>
+               <ContainerSequence>27</ContainerSequence>
                <DataSource>object.PaperTime</DataSource>
                <Binding>1</Binding>
                <Flags>1</Flags>
@@ -15671,7 +15672,7 @@
                <Width>9</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>57</ContainerSequence>
+               <ContainerSequence>59</ContainerSequence>
                <DataSource>object.PaperTime</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -15695,7 +15696,7 @@
                <Width>13.25</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>31</ContainerSequence>
+               <ContainerSequence>29</ContainerSequence>
                <Binding>0</Binding>
                <Flags>1</Flags>
                <ReadOnly>False</ReadOnly>
@@ -15738,7 +15739,7 @@
                <Width>9</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>71</ContainerSequence>
+               <ContainerSequence>73</ContainerSequence>
                <DataSource>object.PassReq</DataSource>
                <Binding>1</Binding>
                <Flags>8</Flags>
@@ -15784,7 +15785,7 @@
                <Width>11</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>44</ContainerSequence>
+               <ContainerSequence>46</ContainerSequence>
                <DataSource>object.PhantomFlag</DataSource>
                <Binding>1</Binding>
                <Flags>8</Flags>
@@ -15901,7 +15902,7 @@
                <Width>11</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>41</ContainerSequence>
+               <ContainerSequence>43</ContainerSequence>
                <DataSource>object.PlanCode</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -16037,7 +16038,7 @@
                <Caption>sLeadTime(Days)</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>27</ContainerSequence>
+               <ContainerSequence>25</ContainerSequence>
                <Binding>0</Binding>
                <Flags>1</Flags>
                <ReadOnly>False</ReadOnly>
@@ -16106,7 +16107,7 @@
                <Width>12.5</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>42</ContainerSequence>
+               <ContainerSequence>44</ContainerSequence>
                <DataSource>object.PlanCode</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -16178,7 +16179,7 @@
                <Validators>PMTCodeForItem,InInlineList</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>14</ContainerSequence>
+               <ContainerSequence>16</ContainerSequence>
                <DataSource>object.PMTCode</DataSource>
                <Binding>1</Binding>
                <SelectionEvent>PMTTypeChanged</SelectionEvent>
@@ -16585,7 +16586,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>88</ContainerSequence>
+               <ContainerSequence>90</ContainerSequence>
                <DataSource>object.PreassignLots</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -16631,7 +16632,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>91</ContainerSequence>
+               <ContainerSequence>93</ContainerSequence>
                <DataSource>object.PreassignSerials</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -16956,7 +16957,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>49</ContainerSequence>
+               <ContainerSequence>51</ContainerSequence>
                <DataSource>object.ProdType</DataSource>
                <Binding>1</Binding>
                <Flags>512</Flags>
@@ -17073,7 +17074,7 @@
                <Validators>ProductCodeForItem</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>15</ContainerSequence>
+               <ContainerSequence>17</ContainerSequence>
                <DataSource>object.ProductCode</DataSource>
                <Binding>1</Binding>
                <SelectionEvent>ProductCodeChg</SelectionEvent>
@@ -17283,7 +17284,7 @@
                <Width>22</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>33</ContainerSequence>
+               <ContainerSequence>35</ContainerSequence>
                <DataSource>object.QtyAllocjob</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -17484,7 +17485,7 @@
                <Width>12.5</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>11</ContainerSequence>
+               <ContainerSequence>13</ContainerSequence>
                <DataSource>object.DerQualityControlItem</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -17554,7 +17555,7 @@
                <Validators>GreaterThanOrEqualTo0</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>50</ContainerSequence>
+               <ContainerSequence>52</ContainerSequence>
                <DataSource>object.RatePerDay</DataSource>
                <Binding>1</Binding>
                <Flags>32</Flags>
@@ -17622,7 +17623,7 @@
                <Caption>sReadyBasedOn</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>54</ContainerSequence>
+               <ContainerSequence>56</ContainerSequence>
                <DataSource>object.ReadyBasedOn</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -17694,7 +17695,7 @@
                <Width>12.5</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>53</ContainerSequence>
+               <ContainerSequence>55</ContainerSequence>
                <DataSource>object.ReadyMode</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -18089,7 +18090,7 @@
                <Caption>C(Release1Static)</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>32</ContainerSequence>
+               <ContainerSequence>30</ContainerSequence>
                <DataSource>object.batch_release_attribute1</DataSource>
                <Binding>1</Binding>
                <Flags>1</Flags>
@@ -18113,7 +18114,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>64</ContainerSequence>
+               <ContainerSequence>66</ContainerSequence>
                <DataSource>object.batch_release_attribute1</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -18137,7 +18138,7 @@
                <Width>10.25</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>34</ContainerSequence>
+               <ContainerSequence>32</ContainerSequence>
                <Binding>0</Binding>
                <Flags>1</Flags>
                <ReadOnly>False</ReadOnly>
@@ -18158,7 +18159,7 @@
                <Caption>C(Release2Static)</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>36</ContainerSequence>
+               <ContainerSequence>34</ContainerSequence>
                <DataSource>object.batch_release_attribute2</DataSource>
                <Binding>1</Binding>
                <Flags>1</Flags>
@@ -18182,7 +18183,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>65</ContainerSequence>
+               <ContainerSequence>67</ContainerSequence>
                <DataSource>object.batch_release_attribute2</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -18206,7 +18207,7 @@
                <Width>10.25</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>38</ContainerSequence>
+               <ContainerSequence>36</ContainerSequence>
                <Binding>0</Binding>
                <Flags>1</Flags>
                <ReadOnly>False</ReadOnly>
@@ -18227,7 +18228,7 @@
                <Caption>C(Release3Static)</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>40</ContainerSequence>
+               <ContainerSequence>38</ContainerSequence>
                <DataSource>object.batch_release_attribute3</DataSource>
                <Binding>1</Binding>
                <Flags>1</Flags>
@@ -18251,7 +18252,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>66</ContainerSequence>
+               <ContainerSequence>68</ContainerSequence>
                <DataSource>object.batch_release_attribute3</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -18275,7 +18276,7 @@
                <Width>10.25</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>42</ContainerSequence>
+               <ContainerSequence>40</ContainerSequence>
                <Binding>0</Binding>
                <Flags>1</Flags>
                <ReadOnly>False</ReadOnly>
@@ -18345,7 +18346,7 @@
                <Validators>GreaterThan0</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>82</ContainerSequence>
+               <ContainerSequence>84</ContainerSequence>
                <DataSource>object.ReorderPoint</DataSource>
                <Binding>1</Binding>
                <Flags>32</Flags>
@@ -18500,7 +18501,7 @@
                <Width>10</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>3</ContainerSequence>
+               <ContainerSequence>5</ContainerSequence>
                <DataSource>object.Revision</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -18900,7 +18901,7 @@
                <Caption>C(SeparationStatic)</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>28</ContainerSequence>
+               <ContainerSequence>26</ContainerSequence>
                <DataSource>object.SeparationAttribute</DataSource>
                <Binding>1</Binding>
                <Flags>1</Flags>
@@ -18923,7 +18924,7 @@
                <Width>32</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>63</ContainerSequence>
+               <ContainerSequence>65</ContainerSequence>
                <DataSource>object.SeparationAttribute</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -18946,7 +18947,7 @@
                <Width>10.25</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>PlanningTab</ContainerName>
-               <ContainerSequence>30</ContainerSequence>
+               <ContainerSequence>28</ContainerSequence>
                <Binding>0</Binding>
                <Flags>1</Flags>
                <ReadOnly>False</ReadOnly>
@@ -19065,7 +19066,7 @@
                <Width>32</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>92</ContainerSequence>
+               <ContainerSequence>94</ContainerSequence>
                <DataSource>object.SerialPrefix</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -19133,7 +19134,7 @@
                <Width>8</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>90</ContainerSequence>
+               <ContainerSequence>92</ContainerSequence>
                <DataSource>object.SerialTracked</DataSource>
                <Binding>1</Binding>
                <SelectionEvent>SerialTrackedChanged</SelectionEvent>
@@ -19225,7 +19226,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>76</ContainerSequence>
+               <ContainerSequence>78</ContainerSequence>
                <DataSource>object.Setupgroup</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -19451,7 +19452,7 @@
                <Width>9</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>10</ContainerSequence>
+               <ContainerSequence>12</ContainerSequence>
                <DataSource>object.ShowInDropDownList</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -19500,7 +19501,7 @@
                <Validators>GreaterThanOrEqualTo0,LessThan%1(1)</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>43</ContainerSequence>
+               <ContainerSequence>45</ContainerSequence>
                <DataSource>object.ShrinkFact</DataSource>
                <Binding>1</Binding>
                <Flags>32</Flags>
@@ -19854,7 +19855,7 @@
                <Width>11</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>9</ContainerSequence>
+               <ContainerSequence>11</ContainerSequence>
                <DataSource>object.Stocked</DataSource>
                <Binding>1</Binding>
                <Flags>8</Flags>
@@ -20043,7 +20044,7 @@
                <Width>10</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>55</ContainerSequence>
+               <ContainerSequence>57</ContainerSequence>
                <DataSource>object.SupplySite</DataSource>
                <Binding>1</Binding>
                <SelectionEvent>CheckItemAllsForSite</SelectionEvent>
@@ -20113,7 +20114,7 @@
                <Width>10</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>73</ContainerSequence>
+               <ContainerSequence>75</ContainerSequence>
                <DataSource>object.SupplyToleranceHrs</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -20182,7 +20183,7 @@
                <Width>10</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>56</ContainerSequence>
+               <ContainerSequence>58</ContainerSequence>
                <DataSource>object.SupplyWhse</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -20345,7 +20346,7 @@
                <Width>13</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>86</ContainerSequence>
+               <ContainerSequence>88</ContainerSequence>
                <DataSource>object.DerSSDate</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -20885,7 +20886,7 @@
                <Width>9</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>74</ContainerSequence>
+               <ContainerSequence>76</ContainerSequence>
                <DataSource>object.TimeFenceRule</DataSource>
                <Binding>1</Binding>
                <Flags>36</Flags>
@@ -20955,7 +20956,7 @@
                <Width>8</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>75</ContainerSequence>
+               <ContainerSequence>77</ContainerSequence>
                <DataSource>object.TimeFenceValue</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -21092,7 +21093,7 @@
                <Width>10</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>4</ContainerSequence>
+               <ContainerSequence>6</ContainerSequence>
                <DataSource>object.TrackEcn</DataSource>
                <Binding>1</Binding>
                <Flags>8</Flags>
@@ -21300,7 +21301,7 @@
                <Validators>UM,GenerateEventNoMsg(ItemUmCheck)</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>12</ContainerSequence>
+               <ContainerSequence>14</ContainerSequence>
                <DataSource>object.UM</DataSource>
                <Binding>1</Binding>
                <EventToGenerate>StdCurCompDetails</EventToGenerate>
@@ -21370,7 +21371,7 @@
                <Caption>sUnitCost</Caption>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>19</ContainerSequence>
+               <ContainerSequence>21</ContainerSequence>
                <DataSource>object.DerUnitCost</DataSource>
                <Binding>1</Binding>
                <Flags>16</Flags>
@@ -21442,7 +21443,7 @@
                <Validators>GreaterThanOrEqualTo0</Validators>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>22</ContainerSequence>
+               <ContainerSequence>24</ContainerSequence>
                <DataSource>object.UnitWeight</DataSource>
                <Binding>1</Binding>
                <Flags>32</Flags>
@@ -21622,7 +21623,7 @@
                <Width>8</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>81</ContainerSequence>
+               <ContainerSequence>83</ContainerSequence>
                <DataSource>object.UseReorderPoint</DataSource>
                <Binding>1</Binding>
                <SelectionEvent>UseReorderPointChanged</SelectionEvent>
@@ -21784,7 +21785,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>62</ContainerSequence>
+               <ContainerSequence>64</ContainerSequence>
                <DataSource>object.VarExpLead</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -21831,7 +21832,7 @@
                <Width>12</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>61</ContainerSequence>
+               <ContainerSequence>63</ContainerSequence>
                <DataSource>object.VarLead</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -22013,7 +22014,7 @@
                <Width>10</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>23</ContainerSequence>
+               <ContainerSequence>25</ContainerSequence>
                <DataSource>object.WeightUnits</DataSource>
                <Binding>1</Binding>
                <Flags>0</Flags>
@@ -22063,7 +22064,7 @@
                <Width>12.5</Width>
                <MaxCharacters>0</MaxCharacters>
                <ContainerName>FormCollectionGrid</ContainerName>
-               <ContainerSequence>26</ContainerSequence>
+               <ContainerSequence>28</ContainerSequence>
                <DataSource>object.Width</DataSource>
                <Binding>1</Binding>
                <Flags>512</Flags>
@@ -25135,7 +25136,7 @@ End Namespace
                <Description />
             </Variable>
             <Variable Name="ehm1_StdFormPredisplay0">
-               <Value>PARMS(RVAR V(CanUpdateRevTrack), RVAR V(ApsParmApsmode), RVAR V(VarTaxFreeImports), RVAR V(CurUserCode), RVAR V(POToleranceOver), RVAR V(POToleranceUnder), RVAR V(Vchrauthorize), RVAR V(VchrOverPoCostTolerance), RVAR V(VchrUnderPoCostTolerance), RVAR V(vbWSPrice), RVAR V(vbBackflush), RVAR V(CfgApplID), RVAR V(ConfigHeaderNameSpace), RVAR V(Configurator), RVAR V(ConfiguratorURL), RVAR V(ConfigDeploymentPath), RVAR V(Avail_Cfg), RVAR V(AllowFcstBomSupplyItemsVar), RVAR V(CostItemAtWhseVar), RVAR </Value>
+               <Value Encoded="1">PARMS(RVAR V(CanUpdateRevTrack), RVAR V(ApsParmApsmode), RVAR V(VarTaxFreeImports), RVAR V(CurUserCode), RVAR V(POToleranceOver), RVAR V(POToleranceUnder), RVAR V(Vchrauthorize), RVAR V(VchrOverPoCostTolerance), RVAR V(VchrUnderPoCostTolerance), RVAR V(vbWSPrice), RVAR V(vbBackflush), RVAR V(CfgApplID), RVAR V(ConfigHeaderNameSpace), RVAR V(Configurator), RVAR V(ConfiguratorURL), RVAR V(ConfigDeploymentPath), RVAR V(Avail_Cfg), RVAR V(AllowFcstBomSupplyItemsVar), RVAR V(CostItemAtWhseVar), RVAR_x03_</Value>
                <Value2>V(VarLinearDimensionUM), RVAR V(VarDensityUM), RVAR V(VarAreaUM), RVAR V(VarBulkMassUM), RVAR V(VarReamMassUM), RVAR V(vLotPrefix), RVAR V(vLotTracked), RVAR V(vIssueBy), RVAR V(vSerialTracked), RVAR V(vSerialPrefix),)</Value2>
                <Value3 />
                <Description />
